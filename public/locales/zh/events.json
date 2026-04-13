@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "展会信息"
+  },
+  "sections": {
+    "upcoming": "即将举行的展会"
+  },
+  "events": {
+    "u1": {
+      "title": "GLOBALChemShow",
+      "subtitle": "2025年国际展览会",
+      "date": "2025年12月18日-19日",
+      "location": "印度孟买 Nesco 孟买展览中心",
+      "tag": "2025年12月18-19日"
+    },
+    "u2": {
+      "title": "beautyworld MIDDLE EAST",
+      "subtitle": "中东地区",
+      "date": "2025年10月27日-29日",
+      "location": "阿联酋迪拜世界贸易中心",
+      "tag": "2025年10月27-29日"
+    },
+    "p1": {
+      "title": "in-cosmetics Global",
+      "date": "2024年4月16日-18日",
+      "location": "法国巴黎凡尔赛门展览中心",
+      "description": "Unicorn Petroleum 参加 2024 年全球化妆品原料展 (in-cosmetics Global)，展示特种化妆品原料。"
+    },
+    "p2": {
+      "title": "Chemspec Europe 2024",
+      "date": "2024年6月5日-6日",
+      "location": "德国慕尼黑展览中心",
+      "description": "向欧洲市场展示我们最新的特种化学品组合。"
+    },
+    "p3": {
+      "title": "CPhI Worldwide 2024",
+      "date": "2024年10月8日-10日",
+      "location": "西班牙巴塞罗那 Fira Gran Via 展览中心",
+      "description": "会见全球制药巨头，探讨药物成分合作伙伴关系。"
+    },
+    "p4": {
+      "title": "CPhI Worldwide",
+      "date": "2023年10月24日-26日",
+      "location": "西班牙巴塞罗那 Fira Gran Via 展览中心",
+      "description": "Unicorn Petroleum 参加 2023 年世界制药原料展 (CPhI Worldwide)，展示医药级产品。"
+    },
+    "p5": {
+      "title": "Middle East Coatings Show",
+      "date": "2023年6月19日-21日",
+      "location": "阿联酋迪拜世界贸易中心",
+      "description": "向中东客户展示我们的涂料级矿物油和蜡。"
+    },
+    "p6": {
+      "title": "in-cosmetics Global 2023",
+      "date": "2023年4月18日-20日",
+      "location": "西班牙巴塞罗那",
+      "description": "与全球制造商共同探讨化妆品原料的最新趋势。"
+    },
+    "p7": {
+      "title": "Chemspec Europe 2022",
+      "date": "2022年6月1日-2日",
+      "location": "德国法兰克福展览中心",
+      "description": "我们疫情后的首次欧洲展会，重点介绍扩展的产品范围。"
+    },
+    "p8": {
+      "title": "CPhI Worldwide 2022",
+      "date": "2022年11月1日-3日",
+      "location": "德国法兰克福展览中心",
+      "description": "Unicorn Petroleum 参加全球最大的制药原料展览会。"
+    },
+    "p9": {
+      "title": "India Chem 2022",
+      "date": "2022年10月13日-15日",
+      "location": "印度孟买孟买展览中心",
+      "description": "与国内行业领导者建立联系并展示我们的精炼石油产品。"
+    }
+  },
+  "ui": {
+    "enquireNow": "立即咨询",
+    "aboutEvent": "展会介绍",
+    "eventDate": "展会日期",
+    "location": "地点",
+    "close": "关闭",
+    "contactUs": "联系我们",
+    "joinUsAt": "欢迎莅临",
+    "discoverDesc": "展位，探索我们最新的创新和行业解决方案。"
+  }
+}

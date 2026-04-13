@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Tentoonstellingen"
+  },
+  "sections": {
+    "upcoming": "Aankomende Tentoonstellingen"
+  },
+  "events": {
+    "u1": {
+      "title": "GLOBALChemShow",
+      "subtitle": "Int'l Tentoonstelling 2025",
+      "date": "18-19 december 2025",
+      "location": "Bombay Exhibition Centre, Nesco, Mumbai, India",
+      "tag": "18-19 dec 2025"
+    },
+    "u2": {
+      "title": "beautyworld MIDDLE EAST",
+      "subtitle": "MIDDEN-OOSTEN",
+      "date": "27-29 oktober 2025",
+      "location": "Dubai World Trade Centre, VAE",
+      "tag": "27-29 okt 2025"
+    },
+    "p1": {
+      "title": "in-cosmetics Global",
+      "date": "16-18 april 2024",
+      "location": "Paris Expo Porte de Versailles, Frankrijk",
+      "description": "Unicorn Petroleum op in-cosmetics Global 2024, met een presentatie van gespecialiseerde cosmetische ingrediënten."
+    },
+    "p2": {
+      "title": "Chemspec Europe 2024",
+      "date": "05-06 juni 2024",
+      "location": "Messe München, Duitsland",
+      "description": "Presentatie van ons nieuwste portfolio van specialistische chemicaliën voor de Europese markt."
+    },
+    "p3": {
+      "title": "CPhI Worldwide 2024",
+      "date": "08-10 oktober 2024",
+      "location": "Fira Barcelona Gran Via, Spanje",
+      "description": "Ontmoeting met wereldwijde farma-leiders en verkenning van partnerschappen voor farmaceutische ingrediënten."
+    },
+    "p4": {
+      "title": "CPhI Worldwide",
+      "date": "24-26 oktober 2023",
+      "location": "Fira Barcelona Gran Via, Spanje",
+      "description": "Unicorn Petroleum op CPhI Worldwide 2023, met producten van farmaceutische kwaliteit."
+    },
+    "p5": {
+      "title": "Middle East Coatings Show",
+      "date": "19-21 juni 2023",
+      "location": "Dubai World Trade Centre, VAE",
+      "description": "Presentatie van onze minerale oliën en wassen voor coatings aan klanten in het Midden-Oosten."
+    },
+    "p6": {
+      "title": "in-cosmetics Global 2023",
+      "date": "18-20 april 2023",
+      "location": "Barcelona, Spanje",
+      "description": "Verkenning van de laatste trends in cosmetische grondstoffen samen met wereldwijde fabrikanten."
+    },
+    "p7": {
+      "title": "Chemspec Europe 2022",
+      "date": "01-02 juni 2022",
+      "location": "Messe Frankfurt, Duitsland",
+      "description": "Onze eerste Europese presentatie na de pandemie, waarbij ons uitgebreide productassortiment centraal stond."
+    },
+    "p8": {
+      "title": "CPhI Worldwide 2022",
+      "date": "01-03 november 2022",
+      "location": "Frankfurt Messe, Duitsland",
+      "description": "Unicorn Petroleum op 's werelds grootste tentoonstelling voor farmaceutische ingrediënten."
+    },
+    "p9": {
+      "title": "India Chem 2022",
+      "date": "13-15 oktober 2022",
+      "location": "Bombay Exhibition Centre, Mumbai, India",
+      "description": "In contact komen met binnenlandse marktleiders en presentatie van onze geraffineerde petroleumproducten."
+    }
+  },
+  "ui": {
+    "enquireNow": "Nu aanvragen",
+    "aboutEvent": "Over het evenement",
+    "eventDate": "Datum van evenement",
+    "location": "Locatie",
+    "close": "Sluiten",
+    "contactUs": "Neem contact op",
+    "joinUsAt": "Bezoek ons op",
+    "discoverDesc": "om onze nieuwste innovaties en branche-oplossingen te ontdekken."
+  }
+}

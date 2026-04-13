@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "aboutUs": "Sobre nosotros",
+    "products": "Productos",
+    "excipients": "Excipientes",
+    "petroleumJelly": "Vaselina",
+    "whiteMineralOils": "Aceites minerales blancos",
+    "lanolin": "Lanolina",
+    "waxes": "Ceras",
+    "microcrystallineWax": "Cera microcristalina",
+    "hardParaffinWax": "Parafina dura",
+    "naturalBeeswax": "Cera de abejas natural",
+    "emulsifyingWax": "Cera emulsionante",
+    "dPanthenol": "D-Pantenol",
+    "preservatives": "Conservantes",
+    "surfactants": "Tensioactivos",
+    "uvFilters": "Filtros UV",
+    "applications": "Aplicaciones",
+    "pharmaceutical": "Farmacéutico",
+    "cosmetics": "Cosméticos",
+    "personalCare": "Cuidado personal",
+    "homeCare": "Cuidado del hogar",
+    "textile": "Textil",
+    "lubricants": "Lubricantes",
+    "globalReach": "Alcance global",
+    "blog": "Blog",
+    "contactUs": "Contáctenos",
+    "events": "Eventos",
+    "whatsappUs": "WhatsApp"
+  },
+  "events": {
+    "upcomingEvents": "Próximos eventos",
+    "upcomingEventsDesc": "Conéctese con Unicorn Petroleum y explore nuestras últimas innovaciones en las principales exposiciones de la industria.",
+    "pastEvents": "Eventos pasados",
+    "pastEventsDesc": "Eche un vistazo a algunas de nuestras importantes exhibiciones internacionales y compromisos de la industria a lo largo de los años.",
+    "eventDate": "Fecha del evento",
+    "location": "Ubicación",
+    "aboutEvent": "Sobre el evento",
+    "joinUsAt": "Únase a nosotros en",
+    "discoverDesc": "para descubrir los últimos avances e innovaciones de la industria. Conéctese con nuestros expertos y descubra cómo los productos de alta calidad de Unicorn Petroleum pueden respaldar sus requisitos comerciales.",
+    "upcomingEvent": "Próximo evento",
+    "pastEvent": "Evento pasado",
+    "close": "Cerrar",
+    "contactUs": "Contáctenos"
+  },
+  "home": {
+    "strengths": {
+      "heading": "Nuestras fortalezas",
+      "subheading": "Excelencia construida sobre seis décadas de experiencia y confianza",
+      "ctaText": "Solicitar información",
+      "items": {
+        "0": {
+          "title": "Seis décadas de experiencia",
+          "description": "Pioneros en ingredientes de calidad para el mundo cosmético y farmacéutico desde 1964"
+        },
+        "1": {
+          "title": "Formulaciones a medida",
+          "description": "Aprovisionamiento perfecto, soporte personalizado: entregando materias primas de calidad desde la India al mundo"
+        },
+        "2": {
+          "title": "Especialidades petroquímicas",
+          "description": "Petroquímicos de alto rendimiento refinados para satisfacer las necesidades de diversas industrias"
+        }
+      }
+    },
+    "hero": {
+      "title": "Pioneros en la excelencia de las especialidades petroleras por más de 6 décadas",
+      "primaryButton": "Explorar productos",
+      "secondaryButton": "¿Por qué elegirnos?"
+    },
+    "products": {
+      "heading": "Nuestra cartera de productos básicos",
+      "subheading": "Donde la innovación se encuentra con la calidad - Desde 1964",
+      "viewDetails": "Ver detalles →",
+      "viewAll": "Ver todos los productos →"
+    },
+    "industries": {
+      "heading": "Abasteciendo a diversas industrias en todo el mundo",
+      "subheading": "Dando forma al futuro de los ingredientes cosméticos y farmacéuticos"
+    },
+    "qualityStandards": {
+      "heading": "Estándares de calidad y seguridad",
+      "subheading": "Impulsados por la calidad, de confianza por generaciones.",
+      "viewAll": "Ver todas las certificaciones →"
+    },
+    "news": {
+      "heading": "Últimas noticias y actualizaciones",
+      "readMore": "Leer más →",
+      "viewAll": "Ver todas las noticias →"
+    },
+    "statement": {
+      "heading": "Unicorn Petroleum Industries Pvt. Ltd.",
+      "subheading": "Más de 60 años de excelencia e innovación",
+      "text": "Ingredientes globales. Experiencia india. Confianza mundial",
+      "learnMore": "Conozca más sobre nosotros →"
+    },
+    "cta": {
+      "heading": "¿Listo para asociarse con nosotros?",
+      "subtitle": "Contáctenos hoy para formulaciones personalizadas o consultas comerciales.",
+      "primaryButton": "Contactar Ventas",
+      "secondaryButton": "Solicitar Muestra"
+    }
+  },
+  "form": {
+    "quoteTitle": "Solicitar una Cotización o Muestra",
+    "fullName": "Ingrese su nombre completo",
+    "company": "Ingrese el nombre de la empresa",
+    "email": "Ingrese correo electrónico",
+    "mobile": "Ingrese número de celular",
+    "country": "Ingrese su país",
+    "grade": "Ingrese grado/calidad necesaria",
+    "subject": "Seleccione tema",
+    "message": "Mensaje",
+    "submitQuote": "Enviar Consulta",
+    "submitContact": "Enviar Mensaje",
+    "successTitle": "¡Gracias! Su mensaje ha sido enviado.",
+    "successDesc": "Nos comunicaremos dentro de 24 horas",
+    "errorTitle": "Error al enviar",
+    "errorDesc": "Revise su conexión e intente nuevamente",
+    "submitting": "Enviando..."
+  },
+  "footerText": {
+    "partner": "Su socio de confianza en productos especiales y soluciones de la India",
+    "quickLinks": "Enlaces rápidos",
+    "contactHeader": "Contáctenos",
+    "copyright": "Copyright © 2020 Unicorn. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "breadcrumb": {
+    "home": "Home",
+    "aboutUs": "Over ons",
+    "profile": "Profiel"
+  },
+  "hero": {
+    "title": "Unicorn Petroleum Industries Pvt. Ltd.",
+    "subtitle": "Een erfenis van uitmuntendheid"
+  },
+  "intro": {
+    "p1": "Sinds haar oprichting in het jaar 1964 heeft Unicorn Petroleum Industries Private Limited een lange weg afgelegd in haar streven naar klantgerichte kwaliteitsproducten en uitmuntende dienstverlening zonder afbreuk te doen aan haar waarden, ethiek en overtuigingen.",
+    "p2": "Van het uitbreiden van onze productportfolio tot het bijhouden van wereldwijde nalevingsnormen, we hebben ons voortdurend ontwikkeld—zonder ooit compromissen te sluiten."
+  },
+  "belief": {
+    "title": "Onze overtuiging",
+    "text": "Wij bij Unicorn geloven stellig in <1>Totale Klanttevredenheid</1>, en bieden klanten de beste oplossingen om aan hun uiteenlopende toepassingen te voldoen. De naam \"<3>UNICORN</3>\" is nu synoniem voor ethische praktijken."
+  },
+  "vision": {
+    "title": "Onze visie",
+    "text": "Een klantgerichte, resultaatgerichte organisatie worden, met duurzame middelen. Wij streven ernaar om erkend te worden als trendsetters voor het <1>bepalen van de normen van uitmuntendheid op het gebied van petrochemische specialiteiten</1>."
+  },
+  "mission": {
+    "title": "Onze missie",
+    "text": "Zich serieus in te spannen om aan de verwachtingen en aspiraties van onze klanten te voldoen wat betreft de <1>kwaliteit, consistentie en compatibiliteit van onze producten</1>."
+  },
+  "values": {
+    "title": "Onze kernwaarden",
+    "items": {
+      "customer": {
+        "title": "Betrokkenheid bij de klant",
+        "desc": "Wij richten ons op het succes van onze klanten."
+      },
+      "quality": {
+        "title": "Compromisloze kwaliteit",
+        "desc": "Voor ons is kwaliteit niet zomaar een doel. Het is onze dagelijkse gewoonte."
+      },
+      "ethics": {
+        "title": "Ethisch & Eerlijk zaken doen",
+        "desc": "Wij doen onze zaken met eerlijkheid, ethiek en verantwoordelijkheid."
+      },
+      "integrity": {
+        "title": "Integriteit en Wettelijke naleving",
+        "desc": "We werken met absolute toewijding aan de wet."
+      },
+      "safety": {
+        "title": "Veiligheid, Gezondheid en Milieu",
+        "desc": "Niets is belangrijker dan de veiligheid van ons team."
+      }
+    }
+  },
+  "facilities": {
+    "title": "Productiefaciliteiten",
+    "items": {
+      "production": {
+        "title": "Geavanceerde productie-eenheden",
+        "desc": "Twee goed uitgeruste faciliteiten aan de rand van Mumbai."
+      },
+      "qa": {
+        "title": "In-house R&D en QA laboratorium",
+        "desc": "Kwaliteit wordt niet uitbesteed, dit gebeurt in ons eigen laboratorium."
+      },
+      "packaging": {
+        "title": "Flexibele verpakkingsopties",
+        "desc": "Aanpasbare pakketgroottes van kleine batches tot bulkvaten."
+      }
+    }
+  },
+  "differentiators": {
+    "title": "Belangrijkste onderscheidende factoren",
+    "items": {
+      "regulatory": {
+        "title": "Naleving van regelgeving",
+        "desc": "Wij sluiten nooit compromissen op het gebied van veiligheid en betrouwbaarheid."
+      },
+      "environment": {
+        "title": "Milieubewustzijn",
+        "desc": "De aarde is ons huis, en we proberen altijd te helpen."
+      },
+      "ethical": {
+        "title": "Ethische bedrijfsvoering",
+        "desc": "Voor ons betekent integriteit transparantie."
+      },
+      "timely": {
+        "title": "Tijdige levering",
+        "desc": "Jouw tijd is belangrijk."
+      },
+      "quality": {
+        "title": "Kwaliteitsborging",
+        "desc": "We voeren uitgebreide kwaliteitscontroles en continue verbeteringen uit."
+      }
+    }
+  },
+  "contact": {
+    "title": "Stuur ons een bericht"
+  },
+  "certifications": {
+    "title": "Certificeringen"
+  },
+  "meta": {
+    "title": "Over Ons - Unicorn Petroleum Industries | Een Erfgoed van Uitmuntendheid sinds 1964",
+    "description": "Lees meer over Unicorn Petroleum Industries, een vertrouwde fabrikant van aardolieproducten sinds 1964. Ontdek onze waarden, visie, missie en toewijding aan kwaliteit.",
+    "keywords": "Unicorn Petroleum, over ons, bedrijfsgeschiedenis, aardoliefabrikant, kwaliteitsnormen, klanttevredenheid, Mumbai India"
+  }
+}

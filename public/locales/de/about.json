@@ -1,0 +1,105 @@
+{
+  "breadcrumb": {
+    "home": "Startseite",
+    "aboutUs": "Über uns",
+    "profile": "Profil"
+  },
+  "hero": {
+    "title": "Unicorn Petroleum Industries Pvt. Ltd.",
+    "subtitle": "Ein Vermächtnis herausragender Leistungen"
+  },
+  "intro": {
+    "p1": "Seit der Gründung im Jahr 1964 hat Unicorn Petroleum Industries Private Limited auf dem Weg zu kundenorientierten Qualitätsprodukten und Serviceexzellenz einen langen Weg zurückgelegt, ohne dabei Kompromisse bei seinen Werten, seiner Ethik und seinen Überzeugungen einzugehen.",
+    "p2": "Von der Erweiterung unseres Produktportfolios bis hin zur Einhaltung globaler Compliance-Standards haben wir uns kontinuierlich weiterentwickelt – ohne jemals unsere Kernwerte Qualität, Konsistenz und kundenorientiertes Denken in Frage zu stellen."
+  },
+  "belief": {
+    "title": "Unsere Überzeugung",
+    "text": "Wir bei Unicorn glauben fest an <1>Absolute Kundenzufriedenheit</1> und bieten Kunden die besten Lösungen, die für ihre vielfältigen Anwendungen geeignet sind, durch maßgeschneiderte, gleichbleibend überlegene Produkte zusammen mit effizienten Dienstleistungen zu angemessenen Kosten. Der Name \"<3>UNICORN</3>\" ist heute ein Synonym für ethische Praktiken und kundenorientiertes Management."
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "text": "Einer kundenorientierten, ergebnisorientierten Organisation mit nachhaltigen Ressourcen zu werden. Unser Ziel ist es, als Trendsetter bei der <1>Setzung von Exzellenzstandards im Bereich petrochemischer Spezialitäten</1> auf dem indischen Subkontinent anerkannt zu werden."
+  },
+  "mission": {
+    "title": "Unsere Mission",
+    "text": "Sich ernsthaft darum zu bemühen, die Erwartungen unserer Kunden in Bezug auf <1>Qualität, Konsistenz und Kompatibilität unserer Produkte</1> zu erfüllen."
+  },
+  "values": {
+    "title": "Unsere Kernwerte",
+    "items": {
+      "customer": {
+        "title": "Kundenbindung",
+        "desc": "Wir konzentrieren uns auf den Erfolg unserer Kunden."
+      },
+      "quality": {
+        "title": "Kompromisslose Qualität",
+        "desc": "Für uns ist Qualität nicht nur ein Ziel. Es ist unsere tägliche Gewohnheit."
+      },
+      "ethics": {
+        "title": "Ethisches & Faires Geschäft",
+        "desc": "Wir führen unser Geschäft mit Ehrlichkeit und Verantwortung."
+      },
+      "integrity": {
+        "title": "Einhaltung gesetzlicher Vorschriften",
+        "desc": "Wir arbeiten mit absoluter Hingabe an das Gesetz."
+      },
+      "safety": {
+        "title": "Sicherheit, Gesundheit und Umwelt",
+        "desc": "Nichts ist wichtiger als die Sicherheit unseres Teams."
+      }
+    }
+  },
+  "facilities": {
+    "title": "Produktionsanlagen",
+    "items": {
+      "production": {
+        "title": "Fortschrittliche Produktionseinheiten",
+        "desc": "Zwei gut ausgestattete Einrichtungen am Stadtrand von Mumbai."
+      },
+      "qa": {
+        "title": "Hauseigenes F&E- und QS-Labor",
+        "desc": "Qualität wird nicht ausgelagert, sondern in unserem eigenen Labor gehandhabt."
+      },
+      "packaging": {
+        "title": "Flexible Verpackungsmöglichkeiten",
+        "desc": "Anpassbare Packungsgrößen von kleinen Chargen bis hin zu Schüttgutfässern."
+      }
+    }
+  },
+  "differentiators": {
+    "title": "Die wichtigsten Unterscheidungsmerkmale",
+    "items": {
+      "regulatory": {
+        "title": "Einhaltung gesetzlicher Vorschriften",
+        "desc": "Wir machen niemals Kompromisse bei der Sicherheit."
+      },
+      "environment": {
+        "title": "Umweltbewusstsein",
+        "desc": "Die Erde ist unser Zuhause, und wir versuchen verantwortungsvoll zu sein."
+      },
+      "ethical": {
+        "title": "Ethische Operationen",
+        "desc": "Für uns ist Integrität Transparenz."
+      },
+      "timely": {
+        "title": "Rechtzeitige Lieferung",
+        "desc": "Ihre Zeit ist wichtig."
+      },
+      "quality": {
+        "title": "Qualitätskontrolle",
+        "desc": "Wir führen umfangreiche Qualitätsprüfungen durch."
+      }
+    }
+  },
+  "contact": {
+    "title": "Senden Sie uns eine Nachricht"
+  },
+  "certifications": {
+    "title": "Zertifizierungen"
+  },
+  "meta": {
+    "title": "Über Uns - Unicorn Petroleum Industries | Ein Erbe der Exzellenz seit 1964",
+    "description": "Erfahren Sie mehr über Unicorn Petroleum Industries, einen vertrauenswürdigen Hersteller von Erdölprodukten seit 1964. Entdecken Sie unsere Werte, Vision, Mission und unser Engagement für Qualität.",
+    "keywords": "Unicorn Petroleum, über uns, Firmengeschichte, Erdölhersteller, Qualitätsstandards, Kundenzufriedenheit, Mumbai Indien"
+  }
+}

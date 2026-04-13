@@ -1,0 +1,105 @@
+{
+  "breadcrumb": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "profile": "Profile"
+  },
+  "hero": {
+    "title": "Unicorn Petroleum Industries Pvt. Ltd.",
+    "subtitle": "A legacy of excellence"
+  },
+  "intro": {
+    "p1": "Since its incorporation in the year 1964, Unicorn Petroleum Industries Private Limited has come a long way, in its quest for customer centric quality products and excellence in services without compromising on its values, ethics & beliefs.",
+    "p2": "From expanding our product portfolio to keeping pace with global compliance standards, we have been continuously evolving — without ever compromising on our core values of quality, consistency, and customer-first thinking. We take pride in tailor-making our complete range of products viz. Petrolatums, Parabens, Emulsifying Wax, Natural Beeswax, D-Panthenol, Mineral Oils and Wax Specialties to suit the end requirements and stringent specifications of our valued customers."
+  },
+  "belief": {
+    "title": "Our belief",
+    "text": "We, at Unicorn, firmly believe in <1>Total Customer Satisfaction</1>, providing customers with the best solutions to suit their diverse applications with tailor-made, consistently superior products, along with efficient services at reasonable costs. The name \"<3>UNICORN</3>\" is now synonymous for ethical practices, superior consistent quality and customer oriented management."
+  },
+  "vision": {
+    "title": "Our vision",
+    "text": "Become a customer-centric, result oriented organization, with sustainable resources, for over-all self and society development. We aim to be recognized as trend-setters for <1>setting the standards of excellence in the field of petrochemical specialties</1> in the Indian sub-continent. We are committed to meeting our commitments to our valuable customers, stake-holders and employees in an ethical, professional manner."
+  },
+  "mission": {
+    "title": "Our mission",
+    "text": "To strive earnestly to meet the expectations and aspirations of our customers vis-a-vis <1>quality, consistency and compatibility of our products</1>, while maintaining the highest standards of integrity, value and business ethics. To innovate and develop customer centric products to suit diverse applications."
+  },
+  "values": {
+    "title": "Our core values",
+    "items": {
+      "customer": {
+        "title": "Customer commitment",
+        "desc": "We focus on our customers' success. Our motto is transparency, reliability and understanding unique requirements. We strive to provide solutions that exceed expectations."
+      },
+      "quality": {
+        "title": "Uncompromising quality",
+        "desc": "For us, quality isn’t just a goal. It’s our daily habit. You’ll see it in the details we perfect and the decisions we question. This is how we make sure that what finally reaches you is crafted carefully and with intention."
+      },
+      "ethics": {
+        "title": "Ethical & fair business",
+        "desc": "We conduct our business with honesty, ethics, and responsibility. We prioritise accountability so as to produce long-term benefit for our customers."
+      },
+      "integrity": {
+        "title": "Integrity & Legal compliance",
+        "desc": "We work with absolute devotion to the law and handle our activities honestly. This protects our corporate image and promotes public trust by preventing negative impact on society."
+      },
+      "safety": {
+        "title": "Safety, Health & Environment",
+        "desc": "Nothing is more important than the safety of our team. And we run our business with the same sense of care for the environment they work in. It's not just policy, it's the foundation of how we think about the future."
+      }
+    }
+  },
+  "facilities": {
+    "title": "Manufacturing facilities",
+    "items": {
+      "production": {
+        "title": "Advance production units",
+        "desc": "Two well-equipped facilities on the outskirts of Mumbai, where manufacturing, testing, and storage takes place under one roof to ensure credibility and reliable quality."
+      },
+      "qa": {
+        "title": "In-house R&D & QA lab",
+        "desc": "Quality isn’t outsourced, it’s handled in our own lab. Every batch is monitored with care from start to finish."
+      },
+      "packaging": {
+        "title": "Flexible packaging options",
+        "desc": "Customizable pack sizes from small batches to bulk drums."
+      }
+    }
+  },
+  "differentiators": {
+    "title": "Key differentiators",
+    "items": {
+      "regulatory": {
+        "title": "Regulatory compliance",
+        "desc": "We never compromise on safety and dependability. We meet the highest safety standards in all we do. Thus, you can be completely confident in any product you receive."
+      },
+      "environment": {
+        "title": "Environment consciousness",
+        "desc": "The earth is our home, and we always try to be responsible houseguests. We implement innovative and sustainable practices across every aspect of our organization which helps in decreasing our impact on the environment."
+      },
+      "ethical": {
+        "title": "Ethical operations",
+        "desc": "For us, integrity is transparency. It means being upfront, playing fair, and taking responsibility for our actions. That's the straightforward approach we take in every part of our business."
+      },
+      "timely": {
+        "title": "Timely delivery",
+        "desc": "Your time matters and we ought to deliver our products and solutions on time. Punctuality is at the core of our operations which ensures reliability and finally builds trust."
+      },
+      "quality": {
+        "title": "Quality assurance",
+        "desc": "We conduct extensive quality checks and continuous improvements to ensure that every product surpasses the set standards. This discipline makes us and our products worthy of your trust."
+      }
+    }
+  },
+  "contact": {
+    "title": "Send us a message"
+  },
+  "certifications": {
+    "title": "Certifications"
+  },
+  "meta": {
+    "title": "About Us - Unicorn Petroleum Industries | A Legacy of Excellence Since 1964",
+    "description": "Learn about Unicorn Petroleum Industries, a trusted manufacturer of petroleum products since 1964. Discover our values, vision, mission, and commitment to quality, consistency, and customer satisfaction.",
+    "keywords": "Unicorn Petroleum, about us, company history, petroleum manufacturer, quality standards, customer satisfaction, ethical business, Mumbai India"
+  }
+}

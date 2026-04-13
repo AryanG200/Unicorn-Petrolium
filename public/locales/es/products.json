@@ -1,0 +1,667 @@
+{
+  "index": {
+    "title": "Nuestros Productos",
+    "subtitle": "Amplia gama de productos especiales y del petróleo de alta calidad.",
+    "heroTitle": "Nuestro portafolio de productos",
+    "heroSubtitle": "Especialidades petroleras de alta calidad para diversas industrias",
+    "completePortfolio": "Portafolio completo de productos",
+    "viewCategory": "Ver categoría",
+    "viewProduct": "Ver producto",
+    "helpTitle": "¿Necesita ayuda para elegir el producto adecuado?",
+    "helpDesc": "Nuestros expertos están aquí para ayudarle a encontrar la solución perfecta para sus necesidades específicas.",
+    "contactBtn": "Contacte a nuestros expertos",
+    "applicationsBtn": "Ver Aplicaciones"
+  },
+  "sidebar": {
+    "title": "Nuestros Productos",
+    "allProducts": "Todos Los Productos"
+  },
+  "categories": {
+    "petroleum-jelly": {
+      "name": "Vaselina",
+      "desc": "Agente protector y emoliente versátil para aplicaciones de cuidado de la piel"
+    },
+    "white-mineral-oils": {
+      "name": "Aceites Minerales Blancos",
+      "desc": "Aceites minerales de alta calidad para diversos usos cosméticos."
+    },
+    "microcrystalline-wax": {
+      "name": "Cera Microcristalina",
+      "desc": "Cera de grano fino con excelentes propiedades de unión y recubrimiento."
+    },
+    "paraffin-wax": {
+      "name": "Cera De Parafina Dura",
+      "desc": "Productos de cera versátiles para múltiples aplicaciones industriales."
+    },
+    "natural-beeswax": {
+      "name": "Cera De Abejas Natural",
+      "desc": "Cera pura natural con excelentes propiedades emulsionantes."
+    },
+    "lanolin": {
+      "name": "Lanolina",
+      "desc": "Grasa de lana refinada para uso cosmético y farmacéutico."
+    },
+    "emulsifying-wax": {
+      "name": "Cera Emulsionante",
+      "desc": "Cera especializada para crear emulsiones estables."
+    },
+    "d-panthenol": {
+      "name": "D-Pantenol",
+      "desc": "Provitamina B5 para mejorar el cuidado y la curación de la piel."
+    },
+    "preservatives": {
+      "name": "Conservantes",
+      "desc": "Agentes antimicrobianos para extender la vida útil del producto."
+    },
+    "surfactants": {
+      "name": "Surfactantes",
+      "desc": "Agentes tensoactivos para limpieza y emulsificación."
+    },
+    "uv-filters": {
+      "name": "Filtros UV",
+      "desc": "Agentes de protección UV para formulaciones de cuidado solar."
+    }
+  },
+  "subItems": {
+    "light-mineral-oil": {
+      "name": "Aceite Mineral Ligero",
+      "desc": "Aceite mineral de viscosidad ligera."
+    },
+    "heavy-mineral-oil": {
+      "name": "Aceite Mineral Pesado",
+      "desc": "Aceite mineral de viscosidad pesada."
+    },
+    "soft-paraffin": {
+      "name": "Parafina Blanda",
+      "desc": "Cera de parafina de consistencia blanda."
+    },
+    "hard-paraffin": {
+      "name": "Parafina Dura",
+      "desc": "Cera de parafina de consistencia dura."
+    },
+    "parabens": {
+      "name": "Parabenos",
+      "desc": "Sistema conservante tradicional para productos cosméticos."
+    },
+    "phenoxyethanol": {
+      "name": "Fenoxietanol",
+      "desc": "Conservante de amplio espectro de excelente compatibilidad."
+    },
+    "anionic": {
+      "name": "Aniónico",
+      "desc": "Tensioactivos aniónicos para una limpieza y formación de espuma eficaces"
+    },
+    "nonionic": {
+      "name": "No-iónico",
+      "desc": "Tensioactivos noiónicos para aplicaciones de limpieza delicadas."
+    },
+    "organic-filters": {
+      "name": "Filtros Orgánicos",
+      "desc": "Filtros UV orgánicos para una protección solar de amplio espectro."
+    },
+    "inorganic-filters": {
+      "name": "Filtros In-orgánicos",
+      "desc": "Filtros UV inorgánicos para fotoprotección física."
+    }
+  },
+  "pages": {
+    "petroleum-jelly": {
+      "meta": {
+        "title": "Vaselina - Unicorn Petroleum | Petrolato de Calidad Premium",
+        "description": "Vaselina (petrolato) de alta calidad fabricada desde 1964. Emoliente versátil para aplicaciones farmacéuticas y cosméticas. El estricto control de calidad garantiza consistencia y pureza.",
+        "keywords": "vaselina, petrolato, parafina blanda blanca, parafina blanda amarilla, emoliente, cuidado de la piel, ingredientes farmacéuticos, ingredientes cosméticos, Unicorn Petroleum"
+      },
+      "name": "Vaselina",
+      "purity": "Pureza para cada aplicación",
+      "common": {
+        "title": "Vaselina / Petrolato / Parafina Blanda",
+        "description": "La vaselina es un semisólido altamente refinado, homogéneo y similar a un ungüento con un equilibrio delicado entre hidrocarburos líquidos y sólidos para aplicaciones de cuidado de la piel y formulaciones tópicas.\n Nuestro producto mantiene una buena estructura durante el procesamiento y se congela para formar una superficie lisa durante el envasado, lo que añade valor estético, y tiene la capacidad de resistir la humedad, prevenir la decoloración y retener el contenido de aceite incluso a temperaturas elevadas.",
+        "additionalInfo": "Está disponible en los siguientes colores: blanco nieve brillante, blanco roto, blanco perla, lirio, amarillo pálido, amarillo brillante y ámbar."
+      },
+      "applications": {
+        "intro": "La vaselina blanca/amarilla encuentra variadas aplicaciones como excipiente en formulaciones cosméticas y farmacéuticas; tales como las siguientes:",
+        "items": [
+          "Ungüentos",
+          "Bálsamos para el dolor",
+          "Cremas cosméticas",
+          "Cremas para el cuidado de los pies",
+          "Formulaciones de alimentos para el cabello",
+          "Aplicaciones oculares",
+          "Apósitos de gasa",
+          "Protectores de la piel",
+          "Adhesivo dental",
+          "Lubricante de uso general"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Características clave de nuestra Vaselina",
+        "compliance": "Cumplimiento farmacopeico",
+        "otherCompliances": "Otros cumplimientos",
+        "complianceItems": [
+          "Indian Pharmacopoeia (IP)",
+          "British Pharmacopoeia (BP)",
+          "United States Pharmacopoeia (USP)",
+          "European Pharmacopoeia (Ph. Eur.)",
+          "Japanese Pharmacopoeia (JP)"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.880",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "white-mineral-oils": {
+      "meta": {
+        "title": "Aceites Minerales Blancos - Unicorn Petroleum | Aceites Minerales Parafínicos de Alta Calidad",
+        "description": "Aceites minerales blancos premium (parafínicos) en varias viscosidades para aplicaciones farmacéuticas, cosméticas, de cuidado personal e industriales. Incoloros, inodoros y altamente refinados.",
+        "keywords": "aceite mineral blanco, aceite mineral, aceite mineral parafínico, aceite mineral ligero, aceite mineral pesado, aceite mineral farmacéutico, aceite mineral cosmético, lubricante industrial"
+      },
+      "name": "Aceites Minerales Blancos",
+      "purity": "Pureza para cada aplicación",
+      "common": {
+        "title": "Aceite Mineral Blanco / Parafina Líquida / Aceite Blanco",
+        "description": "Los aceites minerales son mezclas incoloras e inodoras de hidrocarburos líquidos saturados obtenidos de la destilación del petróleo. Nuestros aceites minerales son de naturaleza parafínica y ofrecemos una amplia gama de viscosidades para diversas aplicaciones.",
+        "additionalInfo": "Nuestra gama Unimin de aceites minerales de grado cosmético / farmacéutico está altamente refinada y hecha a medida para formulaciones de cuidado de la piel y del cabello. Estos productos son tratados para eliminar impurezas aromáticas policíclicas dañinas y pasan la prueba de hidrocarburos aromáticos policíclicos junto con otras normas de pureza en la Farmacopea y cumplen con todos los requisitos reglamentarios según la Comisión Europea y la USFDA. No favorecen el crecimiento bacteriano patógeno y, debido a esta propiedad, se convierten en bases de mezcla ideales para aplicaciones farmacéuticas / cosméticas. Al tener una excelente propiedad lubricante, se puede utilizar como lubricante de uso general. Caracterizados por un alto índice de viscosidad, nuestros aceites minerales blancos mantienen una viscosidad estable a temperaturas extremas."
+      },
+      "applications": {
+        "intro": "Proporcionamos diferentes niveles de viscosidad que permiten una amplia gama de usos en:",
+        "items": [
+          "Aceites para bebés / baño",
+          "Cremas frías y cremas hidratantes",
+          "Lociones",
+          "Bronceadores / protectores solares",
+          "Antibióticos",
+          "Maquillaje de ojos",
+          "Cápsulas de gelatina",
+          "Recubrimientos protectores para frutas y verduras",
+          "Jabones y detergentes",
+          "Aceites de cono antiestáticos",
+          "Aceites de tejer",
+          "Auxiliares textiles",
+          "Tintes e intermedios de tintes",
+          "Contenedor intermedio flexible para graneles (FIBC)",
+          "Productos químicos para cuero y licores grasos",
+          "Productos químicos especializados",
+          "Productos químicos de perfumería",
+          "Recubrimientos y pulidos",
+          "Productos químicos para tintas",
+          "Suavizante durante el procesamiento de plásticos",
+          "Instrumentos médicos",
+          "Máquinas de llenado / envasado en la industria alimentaria",
+          "Cilindro compresor en la industria de bebidas"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Características clave de nuestros Aceites Minerales Blancos",
+        "compliance": "Cumplimiento farmacopeico",
+        "otherCompliances": "Otros cumplimientos",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]",
+          "Japanese Pharmacopoeia [JP]"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.878 and 21 CFR 178.3620 (a)",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "lanolin": {
+      "meta": {
+        "title": "Lanolina - Unicorn Petroleum | Grasa de Lana Refinada para Cosmética y Farmacia",
+        "description": "La lanolina (grasa de lana / Adeps Lanae) es una grasa natural altamente refinada derivada de la lana. Se utiliza en aplicaciones cosméticas, farmacéuticas e industriales para la retención de humedad y propiedades protectoras.",
+        "keywords": "lanolina, grasa de lana, adeps lanae, ingredientes cosméticos, ingredientes farmacéuticos, lanolina refinada, acondicionamiento de la piel, unicorn petroleum"
+      },
+      "name": "Lanolina",
+      "purity": "Grasa de lana altamente refinada para uso cosmético, farmacéutico e industrial.",
+      "common": {
+        "title": "Lanolina",
+        "description": "La lanolina, que frecuentemente se denomina grasa de lana / Adeps Lanae, es una grasa natural altamente refinada y purificada que se origina como una sustancia única secretada por las ovejas de las glándulas sebáceas en su piel para formar un recubrimiento protector natural en las fibras de lana y es completamente diferente de la grasa corporal de los animales. La grasa cruda se recupera de la lana natural y grasa de las ovejas y la lanolina terminada se deriva de dicha grasa natural después de un refinado intensivo y una serie de otros procesos únicos."
+      },
+      "characteristics": {
+        "heading": "Características",
+        "items": [
+          "Al ser 100% natural y por sus caracteres únicos, tiene un enorme potencial para su uso en el cuidado de la piel, aplicaciones y/o productos cosméticos y farmacéuticos tópicos.",
+          "Tiene la capacidad característica de absorber el doble de su propio peso de agua y adhesión a la piel seca, formando películas protectoras sobre la piel.",
+          "Mejora la estabilidad de las emulsiones de aceite en agua.",
+          "Su emoliencia restaura y retiene el equilibrio de humedad de la piel sin interferir con su transpiración normal, evitando así el secado y el agrietamiento de la piel. Así hace que la piel se sienta suave, tersa y tersa.",
+          "Posee propiedades anticorrosivas, protectoras y lubricantes que se utilizan para aplicaciones industriales. La lanolina no es conductora, por lo que encuentra un uso extensivo en la fabricación de componentes eléctricos."
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Características clave de nuestra Lanolina",
+        "compliance": "Cumplimiento farmacopeico",
+        "otherCompliances": "Otros cumplimientos",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "microcrystalline-wax": {
+      "meta": {
+        "title": "Cera Microcristalina - Unicorn Petroleum | Cera de Grano Fino para Formulaciones",
+        "description": "Cera microcristalina de alta calidad con excelentes propiedades aglutinantes y de recubrimiento. Utilizada en formulaciones cosméticas y farmacéuticas para resistencia estructural, textura y estabilidad.",
+        "keywords": "cera microcristalina, cera de petróleo, cera cosmética, cera farmacéutica, agente aglutinante, agente de recubrimiento, modificador de textura, Unicorn Petroleum"
+      },
+      "name": "Cera Microcristalina",
+      "purity": "Pureza para cada aplicación",
+      "common": {
+        "title": "Cera Microcristalina",
+        "description": "Las ceras microcristalinas son un tipo de cera producida mediante el desaceitado del petrolato, como parte del proceso de refinación del petróleo. Se caracteriza por la finura de sus cristales y es un hidrocarburo alifático saturado de mayor peso molecular. Las características elásticas y adhesivas de las ceras microcristalinas se deben a sus componentes de cadena ramificada. Esta cera tiene afinidad con la cera de parafina y el aceite mineral, por lo que se usa ampliamente en formulaciones a base de aceite en la industria cosmética/farmacéutica. Proporciona un sólido rendimiento de retención de aceite, minimizando la separación del aceite, ayudando así a que las formulaciones permanezcan estables y consistentes durante el almacenamiento a largo plazo. Microwax actúa como un agente oclusivo confiable, creando una capa protectora en la piel que ayuda a retener la humedad y prevenir la deshidratación en formulaciones tópicas. Las microceras añaden resistencia estructural y brillo al producto final."
+      },
+      "applications": {
+        "intro": "Las ceras microcristalinas encuentran aplicación ideal en el uso de productos finales como:",
+        "items": [
+          "Cremas cosméticas",
+          "Lociones",
+          "Ungüentos farmacéuticos",
+          "Vaselina",
+          "Lápices labiales",
+          "Bálsamos",
+          "Cremas para el dolor",
+          "Brillo",
+          "Chicles",
+          "Adhesivos",
+          "Cables",
+          "Velas",
+          "Industria química",
+          "Protección contra la corrosión",
+          "Crayones",
+          "Embalaje",
+          "Cinta de envoltura de tuberías",
+          "Plásticos y polímeros",
+          "Productos industriales",
+          "Industria de cuidado personal"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Características clave de nuestra Cera Microcristalina",
+        "compliance": "Cumplimiento farmacopéico",
+        "otherCompliances": "Otros cumplimientos",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "paraffin-wax": {
+      "meta": {
+        "title": "Cera de Parafina Dura - Unicorn Petroleum | Cera Versátil para Aplicaciones Industriales",
+        "description": "Productos de cera de parafina de alta calidad para múltiples aplicaciones industriales. Hidrocarburos sólidos con excelentes propiedades aglutinantes, adecuados para velas, embalajes, cosméticos y usos farmacéuticos.",
+        "keywords": "cera de parafina, cera industrial, cera para velas, cera para embalaje, cera cosmética, cera farmacéutica, hidrocarburos sólidos, Unicorn Petroleum"
+      },
+      "name": "Cera de Parafina Dura",
+      "purity": "Pureza para cada aplicación",
+      "common": {
+        "title": "Cera de Parafina Dura / Cera para Velas",
+        "description": "La cera de parafina dura, derivada como subproducto del petróleo crudo, es una mezcla de hidrocarburos sólidos con mayor peso molecular. Se disuelve parcialmente en solventes como benceno, trementina, cloroformo, éter, disulfuro de carbono y aceite, y se distingue por su capacidad de formar cristales naturalmente más grandes que no se disuelven en agua ni en alcohol. Su adaptabilidad en diferentes formulaciones se ve reforzada por el hecho de que se combina bien con las grasas. La cera de parafina dura se utiliza con frecuencia en recubrimientos protectores y aplicaciones de sellado donde la conservación fiable de la humedad es crucial debido a sus potentes cualidades resistentes al agua."
+      },
+      "applications": {
+        "intro": "La Cera de Parafina Dura es ideal para su uso en formulaciones y fabricación de lo siguiente:",
+        "items": [
+          "Cremas",
+          "Ungüentos",
+          "Bálsamos",
+          "Cuidado de labios",
+          "Cuidado de pies",
+          "Vaselina",
+          "Velas"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Características clave de nuestra Cera de Parafina Dura",
+        "compliance": "Cumplimiento farmacopéico",
+        "otherCompliances": "Otros cumplimientos",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "natural-beeswax": {
+      "meta": {
+        "title": "Cera de Abeja Natural - Unicorn Petroleum | Cera de Abeja Refinada para Cosmética y Farmacia",
+        "description": "Cera de abeja 100% natural, altamente refinada con propiedades emolientes, calmantes y suavizantes. Cera de abeja de grado farmacéutico y cosmético para formulaciones tópicas. Cumple con los requisitos regulatorios internacionales.",
+        "keywords": "cera de abeja natural, cera de abeja refinada, cera de abeja cosmética, cera de abeja farmacéutica, emoliente, cera natural, ingredientes cosméticos, ingredientes farmacéuticos, Unicorn Petroleum"
+      },
+      "name": "Cera de Abeja Natural",
+      "purity": "Pureza para cada aplicación",
+      "common": {
+        "title": "Cera de Abeja / Cera Alba (Cera Blanca) / Cera Flava (Cera Amarilla)",
+        "description": "La cera de abeja es una sustancia natural producida por las abejas del género Apis dentro de la colmena. Tiene una estructura distinta compuesta de ésteres de ácidos grasos y alcoholes de cadena larga. Nuestra cera de abeja se trata cuidadosamente para proporcionar una apariencia suave y amarillo pálido y es muy valorada por sus efectos suaves y calmantes sobre la piel, lo que la hace perfecta para la industria cosmética y farmacéutica. Además de conservar y suavizar la piel, también mejora la textura y garantiza que otros ingredientes permanezcan unidos, brindando estabilidad al producto terminado.",
+        "additionalInfo": "Al ser un producto natural, la calidad de nuestra cera de abeja refinada es altamente regulada por nosotros para cumplir con los requisitos regulatorios internacionales. Funciona especialmente bien en barras y preparaciones sólidas debido a su capacidad inherente de crear una película cohesiva y unir materiales, mejorando la durabilidad y el agarre."
+      },
+      "applications": {
+        "intro": "La Cera de Abeja Natural encuentra aplicación ideal en:",
+        "items": [
+          "Ungüentos",
+          "Bálsamos",
+          "Soft-gel",
+          "Cremas",
+          "Jaleas labiales",
+          "Pomadas",
+          "Lápices labiales",
+          "Cuidado del cabello",
+          "Cuidado de pies",
+          "Productos de cuidado ayurvédico y herbal",
+          "Suturas farmacéuticas",
+          "Productos de limpieza para autos",
+          "Velas",
+          "Plásticos",
+          "Pulimento para muebles",
+          "Moldes",
+          "Fundiciones",
+          "Industria alimentaria procesada",
+          "Recubrimientos",
+          "Industria del cuero",
+          "Industria textil",
+          "Acabados de madera y papel",
+          "Lubricantes",
+          "Productos químicos especiales"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Características clave de nuestra Cera de Abeja",
+        "compliance": "Cumplimiento farmacopéico",
+        "otherCompliances": "Otros cumplimientos",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "emulsifying-wax": {
+      "meta": {
+        "title": "Cera Emulsionante - Unicorn Petroleum | Ceras Emulsionantes Aniónicas y No Iónicas",
+        "description": "Ceras emulsionantes especializadas para crear emulsiones estables de agua en aceite y aceite en agua. Utilizadas en lociones, cremas, ungüentos y productos de belleza. Disponibles en grados aniónicos y no iónicos.",
+        "keywords": "cera emulsionante, cera emulsionante aniónica, cera emulsionante no iónica, estabilizador de emulsión, emulsionante cosmético, emulsionante farmacéutico, base de loción, base de crema, Unicorn Petroleum"
+      },
+      "name": "Cera Emulsionante",
+      "purity": "Pureza para cada aplicación.",
+      "common": {
+        "title": "Cera Emulsionante (Iónica / No Iónica) / Cera Autoemulsionante",
+        "description": "La cera emulsionante es un tipo de ingrediente emulsionante cosmético utilizado principalmente en la fabricación de cremas, lociones y otros productos de belleza que tienen fase acuosa y oleosa. Este tipo de cera ayuda a mezclar o emulsionar la fase acuosa y la fase oleosa para formar un ungüento, minimizando la separación de fases y aumentando la estabilidad de la formulación, especialmente durante entornos de temperatura diversos.",
+        "additionalInfo": "La emulsificación ocurre cuando dos sustancias (en este caso, aceite y agua) se unen con éxito, creando una especie de pegamento que combina los ingredientes de un producto que proporciona viscosidad y estructura consistentes a las formulaciones, dando como resultado cremas y lociones suaves y uniformes con una extensibilidad mejorada. A nivel molecular, la cera emulsionante atrae tanto el agua como el aceite al mismo tiempo y los mantiene unidos. Las emulsiones hechas con esta cera son más estables a ácidos débiles como el bórico, el carbólico y el salicílico. La cera emulsionante espesa el líquido y une los elementos a base de aceite y agua de la creación. Es de color blanco, sólido y posee un ligero aroma a alcohol. Es fácil de procesar y de rendimiento confiable, lo que lo hace adecuado tanto para entornos de fabricación a pequeña escala como industriales."
+      },
+      "applications": {
+        "intro": " ",
+        "points": [
+          "La cera emulsionante se utiliza ampliamente en la industria farmacéutica/cosmética como parte de formulaciones de cremas y lociones.",
+          "La cera emulsionante iónica/aniónica es más adecuada para emulsiones de tipo agua en aceite. El grado no iónico es más adecuado para emulsiones de tipo aceite en agua."
+        ],
+        "items": [
+          "Ungüento",
+          "Lociones",
+          "Cremas",
+          "Acondicionadores",
+          "Mascarillas capilares",
+          "Protectores solares",
+          "Mantecas corporales",
+          "Bálsamos",
+          "Productos para el cuidado de los labios"
+        ]
+      },
+      "blends": {
+        "heading": "Ofrecemos las siguientes mezclas de cera autoemulsionante",
+        "headers": {
+          "product": "Nombre del producto",
+          "inci": "Nombre INCI"
+        },
+        "items": [
+          {
+            "name": "Cera emulsionante aniónica",
+            "inci": "Cetearyl Alcohol & Sodium Lauryl Sulphate"
+          },
+          {
+            "name": "Cera emulsionante no iónica",
+            "inci": "Cetearyl Alcohol & Cetereath-20"
+          },
+          {
+            "name": "Cera emulsionante 1440",
+            "inci": "Cetearyl Alcohol & Polysorbate 60"
+          }
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Características clave de nuestra cera emulsionante",
+        "compliance": "Cumplimiento farmacopéico",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]"
+        ]
+      }
+    },
+    "d-panthenol": {
+      "meta": {
+        "title": "D-Pantenol - Unicorn Petroleum | Provitamina B5 para el Cuidado de la Piel y el Cabello",
+        "description": "D-Pantenol (Provitamina B5) de alta pureza para propiedades profundamente hidratantes, calmantes y regenerativas. Utilizado en formulaciones para el cuidado de la piel, el cabello, el bebé y la cicatrización de heridas. Alta pureza y estabilidad.",
+        "keywords": "D-pantenol, provitamina B5, pantenol, acondicionador de la piel, acondicionador del cabello, agente hidratante, cicatrización de heridas, activo cosmético, ingrediente farmacéutico, Unicorn Petroleum"
+      },
+      "name": "D-Pantenol",
+      "purity": "Provitamina B5 para la hidratación y el apoyo de la barrera cutánea",
+      "common": {
+        "title": "D-Pantenol / Dexpantenol",
+        "description": "El precursor suave y listo para usar del ácido pantoténico, también conocido como la vitamina superestrella B5, es el pantenol, que es estable, cubre un amplio rango de pH y es adecuado para diversas materias primas cosméticas / farmacéuticas, integrándose bien en diversas formulaciones. Presenta valores humectantes excepcionales para una hidratación duradera. Se disuelve fácilmente en agua, alcohol, propilenglicol, éter, cloroformo y es parcialmente soluble en glicerina. El pantenol actúa como un hidratante suave y sedoso que se desliza sobre la piel, dejando una superficie de aspecto suave e hidratado que es drásticamente más lisa y flexible.",
+        "additionalInfo": "Sin embargo, su experiencia no se limita al cuidado de la piel. El pantenol y el ácido pantoténico son excelentes ingredientes para el cuidado del cabello. Se unen para proporcionar elasticidad, volumen y una apariencia atractiva al cabello, nutriendo así el cabello desgastado por el calor y los tratamientos químicos."
+      },
+      "applications": {
+        "intro": "Se utiliza como agente acondicionador, hidratante, humectante y emoliente en cosméticos y productos de cuidado personal. Se adhiere fácilmente a los folículos pilosos y es un componente frecuente de champús y acondicionadores para el cabello. Recubre el cabello y sella su superficie, lubricando los folículos y haciendo que las hebras parezcan brillantes.",
+        "items": [
+          "Hidratantes",
+          "Cremas",
+          "Geles para el cabello",
+          "Lacas para el cabello",
+          "Champú",
+          "Bálsamos",
+          "Lápiz labial",
+          "Sombra de ojos",
+          "Rímel"
+        ]
+      }
+    },
+    "preservatives": {
+      "meta": {
+        "title": "Conservantes - Unicorn Petroleum | Sistemas Antimicrobianos para Cuidado Personal y Farmacia",
+        "description": "Sistemas conservantes efectivos que incluyen parabenos y fenoxietanol para prevenir el crecimiento microbiano y extender la vida útil. Conservantes conformes con la normativa para cosméticos, productos farmacéuticos y de cuidado personal.",
+        "keywords": "conservantes, parabenos, fenoxietanol, agentes antimicrobianos, conservantes cosméticos, conservantes farmacéuticos, extensión de la vida útil, protección microbiana, Unicorn Petroleum"
+      },
+      "name": "Conservantes",
+      "purity": "Sistemas antimicrobianos efectivos para el cuidado personal y la farmacia",
+      "common": {
+        "title": "Conservantes",
+        "description": "Los conservantes son sustancias específicas utilizadas para prevenir la descomposición causada por bacterias, hongos y oxidación. Prevenir múltiples tipos de degradación puede extender la vida útil de una amplia selección de productos, particularmente suplementos dietéticos, medicamentos, cosméticos y productos químicos industriales. Su tarea principal es asegurar que el producto sea saludable, eficiente y útil a lo largo del tiempo, al mismo tiempo que preserva su calidad y rendimiento originales.",
+        "additionalInfo": "La composición, el uso previsto y el entorno de conservación del producto influyen en la elección y concentración de los conservantes utilizados. Además, su aplicación se rige por estrictas directrices reguladas con el objetivo de salvaguardar a los consumidores y reducir cualquier riesgo para la salud relacionado."
+      },
+      "products": [
+        {
+          "name": "Fenoxietanol",
+          "desc": ""
+        },
+        {
+          "name": "Etilhexilglicerina",
+          "desc": "Líquido claro e incoloro sin olor característico"
+        },
+        {
+          "name": "Parabenos",
+          "desc": "Polvo cristalino blanco o casi blanco"
+        },
+        {
+          "name": "DMDM Hidantoína",
+          "desc": "Líquido claro con un bajo olor característico"
+        }
+      ],
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Industria de cosméticos y cuidado personal: Debido a la presencia de agua e ingredientes orgánicos, los conservantes juegan un papel vital al prevenir o retrasar el crecimiento de microorganismos / bacterias, garantizando así la seguridad y manteniendo su estabilidad, eficacia y frescura.",
+          "Industria alimentaria: Para preservar el valor nutricional, la composición, la textura-sabor, prevenir la oxidación, la degradación enzimática y el deterioro microbiano; es crucial añadir conservantes en proporciones controladas y reguladas, extendiendo así su vida útil.",
+          "Industria farmacéutica: Los conservantes en la industria farmacéutica ayudan a conservar las propiedades terapéuticas al prevenir el crecimiento de hongos y mantener la integridad de su producto asegurando que la formulación permanezca segura para el uso a largo plazo.",
+          "Industria de pinturas y recubrimientos: Al estar expuestos a ambientes exteriores como la luz solar directa, el calor, la humedad, las lluvias y el mal tiempo; los conservantes juegan un papel fundamental en la industria de pinturas y recubrimientos."
+        ],
+        "items": [
+          "Cremas",
+          "Lociones",
+          "Champús",
+          "Cosmética",
+          "Cuidado de la piel"
+        ]
+      }
+    },
+    "surfactants": {
+      "meta": {
+        "title": "Surfactantes - Unicorn Petroleum | Tensioactivos Aniónicos y No Iónicos para Limpieza y Cuidado Personal",
+        "description": "Tensioactivos aniónicos y no iónicos de alta calidad para una limpieza, formación de espuma y emulsificación efectivas. Utilizados en champús, detergentes, productos de cuidado personal y soluciones de limpieza industrial.",
+        "keywords": "tensioactivos, surfactantes, surfactantes aniónicos, surfactantes no iónicos, agentes de limpieza, agentes espumantes, emulsionantes, detergentes, ingredientes de cuidado personal, surfactantes industriales, Unicorn Petroleum"
+      },
+      "name": "Surfactantes",
+      "purity": "Tensioactivos aniónicos y no iónicos para limpieza y emulsificación",
+      "common": {
+        "title": "Surfactantes",
+        "description": "Los surfactantes tienen una gran importancia en una amplia gama de productos de limpieza y cuidado personal al reducir la tensión superficial y permitir la mezcla de agua con suciedad y otros contaminantes. Conjuntamente, los surfactantes desempeñan un papel vital en diversas formulaciones, desde ayudar a que los champús formen espuma hasta eliminar la grasa de los productos. Debido a su naturaleza adaptable, es un ingrediente crucial que tiene gran importancia en la industria del cuidado del hogar y del cuidado personal.",
+        "additionalInfo": "Como los surfactantes se usan en combinación, se colocan en la unión entre dos sustancias de manera que la parte hidrófila interactúa con las moléculas de agua mientras que la parte hidrófoba se une a la otra sustancia. Esto genera una obstrucción entre los dos compuestos, disminuyendo así la tensión superficial y levantando la suciedad de la superficie para obtener resultados efectivos."
+      },
+      "products": [
+        {
+          "name": "Alfa olefina sulfonato (AOS)",
+          "desc": "Disponible en diferentes grados en estado de polvo y líquido."
+        },
+        {
+          "name": "Lauril éter sulfato de sodio (SLES) 70",
+          "desc": "Pasta translúcida sin olor característico."
+        },
+        {
+          "name": "CAPB / Betaína",
+          "desc": "Líquido de incoloro a amarillo claro."
+        },
+        {
+          "name": "LABSA 96%",
+          "desc": "Líquido de color miel a marrón oscuro."
+        }
+      ],
+      "applications": {
+        "intro": "Los surfactantes tienen diversas utilidades en múltiples industrias, como se muestra a continuación:",
+        "points": [
+          "Cuidado personal: Mejoran la espuma, la limpieza y la hidratación en champús, acondicionadores, geles de baño, jabones y pasta de dientes.",
+          "Agentes de limpieza: Mejoran el poder de limpieza y la estabilidad de la espuma en jabones, detergentes y lavavajillas líquidos al eliminar la suciedad / grasa.",
+          "Industria textil: También sirven para la industria textil al mejorar propiedades como la suavidad del tejido, haciendo que el tejido sea antiestático y antibacteriano, absorbente del sudor y permitiendo que el tejido se seque rápidamente en el proceso de acabado textil.",
+          "Industria automotriz: Debido a su capacidad para reducir la tensión superficial, los surfactantes se utilizan ampliamente en agentes de limpieza de automóviles y en desengrasantes de motores para eliminar depósitos de suciedad / grasa y aceite.",
+          "Pinturas y recubrimientos: Estos agentes mejoran la dispersión en pinturas de automoción, mejoran la adhesión y uniformidad del recubrimiento y previenen defectos como rayas y burbujas durante la impresión. Funcionan como emulsionantes, agentes humectantes y dispersantes."
+        ],
+        "items": [
+          "Champús",
+          "Gel de baño",
+          "Limpiador facial",
+          "Jabones líquidos",
+          "Detergentes"
+        ]
+      }
+    },
+    "uv-filters": {
+      "meta": {
+        "title": "Filtros UV - Unicorn Petroleum | Filtros UV Orgánicos e Inorgánicos para Protección Solar",
+        "description": "Filtros UV de amplio espectro (UVA y UVB) para protectores solares, cosméticos y cremas hidratantes. Filtros UV orgánicos e inorgánicos para proteger contra quemaduras solares, envejecimiento prematuro y cáncer de piel. Grados conformes a la normativa.",
+        "keywords": "filtros UV, filtros UV orgánicos, filtros UV inorgánicos, ingredientes para protectores solares, protección UVA, protección UVB, protección solar, filtros UV cosméticos, conforme a la normativa, Unicorn Petroleum"
+      },
+      "name": "Filtros UV",
+      "purity": "Filtros UV orgánicos e inorgánicos para una protección de amplio espectro",
+      "common": {
+        "title": "Filtros UV",
+        "description": "Los filtros UV se utilizan para fabricar productos de cuidado personal para proteger nuestra piel de la radiación ultravioleta perjudicial. Tiene la capacidad de prevenir el deterioro de la piel causado por la exposición a las luces UVA y UVB al absorber o reflejar los rayos UV. Los filtros UV se utilizan en cosméticos, protectores solares y cremas hidratantes que funcionan como un escudo contra las quemaduras solares, el envejecimiento prematuro y el cáncer de piel. Para garantizar la seguridad y eficacia en los productos de consumo, está regulado en many países."
+      },
+      "products": [
+        {
+          "name": "Metoxicinamato de octilo",
+          "desc": "Una opción popular en formulaciones de protectores solares debido a su estabilidad"
+        },
+        {
+          "name": "Salicilato de octilo",
+          "desc": "Formado a partir de ácido salicílico y 2-etilhexanol, se utiliza para filtrar los rayos UVB en el rango de 280-320 nm"
+        },
+        {
+          "name": "Homosalato",
+          "desc": "Barrera protectora contra los rayos UVB pero proporciona una defensa mínima contra los rayos UVA"
+        },
+        {
+          "name": "Avobenzona",
+          "desc": "Un potente filtro UV a menudo combinado con otros estabilizadores como el octocrileno para mejorar la estabilidad"
+        },
+        {
+          "name": "Benzofenona 3",
+          "desc": "Ofrece protección contra los rayos UVB y una parte de los rayos UVA, previniendo tanto las quemaduras solares como el daño del ADN"
+        },
+        {
+          "name": "Benzofenona 4",
+          "desc": "Filtro de salvaguardia contra los rayos UVA y UVB, mejorando la eficacia y longevidad del producto"
+        },
+        {
+          "name": "Etilhexil triazona",
+          "desc": "Compuesto orgánico sintético conocido por su fotoestabilidad, que protege contra los rayos UVB"
+        },
+        {
+          "name": "Octocrileno",
+          "desc": "Protección solar de amplio espectro utilizada mejorando la defensa con doble absorción"
+        }
+      ],
+      "applications": {
+        "intro": "Los filtros UV se utilizan para fabricar productos de cuidado personal para proteger nuestra piel de la radiación ultravioleta perjudicial. Tiene la capacidad de prevenir el deterioro de la piel causado por la exposición a las luces UVA y UVB al absorber o reflejar los rayos UV.",
+        "points": [
+          "Cremas faciales e hidratantes",
+          "Bloqueadores y protectores solares",
+          "Bálsamos de belleza base/cremas correctoras de color y productos para el cuidado de los labios",
+          "Productos para el cuidado del cabello"
+        ],
+        "items": [
+          "Protectores solares",
+          "Cuidado solar",
+          "Cremas con SPF",
+          "Hidratantes",
+          "Cosméticos"
+        ]
+      },
+      "characteristics": {
+        "heading": "Características",
+        "items": [
+          "Absorción de la radiación UV: Los filtros UV actúan como un escudo bloqueando la entrada de la radiación UV en la piel, ya sea reflejando, absorbiendo o dispersando la radiación UV. Proporcionan un escudo contra la radiación UVA y UVB que contribuye al envejecimiento prematuro de la piel y a las quemaduras solares.",
+          "Protección de amplio rango: Nuestra avobenzona y octocrileno tienen la capacidad de proporcionar una protección completa bloqueando la radiación UVA y UVB respectivamente.",
+          "Fotoestabilidad: Esta es la propiedad que determina la estabilidad de los filtros UV cuando se exponen a la luz solar directa. Ejemplo: la avobenzona puede deteriorarse bajo los rayos directos del sol a menos que esté estabilizada por otros ingredientes como el octocrileno.",
+          "Seguridad y compatibilidad: Los filtros UV no deben causar efectos adversos por la exposición continua de la piel. No debe haber ninguna irritación o reacción alérgica y deben tener la tendencia a no bloquear los poros. Ejemplo: la benzofenona se considera segura para todo tipo de pieles. Se pueden usar varios filtros UV en diversas formulaciones para impartir estabilidad total y un rendimiento agradable para la piel."
+        ]
+      }
+    }
+  },
+  "packaging": {
+    "hdpe": "Tambores de HDPE",
+    "ms": "Tambores de MS",
+    "flexibag": "Flexibag",
+    "ibc": "IBC",
+    "bags": "Bolsas",
+    "cartons": "Cajas de cartón",
+    "pails": "Cubetas de HDPE",
+    "fibre": "Tambores de fibra"
+  },
+  "ui": {
+    "finalProductUtilization": "Utilización del producto final",
+    "packagedResponsiblyIn": "Envasado responsablemente en",
+    "relatedProducts": "Productos relacionados",
+    "exploreOtherProducts": "Explore otros productos relevantes",
+    "viewDetails": "Ver Detalles"
+  }
+}

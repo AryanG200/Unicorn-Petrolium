@@ -1,0 +1,667 @@
+{
+  "index": {
+    "title": "Onze Producten",
+    "subtitle": "Uitgebreid assortiment hoogwaardige aardolieproducten en speciale producten",
+    "heroTitle": "Ons Productportfolio",
+    "heroSubtitle": "Hoogwaardige aardoliespecialiteiten voor diverse industrieën",
+    "completePortfolio": "Compleet Productportfolio",
+    "viewCategory": "Bekijk Categorie",
+    "viewProduct": "Bekijk Product",
+    "helpTitle": "Hulp nodig bij uw keuze?",
+    "helpDesc": "Onze experts staan klaar om u te helpen de perfecte oplossing te vinden voor uw specifieke behoeften en toepassingen.",
+    "contactBtn": "Neem Contact Op",
+    "applicationsBtn": "Bekijk Toepassingen"
+  },
+  "sidebar": {
+    "title": "Onze Producten",
+    "allProducts": "Alle Producten"
+  },
+  "categories": {
+    "petroleum-jelly": {
+      "name": "Vaseline",
+      "desc": "Veelzijdig verzachtend en beschermend middel voor huidverzorging"
+    },
+    "white-mineral-oils": {
+      "name": "Witte Minerale Oliën",
+      "desc": "Hoogwaardige minerale oliën voor diverse gebruiken"
+    },
+    "microcrystalline-wax": {
+      "name": "Microkristallijne Was",
+      "desc": "Fijnkorrelige was met uitstekende eigenschappen"
+    },
+    "paraffin-wax": {
+      "name": "Harde Paraffinewas",
+      "desc": "Veelzijdige wasproducten"
+    },
+    "natural-beeswax": {
+      "name": "Natuurlijke Bijenwas",
+      "desc": "Puur natuurlijke was"
+    },
+    "lanolin": {
+      "name": "Lanoline",
+      "desc": "Geraffineerd wolvet"
+    },
+    "emulsifying-wax": {
+      "name": "Emulgerende Was",
+      "desc": "Gespecialiseerde was voor emulsies"
+    },
+    "d-panthenol": {
+      "name": "D-Panthenol",
+      "desc": "Provitamine B5 voor verbeterde verzorging"
+    },
+    "preservatives": {
+      "name": "Conserveermiddelen",
+      "desc": "Antimicrobiële middelen"
+    },
+    "surfactants": {
+      "name": "Oppervlakte-actieve Stoffen",
+      "desc": "Oppervlakteactieve stoffen"
+    },
+    "uv-filters": {
+      "name": "UV-Filters",
+      "desc": "UV-beschermingsmiddelen"
+    }
+  },
+  "subItems": {
+    "light-mineral-oil": {
+      "name": "Lichte Minerale Olie",
+      "desc": "Licht stroperige minerale olie"
+    },
+    "heavy-mineral-oil": {
+      "name": "Zware Minerale Olie",
+      "desc": "Zwaar stroperige minerale olie"
+    },
+    "soft-paraffin": {
+      "name": "Zachte Paraffine",
+      "desc": "Zachte paraffinewas"
+    },
+    "hard-paraffin": {
+      "name": "Harde Paraffine",
+      "desc": "Harde paraffinewas"
+    },
+    "parabens": {
+      "name": "Parabenen",
+      "desc": "Traditioneel conserveringssysteem"
+    },
+    "phenoxyethanol": {
+      "name": "Fenoxyethanol",
+      "desc": "Conserveermiddel"
+    },
+    "anionic": {
+      "name": "Anionisch",
+      "desc": "Anionische oppervlakteactieve stoffen"
+    },
+    "nonionic": {
+      "name": "Niet-ionisch",
+      "desc": "Niet-ionische oppervlakteactieve stoffen"
+    },
+    "organic-filters": {
+      "name": "Organische Filters",
+      "desc": "Organische UV-filters"
+    },
+    "inorganic-filters": {
+      "name": "Anorganische Filters",
+      "desc": "Anorganische UV-filters"
+    }
+  },
+  "pages": {
+    "petroleum-jelly": {
+      "meta": {
+        "title": "Vaseline - Unicorn Petroleum | Premium Petrolatum",
+        "description": "Hoogwaardige vaseline (petrolatum) gefabriceerd sinds 1964. Veelzijdig verzachtend middel voor farmaceutische en cosmetische toepassingen. Strikte kwaliteitscontrole garandeert consistentie en zuiverheid.",
+        "keywords": "vaseline, petrolatum, witte zachte paraffine, gele zachte paraffine, emollient, huidverzorging, farmaceutische ingrediënten, cosmetische ingrediënten, Unicorn Petroleum"
+      },
+      "name": "Vaseline",
+      "purity": "Zuiverheid voor elke toepassing",
+      "common": {
+        "title": "Vaseline / Petrolatum / Zachte Paraffine",
+        "description": "Vaseline is een zalfachtig, homogeen, sterk geraffineerd halffest product met een subtiel evenwicht tussen vloeibare en vaste koolwaterstoffen voor huidverzorgingstoepassingen en topische formuleringen.\n Ons product behoudt een goede structuur tijdens de verwerking en stolt tot een glad oppervlak bij het verpakken, wat de esthetische waarde verhoogt. Het heeft het vermogen om vocht te weerstaan, verkleuring te voorkomen en het oliegehalte te behouden, zelfs bij verhoogde temperaturen.",
+        "additionalInfo": "Het is verkrijgbaar in de volgende kleuren: stralend sneeuwwit, gebroken wit, parelwit, Lelie, lichtgeel, heldergeel en barnsteen."
+      },
+      "applications": {
+        "intro": "Witte/gele vaseline vindt uiteenlopende toepassingen als hulpstof in cosmetische en farmaceutische formuleringen, zoals de volgende:",
+        "items": [
+          "Zalven",
+          "Pijnstillende balsems",
+          "Cosmetische crèmes",
+          "Voetverzorgingscrèmes",
+          "Haarvoedingsformuleringen",
+          "Oogapplicatiecapsules",
+          "Gaasverbanden",
+          "Huidbeschermers",
+          "Tandheelkundig kleefmiddel",
+          "Algemeen smeermiddel"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Belangrijkste kenmerken van onze Vaseline",
+        "compliance": "Farmacopee-conformiteit",
+        "otherCompliances": "Overige conformiteiten",
+        "complianceItems": [
+          "Indian Pharmacopoeia (IP)",
+          "British Pharmacopoeia (BP)",
+          "United States Pharmacopoeia (USP)",
+          "European Pharmacopoeia (Ph. Eur.)",
+          "Japanese Pharmacopoeia (JP)"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.880",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "white-mineral-oils": {
+      "meta": {
+        "title": "Witte Minerale Oliën - Unicorn Petroleum | Hoogwaardige Paraffinische Minerale Oliën",
+        "description": "Premium witte minerale oliën (paraffinisch) in verschillende viscositeiten voor farmaceutische, cosmetische en industriële toepassingen. Kleurloos, geurloos en sterk geraffineerd.",
+        "keywords": "witte minerale olie, minerale olie, paraffinische minerale olie, lichte minerale olie, zware minerale olie, farmaceutische minerale olie, cosmetische minerale olie, industrieel smeermiddel"
+      },
+      "name": "Witte Minerale Oliën",
+      "purity": "Zuiverheid voor elke toepassing",
+      "common": {
+        "title": "Witte Minerale Olie / Vloeibare Paraffine / Witte Olie",
+        "description": "Minerale oliën zijn kleurloze, geurloze mengsels van verzadigde vloeibare koolwaterstoffen verkregen uit de destillatie van aardolie. Onze minerale oliën zijn van paraffinische aard en wij bieden een breed viscositeitsbereik voor diverse toepassingen.",
+        "additionalInfo": "Onze Unimin-reeks cosmetische/farmaceutische minerale oliën is sterk geraffineerd en op maat gemaakt voor huid- en haarverzorgingsformuleringen. Deze producten worden behandeld voor schadelijke polycyclische aromatische onzuiverheden, slagen de PAK-test en overige zuiverheidsnormen in de Farmacopee en voldoen aan alle regelgevingsvereisten van de Europese Commissie en de USFDA. Zij ondersteunen geen pathogene bacteriegroei en zijn daardoor ideale mengbases. Ze kenmerken zich door een hoge viskositeitsindex en handhaven een stabiele viscositeit bij extreme temperaturen."
+      },
+      "applications": {
+        "intro": "Wij bieden verschillende viscositeitsniveaus voor een breed scala aan toepassingen in:",
+        "items": [
+          "Baby- / badoliën",
+          "Cold creams en vochtinbrengende crèmes",
+          "Lotions",
+          "Zelfbruiners / zonnebrandcrèmes",
+          "Antibiotica",
+          "Oogmake-up",
+          "Gelatinecapsules",
+          "Beschermende coatings voor fruit en groenten",
+          "Zepen en synthetische wasmiddelen",
+          "Antistatische conus-oliën",
+          "Brei-oliën",
+          "Textielhulpstoffen",
+          "Kleurstoffen en kleurstofintermediaten",
+          "Flexibele Intermediate Bulk Container (FIBC)",
+          "Leerchemicaliën en vetliquors",
+          "Speciale chemicaliën",
+          "Parfumchemicaliën",
+          "Coatings en politoeren",
+          "Inktchemicaliën",
+          "Weekmaker bij kunststofverwerking",
+          "Medische instrumenten",
+          "Vul-/verpakkingsmachines in de voedingsindustrie",
+          "Compressorcilinder in de drankenindustrie"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Belangrijkste kenmerken van onze Witte Minerale Oliën",
+        "compliance": "Farmacopee-conformiteit",
+        "otherCompliances": "Overige conformiteiten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]",
+          "Japanese Pharmacopoeia [JP]"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.878 and 21 CFR 178.3620 (a)",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "lanolin": {
+      "meta": {
+        "title": "Lanoline - Unicorn Petroleum | Geraffineerd Wolvet voor Cosmetica & Farmacie",
+        "description": "Lanoline (wolvet / Adeps Lanae) is een sterk geraffineerd natuurlijk vet gewonnen uit wol. Gebruikt in cosmetische, farmaceutische en industriële toepassingen voor vochtbehoud en beschermende eigenschappen.",
+        "keywords": "lanoline, wolvet, adeps lanae, cosmetische ingrediënten, farmaceutische ingrediënten, geraffineerde lanoline, huidverzorging, Unicorn Petroleum"
+      },
+      "name": "Lanoline",
+      "purity": "Sterk geraffineerd wolvet voor cosmetisch, farmaceutisch en industrieel gebruik.",
+      "common": {
+        "title": "Lanoline",
+        "description": "Lanoline, ook wel wolvet / Adeps Lanae genoemd, is een sterk geraffineerd en gezuiverd natuurlijk vet dat als unieke stof wordt afgescheiden door de talgklieren in de huid van schapen, waarmee een natuurlijke beschermende laag op de wolvezels wordt gevormd. Het verschilt volledig van het lichaamsvet van dieren. Het ruwe vet wordt gewonnen uit de natuurlijke, vette wol van schapen en de uiteindelijke lanoline wordt na intensieve raffinage en een serie andere unieke processen verkregen."
+      },
+      "characteristics": {
+        "heading": "Kenmerken",
+        "items": [
+          "Als 100% natuurlijk product heeft het dankzij zijn unieke eigenschappen een enorm potentieel voor gebruik in huidverzorging, cosmetische en topische farmaceutische toepassingen.",
+          "Het heeft het kenmerkende vermogen om tweemaal zijn eigen gewicht aan water op te nemen en hecht aan droge huid, waardoor beschermende films op de huid worden gevormd.",
+          "Verbetert de stabiliteit van olie-in-water emulsies.",
+          "Zijn verzachtende werking herstelt en behoudt het vochtevenwicht van de huid zonder de normale transpiratie te verstoren, waardoor het uitdrogen en kloven van de huid wordt voorkomen. De huid voelt daardoor glad, zacht en soepel aan.",
+          "Het bezit anti-corrosieve, beschermende en smerende eigenschappen die worden gebruikt voor industriële toepassingen. Lanoline is niet-geleidend en wordt daardoor uitgebreid gebruikt bij de fabricage van elektrische componenten."
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Belangrijkste kenmerken van onze Lanoline",
+        "compliance": "Farmacopee-conformiteit",
+        "otherCompliances": "Overige conformiteiten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "microcrystalline-wax": {
+      "meta": {
+        "title": "Microkristallijne Was - Unicorn Petroleum | Fijnkorrelige Was voor Formuleringen",
+        "description": "Hoogwaardige microkristallijne was met uitstekende bindende en coatinjeigenschappen. Gebruikt in cosmetische en farmaceutische formuleringen voor structurele sterkte, textuur en stabiliteit.",
+        "keywords": "microkristallijne was, petroleumwas, cosmetische was, farmaceutische was, bindmiddel, coatingmiddel, textuurmodificator, Unicorn Petroleum"
+      },
+      "name": "Microkristallijne Was",
+      "purity": "Zuiverheid voor elke toepassing",
+      "common": {
+        "title": "Microkristallijne Was",
+        "description": "Microkristallijne wassen zijn een soort was geproduceerd door petrolatum te ontolien, als onderdeel van het aardolieraffinageproces. Het wordt gekenmerkt door de fijnheid van zijn kristallen en is een verzadigde alifatische koolwaterstof met een hoger molecuulgewicht. De elastische en adhesieve eigenschappen van microkristallijne wassen zijn te danken aan hun vertakende ketencomponenten. Deze was heeft affiniteit voor paraffinevas en minerale olie, waardoor het op grote schaal wordt gebruikt in op olie gebaseerde formuleringen in de cosmetische/farmaceutische industrie. Het biedt een sterke oliehoudende prestatie, waardoor olieafscheiding wordt geminimaliseerd, waardoor formuleringen stabiel en consistent blijven tijdens langdurige opslag. Microwax werkt als een betrouwbaar occlusief middel en creëert een beschermende laag op de huid die helpt vocht vast te houden en uitdroging in topische formuleringen te voorkomen. Microwassen voegen structurele sterkte en glans toe aan het eindproduct."
+      },
+      "applications": {
+        "intro": "Microkristallijne wassen vinden ideale toepassing bij de eindproductbenutting van:",
+        "items": [
+          "Cosmetische crèmes",
+          "Lotions",
+          "Farmaceutische zalven",
+          "Vaseline",
+          "Lippenstiften",
+          "Balsems",
+          "Pijncrèmes",
+          "Glans",
+          "Kauwgom",
+          "Lijmen",
+          "Kabels",
+          "Kaarsen",
+          "Chemische industrie",
+          "Corrosiebescherming",
+          "Kleurpotloden",
+          "Verpakking",
+          "Pijpomwikkelingstape",
+          "Plastic en polymeren",
+          "Industriële producten",
+          "Persoonlijke verzorgingsindustrie"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Belangrijkste kenmerken van onze Microkristallijne Was",
+        "compliance": "Farmacopee-conformiteit",
+        "otherCompliances": "Andere conformiteiten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "paraffin-wax": {
+      "meta": {
+        "title": "Hard Paraffinewas - Unicorn Petroleum | Veelzijdige Was voor Industriële Toepassingen",
+        "description": "Hoogwaardige paraffinewasproducten voor meerdere industriële toepassingen. Vaste koolwaterstoffen met uitstekende bindende eigenschappen, geschikt voor kaarsen, verpakkingen, cosmetica en farmaceutische toepassingen.",
+        "keywords": "paraffinewas, industriële was, kaarsenwas, verpakkingswas, cosmetische was, farmaceutische was, vaste koolwaterstoffen, Unicorn Petroleum"
+      },
+      "name": "Hard Paraffinewas",
+      "purity": "Zuiverheid voor elke toepassing",
+      "common": {
+        "title": "Hard Paraffinewas / Kaarsenwas",
+        "description": "Harde paraffinewas, gewonnen als bijproduct van ruwe olie, is een mengsel van vaste koolwaterstoffen met een hoger molecuulgewicht. Het lost gedeeltelijk op in oplosmiddelen zoals benzeen, terpentijn, chloroform, ether, koolstofdisulfide en olie en onderscheidt zich door zijn vermogen om van nature grotere kristallen te vormen die niet oplossen in water en alcohol. De aanpasbaarheid in verschillende formuleringen wordt nog verder verbeterd door het feit dat het goed combineert met vetten. Harde paraffinewas wordt veelvuldig gebruikt in beschermende coatings en afdichtingstoepassingen waarbij betrouwbare vochtbescherming cruciaal is vanwege zijn krachtige waterbestendige eigenschappen."
+      },
+      "applications": {
+        "intro": "Hard Paraffinewas is ideaal geschikt voor gebruik in formuleringen en productie van:",
+        "items": [
+          "Crèmes",
+          "Zalven",
+          "Balsems",
+          "Lippenverzorging",
+          "Voetverzorging",
+          "Vaseline",
+          "Kaarsen"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Belangrijkste kenmerken van onze Hard Paraffinewas",
+        "compliance": "Farmacopee-conformiteit",
+        "otherCompliances": "Andere conformiteiten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "natural-beeswax": {
+      "meta": {
+        "title": "Natuurlijke Bijenwas - Unicorn Petroleum | Zuivere Geraffineerde Bijenwas voor Cosmetica & Farmaceutica",
+        "description": "100% natuurlijke, hooggeraffineerde bijenwas met verzachtende, kalmerende en verzachtende eigenschappen. Farmaceutische en cosmetische bijenwas voor topische formuleringen. Voldoet aan internationale wettelijke vereisten.",
+        "keywords": "natuurlijke bijenwas, geraffineerde bijenwas, cosmetische bijenwas, farmaceutische bijenwas, emollient, natuurwas, cosmetische ingrediënten, farmaceutische ingrediënten, Unicorn Petroleum"
+      },
+      "name": "Natuurlijke Bijenwas",
+      "purity": "Zuiverheid voor elke toepassing",
+      "common": {
+        "title": "Bijenwas / Cera Alba (Witte Was) / Cera Flava (Gele Was)",
+        "description": "Bijenwas is een natuurlijke stof geproduceerd door honingbijen van het geslacht Apis in de bijenkorf. Het heeft een onderscheidende structuur samengesteld uit esters van vetzuren en lange-keten alcoholen. Onze bijenwas wordt zorgvuldig behandeld om een gladde, lichtgele verschijning te bieden en wordt zeer gewaardeerd om zijn zachte, kalmerende effecten op de huid, waardoor het perfect past voor de cosmetische en farmaceutische industrie. Naast het bewaren en verzachten van de huid, verbetert het ook de textuur en garandeert het dat andere ingrediënten bij elkaar blijven en zorgt zo voor stabiliteit aan het eindproduct.",
+        "additionalInfo": "Als natuurlijk product wordt de kwaliteit van onze geraffineerde bijenwas door ons sterk gecontroleerd om te voldoen aan internationale regelgevingsvereisten. Het werkt bijzonder goed in sticks en voor vaste preparaten vanwege zijn inherente vermogen om een samenhangend filmje te vormen en materialen samen te binden, waardoor duurzaamheid en grip worden verbeterd."
+      },
+      "applications": {
+        "intro": "Natuurlijke bijenwas vindt ideale toepassing in:",
+        "items": [
+          "Zalven",
+          "Balsems",
+          "Soft-gel",
+          "Crèmes",
+          "Lipgelei",
+          "Pomaden",
+          "Lippenstiften",
+          "Haarverzorging",
+          "Voetverzorging",
+          "Ayurvedische en kruidenverzorgingsproducten",
+          "Farmaceutische hechtingen",
+          "Autoreinigingsproducten",
+          "Kaarsen",
+          "Kunststoffen",
+          "Meubelwas",
+          "Mallen",
+          "Gietvormen",
+          "Verwerkte voedingsmiddelenindustrie",
+          "Coatings",
+          "Lederindustrie",
+          "Textielindustrie",
+          "Hout- en papierafwerking",
+          "Smeermiddelen",
+          "Speciale chemicaliën"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Belangrijkste kenmerken van onze Bijenwas",
+        "compliance": "Farmacopee-conformiteit",
+        "otherCompliances": "Andere conformiteiten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "emulsifying-wax": {
+      "meta": {
+        "title": "Emulgerende Was - Unicorn Petroleum | Anionische & Niet-ionische Emulgerende Wassen",
+        "description": "Gespecialiseerde emulgerende wassen voor het maken van stabiele water-in-olie en olie-in-water emulsies. Gebruikt in lotions, crèmes, zalven en schoonheidsproducten. Zowel anionische als niet-ionische kwaliteiten beschikbaar.",
+        "keywords": "emulgerende was, anionische emulgerende was, niet-ionische emulgerende was, emulsiestabilisator, cosmetische emulgator, farmaceutische emulgator, lotionbasis, crèmebasis, Unicorn Petroleum"
+      },
+      "name": "Emulgerende Was",
+      "purity": "Zuiverheid voor elke toepassing.",
+      "common": {
+        "title": "Emulgerende was (ionisch / niet-ionisch) / zelfemulgerende was",
+        "description": "Emulgerende was is een soort cosmetisch emulgerend ingrediënt dat voornamelijk wordt gebruikt bij de vervaardiging van crèmes, lotions en andere schoonheidsproducten die zowel een water- als een oliefase hebben. Dit type was helpt bij het mengen of emulgeren van de waterfase en de oliefase om een zalf te vormen, waardoor fasescheiding tot een minimum wordt beperkt en de stabiliteit van de formulering wordt verhoogd, vooral in een omgeving met verschillende temperaturen.",
+        "additionalInfo": "De emulgering vindt plaats wanneer twee stoffen — in dit geval olie en water — met succes aan elkaar worden gebonden; waardoor een soort lijm ontstaat die de ingrediënten van een product combineert en zorgt voor een consistente viscositeit en structuur aan formuleringen, wat resulteert in gladde, uniforme crèmes en lotions met een verbeterde smeerbaarheid. Op moleculair niveau trekt emulgerende was tegelijkertijd water en olie aan en houdt ze bij elkaar. Emulsies gemaakt met deze was zijn stabieler tegen zwakke zuren zoals boorzuur, carbolzuur en salicylzuur. Emulgerende was verdikt de vloeistof en verenigt de op olie en water gebaseerde elementen van de creatie. Het is wit van kleur, vast en heeft een lichte alcoholgeur. Het is gemakkelijk te verwerken en betrouwbaar in prestaties, waardoor het geschikt is voor zowel kleinschalige als industriële productieomgevingen."
+      },
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Emulgerende was wordt veel gebruikt in de farmaceutische / cosmetische industrie als onderdeel van crème- en lotionformuleringen.",
+          "Ionische / anionische emulgerende was is het meest geschikt voor water-in-olie-type emulsies. De niet-ionische kwaliteit is het meest geschikt voor olie-in-water-type emulsies."
+        ],
+        "items": [
+          "Zalf",
+          "Lotions",
+          "Crèmes",
+          "Conditioners",
+          "Haarmaskers",
+          "Zonnebrandcrèmes",
+          "Body butters",
+          "Balsems",
+          "Lippenverzorgingsproducten"
+        ]
+      },
+      "blends": {
+        "heading": "Wij bieden de volgende blends van zelfemulgerende was aan",
+        "headers": {
+          "product": "Productnaam",
+          "inci": "INCI-naam"
+        },
+        "items": [
+          {
+            "name": "Anionische emulgerende was",
+            "inci": "Cetearyl Alcohol & Sodium Lauryl Sulphate"
+          },
+          {
+            "name": "Niet-ionische emulgerende was",
+            "inci": "Cetearyl Alcohol & Cetereath-20"
+          },
+          {
+            "name": "Emulgerende was 1440",
+            "inci": "Cetearyl Alcohol & Polysorbate 60"
+          }
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Belangrijkste kenmerken van onze emulgerende was",
+        "compliance": "Farmacopee conformiteit",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]"
+        ]
+      }
+    },
+    "d-panthenol": {
+      "meta": {
+        "title": "D-Panthenol - Unicorn Petroleum | Provitamine B5 voor Huid- & Haarverzorging",
+        "description": "Hoogwaardige D-Panthenol (Provitamine B5) voor diep hydraterende, kalmerende en regeneratieve eigenschappen. Gebruikt in huidverzorging, haarverzorging, babyverzorging en wondgenezende formuleringen. Hoge zuiverheid en stabiliteit.",
+        "keywords": "D-panthenol, provitamine B5, panthenol, huidverzorging, haarverzorging, vochtinbrengend middel, wondgenezing, cosmetisch actief bestanddeel, farmaceutisch ingrediënt, Unicorn Petroleum"
+      },
+      "name": "D-Panthenol",
+      "purity": "Provitamine B5 voor hydratatie en ondersteuning van de huidbarrière",
+      "common": {
+        "title": "D-Panthenol / Dexpanthenol",
+        "description": "De milde, gebruiksklaar precursor van pantotheenzuur, ook wel de superster vitamine B5 genoemd, is panthenol. Het is stabiel, dekt een breed pH-bereik en is compatibel met diverse cosmetische / farmaceutische grondstoffen, waardoor het goed mengt in uiteenlopende formuleringen. Het toont uitzonderlijke humectant-waarden voor langdurige hydratatie. Het lost gemakkelijk op in water, alcohol, propyleenglycol, ether, chloroform en is gedeeltelijk oplosbaar in glycerine. Panthenol werkt als een zijdezachte moisturizer die over de huid glijdt en een zacht en gehydrateerd ogend oppervlak achterlaat dat drastisch gladder en flexibeler is.",
+        "additionalInfo": "Zijn expertise beperkt zich echter niet tot huidverzorging. Panthenol en pantotheenzuur zijn beide uitstekende ingrediënten voor haarverzorging. Ze zorgen samen voor veerkracht, volheid en een aantrekkelijk uiterlijk van het haar, waardoor haar dat beschadigd is door hitte en chemische behandelingen wordt gevoed."
+      },
+      "applications": {
+        "intro": "Gebruikt als conditioneringsmiddel, moisturizer, humectant & emollient in cosmetica en producten voor persoonlijke verzorging. Het bindt zich gemakkelijk aan de haarzakjes en is een veelvoorkomend bestanddeel van shampoos en haarconditioners. Het omhult het haar en verzegelt het oppervlak, smeert de haarzakjes en laat de lokken glanzen.",
+        "items": [
+          "Moisturizers",
+          "Crèmes",
+          "Haargels",
+          "Haarsprays",
+          "Shampoo",
+          "Balsems",
+          "Lippenstift",
+          "Oogschaduw",
+          "Mascara"
+        ]
+      }
+    },
+    "preservatives": {
+      "meta": {
+        "title": "Conserveermiddelen - Unicorn Petroleum | Antimicrobiële Systemen voor Persoonlijke Verzorging & Pharma",
+        "description": "Effectieve conserveringssystemen waaronder parabenen en fenoxyethanol om microbiële groei te voorkomen en de houdbaarheid te verlengen. Regelgevende conserveermiddelen voor cosmetica, farmaceutica en persoonlijke verzorgingsproducten.",
+        "keywords": "conserveermiddelen, parabenen, fenoxyethanol, antimicrobiële middelen, cosmetische conserveermiddelen, farmaceutische conserveermiddelen, verlenging houdbaarheid, microbiële bescherming, Unicorn Petroleum"
+      },
+      "name": "Conserveermiddelen",
+      "purity": "Effectieve antimicrobiële systemen voor persoonlijke verzorging en pharma",
+      "common": {
+        "title": "Conserveermiddelen",
+        "description": "Conserveermiddelen zijn specifieke stoffen die worden gebruikt om ontbinding door bacteriën, schimmels en oxidatie te voorkomen. Het voorkomen van meerdere soorten degradatie kan de houdbaarheid van een uitgebreide selectie producten verlengen, met name voedingssupplementen, medicijnen, cosmetica en industriële chemicaliën. De primaire taak is om ervoor te zorgen dat het product in de loop van de tijd gezond, efficiënt und nuttig blijft, terwijl ook de oorspronkelijke kwaliteit en prestaties behouden blijven.",
+        "additionalInfo": "De samenstelling, het beoogde gebruik en de conserveringsomgeving van het product zijn van invloed op de keuze en concentratie van de gebruikte conserveermiddelen. Bovendien wordt de toepassing gestuurd door strikte gereguleerde richtlijnen die erop gericht zijn consumenten te beschermen en eventuele gerelateerde gezondheidsrisico's te verminderen."
+      },
+      "products": [
+        {
+          "name": "Fenoxyethanol",
+          "desc": ""
+        },
+        {
+          "name": "Ethylhexylglycerine",
+          "desc": "Heldere kleurloze vloeistof zonder karakteristieke geur"
+        },
+        {
+          "name": "Parabenen",
+          "desc": "Wit of bijna wit kristallijn poeder"
+        },
+        {
+          "name": "DMDM Hydantoïne",
+          "desc": "Heldere vloeistof met een lage karakteristieke geur"
+        }
+      ],
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Cosmetica en persoonlijke verzorgingsindustrie: Door de aanwezigheid van water en organische ingrediënten spelen conserveermiddelen een vitale rol door de groei van micro-organismen / bacteriën te voorkomen of te vertragen, waardoor de veiligheid wordt gewaarborgd en de stabiliteit, werkzaamheid en versheid behouden blijven.",
+          "Voedingsmiddelenindustrie: Om de voedingswaarde, samenstelling, textuur-smaak te behouden, oxidatie, enzymatische degradatie en microbiologisch bederf te voorkomen; is het essentieel om conserveermiddelen toe te voegen in gecontroleerde en gereguleerde hoeveelheden, waardoor de houdbaarheid wordt verlengd.",
+          "Farmaceutische industrie: Conserveermiddelen in de farmaceutische industrie helpen om de therapeutische eigenschappen te behouden door schimmelgroei te voorkomen en de productintegriteit te handhaven door ervoor te zorgen dat de formulering veilig blijft voor langdurig gebruik.",
+          "Verf- en coatingindustrie: Door blootstelling aan de buitenomgeving zoals direct zonlicht, hitte, vocht, regen en slecht weer; spelen conserveermiddelen een cruciale rol in de verf- en coatingindustrie."
+        ],
+        "items": [
+          "Crèmes",
+          "Lotions",
+          "Shampoos",
+          "Cosmetica",
+          "Huidverzorging"
+        ]
+      }
+    },
+    "surfactants": {
+      "meta": {
+        "title": "Surfactanten - Unicorn Petroleum | Anionische & Niet-ionische Oppervlakte-actieve Stoffen voor Reiniging & Persoonlijke Verzorging",
+        "description": "Hoogwaardige anionische en niet-ionische surfactanten voor effectieve reiniging, schuimvorming en emulgering. Gebruikt in shampoos, detergenten, producten voor persoonlijke verzorging en industriële reinigingsoplossingen.",
+        "keywords": "surfactanten, oppervlakte-actieve stoffen, anionische surfactanten, niet-ionische surfactanten, reinigingsmiddelen, schuimmiddelen, emulgatoren, detergenten, ingrediënten voor persoonlijke verzorging, industriële surfactanten, Unicorn Petroleum"
+      },
+      "name": "Surfactanten",
+      "purity": "Anionische en niet-ionische surfactanten voor reiniging en emulgering",
+      "common": {
+        "title": "Surfactanten",
+        "description": "Surfactanten zijn van belang in een breed scala aan reinigings- en persoonlijke verzorgingsproducten door de oppervlaktespanning te verminderen en het mengen van water met vuil en andere verontreinigingen mogelijk te maken. Samen spelen surfactanten een vitale rol in uiteenlopende formuleringen, van het helpen schuimen van shampoos tot het verwijderen van vet van producten. Door hun aanpasbare aard zijn ze een cruciaal ingrediënt dat van belang is in de homecare- en persoonlijke verzorgingsindustrie.",
+        "additionalInfo": "Omdat surfactanten in combinatie worden gebruikt, plaatsen ze zich op het knooppunt tussen twee stoffen op een zodanige manier dat het hydrofiele deel reageert met de watermoleculen, terwijl het hydrofobe deel zich hecht aan de andere stof. Dit leidt tot een obstructie tussen de twee verbindingen, waardoor de oppervlaktespanning afneemt en het vuil van het oppervlak wordt getild voor effectieve resultaten."
+      },
+      "products": [
+        {
+          "name": "Alfa olefine sulfonaat (AOS)",
+          "desc": "Verkrijgbaar in verschillende kwaliteiten in poeder- en vloeibare vorm."
+        },
+        {
+          "name": "Natriumlaurylethersulfaat (SLES) 70",
+          "desc": "Doorschijnende pasta zonder karakteristieke geur."
+        },
+        {
+          "name": "CAPB / Betaine",
+          "desc": "Kleurloze tot lichtgele vloeistof."
+        },
+        {
+          "name": "LABSA 96%",
+          "desc": "Honingkleurige tot donkerbruine vloeistof."
+        }
+      ],
+      "applications": {
+        "intro": "Surfactanten hebben uiteenlopende toepassingen in meerdere industrieën, zoals hieronder weergegeven:",
+        "points": [
+          "Persoonlijke verzorgingsproducten: Verbeteren schuimvorming, reiniging en hydratatie in shampoos, conditioners, body washes, zepen en tandpasta.",
+          "Reinigingsmiddelen: Ze verbeteren de reinigingskracht en schuimstabiliteit in zepen, detergenten en afwasmiddelen door vuil / vet te verwijderen.",
+          "Textielindustrie: Ze zijn ook van belang in de textielindustrie door eigenschappen zoals zachtheid van de stof te verbeteren, de stof antistatisch en antibacterieel te maken, zweet-absorberend en door de stof snel te laten drogen in het textielveredelingsproces.",
+          "Automobielindustrie: Door hun vermogen om de oppervlaktespanning te verminderen, worden surfactanten veel gebruikt in autoreinigingsmiddelen en in motorontvetters om vuil-, vet- en olieafzettingen te verwijderen.",
+          "Verven & Coatings: Deze middelen verbeteren de dispersie in autolakken, verbeteren de hechting en uniformiteit van de coating en voorkomen defecten zoals strepen en bellen tijdens het printen. Ze fungeren als emulgatoren, bevochtigingsmiddelen en dispergeermiddelen."
+        ],
+        "items": [
+          "Shampoos",
+          "Body Wash",
+          "Facewash",
+          "Vloeibare zepen",
+          "Detergenten"
+        ]
+      }
+    },
+    "uv-filters": {
+      "meta": {
+        "title": "UV-filters - Unicorn Petroleum | Organische & Anorganische UV-filters voor Zonbescherming",
+        "description": "Breedspectrum UV-filters (UVA & UVB) voor zonnebrandmiddelen, cosmetica en moisturizers. Organische en anorganische UV-filters ter bescherming tegen zonnebrand, vroegtijdige veroudering en huidkanker. Kwaliteiten conform de regelgeving.",
+        "keywords": "UV-filters, organische UV-filters, anorganische UV-filters, ingrediënten voor zonnebrandcrème, UVA-bescherming, UVB-bescherming, zonbescherming, cosmetische UV-filters, conform de regelgeving, Unicorn Petroleum"
+      },
+      "name": "UV-filters",
+      "purity": "Organische en anorganische UV-filters voor breed-spectrum bescherming",
+      "common": {
+        "title": "UV-filters",
+        "description": "UV-filters worden gebruikt om persoonlijke verzorgingsproducten te vervaardigen om onze huid te beschermen tegen schadelijke ultraviolette straling. Het heeft het vermogen om huidbeschadiging veroorzaakt door blootstelling aan UVA- en UVB-straling te voorkomen door UV-stralen te absorberen of te reflecteren. UV-filters worden gebruikt in cosmetica, zonnebrandmiddelen en moisturizers die werken als een schild tegen zonnebrand, vroegtijdige veroudering en huidkanker. Om de veiligheid en effectiviteit in consumentenproducten te waarborgen, zijn ze in veel landen gereguleerd."
+      },
+      "products": [
+        {
+          "name": "Octylmethoxycinnamaat",
+          "desc": "Een populaire keuze in zonnebrandformuleringen vanwege de stabiliteit"
+        },
+        {
+          "name": "Octylsalicylaat",
+          "desc": "Gevormd uit salicylzuur en 2-ethylhexanol, wordt gebruikt om UVB-stralen te filteren in het bereik van 280-320 nm"
+        },
+        {
+          "name": "Homosalaat",
+          "desc": "Beschermende barrière tegen UVB-stralen maar biedt minimale verdediging tegen UVA-stralen"
+        },
+        {
+          "name": "Avobenzon",
+          "desc": "Een krachtig UV-filter vaak gecombineerd met andere stabilisatoren zoals Octocryleen om de stabiliteit te verbeteren"
+        },
+        {
+          "name": "Benzofenon 3",
+          "desc": "Biedt bescherming tegen UVB- en een deel van de UVA-stralen, waardoor zowel zonnebrand als DNA-schade wordt voorkomen"
+        },
+        {
+          "name": "Benzofenon 4",
+          "desc": "Beschermingsfilter tegen zowel UVA- als UVB-stralen, waardoor de effectiviteit en levensduur van het product worden verbeterd"
+        },
+        {
+          "name": "Ethylhexyltriazon",
+          "desc": "Synthetische organische verbinding bekend om zijn fotostabiliteit, die beschermt tegen UVB-stralen"
+        },
+        {
+          "name": "Octocryleen",
+          "desc": "Breedspectrum zonbescherming gebruikt ter verbetering van de verdediging met dubbele absorptie"
+        }
+      ],
+      "applications": {
+        "intro": "UV-filters worden gebruikt om persoonlijke verzorgingsproducten te vervaardigen om onze huid te beschermen tegen schadelijke ultraviolette straling. Het heeft het vermogen om huidbeschadiging veroorzaakt door blootstelling aan UVA- en UVB-straling te voorkomen door UV-stralen te absorberen of te reflecteren.",
+        "points": [
+          "Gezichtscrèmes & moisturizers",
+          "Zonneblokkers & zonnebrandmiddelen",
+          "Foundation beauty balsems/kleurcorrigerende crèmes en lipverzorgingsproducten",
+          "Haarverzorgingsproducten"
+        ],
+        "items": [
+          "Zonnebrandmiddelen",
+          "Zonverzorging",
+          "SPF-crèmes",
+          "Moisturizers",
+          "Cosmetica"
+        ]
+      },
+      "characteristics": {
+        "heading": "Kenmerken",
+        "items": [
+          "Absorptie van UV-straling: UV-filters werken als een schild door UV-straling te blokkeren voor toegang tot de huid door de UV-straling te reflecteren, te absorberen of te verstrooien. Ze bieden een schild tegen UVA- en UVB-straling die bijdraagt aan vroegtijdige huidveroudering en zonnebrand.",
+          "Breed-spectrum bescherming: Onze Avobenzon en Octocryleen hebben het vermogen om volledige bescherming te bieden door respectievelijk UVA- en UVB-straling te blokkeren.",
+          "Fotostabiliteit: Dit is de eigenschap die de stabiliteit van UV-filters bepaalt bij blootstelling aan direct zonlicht. Voorbeeld: Avobenzon kan onder direct zonlicht verslechteren, tenzij het gestabiliseerd wordt door andere ingrediënten zoals Octocryleen.",
+          "Veiligheid en compatibiliteit: UV-filters mogen geen nadelige effecten veroorzaken bij voortdurende blootstelling van de huid. Er mag geen irritatie of allergische reactie optreden en ze mogen de poriën niet verstoppen. Voorbeeld: Benzofenon wordt als veilig beschouwd voor alle huidtypen. Verschillende UV-filters kunnen in uiteenlopende formuleringen worden gebruikt om all-around stabiliteit en huidvriendelijke prestaties te bieden."
+        ]
+      }
+    }
+  },
+  "packaging": {
+    "hdpe": "HDPE-vaten",
+    "ms": "MS-vaten",
+    "flexibag": "Flexibag",
+    "ibc": "IBC",
+    "bags": "Zakken",
+    "cartons": "Dozen",
+    "pails": "HDPE-emmers",
+    "fibre": "Fiber drums"
+  },
+  "ui": {
+    "finalProductUtilization": "Eindproducttoepassingen",
+    "packagedResponsiblyIn": "Verantwoord verpakt in",
+    "relatedProducts": "Gerelateerde producten",
+    "exploreOtherProducts": "Ontdek andere relevante producten",
+    "viewDetails": "Details bekijken"
+  }
+}

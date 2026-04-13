@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "aboutUs": "关于我们",
+    "products": "产品",
+    "excipients": "辅料",
+    "petroleumJelly": "凡士林",
+    "whiteMineralOils": "白矿油",
+    "lanolin": "羊毛脂",
+    "waxes": "蜡",
+    "microcrystallineWax": "微晶蜡",
+    "hardParaffinWax": "硬石蜡",
+    "naturalBeeswax": "天然蜂蜡",
+    "emulsifyingWax": "乳化蜡",
+    "dPanthenol": "D-泛醇",
+    "preservatives": "防腐剂",
+    "surfactants": "表面活性剂",
+    "uvFilters": "紫外线过滤剂",
+    "applications": "应用",
+    "pharmaceutical": "制药",
+    "cosmetics": "化妆品",
+    "personalCare": "个人护理",
+    "homeCare": "家庭护理",
+    "textile": "纺织",
+    "lubricants": "润滑剂",
+    "globalReach": "全球影响力",
+    "blog": "博客",
+    "contactUs": "联系我们",
+    "events": "活动",
+    "whatsappUs": "WhatsApp"
+  },
+  "events": {
+    "upcomingEvents": "近期活动",
+    "upcomingEventsDesc": "与Unicorn Petroleum联系，在顶级行业展览中探索我们的最新创新。",
+    "pastEvents": "过往活动",
+    "pastEventsDesc": "回顾过去几年我们在国际舞台上的一些重要展示和行业参与。",
+    "eventDate": "活动日期",
+    "location": "地点",
+    "aboutEvent": "关于活动",
+    "joinUsAt": "欢迎加入我们的",
+    "discoverDesc": "共同探索行业内的最新进展与创新。与我们的专家建立联系，了解Unicorn Petroleum的高品质产品如何满足您的业务需求。",
+    "upcomingEvent": "近期活动",
+    "pastEvent": "过往活动",
+    "close": "关闭",
+    "contactUs": "联系我们"
+  },
+  "home": {
+    "strengths": {
+      "heading": "我们的优势",
+      "subheading": "建立在六十年专业知识和信任之上的卓越表现",
+      "ctaText": "获取信息",
+      "items": {
+        "0": {
+          "title": "六十年的专业知识",
+          "description": "自1964年以来，引领化妆品和医药行业的优质成分"
+        },
+        "1": {
+          "title": "定制配方",
+          "description": "无缝采购，个性化支持——将印度优质原材料推向世界"
+        },
+        "2": {
+          "title": "石油化工特种产品",
+          "description": "经过精炼以满足不同行业需求的高性能石化产品和特种产品"
+        }
+      }
+    },
+    "hero": {
+      "title": "60多年来引领石油特种产品的卓越发展",
+      "primaryButton": "探索产品",
+      "secondaryButton": "为什么选择我们？"
+    },
+    "products": {
+      "heading": "我们的核心产品组合",
+      "subheading": "创新与质量的结合 - 自1964年以来",
+      "viewDetails": "查看详情 →",
+      "viewAll": "查看所有产品 →"
+    },
+    "industries": {
+      "heading": "满足全球各行各业的需求",
+      "subheading": "塑造化妆品和药物原料的未来"
+    },
+    "qualityStandards": {
+      "heading": "质量与安全标准",
+      "subheading": "以质量为动力，世代信赖。",
+      "viewAll": "查看所有认证 →"
+    },
+    "news": {
+      "heading": "最新消息与更新",
+      "readMore": "阅读更多 →",
+      "viewAll": "查看所有新闻 →"
+    },
+    "statement": {
+      "heading": "Unicorn Petroleum Industries Pvt. Ltd.",
+      "subheading": "60多年的创新与卓越",
+      "text": "全球原料。印度专业。世界信赖。",
+      "learnMore": "了解更多 →"
+    },
+    "cta": {
+      "heading": "准备好与我们合作了吗？",
+      "subtitle": "立即联系我们了解定制配方或技术查询。",
+      "primaryButton": "联系销售人员",
+      "secondaryButton": "申请样品"
+    }
+  },
+  "form": {
+    "quoteTitle": "索取报价或样品",
+    "fullName": "输入全名",
+    "company": "输入公司名称",
+    "email": "输入电子邮箱",
+    "mobile": "输入手机号码",
+    "country": "输入国家",
+    "grade": "输入等级需求",
+    "subject": "选择主题",
+    "message": "信息",
+    "submitQuote": "提交查询",
+    "submitContact": "发送信息",
+    "successTitle": "发送成功",
+    "successDesc": "我们将尽快回复",
+    "errorTitle": "错误",
+    "errorDesc": "发送失败",
+    "submitting": "发送中..."
+  },
+  "footerText": {
+    "partner": "您来自印度的专业产品值得信赖的合作伙伴",
+    "quickLinks": "快速链接",
+    "contactHeader": "随时联系我们",
+    "copyright": "Copyright © 2020 Unicorn. 版权所有."
+  }
+}

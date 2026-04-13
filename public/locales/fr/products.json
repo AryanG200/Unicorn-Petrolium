@@ -1,0 +1,667 @@
+{
+  "index": {
+    "title": "Nos Produits",
+    "subtitle": "Gamme complète de produits pétroliers de haute qualité",
+    "heroTitle": "Notre portefeuille de produits",
+    "heroSubtitle": "Spécialités pétrolières de haute qualité pour diverses industries",
+    "completePortfolio": "Portefeuille complet de produits",
+    "viewCategory": "Voir Catégorie",
+    "viewProduct": "Voir Produit",
+    "helpTitle": "Besoin d'aide pour choisir ?",
+    "helpDesc": "Nos experts sont là pour vous aider à trouver la solution parfaite pour vos besoins.",
+    "contactBtn": "Contacter nos experts",
+    "applicationsBtn": "Voir Applications"
+  },
+  "sidebar": {
+    "title": "Nos Produits",
+    "allProducts": "Tous Les Produits"
+  },
+  "categories": {
+    "petroleum-jelly": {
+      "name": "Vaseline",
+      "desc": "Agent protecteur et émollient"
+    },
+    "white-mineral-oils": {
+      "name": "Huiles Minérales",
+      "desc": "Huiles minérales de haute qualité"
+    },
+    "microcrystalline-wax": {
+      "name": "Cire Microcristalline",
+      "desc": "Cire à grain fin avec d'excellentes propriétés"
+    },
+    "paraffin-wax": {
+      "name": "Paraffine Dure",
+      "desc": "Produits polyvalents"
+    },
+    "natural-beeswax": {
+      "name": "Cire d'Abeille",
+      "desc": "Cire naturelle pure"
+    },
+    "lanolin": {
+      "name": "Lanoline",
+      "desc": "Graisse de laine raffinée"
+    },
+    "emulsifying-wax": {
+      "name": "Cire Émulsifiante",
+      "desc": "Cire spécialisée"
+    },
+    "d-panthenol": {
+      "name": "D-Panthénol",
+      "desc": "Provitamine B5 pour un soin amélioré"
+    },
+    "preservatives": {
+      "name": "Conservateurs",
+      "desc": "Agents antimicrobiens"
+    },
+    "surfactants": {
+      "name": "Surfactants",
+      "desc": "Agents tensioactifs pour le nettoyage"
+    },
+    "uv-filters": {
+      "name": "Filtres UV",
+      "desc": "Agents de protection UV"
+    }
+  },
+  "subItems": {
+    "light-mineral-oil": {
+      "name": "Huile minérale légère",
+      "desc": "Huile minérale de viscosité légère"
+    },
+    "heavy-mineral-oil": {
+      "name": "Huile minérale lourde",
+      "desc": "Huile minérale pour lubrification"
+    },
+    "soft-paraffin": {
+      "name": "Paraffine molle",
+      "desc": "Cire de paraffine à consistance molle"
+    },
+    "hard-paraffin": {
+      "name": "Paraffine dure",
+      "desc": "Cire de paraffine à consistance dure"
+    },
+    "parabens": {
+      "name": "Parabènes",
+      "desc": "Système de conservation traditionnel"
+    },
+    "phenoxyethanol": {
+      "name": "Phénoxyéthanol",
+      "desc": "Conservateur à large spectre"
+    },
+    "anionic": {
+      "name": "Anionique",
+      "desc": "Tensioactifs anioniques pour un nettoyage"
+    },
+    "nonionic": {
+      "name": "Non-ionique",
+      "desc": "Tensioactifs non ioniques"
+    },
+    "organic-filters": {
+      "name": "Filtres Organiques",
+      "desc": "Filtres UV organiques"
+    },
+    "inorganic-filters": {
+      "name": "Filtres Inorganiques",
+      "desc": "Filtres UV inorganiques"
+    }
+  },
+  "pages": {
+    "petroleum-jelly": {
+      "meta": {
+        "title": "Vaseline - Unicorn Petroleum | Pétrolatum de Qualité Premium",
+        "description": "Vaseline (pétrolatum) de haute qualité fabriquée depuis 1964. Émollient polyvalent pour les applications pharmaceutiques et cosmétiques. Un contrôle qualité strict garantit la cohérence et la pureté.",
+        "keywords": "vaseline, pétrolatum, paraffine molle blanche, paraffine molle jaune, émollient, soin de la peau, ingrédients pharmaceutiques, ingrédients cosmétiques, Unicorn Petroleum"
+      },
+      "name": "Vaseline",
+      "purity": "Pureté pour chaque application",
+      "common": {
+        "title": "Vaseline / Pétrolatum / Paraffine Molle",
+        "description": "La vaseline est un semi-solide homogène hautement raffiné, similaire à une pommade, avec un équilibre délicat entre hydrocarbures liquides et solides, pour les applications de soin de la peau et les formulations topiques.\n Notre produit conserve une bonne structure pendant le traitement et se solidifie pour former une surface lisse lors du conditionnement, ce qui ajoute à la valeur esthétique, avec la capacité de résister à l'humidité, d'empêcher la décoloration et de conserver la teneur en huile même à des températures élevées.",
+        "additionalInfo": "Elle est disponible dans les couleurs suivantes : blanc neige éclatant, blanc cassé, blanc nacré, Lily, jaune pâle, jaune vif et ambre."
+      },
+      "applications": {
+        "intro": "La vaseline blanche/jaune trouve des applications variées en tant qu'excipient dans les formulations cosmétiques et pharmaceutiques, notamment :",
+        "items": [
+          "Pommades",
+          "Baumes contre la douleur",
+          "Crèmes cosmétiques",
+          "Crèmes pour les soins des pieds",
+          "Formulations nourrissantes pour les cheveux",
+          "Applicaps oculaires",
+          "Pansements en gaze",
+          "Protecteurs cutanés",
+          "Adhésif dentaire",
+          "Lubrifiant à usage général"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Caractéristiques clés de notre Vaseline",
+        "compliance": "Conformité pharmacopéique",
+        "otherCompliances": "Autres conformités",
+        "complianceItems": [
+          "Indian Pharmacopoeia (IP)",
+          "British Pharmacopoeia (BP)",
+          "United States Pharmacopoeia (USP)",
+          "European Pharmacopoeia (Ph. Eur.)",
+          "Japanese Pharmacopoeia (JP)"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.880",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "white-mineral-oils": {
+      "meta": {
+        "title": "Huiles Minérales Blanches - Unicorn Petroleum | Huiles Minérales Paraffiniques de Haute Qualité",
+        "description": "Huiles minérales blanches (paraffiniques) premium en diverses viscosités pour les applications pharmaceutiques, cosmétiques et industrielles. Incolores, inodores et hautement raffinées.",
+        "keywords": "huile minérale blanche, huile minérale, huile minérale paraffinique, huile minérale légère, huile minérale lourde, huile minérale pharmaceutique, huile minérale cosmétique, lubrifiant industriel"
+      },
+      "name": "Huiles Minérales Blanches",
+      "purity": "Pureté pour chaque application",
+      "common": {
+        "title": "Huile Minérale Blanche / Paraffine Liquide / Huile Blanche",
+        "description": "Les huiles minérales sont des mélanges incolores et inodores d'hydrocarbures liquides saturés obtenus par distillation du pétrole. Nos huiles minérales sont de nature paraffinique et nous proposons une large gamme de viscosités pour diverses applications.",
+        "additionalInfo": "Notre gamme Unimin d'huiles minérales de qualité cosmétique/pharmaceutique est hautement raffinée et adaptée aux formulations de soin de la peau et des cheveux. Ces produits sont traités pour éliminer les impuretés aromatiques polycycliques nocives, passent le test des HAP ainsi que les autres normes de pureté de la Pharmacopée et satisfont aux exigences réglementaires de la Commission européenne et de l'USFDA. Ils ne favorisent pas la croissance de bactéries pathogènes et constituent ainsi des bases de mélange idéales. Ils se caractérisent par un indice de viscosité élevé et maintiennent une viscosité stable aux températures extrêmes."
+      },
+      "applications": {
+        "intro": "Nous proposons différents niveaux de viscosité permettant un large éventail d'utilisations dans :",
+        "items": [
+          "Huiles pour bébé / bain",
+          "Crèmes froides et crèmes hydratantes",
+          "Lotions",
+          "Autobronzants / écrans solaires",
+          "Antibiotiques",
+          "Maquillage des yeux",
+          "Capsules de gélatine",
+          "Revêtements protecteurs pour fruits et légumes",
+          "Savons et détergents",
+          "Huiles antistatiques de cônes",
+          "Huiles à tricoter",
+          "Auxiliaires textiles",
+          "Colorants et intermédiaires de colorants",
+          "Conteneur intermédiaire pour vrac flexible (FIBC)",
+          "Produits chimiques pour cuir et graisses liquides",
+          "Chimiques de spécialité",
+          "Chimiques de parfumerie",
+          "Revêtements et produits de lustrage",
+          "Chimiques pour encres",
+          "Plastifiant lors du traitement des plastiques",
+          "Instruments médicaux",
+          "Machines de remplissage/conditionnement dans l'industrie alimentaire",
+          "Cylindre compresseur dans l'industrie des boissons"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Caractéristiques clés de nos Huiles Minérales Blanches",
+        "compliance": "Conformité pharmacopéique",
+        "otherCompliances": "Autres conformités",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]",
+          "Japanese Pharmacopoeia [JP]"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.878 and 21 CFR 178.3620 (a)",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "lanolin": {
+      "meta": {
+        "title": "Lanoline - Unicorn Petroleum | Graisse de Laine Raffinée pour Cosmétique & Pharmaceutique",
+        "description": "La lanoline (graisse de laine / Adeps Lanae) est une graisse naturelle hautement raffinée dérivée de la laine. Utilisée dans les applications cosmétiques, pharmaceutiques et industrielles pour la rétention d'humidité et ses propriétés protectrices.",
+        "keywords": "lanoline, graisse de laine, adeps lanae, ingrédients cosmétiques, ingrédients pharmaceutiques, lanoline raffinée, conditionnement de la peau, Unicorn Petroleum"
+      },
+      "name": "Lanoline",
+      "purity": "Graisse de laine hautement raffinée pour usage cosmétique, pharmaceutique et industriel.",
+      "common": {
+        "title": "Lanoline",
+        "description": "La lanoline, fréquemment désignée comme Graisse de Laine / Adeps Lanae, est une graisse naturelle hautement raffinée et purifiée qui se forme comme une substance unique sécrétée par les glandes sébacées de la peau des moutons pour constituer un revêtement protecteur naturel sur les fibres de laine, tout à fait différente de la graisse corporelle des animaux. La graisse brute est récupérée de la laine naturelle et grasse des moutons, et la lanoline finie est dérivée de cette graisse naturelle après un raffinage intensif et une série d'autres procédés uniques."
+      },
+      "characteristics": {
+        "heading": "Caractéristiques",
+        "items": [
+          "Étant 100% naturelle et en vertu de ses caractères uniques, elle possède un énorme potentiel pour une utilisation dans les soins de la peau, les applications cosmétiques et pharmaceutiques topiques.",
+          "Elle a la capacité caractéristique d'absorber deux fois son poids en eau et d'adhérer à la peau sèche, formant des films protecteurs sur la peau.",
+          "Améliore la stabilité des émulsions huile dans eau.",
+          "Son effet émollient restaure et maintient l'équilibre hydrique de la peau sans interférer avec sa transpiration normale, prévenant ainsi le dessèchement et le gerçage de la peau. La peau se sent alors lisse, douce et souple.",
+          "Elle possède des propriétés anticorrosives, protectrices et lubrifiantes utilisées dans les applications industrielles. La lanoline est non conductrice, ce qui lui confère une utilisation extensive dans la fabrication de composants électriques."
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Caractéristiques clés de notre Lanoline",
+        "compliance": "Conformité pharmacopéique",
+        "otherCompliances": "Autres conformités",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "microcrystalline-wax": {
+      "meta": {
+        "title": "Cire Microcristalline - Unicorn Petroleum | Cire à Grain Fin pour Formulations",
+        "description": "Cire microcristalline de haute qualité avec d'excellentes propriétés liantes et de revêtement. Utilisée dans les formulations cosmétiques et pharmaceutiques pour la résistance structurelle, la texture et la stabilité.",
+        "keywords": "cire microcristalline, cire de pétrole, cire cosmétique, cire pharmaceutique, agent liant, agent de revêtement, modificateur de texture, Unicorn Petroleum"
+      },
+      "name": "Cire Microcristalline",
+      "purity": "Pureté pour chaque application",
+      "common": {
+        "title": "Cire Microcristalline",
+        "description": "Les cires microcristallines sont un type de cire produit par déshuilation du pétrolatum, dans le cadre du processus de raffinage du pétrole. Elle se caractérise par la finesse de ses cristaux et est un hydrocarbure aliphatique saturé de plus haut poids moléculaire. Les caractéristiques élastiques et adhésives des cires microcristallines sont dues à leurs composants à chaîne ramifiée. Cette cire a une affinité pour la cire de paraffine et l'huile minérale, c'est pourquoi elle est largement utilisée dans les formulations à base d'huile dans l'industrie cosmétique/pharmaceutique. Elle offre de bonnes performances de rétention d'huile, minimisant la séparation d'huile, aidant ainsi les formulations à rester stables et cohérentes tout au long du stockage à long terme. La microcire agit comme un agent occlusif fiable, créant une couche protectrice sur la peau qui aide à retenir l'humidité et à prévenir la déshydratation dans les formulations topiques. Les microcires ajoutent de la résistance structurelle et du lustre au produit final."
+      },
+      "applications": {
+        "intro": "Les cires microcristallines trouvent une application idéale pour l'utilisation du produit final dans :",
+        "items": [
+          "Crèmes cosmétiques",
+          "Lotions",
+          "Pommades pharmaceutiques",
+          "Vaseline",
+          "Rouges à lèvres",
+          "Baumes",
+          "Crèmes antidouleur",
+          "Brillant",
+          "Chewing-gums",
+          "Adhésifs",
+          "Câbles",
+          "Bougies",
+          "Industrie chimique",
+          "Protection contre la corrosion",
+          "Crayons de couleur",
+          "Emballage",
+          "Ruban d'enroulement de tuyaux",
+          "Plastiques et polymères",
+          "Produits industriels",
+          "Industrie des soins personnels"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Caractéristiques clés de notre Cire Microcristalline",
+        "compliance": "Conformité pharmacopéique",
+        "otherCompliances": "Autres conformités",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "paraffin-wax": {
+      "meta": {
+        "title": "Cire de Paraffine Dure - Unicorn Petroleum | Cire Polyvalente pour Applications Industrielles",
+        "description": "Produits de cire de paraffine de haute qualité pour de multiples applications industrielles. Hydrocarbures solides avec d'excellentes propriétés liantes, adaptés aux bougies, emballages, cosmétiques et usages pharmaceutiques.",
+        "keywords": "cire de paraffine, cire industrielle, cire à bougie, cire d'emballage, cire cosmétique, cire pharmaceutique, hydrocarbures solides, Unicorn Petroleum"
+      },
+      "name": "Cire de Paraffine Dure",
+      "purity": "Pureté pour chaque application",
+      "common": {
+        "title": "Cire de Paraffine Dure / Cire à Bougie",
+        "description": "La cire de paraffine dure, dérivée comme sous-produit du pétrole brut, est un mélange d'hydrocarbures solides avec un poids moléculaire plus élevé. Elle se dissout partiellement dans des solvants comme le benzène, la térébenthine, le chloroforme, l'éther, le disulfure de carbone et l'huile, et se distingue par sa capacité à former naturellement de plus gros cristaux qui ne se dissolvent pas dans l'eau et l'alcool. Son adaptabilité dans différentes formulations est encore renforcée par le fait qu'elle se combine bien avec les corps gras. La cire de paraffine dure est fréquemment utilisée dans les revêtements protecteurs et les applications d'étanchéité où une conservation fiable de l'humidité est cruciale en raison de ses puissantes qualités hydrofuges."
+      },
+      "applications": {
+        "intro": "La Cire de Paraffine Dure est idéalement adaptée à une utilisation dans les formulations et la fabrication de :",
+        "items": [
+          "Crèmes",
+          "Pommades",
+          "Baumes",
+          "Soin des lèvres",
+          "Soin des pieds",
+          "Vaseline",
+          "Bougies"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Caractéristiques clés de notre Cire de Paraffine Dure",
+        "compliance": "Conformité pharmacopéique",
+        "otherCompliances": "Autres conformités",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "natural-beeswax": {
+      "meta": {
+        "title": "Cire d'Abeille Naturelle - Unicorn Petroleum | Cire d'Abeille Raffinée pour Cosmétiques & Pharmaceutiques",
+        "description": "Cire d'abeille 100% naturelle, hautement raffinée avec des propriétés émollientes, apaisantes et adoucissantes. Cire d'abeille de qualité pharmaceutique et cosmétique pour les formulations topiques. Conforme aux exigences réglementaires internationales.",
+        "keywords": "cire d'abeille naturelle, cire d'abeille raffinée, cire d'abeille cosmétique, cire d'abeille pharmaceutique, émollient, cire naturelle, ingrédients cosmétiques, ingrédients pharmaceutiques, Unicorn Petroleum"
+      },
+      "name": "Cire d'Abeille Naturelle",
+      "purity": "Pureté pour chaque application",
+      "common": {
+        "title": "Cire d'Abeille / Cera Alba (Cire Blanche) / Cera Flava (Cire Jaune)",
+        "description": "La cire d'abeille est une substance naturelle produite par les abeilles mellifères du genre Apis dans la ruche. Elle a une structure distincte composée d'esters d'acides gras et d'alcools à longue chaîne. Notre cire d'abeille est soigneusement traitée pour fournir une apparence lisse et jaune pâle et est très appréciée pour ses effets doux et apaisants sur la peau, ce qui en fait un parfait candidat pour l'industrie cosmétique et pharmaceutique. En plus de préserver et d'adoucir la peau, elle améliore également la texture et garantit que les autres ingrédients restent ensemble, offrant ainsi de la stabilité au produit fini.",
+        "additionalInfo": "En tant que produit naturel, la qualité de notre cire d'abeille raffinée est fortement contrôlée par nous pour se conformer aux exigences réglementaires internationales. Elle fonctionne particulièrement bien dans les batons et pour les préparations solides en raison de sa capacité inhérente à créer un film cohésif et à lier les matériaux ensemble, améliorant la durabilité et la prise."
+      },
+      "applications": {
+        "intro": "La Cire d'Abeille Naturelle trouve une application idéale dans :",
+        "items": [
+          "Pommades",
+          "Baumes",
+          "Soft-gel",
+          "Crèmes",
+          "Gelées pour les lèvres",
+          "Pommades coiffantes",
+          "Rouges à lèvres",
+          "Soins capillaires",
+          "Soins des pieds",
+          "Produits de soin ayurvédiques et à base de plantes",
+          "Sutures pharmaceutiques",
+          "Produits de nettoyage pour voiture",
+          "Bougies",
+          "Plastiques",
+          "Polish pour meubles",
+          "Moules",
+          "Moulages",
+          "Industrie alimentaire transformée",
+          "Revêtements",
+          "Industrie du cuir",
+          "Industrie textile",
+          "Finitions du bois et du papier",
+          "Lubrifiants",
+          "Produits chimiques spéciaux"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Caractéristiques clés de notre Cire d'Abeille",
+        "compliance": "Conformité pharmacopéique",
+        "otherCompliances": "Autres conformités",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "emulsifying-wax": {
+      "meta": {
+        "title": "Cire Émulsifiante - Unicorn Petroleum | Cires Émulsifiantes Anioniques et Non-Ioniques",
+        "description": "Cires émulsifiantes spécialisées pour la création d'émulsions stables eau-dans-huile et huile-dans-eau. Utilisées dans les lotions, crèmes, pommades et produits de beauté. Grades anioniques et non-ioniques disponibles.",
+        "keywords": "cire émulsifiante, cire émulsifiante anionique, cire émulsifiante non-ionique, stabilisateur d'émulsion, émulsifiant cosmétique, émulsifiant pharmaceutique, base de lotion, base de crème, Unicorn Petroleum"
+      },
+      "name": "Cire Émulsifiante",
+      "purity": "La pureté pour chaque application.",
+      "common": {
+        "title": "Cire Émulsifiante (Ionique / Non-Ionique) / Cire Auto-Émulsifiante",
+        "description": "La cire émulsifiante est un type d'ingrédient émulsifiant cosmétique utilisé principalement dans la fabrication de crèmes, de lotions et d'autres produits de beauté comportant à la fois une phase aqueuse et une phase huileuse. Ce type de cire aide à mélanger ou à émulsionner la phase aqueuse et la phase huileuse ensemble pour former un onguent, minimisant la séparation des phases et augmentant la stabilité de la formulation, en particulier dans des environnements de températures diverses.",
+        "additionalInfo": "L'émulsification se produit lorsque deux substances — dans ce cas, l'huile et l'eau — sont liées avec succès ; créant une sorte de colle qui combine les ingrédients d'un produit qui assure une viscosité et une structure constantes aux formulations, résultant en des crèmes et des lotions lisses et uniformes avec une étalabilité améliorée. Au niveau moléculaire, la cire émulsifiante attire à la fois l'eau et l'huile en même temps et les maintient ensemble. Les émulsions faites avec cette cire sont plus stables vis-à-vis des acides faibles tels que l'acide borique, carbolique et salicylique. La cire émulsifiante épaissit le liquide et marie les éléments à base d'huile et d'eau de la création. Elle est de couleur blanche, solide et possède une légère odeur d'alcool. Elle est facile à traiter et fiable en performance, ce qui la rend adaptée aux environnements de fabrication artisanaux et industriels."
+      },
+      "applications": {
+        "intro": " ",
+        "points": [
+          "La cire émulsifiante est largement utilisée dans l'industrie pharmaceutique / cosmétique dans le cadre de formulations de crèmes et de lotions.",
+          "La cire émulsifiante ionique / anionique est la plus appropriée pour les émulsions de type eau-dans-huile. Le grade non-ionique est le plus approprié pour les émulsions de type huile-dans-eau."
+        ],
+        "items": [
+          "Onguent",
+          "Lotions",
+          "Crèmes",
+          "Après-shampooings",
+          "Masques capillaires",
+          "Écrans solaires",
+          "Beurres corporels",
+          "Baumes",
+          "Produits de soin des lèvres"
+        ]
+      },
+      "blends": {
+        "heading": "Nous proposons les mélanges suivants de cire auto-émulsifiante",
+        "headers": {
+          "product": "Nom du produit",
+          "inci": "Nom INCI"
+        },
+        "items": [
+          {
+            "name": "Cire émulsifiante anionique",
+            "inci": "Cetearyl Alcohol & Sodium Lauryl Sulphate"
+          },
+          {
+            "name": "Cire émulsifiante non-ionique",
+            "inci": "Cetearyl Alcohol & Cetereath-20"
+          },
+          {
+            "name": "Cire émulsifiante 1440",
+            "inci": "Cetearyl Alcohol & Polysorbate 60"
+          }
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Caractéristiques clés de notre cire émulsifiante",
+        "compliance": "Conformité pharmacopée",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]"
+        ]
+      }
+    },
+    "d-panthenol": {
+      "meta": {
+        "title": "D-Panthénol - Unicorn Petroleum | Provitamine B5 pour le Soin de la Peau et des Cheveux",
+        "description": "D-Panthénol (Provitamine B5) de haute pureté pour des propriétés profondément hydratantes, apaisantes et régénératrices. Utilisé dans les soins de la peau, des cheveux, des bébés et les formulations cicatrisantes. Haute pureté et stabilité.",
+        "keywords": "D-panthénol, provitamine B5, panthénol, soin de la peau, soin des cheveux, agent hydratant, cicatrisation, actif cosmétique, ingrédient pharmaceutique, Unicorn Petroleum"
+      },
+      "name": "D-Panthénol",
+      "purity": "Provitamine B5 pour l'hydratation et le soutien de la barrière cutanée",
+      "common": {
+        "title": "D-Panthénol / Dexpanthénol",
+        "description": "Le précurseur doux et prêt à l'emploi de l'acide pantothénique, également appelé vitamine B5 superstar, est le panthénol qui est stable, couvrant une large gamme de pH et compatible avec diverses matières premières cosmétiques / pharmaceutiques, se mélangeant ainsi bien à diverses formulations. Il présente des valeurs humectantes exceptionnelles pour une hydratation durable. Il se dissout facilement dans l'eau, l'alcool, le propylène glycol, l'éther, le chloroforme et est partiellement soluble dans la glycérine. Le panthénol agit comme un hydratant soyeux et lisse glissant sur la peau, laissant une surface d'aspect doux et hydraté, radicalement plus lisse et plus souple.",
+        "additionalInfo": "Cependant, son expertise ne se limite pas aux soins de la peau. Le panthénol et l'acide pantothénique sont tous deux d'excellents ingrédients pour les soins capillaires. Ils s'associent pour redonner du ressort, du volume et un aspect attrayant aux cheveux, nourrissant ainsi les cheveux abîmés par la chaleur et les traitements chimiques."
+      },
+      "applications": {
+        "intro": "Utilisé comme agent de conditionnement, hydratant, humectant et émollient dans les produits cosmétiques et de soins personnels. Il se lie facilement aux follicules pileux et est un composant fréquent des shampooings et des après-shampooings. Il enrobe le cheveu et scelle sa surface, lubrifiant les follicules et rendant les mèches brillantes.",
+        "items": [
+          "Hydratants",
+          "Crèmes",
+          "Gels capillaires",
+          "Laques",
+          "Shampooing",
+          "Baumes",
+          "Rouge à lèvres",
+          "Ombre à paupières",
+          "Mascara"
+        ]
+      }
+    },
+    "preservatives": {
+      "meta": {
+        "title": "Conservateurs - Unicorn Petroleum | Systèmes Antimicrobiens pour Soins Personnels et Pharmacie",
+        "description": "Systèmes de conservation efficaces comprenant des parabènes et du phénoxyéthanol pour prévenir la croissance microbienne et prolonger la durée de conservation. Conservateurs conformes à la réglementation pour les cosmétiques, les produits pharmaceutiques et les soins personnels.",
+        "keywords": "conservateurs, parabènes, phénoxyéthanol, agents antimicrobiens, conservateurs cosmétiques, conservateurs pharmaceutiques, extension de la durée de conservation, protection microbienne, Unicorn Petroleum"
+      },
+      "name": "Conservateurs",
+      "purity": "Systèmes antimicrobiens efficaces pour les soins personnels et la pharmacie",
+      "common": {
+        "title": "Conservateurs",
+        "description": "Les conservateurs sont des substances spécifiques utilisées pour prévenir la décomposition causée par les bactéries, les champignons et l'oxydation. La prévention de plusieurs types de dégradation peut prolonger la durée de conservation d'une vaste sélection de produits, notamment les compléments alimentaires, les médicaments, les cosmétiques et les produits chimiques industriels. Sa tâche principale est de s'assurer que le produit est sain, efficace et utile au fil du temps, tout en préservant sa qualité et ses performances d'origine.",
+        "additionalInfo": "La composition, l'utilisation prévue et l'environnement de conservation du produit influencent le choix et la concentration des conservateurs utilisés. De plus, son application est régie par des directives réglementaires strictes visant à protéger les consommateurs et à réduire tout risque sanitaire lié."
+      },
+      "products": [
+        {
+          "name": "Phénoxyéthanol",
+          "desc": ""
+        },
+        {
+          "name": "Ethylhexylglycérine",
+          "desc": "Liquide clair incolore sans odeur caractéristique"
+        },
+        {
+          "name": "Parabènes",
+          "desc": "Poudre cristalline blanche ou presque blanche"
+        },
+        {
+          "name": "DMDM Hydantoïne",
+          "desc": "Liquide clair avec une faible odeur caractéristique"
+        }
+      ],
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Industrie des cosmétiques et des soins personnels : En raison de la présence d'eau et d'ingrédients organiques, les conservateurs jouent un rôle vital en empêchant ou en retardant la croissance des micro-organismes / bactéries, assurant ainsi la sécurité et maintenant sa stabilité, son efficacité et sa fraîcheur.",
+          "Industrie alimentaire : Afin de préserver la valeur nutritionnelle, la composition, la texture-goût, de prévenir l'oxydation, la dégradation enzymatique et l'altération microbienne ; il est crucial d'ajouter des conservateurs dans des proportions contrôlées et réglementées, prolongeant ainsi sa durée de conservation.",
+          "Industrie pharmaceutique : Les conservateurs dans l'industrie pharmaceutique aident à conserver les propriétés thérapeutiques en empêchant la croissance fongique et en maintenant l'intégrité de son produit en veillant à ce que la formulation reste sûre pour une utilisation à long terme.",
+          "Industrie des peintures et revêtements : Étant exposés aux environnements extérieurs comme la lumière directe du soleil, la chaleur, l'humidité, les pluies et les intempéries ; les conservateurs jouent un rôle pivot dans l'industrie des peintures et revêtements."
+        ],
+        "items": [
+          "Crèmes",
+          "Lotions",
+          "Shampooings",
+          "Cosmétiques",
+          "Soins de la peau"
+        ]
+      }
+    },
+    "surfactants": {
+      "meta": {
+        "title": "Surfactants - Unicorn Petroleum | Tensioactifs Anioniques et Non Ioniques pour le Nettoyage et les Soins Personnels",
+        "description": "Tensioactifs anioniques et non ioniques de haute qualité pour un nettoyage, un moussage et une émulsification efficaces. Utilisés dans les shampooings, les détergents, les produits de soins personnels et les solutions de nettoyage industriel.",
+        "keywords": "tensioactifs, surfactants, surfactants anioniques, surfactants non ioniques, agents de nettoyage, agents moussants, émulsifiants, détergents, ingrédients de soins personnels, surfactants industriels, Unicorn Petroleum"
+      },
+      "name": "Surfactants",
+      "purity": "Tensioactifs anioniques et non ioniques pour le nettoyage et l'émulsification",
+      "common": {
+        "title": "Surfactants",
+        "description": "Les surfactants trouvent leur importance dans une gamme variée de produits de nettoyage et de soins personnels en réduisant la tension superficielle et en permettant le mélange de l'eau avec la saleté et d'autres contaminants. Conjointement, les surfactants jouent un rôle vital dans diverses formulations, de l'aide au moussage des shampooings à l'élimination de la graisse des produits. En raison de sa nature adaptable, c'est un ingrédient crucial qui trouve son importance dans l'industrie des soins à domicile et des soins personnels.",
+        "additionalInfo": "Comme les surfactants sont utilisés en combinaison, ils se placent à la jonction entre deux substances de telle sorte que la partie hydrophile interagit avec les molécules d'eau tandis que la partie hydrophobe se fixe à l'autre substance. Cela conduit à une obstruction entre les deux composés, diminuant ainsi la tension superficielle et soulevant la saleté de la surface pour des résultats efficaces."
+      },
+      "products": [
+        {
+          "name": "Alpha oléfine sulfonate (AOS)",
+          "desc": "Disponible en différents grades sous forme de poudre et de liquide."
+        },
+        {
+          "name": "Sodium lauryl éther sulfate (SLES) 70",
+          "desc": "Pâte translucide sans odeur caractéristique."
+        },
+        {
+          "name": "CAPB / Bétaïne",
+          "desc": "Liquide incolore à jaune clair."
+        },
+        {
+          "name": "LABSA 96%",
+          "desc": "Liquide miel à brun foncé."
+        }
+      ],
+      "applications": {
+        "intro": "Les surfactants ont des utilités diverses dans de multiples industries, comme illustré ci-dessous :",
+        "points": [
+          "Soins personnels : Améliorent le moussage, le nettoyage et l'hydratation dans les shampooings, les après-shampooings, les gels douche, les savons et les dentifrices.",
+          "Agents de nettoyage : Ils améliorent le pouvoir nettoyant et la stabilité de la mousse dans les savons, les détergents et les liquides vaisselle en éliminant la saleté / la graisse.",
+          "Industrie textile : Ils servent également l'industrie textile en améliorant des propriétés telles que la douceur du tissu, en rendant le tissu antistatique et antibactérien, absorbant la transpiration et en permettant au tissu de sécher rapidement dans le processus de finition textile.",
+          "Industrie automobile : En raison de leur capacité à réduire la tension superficielle, les surfactants sont largement utilisés dans les agents de nettoyage pour voitures et dans les dégraissants pour moteurs pour éliminer les dépôts de saleté / graisse et d'huile.",
+          "Peintures et revêtements : Ces agents améliorent la dispersion dans les peintures automobiles, renforcent l'adhérence et l'uniformité du revêtement, et préviennent les défauts tels que les traînées et les bulles lors de l'impression. Ils fonctionnent comme émulsifiants, agents mouillants et dispersants."
+        ],
+        "items": [
+          "Shampooings",
+          "Gel douche",
+          "Nettoyant visage",
+          "Savons liquides",
+          "Détergents"
+        ]
+      }
+    },
+    "uv-filters": {
+      "meta": {
+        "title": "Filtres UV - Unicorn Petroleum | Filtres UV Organiques et Inorganiques pour la Protection Solaire",
+        "description": "Filtres UV à large spectre (UVA et UVB) pour les crèmes solaires, les cosmétiques et les hydratants. Filtres UV organiques et inorganiques pour protéger contre les coups de soleil, le vieillissement prématuré et le cancer de la peau. Grades conformes à la réglementation.",
+        "keywords": "filtres UV, filtres UV organiques, filtres UV inorganiques, ingrédients de protection solaire, protection UVA, protection UVB, protection solaire, filtres UV cosmétiques, conforme à la réglementation, Unicorn Petroleum"
+      },
+      "name": "Filtres UV",
+      "purity": "Filtres UV organiques et inorganiques pour une protection à large spectre",
+      "common": {
+        "title": "Filtres UV",
+        "description": "Les filtres UV sont utilisés pour fabriquer des produits de soins personnels afin de protéger notre peau des rayonnements ultraviolets nocifs. Ils ont la capacité de prévenir la dégradation de la peau causée par l'exposition aux lumières UVA et UVB en absorbant ou en réfléchissant les rayons UV. Les filtres UV sont utilisés dans les cosmétiques, les crèmes solaires et les hydratants qui agissent comme un bouclier contre les coups de soleil, le vieillissement prématuré et le cancer de la peau. Pour garantir la sécurité et l'efficacité des produits de consommation, ils sont réglementés dans de nombreux pays."
+      },
+      "products": [
+        {
+          "name": "Méthoxycinnamate d'octyle",
+          "desc": "Un choix populaire dans les formulations solaires en raison de sa stabilité"
+        },
+        {
+          "name": "Salicylate d'octyle",
+          "desc": "Formé à partir d'acide salicylique et de 2-éthylhexanol, est utilisé pour filtrer les rayons UVB dans la plage de 280-320 nm"
+        },
+        {
+          "name": "Homosalate",
+          "desc": "Barrière protectrice contre les rayons UVB mais offre une défense minimale contre les rayons UVA"
+        },
+        {
+          "name": "Avobenzone",
+          "desc": "Un filtre UV puissant souvent combiné avec d'autres stabilisants comme l'octocrylène pour améliorer la stabilité"
+        },
+        {
+          "name": "Benzophénone 3",
+          "desc": "Offre une protection contre les rayons UVB et une partie des rayons UVA, prévenant à la fois les coups de soleil et les dommages à l'ADN"
+        },
+        {
+          "name": "Benzophénone 4",
+          "desc": "Filtre de sauvegarde contre les rayons UVA et UVB, améliorant l'efficacité et la longévité du produit"
+        },
+        {
+          "name": "Éthyl hexyl triazone",
+          "desc": "Composé organique synthétique connu pour sa photostabilité, protégeant contre les rayons UVB"
+        },
+        {
+          "name": "Octocrylène",
+          "desc": "Protection solaire à large spectre utilisée améliorant la défense avec une double absorption"
+        }
+      ],
+      "applications": {
+        "intro": "Les filtres UV sont utilisés pour fabriquer des produits de soins personnels afin de protéger notre peau des rayonnements ultraviolets nocifs. Ils ont la capacité de prévenir la dégradation de la peau causée par l'exposition aux lumières UVA et UVB en absorbant ou en réfléchissant les rayons UV.",
+        "points": [
+          "Crèmes visage et hydratants",
+          "Écrans totaux et crèmes solaires",
+          "Baumes de beauté fondation/crèmes correctrices de couleur et produits de soin des lèvres",
+          "Produits de soins capillaires"
+        ],
+        "items": [
+          "Écrans solaires",
+          "Soins solaires",
+          "Crèmes SPF",
+          "Hydratants",
+          "Cosmétiques"
+        ]
+      },
+      "characteristics": {
+        "heading": "Caractéristiques",
+        "items": [
+          "Absorption des rayonnements UV : Les filtres UV agissent comme un bouclier en empêchant les rayonnements UV de pénétrer dans la peau en les réfléchissant, les absorbant ou les dispersant. Ils fournissent un bouclier contre les rayonnements UVA et UVB qui contribuent au vieillissement cutané prématuré et aux coups de soleil.",
+          "Protection large plage : Notre Avobenzone et notre Octocrylène ont la capacité de fournir une protection complète en bloquant respectivement les rayonnements UVA et UVB.",
+          "Photostabilité : C'est la propriété qui détermine la stabilité des filtres UV lorsqu'ils sont exposés à la lumière directe du soleil. Exemple : l'Avobenzone peut se détériorer sous les rayons directs du soleil à moins qu'elle ne soit stabilisée par d'autres ingrédients tels que l'Octocrylène.",
+          "Sécurité et compatibilité : Les filtres UV ne doivent pas causer d'effets indésirables lors d'une exposition cutanée continue. Il ne doit y avoir aucune irritation ou réaction allergique et ils doivent avoir tendance à ne pas obstruer les pores. Exemple : la benzophénone est considérée comme sûre pour tous les types de peau. Divers filtres UV peuvent être utilisés dans diverses formulations pour conférer une stabilité totale et des performances respectueuses de la peau."
+        ]
+      }
+    }
+  },
+  "packaging": {
+    "hdpe": "Fûts HDPE",
+    "ms": "Fûts MS",
+    "flexibag": "Flexibag",
+    "ibc": "GRV",
+    "bags": "Sacs",
+    "cartons": "Cartons",
+    "pails": "Seaux en PEHD",
+    "fibre": "Fûts en fibre"
+  },
+  "ui": {
+    "finalProductUtilization": "Utilisation du produit final",
+    "packagedResponsiblyIn": "Emballé de manière responsable dans",
+    "relatedProducts": "Produits similaires",
+    "exploreOtherProducts": "Explorez d'autres produits pertinents",
+    "viewDetails": "Voir les détails"
+  }
+}

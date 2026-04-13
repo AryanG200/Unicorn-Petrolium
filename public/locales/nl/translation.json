@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "aboutUs": "Over ons",
+    "products": "Producten",
+    "excipients": "Hulpstoffen",
+    "petroleumJelly": "Vaseline",
+    "whiteMineralOils": "Witte minerale oliën",
+    "lanolin": "Lanolin",
+    "waxes": "Wassen",
+    "microcrystallineWax": "Microkristallijne was",
+    "hardParaffinWax": "Harde paraffine",
+    "naturalBeeswax": "Natuurlijke bijenwas",
+    "emulsifyingWax": "Emulgerende was",
+    "dPanthenol": "D-Panthenol",
+    "preservatives": "Conserveermiddelen",
+    "surfactants": "Oppervlakteactieve stoffen",
+    "uvFilters": "UV-filters",
+    "applications": "Toepassingen",
+    "pharmaceutical": "Farmaceutisch",
+    "cosmetics": "Cosmetica",
+    "personalCare": "Persoonlijke verzorging",
+    "homeCare": "Thuiszorg",
+    "textile": "Textiel",
+    "lubricants": "Smeermiddelen",
+    "globalReach": "Wereldwijd bereik",
+    "blog": "Blog",
+    "contactUs": "Neem contact op",
+    "events": "Evenementen",
+    "whatsappUs": "WhatsApp"
+  },
+  "events": {
+    "upcomingEvents": "Aankomende evenementen",
+    "upcomingEventsDesc": "Kom in contact met Unicorn Petroleum en ontdek onze nieuwste innovaties op toonaangevende branchebeurzen.",
+    "pastEvents": "Afgelopen evenementen",
+    "pastEventsDesc": "Blik terug op enkele van onze belangrijke internationale vitrines en branche-evenementen in de loop der jaren.",
+    "eventDate": "Evenementdatum",
+    "location": "Locatie",
+    "aboutEvent": "Over het evenement",
+    "joinUsAt": "Bezoek ons bij",
+    "discoverDesc": "om de nieuwste ontwikkelingen en innovaties in de industrie te ontdekken. Kom in contact met onze experts en ontdek hoe de hoogwaardige producten van Unicorn Petroleum uw zakelijke behoeften kunnen ondersteunen.",
+    "upcomingEvent": "Aankomend evenement",
+    "pastEvent": "Afgelopen evenement",
+    "close": "Sluiten",
+    "contactUs": "Neem contact op"
+  },
+  "home": {
+    "strengths": {
+      "heading": "Onze sterke punten",
+      "subheading": "Uitmuntendheid gebouwd op zes decennia ervaring en vertrouwen",
+      "ctaText": "Info aanvragen",
+      "items": {
+        "0": {
+          "title": "Zes decennia ervaring",
+          "description": "Pioniers in hoogwaardige ingrediënten voor de cosmetische en farmaceutische wereld sinds 1964"
+        },
+        "1": {
+          "title": "Op maat gemaakte formuleringen",
+          "description": "Naadloze inkoop, persoonlijke ondersteuning - levering van hoogwaardige grondstoffen vanuit India aan de wereld"
+        },
+        "2": {
+          "title": "Petrochemische specialiteiten",
+          "description": "Hoogwaardige petrochemische stoffen en specialiteiten geraffineerd om aan de behoeften van verschillende industrieën te voldoen"
+        }
+      }
+    },
+    "hero": {
+      "title": "Pioniers in uitmuntende petroleumspecialiteiten gedurende meer dan 6 decennia",
+      "primaryButton": "Producten ontdekken",
+      "secondaryButton": "Waarom voor ons kiezen?"
+    },
+    "products": {
+      "heading": "Onze kernproductportfolio",
+      "subheading": "Waar innovatie en kwaliteit samenkomen - Sinds 1964",
+      "viewDetails": "Bekijk details →",
+      "viewAll": "Bekijk alle producten →"
+    },
+    "industries": {
+      "heading": "Catering aan diverse industrieën wereldwijd",
+      "subheading": "We geven vorm aan de toekomst van cosmetische en farmaceutische ingrediënten"
+    },
+    "qualityStandards": {
+      "heading": "Kwaliteits- en veiligheidsnormen",
+      "subheading": "Gedreven door kwaliteit, vertrouwd door generaties.",
+      "viewAll": "Bekijk alle certificeringen →"
+    },
+    "news": {
+      "heading": "Laatste nieuws",
+      "readMore": "Lees meer →",
+      "viewAll": "Bekijk al het nieuws →"
+    },
+    "statement": {
+      "heading": "Unicorn Petroleum Industries Pvt. Ltd.",
+      "subheading": "Meer dan 60 jaar innovatie",
+      "text": "Wereldwijde ingrediënten. Indiase expertise.",
+      "learnMore": "Lees meer over ons →"
+    },
+    "cta": {
+      "heading": "Klaar om samen te werken?",
+      "subtitle": "Neem vandaag nog contact met ons op.",
+      "primaryButton": "Neem contact op",
+      "secondaryButton": "Vraag een monster aan"
+    }
+  },
+  "form": {
+    "quoteTitle": "Vraag een offerte of monster aan",
+    "fullName": "Voer volledige naam in",
+    "company": "Voer bedrijfsnaam in",
+    "email": "Voer email in",
+    "mobile": "Voer mobiel nummer in",
+    "country": "Voer land in",
+    "grade": "Voer graad/kwaliteit in",
+    "subject": "Selecteer onderwerp",
+    "message": "Bericht",
+    "submitQuote": "Verzend Aanvraag",
+    "submitContact": "Verstuur Bericht",
+    "successTitle": "Bedankt! Jouw bericht is verstuurd.",
+    "successDesc": "We reageren binnen 24 uur",
+    "errorTitle": "Fout",
+    "errorDesc": "Probeer het opnieuw",
+    "submitting": "Versturen..."
+  },
+  "footerText": {
+    "partner": "Uw vertrouwde partner in India",
+    "quickLinks": "Snelle links",
+    "contactHeader": "Neem gerust contact met ons op",
+    "copyright": "Copyright © 2020 Unicorn. Alle rechten voorbehouden."
+  }
+}

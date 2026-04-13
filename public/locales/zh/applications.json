@@ -1,0 +1,300 @@
+{
+  "hero": {
+    "title": "我们的应用领域",
+    "description": "跨越多个行业提供高质量的解决方案"
+  },
+  "breadcrumbs": {
+    "home": "首页",
+    "applications": "应用领域",
+    "pharmaceutical": "制药",
+    "cosmetics": "化妆品",
+    "personal-care": "个人护理",
+    "home-care": "家庭护理",
+    "textile": "纺织",
+    "lubricants": "润滑剂",
+    "agrochemical": "农用化学品",
+    "bulk-chemical": "精细化工"
+  },
+  "sections": {
+    "overview": {
+      "title": "行业概览"
+    },
+    "relatedProducts": {
+      "title": "相关产品",
+      "viewDetails": "查看详情"
+    }
+  },
+  "categories": {
+    "pharmaceutical": { "name": "医药行业" },
+    "cosmetics": { "name": "化妆品行业" },
+    "personal-care": { "name": "个人护理" },
+    "home-care": { "name": "家庭护理" },
+    "textile": { "name": "纺织行业" },
+    "lubricants": { "name": "润滑油行业" },
+    "agrochemical": { "name": "农用化学品" }
+  },
+  "products": {
+    "petroleumJelly": {
+      "name": "凡士林",
+      "description": "用于愈合软膏、皮肤保护剂和外用药物中的赋形剂。"
+    },
+    "whiteMineralOils": {
+      "name": "白矿物油",
+      "description": "用作助溶剂、片剂包衣、软膏基质和外用制剂。"
+    },
+    "lanolin": {
+      "name": "羊毛脂",
+      "description": "精制羊毛润滑脂，用作化妆品和外用制剂中的皮肤调理赋形剂。"
+    },
+    "naturalBeeswax": {
+      "name": "天然蜂蜡",
+      "description": "用于软膏、片剂包衣、缓释制剂和粘合剂。"
+    },
+    "emulsifyingWax": {
+      "name": "乳化蜡",
+      "description": "用于乳化医药膏。"
+    },
+    "dPanthenol": {
+      "name": "D-泛醇",
+      "description": "维生素B5的前体，支持皮肤再生和补水。"
+    },
+    "preservatives": {
+      "name": "防腐剂",
+      "description": "防止糖浆、眼药水、软膏和注射剂中的微生物生长。"
+    },
+    "hardParaffinWax": {
+      "name": "硬石蜡",
+      "description": "用于面霜、软膏、香膏和唇部护理产品。"
+    },
+    "microcrystallineWax": {
+      "name": "微晶蜡",
+      "description": "用于制造软膏和香膏。"
+    },
+    "uvFilters": {
+      "name": "紫外线过滤剂",
+      "description": "用于皮肤病学制剂，保护皮肤免受紫外线诱发的损伤。"
+    },
+    "surfactants": {
+      "name": "表面活性剂",
+      "description": "糖浆、悬浮剂和外用制剂中的增溶剂、乳化剂和润湿剂。"
+    }
+  },
+  "industries": {
+    "pharmaceutical": {
+      "hero": {
+        "title": "制药应用",
+        "description": "用于救命药物的高纯度原料"
+      },
+      "meta": {
+        "title": "制药应用 - Unicorn Petroleum | 制药原料",
+        "description": "符合 USP/NF、EP 和 IP 标准的高纯度制药原料。",
+        "keywords": "制药, 制药原料, 赋形剂, USP, GMP"
+      },
+      "overview": {
+        "title": "为医药产品量身定制",
+        "description": "我们的产品作为实用的添加剂和制造辅助剂被广泛应用于制药行业。"
+      },
+      "tailoredForPharma": {
+        "heading": "制药定制",
+        "subheading": "专为制药配方设计的专业解决方案",
+        "features": [
+          { "title": "法规合规性", "description": "完全符合 USP/NF、EP、IP 标准和 FDA 21 CFR 要求" },
+          { "title": "高纯度等级", "description": "纯度达 99.9% 且批次稳定性极高的医药级成分" },
+          { "title": "定制配方", "description": "针对特定制药应用和剂型的量身定制解决方案" }
+        ]
+      },
+      "applications": {
+        "heading": "核心应用",
+        "subheading": "制药配方中的关键应用",
+        "cards": [
+          { "title": "软膏和乳膏", "description": "用于局部制药配方的凡士林和白矿物油" },
+          { "title": "片剂配方", "description": "口服固体剂型的润滑剂和粘合剂" },
+          { "title": "注射制剂", "description": "用于肠外制剂的高纯度原料" },
+          { "title": "栓剂", "description": "直肠和阴道制剂的基础材料" }
+        ]
+      },
+      "compliance": {
+        "title": "监管合规",
+        "items": ["符合 USP/NF", "符合 EP", "符合 IP", "符合 FDA 21 CFR", "GMP 认证制造"]
+      }
+    },
+    "cosmetics": {
+      "hero": {
+        "title": "化妆品应用",
+        "description": "符合全球标准的美容原料"
+      },
+      "overview": {
+        "title": "化妆品行业",
+        "description": "我们的化学品常被用作化妆品配方中的基础材料和功能性添加剂。"
+      },
+      "tailoredForPharma": {
+        "heading": "高端化妆品",
+        "subheading": "用于高端美容解决方案的专业原料",
+        "features": [
+          { "title": "卓越感官", "description": "增强成品的皮肤触感、延展性和审美吸引力" },
+          { "title": "全球标准", "description": "符合欧盟、美国 FDA 和亚洲化妆品安全法规" },
+          { "title": "低过敏级", "description": "适用于敏感皮肤和眼科制剂的纯度等级" }
+        ]
+      },
+      "applications": {
+        "heading": "主要应用",
+        "subheading": "化妆品行业的多方位美容应用",
+        "cards": [
+          { "title": "护肤品", "description": "面霜、面乳、血清和抗衰老治疗的基础成分" },
+          { "title": "彩妆配方", "description": "彩妆和粉底的粘合剂和质地处理剂" },
+          { "title": "护发制品", "description": "专业和消费类产品的调理和造型成分" },
+          { "title": "防晒护理", "description": "紫外线过滤剂和抗水配方的稳定剂" }
+        ]
+      }
+    },
+    "personal-care": {
+      "hero": {
+        "title": "个人护理应用",
+        "description": "日常护理和卫生用品原料"
+      },
+      "overview": {
+        "title": "个人护理",
+        "description": "我们的产品对通用个人护理配方有重大影响，有助于保持水分和增强弹性。"
+      },
+      "tailoredForPharma": {
+        "heading": "日常护理方案",
+        "subheading": "用于高销量消费类卫生用品的多功能原料",
+        "features": [
+          { "title": "皮肤兼容性", "description": "无刺激且温和的配方，适合家庭和儿童使用" },
+          { "title": "高稳定性", "description": "在各种储存条件和保质期内保持产品完整性" },
+          { "title": "水分保持", "description": "优异的润肤特性，防止皮肤和头发干燥" }
+        ]
+      },
+      "applications": {
+        "heading": "核心应用",
+        "subheading": "日常生活的卫生和护理应用",
+        "cards": [
+          { "title": "婴儿护理", "description": "用于婴儿敏感皮肤和尿布疹软膏的超纯原料" },
+          { "title": "皮肤科应用", "description": "医药级皮肤调理和修复的基础材料" },
+          { "title": "头发卫生", "description": "调理洗发水和头皮护理的基础成分" },
+          { "title": "儿童护理", "description": "儿童卫生及健康的安全有效成分" }
+        ]
+      }
+    },
+    "home-care": {
+      "hero": {
+        "title": "家庭护理应用",
+        "description": "家居护理行业的可靠原料"
+      },
+      "overview": {
+        "title": "家庭护理",
+        "description": "我们的产品常用作家庭护理和清洁解决方案的有用添加剂。"
+      },
+      "tailoredForPharma": {
+        "heading": "家居性能",
+        "subheading": "用于现代清洁解决方案的高效化学品",
+        "features": [
+          { "title": "表面保护", "description": "在地板、家具和厨房表面创建保护屏障" },
+          { "title": "pH 稳定性", "description": "在酸性和碱性清洁配方中都能有效发挥作用" },
+          { "title": "高效抛光", "description": "为汽车和家居抛光提供卓越的光泽和光洁度" }
+        ]
+      },
+      "applications": {
+        "heading": "核心应用",
+        "subheading": "家居护理和专业清洁方案",
+        "cards": [
+          { "title": "清洁剂", "description": "高效洗衣和洗碗液的功能性添加剂" },
+          { "title": "表面抛光", "description": "家具、地板和鞋油的基础蜡和油" },
+          { "title": "厨房和浴室", "description": "用于卫生和去除水垢的专用清洁剂" },
+          { "title": "汽车护理", "description": "车蜡和仪表板保护的调理剂" }
+        ]
+      }
+    },
+    "textile": {
+      "hero": {
+        "title": "纺织行业应用",
+        "description": "纤维和织物加工的性能化学品"
+      },
+      "overview": {
+        "title": "纺织工业",
+        "description": "我们的产品常被用作纺织制造和整理部门的加工助剂。"
+      },
+      "tailoredForPharma": {
+        "heading": "优质织物",
+        "subheading": "用于高速纺织制造的技术解决方案",
+        "features": [
+          { "title": "低摩擦", "description": "优化高速机械性能并减少纱线断裂" },
+          { "title": "防黄变", "description": "在热处理期间保持天然和合成纤维的纯净颜色" },
+          { "title": "易洗涤性", "description": "确保在整理过程中容易去除，以保证成品织物洁净" }
+        ]
+      },
+      "applications": {
+        "heading": "核心应用",
+        "subheading": "从纤维纺丝到成品织物处理",
+        "cards": [
+          { "title": "和毛油", "description": "用于羊毛、棉花和合成纱线生产的纤维润滑剂" },
+          { "title": "织造助剂", "description": "用于织造和针织的抗静电和纱线增强剂" },
+          { "title": "织物整理", "description": "高端纺织品的手感柔软剂和光泽增强剂" },
+          { "title": "均染助剂", "description": "确保织物颜色分布均匀的染色助剂" }
+        ]
+      }
+    },
+    "lubricants": {
+      "hero": {
+        "title": "润滑剂应用",
+        "description": "工业润滑的高性能基础油"
+      },
+      "overview": {
+        "title": "润滑剂行业",
+        "description": "我们的材料在润滑剂配方中用作功能成分和基础油。"
+      },
+      "tailoredForPharma": {
+        "heading": "机械精度",
+        "subheading": "用于极端压力和高温润滑的坚韧成分",
+        "features": [
+          { "title": "热稳定性", "description": "在高运行热量下保持粘度和性能" },
+          { "title": "抗氧化性", "description": "防止油泥形成并延长润滑剂使用寿命" },
+          { "title": "粘度控制", "description": "针对特定液压和发动机要求量身定制的等级" }
+        ]
+      },
+      "applications": {
+        "heading": "核心应用",
+        "subheading": "满足不同润滑需求的专用基础材料",
+        "cards": [
+          { "title": "工业油", "description": "液压液、齿轮油和压缩机润滑剂的基础材料" },
+          { "title": "汽车领域", "description": "用于发动机油和润滑脂的高质量成分" },
+          { "title": "工艺油", "description": "用于橡胶、塑料和油墨制造的工业油" },
+          { "title": "金属加工", "description": "用于金属切削和成形的冷却和润滑剂" }
+        ]
+      }
+    },
+    "agrochemical": {
+      "hero": {
+        "title": "农用化学品应用",
+        "description": "农业配方的专业原料"
+      },
+      "overview": {
+        "title": "农用化学产品",
+        "description": "农用化学产品需要在恶劣的环境条件下运行，我们的材料有助于增强稳定性。"
+      },
+      "tailoredForPharma": {
+        "heading": "农业功效",
+        "subheading": "优化活性成分传输，提高作物产量",
+        "features": [
+          { "title": "喷雾附着力", "description": "减少流失并提高喷雾在植物叶片上的附着力" },
+          { "title": "蒸发控制", "description": "防止喷雾在炎热干燥气候下快速干燥" },
+          { "title": "低药害", "description": "保护活性成分而不伤害作物的高纯度油类" }
+        ]
+      },
+      "applications": {
+        "heading": "核心应用",
+        "subheading": "增强作物保护和土壤处理",
+        "cards": [
+          { "title": "农药载体", "description": "稳定并传输农药活性成分的油和蜡" },
+          { "title": "肥料包衣", "description": "确保化肥颗粒自由流动的防结块剂" },
+          { "title": "助剂", "description": "提高植物对化学物质摄取量的渗透增强剂" },
+          { "title": "缓释技术", "description": "用于除草剂和营养素受控释放的蜡基材料" }
+        ]
+      }
+    }
+  },
+  "ui": {
+    "relatedProducts": "相关产品",
+    "viewDetails": "查看详情"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "aboutUs": "About us",
+    "products": "Products",
+    "excipients": "Excipients",
+    "petroleumJelly": "Petroleum Jelly",
+    "whiteMineralOils": "White Mineral Oils",
+    "lanolin": "Lanolin",
+    "waxes": "Waxes",
+    "microcrystallineWax": "Microcrystalline Wax",
+    "hardParaffinWax": "Hard Paraffin Wax",
+    "naturalBeeswax": "Natural Beeswax",
+    "emulsifyingWax": "Emulsifying Wax",
+    "dPanthenol": "D-Panthenol",
+    "preservatives": "Preservatives",
+    "surfactants": "Surfactants",
+    "uvFilters": "UV Filters",
+    "applications": "Applications",
+    "pharmaceutical": "Pharmaceutical",
+    "cosmetics": "Cosmetics",
+    "personalCare": "Personal Care",
+    "homeCare": "Home Care",
+    "textile": "Textile",
+    "lubricants": "Lubricants",
+    "globalReach": "Global reach",
+    "blog": "Blog",
+    "contactUs": "Contact us",
+    "events": "Events",
+    "whatsappUs": "WhatsApp Us"
+  },
+  "events": {
+    "upcomingEvents": "Upcoming Events",
+    "upcomingEventsDesc": "Connect with Unicorn Petroleum and explore our latest innovations at premier industry exhibitions.",
+    "pastEvents": "Past Events",
+    "pastEventsDesc": "Take a look back at some of our significant international showcases and industry engagements over the years.",
+    "eventDate": "Event Date",
+    "location": "Location",
+    "aboutEvent": "About the Event",
+    "joinUsAt": "Join us at",
+    "discoverDesc": "to discover the latest advancements and innovations in the industry. Connect with our experts and learn how Unicorn Petroleum's high-quality products can support your business requirements.",
+    "upcomingEvent": "Upcoming Event",
+    "pastEvent": "Past Event",
+    "close": "Close",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "strengths": {
+      "heading": "Our strengths",
+      "subheading": "Excellence built on six decades of expertise and trust",
+      "ctaText": "Request info",
+      "items": {
+        "0": {
+          "title": "Six decades of expertise",
+          "description": "Pioneering quality ingredients for the cosmetic and pharmaceutical world since 1964"
+        },
+        "1": {
+          "title": "Custom tailored formulations",
+          "description": "Seamless procurement, personalized support — delivering quality raw materials from India to the world"
+        },
+        "2": {
+          "title": "Petrochemical specialties",
+          "description": "High-performance petrochemicals and specialties refined to meet the needs of various industries"
+        }
+      }
+    },
+    "hero": {
+      "title": "Pioneering Excellence in Petroleum Specialties for 6+ Decades",
+      "primaryButton": "Explore Products",
+      "secondaryButton": "Why Choose Us?"
+    },
+    "products": {
+      "heading": "Our core product portfolio",
+      "subheading": "Where Innovation Meets Quality - Since 1964",
+      "viewDetails": "View Details →",
+      "viewAll": "View All Products →"
+    },
+    "industries": {
+      "heading": "Catering to diverse industries worldwide",
+      "subheading": "Shaping the future of cosmetic & pharmaceutical ingredients"
+    },
+    "qualityStandards": {
+      "heading": "Globally Recognized Quality & Safety Standards",
+      "subheading": "Driven by quality, trusted for generations.",
+      "viewAll": "View All Certifications →"
+    },
+    "news": {
+      "heading": "Latest News & Company Updates",
+      "readMore": "Read More →",
+      "viewAll": "View All News →"
+    },
+    "statement": {
+      "heading": "Unicorn Petroleum Industries Pvt. Ltd.",
+      "subheading": "60+ Years of Excellence, Innovation, and Trust",
+      "text": "Global Ingredients. Indian Expertise. Trusted Worldwide",
+      "learnMore": "Learn More About Us →"
+    },
+    "cta": {
+      "heading": "Ready to Partner with Unicorn Petroleum?",
+      "subtitle": "Contact us today for custom formulations, bulk orders, or technical inquiries.",
+      "primaryButton": "Contact Sales",
+      "secondaryButton": "Request Sample"
+    }
+  },
+  "form": {
+    "quoteTitle": "Request a Quote or Sample",
+    "fullName": "Enter Full Name",
+    "company": "Enter Company Name",
+    "email": "Enter Email",
+    "mobile": "Enter Mobile Number",
+    "country": "Enter Country Name",
+    "grade": "Enter Grade/Quality Needed",
+    "subject": "Select Subject",
+    "message": "Message",
+    "submitQuote": "Submit Enquiry",
+    "submitContact": "Send Message",
+    "successTitle": "Thank you! Your message has been sent successfully.",
+    "successDesc": "We'll get back to you within 24 hours.",
+    "errorTitle": "Sorry, there was an error sending your message.",
+    "errorDesc": "Please try again or contact us directly.",
+    "submitting": "Sending..."
+  },
+  "footerText": {
+    "partner": "Your trusted partner for specialty products and sourcing solutions from India",
+    "quickLinks": "Quick links",
+    "contactHeader": "Feel free to contact us on",
+    "copyright": "Copyright © 2020 Unicorn. All rights reserved."
+  }
+}

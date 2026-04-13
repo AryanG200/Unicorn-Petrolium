@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "Onze Blog",
+    "subtitle": "Inzichten, updates en branchenieuws"
+  },
+  "posts": {
+    "post1": {
+      "title": "Toepassingen van vaseline begrijpen",
+      "date": "15 mei 2024",
+      "category": "Producten",
+      "excerpt": "Vaseline is een veelzijdig product dat in diverse industrieën wordt gebruikt. Leer meer over de belangrijkste toepassingen in de farmacie en cosmetica.",
+      "content": "<p>Vaseline, ook bekend als petrolatum, is een halfvaste mengeling van koolwaterstoffen. Ontdekt in het midden van de 19e eeuw, is het sindsdien een essentieel ingrediënt geworden in talrijke industrieën.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Farmaceutische toepassingen</h3><p>In de farmaceutische sector wordt vaseline voornamelijk gebruikt als actief ingrediënt in topische zalven. De uitzonderlijke barrière-eigenschappen helpen de huid af te sluiten, voorkomen vochtverlies en beschermen kleine snijwonden, schaafwonden en brandwonden tegen externe elementen.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Cosmetica en persoonlijke verzorging</h3><p>De diep hydraterende eigenschappen maken het een hoofdbestanddeel in cosmetica. Het wordt gevonden in lippenbalsems, huidlotions en zelfs in de formulering van haarverzorgingsproducten om glans te geven en natuurlijk vocht vast te houden. Het helpt de huid te beschermen tegen barre fysieke en chemische omgevingen.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Industriële toepassingen</h3><p>Naast persoonlijke verzorging vinden de smerende en anticorrosieve eigenschappen van vaseline toepassingen in de productie, het onderhoud van machines en roestpreventie.</p>"
+    },
+    "post2": {
+      "title": "Het belang van kwaliteitscontrole bij de fabricage van was",
+      "date": "28 april 2024",
+      "category": "Kwaliteit",
+      "excerpt": "Het waarborgen van een constante kwaliteit bij de fabricage van was vereist strenge tests en normen. Hier leest u hoe wij uitmuntendheid behouden.",
+      "content": "<p>Wasfabricage is een precieze wetenschap. Het bereiken van de exacte fysieke en chemische eigenschappen die vereist zijn voor specifieke toepassingen vraagt om strikte protocollen voor kwaliteitscontrole.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Strenge testnormen</h3><p>Onze laboratoria voeren nauwgezette tests uit op elke partij was. Dit omvat het meten van het smeltpunt, het stolpunt, het oliegehalte, de kleur en de naaldpenetratie. Deze parameters bepalen het gedrag van de was in de uiteindelijke toepassing.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Procesoptimalisatie</h3><p>Kwaliteitscontrole begint lang voordat het eindproduct gevormd wordt. Wij bewaken de grondstoffen en controleren temperaturen en mengverhoudingen nauwkeurig tijdens het fabricageproces om consistentie van batch tot batch te garanderen.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Certificeringen en naleving</h3><p>Unicorn Petroleum houdt zich strikt aan internationale kwaliteitsnormen, inclusief ISO-certificeringen. Deze toewijding garandeert dat onze klanten producten ontvangen die veilig, betrouwbaar en perfect geschikt zijn voor hun behoeften.</p>"
+    },
+    "post3": {
+      "title": "Duurzame praktijken in de petrochemische industrie",
+      "date": "10 maart 2024",
+      "category": "Milieu",
+      "excerpt": "Duurzaamheid is niet langer optioneel. Ontdek de stappen die Unicorn Petroleum neemt om de milieu-impact te minimaliseren.",
+      "content": "<p>De petrochemische industrie ondergaat een aanzienlijke transformatie, gedreven door een dringende noodzaak voor milieuverantwoordelijkheid. Unicorn Petroleum loopt voorop bij het implementeren van duurzame praktijken.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Energie-efficiëntie</h3><p>Wij upgraden continu onze productiefaciliteiten om de energie-efficiëntie te verbeteren. Door verwarmingsprocessen te optimaliseren en restwarmte terug te winnen, verminderen we onze energievoetafdruk aanzienlijk.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Afvalvermindering en recycling</h3><p>Onze toewijding aan duurzaamheid strekt zich uit tot strikte protocollen voor afvalbeheer. We streven ernaar de afvalproductie te minimaliseren en het recyclen van materialen binnen onze activiteiten te maximaliseren. Waterbesparing is ook een belangrijk aandachtspunt, waarbij geavanceerde gesloten-lussystemen worden toegepast.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Investeren in groene technologieën</h3><p>We doen actief onderzoek en investeren in milieuvriendelijke alternatieven en duurzamere productiemethoden om een groenere toekomst te waarborgen zonder afbreuk te doen aan de kwaliteit van onze producten.</p>"
+    }
+  },
+  "ui": {
+    "readMore": "Lees meer",
+    "backToBlog": "Terug naar Blog",
+    "postNotFound": "Bericht niet gevonden"
+  }
+}

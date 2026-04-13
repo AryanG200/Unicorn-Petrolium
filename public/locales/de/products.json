@@ -1,0 +1,667 @@
+{
+  "index": {
+    "title": "Unsere Produkte",
+    "subtitle": "Umfassendes Sortiment an hochwertigen Mineralöl- und Spezialprodukten",
+    "heroTitle": "Unser Produktportfolio",
+    "heroSubtitle": "Hochwertige Mineralölspezialitäten für verschiedene Branchen",
+    "completePortfolio": "Komplettes Produktportfolio",
+    "viewCategory": "Kategorie Ansehen",
+    "viewProduct": "Produkt Ansehen",
+    "helpTitle": "Brauchen Sie Hilfe bei der Auswahl?",
+    "helpDesc": "Unsere Experten helfen Ihnen gerne dabei, die perfekte Lösung für Ihre individuellen Anforderungen zu finden.",
+    "contactBtn": "Kontaktieren Sie unsere Experten",
+    "applicationsBtn": "Anwendungen Ansehen"
+  },
+  "sidebar": {
+    "title": "Unsere Produkte",
+    "allProducts": "Alle Produkte"
+  },
+  "categories": {
+    "petroleum-jelly": {
+      "name": "Vaseline",
+      "desc": "Vielseitiges Weichmachungs- und Schutzmittel für die Hautpflege"
+    },
+    "white-mineral-oils": {
+      "name": "Weiße Mineralöle",
+      "desc": "Hochwertige Mineralöle für den kosmetischen Einsatz"
+    },
+    "microcrystalline-wax": {
+      "name": "Mikrokristallines Wachs",
+      "desc": "Feinkörniges Wachs mit hervorragenden Eigenschaften"
+    },
+    "paraffin-wax": {
+      "name": "Hartes Paraffinwachs",
+      "desc": "Vielseitige Wachsprodukte für vielfältige Anwendungen"
+    },
+    "natural-beeswax": {
+      "name": "Natürliches Bienenwachs",
+      "desc": "Reines Naturwachs mit hervorragenden emulgierenden Eigenschaften"
+    },
+    "lanolin": {
+      "name": "Lanolin",
+      "desc": "Raffiniertes Wollfett für kosmetische Zwecke"
+    },
+    "emulsifying-wax": {
+      "name": "Emulgierendes Wachs",
+      "desc": "Spezialwachs für die Herstellung stabiler Emulsionen"
+    },
+    "d-panthenol": {
+      "name": "D-Panthenol",
+      "desc": "Provitamin B5 für verbesserte Hautpflege"
+    },
+    "preservatives": {
+      "name": "Konservierungsstoffe",
+      "desc": "Antimikrobielle Wirkstoffe"
+    },
+    "surfactants": {
+      "name": "Tenside",
+      "desc": "Oberflächenaktive Stoffe zur Reinigung und Emulgierung"
+    },
+    "uv-filters": {
+      "name": "UV-Filter",
+      "desc": "UV-Schutzmittel für Sonnenschutzformulierungen"
+    }
+  },
+  "subItems": {
+    "light-mineral-oil": {
+      "name": "Leichtes Mineralöl",
+      "desc": "Niedrigviskoses Mineralöl"
+    },
+    "heavy-mineral-oil": {
+      "name": "Schweres Mineralöl",
+      "desc": "Hochviskoses Mineralöl"
+    },
+    "soft-paraffin": {
+      "name": "Weiches Paraffin",
+      "desc": "Paraffinwachs mit weicher Konsistenz"
+    },
+    "hard-paraffin": {
+      "name": "Hartes Paraffin",
+      "desc": "Paraffinwachs mit harter Konsistenz"
+    },
+    "parabens": {
+      "name": "Parabene",
+      "desc": "Traditionelles Konservierungssystem"
+    },
+    "phenoxyethanol": {
+      "name": "Phenoxyethanol",
+      "desc": "Breitband-Konservierungsmittel"
+    },
+    "anionic": {
+      "name": "Anionisch",
+      "desc": "Anionische Tenside für die effektive Reinigung"
+    },
+    "nonionic": {
+      "name": "Nichtionisch",
+      "desc": "Nichtionische Tenside für sanfte Reinigungsanwendungen"
+    },
+    "organic-filters": {
+      "name": "Organische Filter",
+      "desc": "Organische UV-Filter für Breitband-Sonnenschutz"
+    },
+    "inorganic-filters": {
+      "name": "Anorganische Filter",
+      "desc": "Anorganische UV-Filter für den physischen Sonnenschutz"
+    }
+  },
+  "pages": {
+    "petroleum-jelly": {
+      "meta": {
+        "title": "Vaseline - Unicorn Petroleum | Premium-Petrolatum",
+        "description": "Hochwertige Vaseline (Petrolatum) – hergestellt seit 1964. Vielseitiges Emolliens für pharmazeutische und kosmetische Anwendungen. Strenge Qualitätskontrolle sorgt für Konsistenz und Reinheit.",
+        "keywords": "Vaseline, Petrolatum, weißes weiches Paraffin, gelbes weiches Paraffin, Emolliens, Hautpflege, pharmazeutische Hilfsstoffe, kosmetische Rohstoffe, Unicorn Petroleum"
+      },
+      "name": "Vaseline",
+      "purity": "Reinheit für jede Anwendung",
+      "common": {
+        "title": "Vaseline / Petrolatum / Weiches Paraffin",
+        "description": "Vaseline ist ein salbenähnliches, homogenes, hochraffiniertes Halbfestprodukt mit einem ausgewogenen Verhältnis zwischen flüssigen und festen Kohlenwasserstoffen – ideal für Hautpflegeanwendungen und topische Formulierungen.\nUnser Produkt behält während der Verarbeitung eine gute Struktur und erstarrt beim Abfüllen zu einer glatten Oberfläche, was den ästhetischen Wert erhöht. Zudem widersteht es Feuchtigkeit, verhindert Verfärbungen und hält den Ölgehalt auch bei erhöhten Temperaturen stabil.",
+        "additionalInfo": "Erhältlich in folgenden Farbtönen: strahlend schneeweiß, off-white, perlmuttweiß, Lily, blassgelb, leuchtend gelb und amber."
+      },
+      "applications": {
+        "intro": "Weiße/gelbe Vaseline findet vielfältige Anwendungen als Hilfsstoff in kosmetischen und pharmazeutischen Formulierungen, zum Beispiel:",
+        "items": [
+          "Salben",
+          "Schmerzbalsame",
+          "Kosmetikcremes",
+          "Fußpflegecremes",
+          "Haarpflegeformulierungen",
+          "Augen-Applikaps",
+          "Gazeverbände",
+          "Hautschutzmittel",
+          "Zahnadhäsive",
+          "Universalschmierstoff"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Wesentliche Merkmale unserer Vaseline",
+        "compliance": "Pharmakopöe-Konformität",
+        "otherCompliances": "Weitere Konformitäten",
+        "complianceItems": [
+          "Indian Pharmacopoeia (IP)",
+          "British Pharmacopoeia (BP)",
+          "United States Pharmacopoeia (USP)",
+          "European Pharmacopoeia (Ph. Eur.)",
+          "Japanese Pharmacopoeia (JP)"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.880",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "white-mineral-oils": {
+      "meta": {
+        "title": "Weiße Mineralöle - Unicorn Petroleum | Hochwertige Paraffinische Mineralöle",
+        "description": "Premium-Weißmineralöle (paraffinisch) in verschiedenen Viskositäten für pharmazeutische, kosmetische und industrielle Anwendungen. Farblos, geruchlos und hochraffiniert.",
+        "keywords": "weißes Mineralöl, Mineralöl, paraffinisches Mineralöl, leichtes Mineralöl, schweres Mineralöl, pharmazeutisches Mineralöl, kosmetisches Mineralöl, Industrieschmierstoff"
+      },
+      "name": "Weiße Mineralöle",
+      "purity": "Reinheit für jede Anwendung",
+      "common": {
+        "title": "Weißes Mineralöl / Flüssiges Paraffin / Weißöl",
+        "description": "Mineralöle sind farblose, geruchlose Gemische gesättigter flüssiger Kohlenwasserstoffe, die durch die Destillation von Erdöl gewonnen werden. Unsere Mineralöle sind paraffinischer Natur, und wir bieten ein breites Viskositätsspektrum für vielfältige Anwendungen an.",
+        "additionalInfo": "Unsere Unimin-Reihe an kosmetischen/pharmazeutischen Mineralölen ist hochraffiniert und auf Haut- und Haarpflegeformulierungen zugeschnitten. Diese Produkte werden auf schädliche polyzyklische aromatische Verunreinigungen behandelt, bestehen den PAK-Test sowie weitere Reinheitsnormen der Pharmakopöen und erfüllen alle Anforderungen der EU-Kommission und der USFDA. Sie unterstützen kein pathogenes Bakterienwachstum und eignen sich daher ideal als Mischgrundlagen. Sie zeichnen sich durch einen hohen Viskositätsindex aus und halten bei extremen Temperaturen eine stabile Viskosität."
+      },
+      "applications": {
+        "intro": "Wir bieten verschiedene Viskositätsstufen, die ein breites Anwendungsspektrum ermöglichen:",
+        "items": [
+          "Baby- / Badeöle",
+          "Cold Creams und Feuchtigkeitscremes",
+          "Lotionen",
+          "Sonnenbräuner / Sonnenschutzmittel",
+          "Antibiotika",
+          "Augen-Make-up",
+          "Gelatinekapseln",
+          "Schutzüberzüge für Obst und Gemüse",
+          "Seifen und Reinigungsmittel",
+          "Antistatische Konus-Öle",
+          "Stricköle",
+          "Textilauxiliarmittel",
+          "Farb- und Farbstoff-Zwischenprodukte",
+          "Flexible Intermediate Bulk Container (FIBC)",
+          "Lederchemikalien und Fettlicker",
+          "Spezialchemikalien",
+          "Parfümeriechemikalien",
+          "Beschichtungen und Polituren",
+          "Tintenmittel",
+          "Weichmacher bei der Kunststoffverarbeitung",
+          "Medizinische Instrumente",
+          "Füll-/Verpackungsmaschinen in der Lebensmittelindustrie",
+          "Kompressorzylinder in der Getränkeindustrie"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Wesentliche Merkmale unserer Weißen Mineralöle",
+        "compliance": "Pharmakopöe-Konformität",
+        "otherCompliances": "Weitere Konformitäten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]",
+          "Japanese Pharmacopoeia [JP]"
+        ],
+        "otherComplianceItems": [
+          "21 CFR 172.878 and 21 CFR 178.3620 (a)",
+          "ICH Q3C (R4) for residual solvents",
+          "USP <467> for residual solvents",
+          "TSE/BSE free",
+          "Halal & Kosher"
+        ]
+      }
+    },
+    "lanolin": {
+      "meta": {
+        "title": "Lanolin - Unicorn Petroleum | Raffiniertes Wollfett für Kosmetik & Pharma",
+        "description": "Lanolin (Wollfett / Adeps Lanae) ist ein hochraffiniertes natürliches Fett aus Wolle. Wird in kosmetischen, pharmazeutischen und industriellen Anwendungen für Feuchtigkeitsspeicherung und Schutzfunktionen eingesetzt.",
+        "keywords": "Lanolin, Wollfett, Adeps Lanae, kosmetische Inhaltsstoffe, pharmazeutische Inhaltsstoffe, raffiniertes Lanolin, Hautpflege, Unicorn Petroleum"
+      },
+      "name": "Lanolin",
+      "purity": "Hochraffiniertes Wollfett für kosmetische, pharmazeutische und industrielle Anwendungen.",
+      "common": {
+        "title": "Lanolin",
+        "description": "Lanolin, häufig als Wollfett / Adeps Lanae bezeichnet, ist ein hochraffiniertes und gereinigtes natürliches Fett, das als einzigartige Substanz aus den Talgdrüsen der Schafe in deren Haut entsteht, um eine natürliche Schutzschicht auf den Wollfasern zu bilden, und sich vollständig vom Körperfett der Tiere unterscheidet. Das Rohfett wird aus der natürlichen, fettigen Wolle der Schafe gewonnen, und das fertige Lanolin wird nach intensiver Raffination und einer Reihe weiterer einzigartiger Prozesse daraus hergestellt."
+      },
+      "characteristics": {
+        "heading": "Eigenschaften",
+        "items": [
+          "Als 100% natürliches Produkt bietet es dank seiner einzigartigen Eigenschaften enormes Potenzial für Hautpflege-, Kosmetik- und topische pharmazeutische Anwendungen.",
+          "Es hat die charakteristische Fähigkeit, das Doppelte seines eigenen Gewichts an Wasser aufzunehmen und haftet an trockener Haut, wodurch Schutzfilme auf der Haut gebildet werden.",
+          "Verbessert die Stabilität von Öl-in-Wasser-Emulsionen.",
+          "Seine Weichmachungseigenschaft stellt den Feuchtigkeitshaushalt der Haut wieder her und erhält ihn aufrecht, ohne die normale Transpiration zu beeinträchtigen, und verhindert so das Austrocknen und Aufspringen der Haut. Die Haut fühlt sich dadurch glatt, weich und geschmeidig an.",
+          "Es besitzt antikorrosive, schützende und schmierende Eigenschaften für industrielle Anwendungen. Lanolin ist nicht leitfähig und findet daher ausgiebige Verwendung bei der Herstellung elektrischer Komponenten."
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Wesentliche Merkmale unseres Lanolins",
+        "compliance": "Pharmakopöe-Konformität",
+        "otherCompliances": "Weitere Konformitäten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "microcrystalline-wax": {
+      "meta": {
+        "title": "Mikrokristallines Wachs - Unicorn Petroleum | Feinkörniges Wachs für Formulierungen",
+        "description": "Hochwertiges mikrokristallines Wachs mit hervorragenden Binde- und Beschichtungseigenschaften. Wird in kosmetischen und pharmazeutischen Formulierungen für Strukturfestigkeit, Textur und Stabilität verwendet.",
+        "keywords": "mikrokristallines Wachs, Petroleumwachs, Kosmetikwachs, pharmazeutisches Wachs, Bindemittel, Beschichtungsmittel, Texturmodifikator, Unicorn Petroleum"
+      },
+      "name": "Mikrokristallines Wachs",
+      "purity": "Reinheit für jede Anwendung",
+      "common": {
+        "title": "Mikrokristallines Wachs",
+        "description": "Mikrokristalline Wachse sind eine Art Wachs, das durch Entölen von Petrolatum als Teil des Erdölraffinierungsprozesses hergestellt wird. Es zeichnet sich durch die Feinheit seiner Kristalle aus und ist ein gesättigter aliphatischer Kohlenwasserstoff mit höherem Molekulargewicht. Die elastischen und adhäsiven Eigenschaften mikrokristalliner Wachse sind auf ihre verzweigtkettigen Bestandteile zurückzuführen. Dieses Wachs hat eine Affinität zu Paraffinwachs und Mineralöl, weshalb es in der Kosmetik-/Pharmaindustrie weit verbreitet in ölbasierten Formulierungen eingesetzt wird. Es bietet eine starke Ölhalteleistung, minimiert die Öltrennung und hilft somit, Formulierungen über die Langzeitlagerung stabil und konsistent zu halten. Microwax wirkt als zuverlässiges okklusives Mittel und bildet eine Schutzschicht auf der Haut, die Feuchtigkeit einschließt und einer Dehydration in topischen Formulierungen vorbeugt. Mikrowachse verleihen dem Endprodukt Strukturfestigkeit und Glanz."
+      },
+      "applications": {
+        "intro": "Mikrokristalline Wachse finden ideale Anwendung bei der Endproduktnutzung von:",
+        "items": [
+          "Kosmetikcremes",
+          "Lotionen",
+          "Pharmazeutische Salben",
+          "Vaseline",
+          "Lippenstifte",
+          "Balsame",
+          "Schmerzcremes",
+          "Glanzlack",
+          "Kaugummis",
+          "Klebstoffe",
+          "Kabel",
+          "Kerzen",
+          "Chemieindustrie",
+          "Korrosionsschutz",
+          "Buntstifte",
+          "Verpackung",
+          "Rohrumwicklungsband",
+          "Kunststoff und Polymere",
+          "Industrieprodukte",
+          "Körperpflegeindustrie"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Wesentliche Merkmale unseres mikrokristallinen Wachses",
+        "compliance": "Pharmakopöe-Konformität",
+        "otherCompliances": "Weitere Konformitäten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "paraffin-wax": {
+      "meta": {
+        "title": "Hartes Paraffinwachs - Unicorn Petroleum | Vielseitiges Wachs für Industrieanwendungen",
+        "description": "Hochwertige Paraffinwachsprodukte für verschiedene industrielle Anwendungen. Feste Kohlenwasserstoffe mit hervorragenden Bindemitteleigenschaften, geeignet für Kerzen, Verpackungen, Kosmetik und pharmazeutische Zwecke.",
+        "keywords": "Paraffinwachs, Industriewachs, Kerzenwachs, Verpackungswachs, Kosmetikwachs, Pharmazeutisches Wachs, feste Kohlenwasserstoffe, Unicorn Petroleum"
+      },
+      "name": "Hartes Paraffinwachs",
+      "purity": "Reinheit für jede Anwendung",
+      "common": {
+        "title": "Hartes Paraffinwachs / Kerzenwachs",
+        "description": "Hartes Paraffinwachs, das als Nebenprodukt aus Rohöl gewonnen wird, ist eine Mischung aus festen Kohlenwasserstoffen mit höherem Molekulargewicht. Es löst sich teilweise in Lösungsmitteln wie Benzol, Terpentin, Chloroform, Ether, Kohlendisulfid und Öl und zeichnet sich durch seine Fähigkeit aus, natürlich größere Kristalle zu bilden, die sich nicht in Wasser und Alkohol lösen. Seine Anpassungsfähigkeit in verschiedenen Formulierungen wird dadurch weiter verbessert, dass es sich gut mit Fetten verbindet. Hartes Paraffinwachs wird aufgrund seiner starken wasserresistenten Eigenschaften häufig in Schutzanstrichen und Versiegelungsanwendungen eingesetzt, bei denen eine zuverlässige Feuchtigkeitsbewahrung entscheidend ist."
+      },
+      "applications": {
+        "intro": "Hartes Paraffinwachs eignet sich ideal für die Verwendung in Formulierungen und der Herstellung von:",
+        "items": [
+          "Cremes",
+          "Salben",
+          "Balsame",
+          "Lippenpflege",
+          "Fußpflege",
+          "Vaseline",
+          "Kerzen"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Wesentliche Merkmale unseres harten Paraffinwachses",
+        "compliance": "Pharmakopöe-Konformität",
+        "otherCompliances": "Weitere Konformitäten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "natural-beeswax": {
+      "meta": {
+        "title": "Natürliches Bienenwachs - Unicorn Petroleum | Reines Raffiniertes Bienenwachs für Kosmetik & Pharmazie",
+        "description": "100% natürliches, hochraffiniertes Bienenwachs mit emollierenden, beruhigenden und weichmachenden Eigenschaften. Pharmazeutisches und kosmetisches Bienenwachs für topische Formulierungen. Entspricht internationalen Anforderungen.",
+        "keywords": "natürliches Bienenwachs, raffiniertes Bienenwachs, kosmetisches Bienenwachs, pharmazeutisches Bienenwachs, Emolliens, Naturwachs, kosmetische Inhaltsstoffe, pharmazeutische Inhaltsstoffe, Unicorn Petroleum"
+      },
+      "name": "Natürliches Bienenwachs",
+      "purity": "Reinheit für jede Anwendung",
+      "common": {
+        "title": "Bienenwachs / Cera Alba (Weißes Wachs) / Cera Flava (Gelbes Wachs)",
+        "description": "Bienenwachs ist eine natürliche Substanz, die von Honigbienen der Gattung Apis im Bienenstock produziert wird. Es hat eine ausgeprägte Struktur aus Fettsäureestern und langkettigen Alkoholen. Unser Bienenwachs wird sorgfältig behandelt, um ein glattes, hellgelbes Erscheinungsbild zu liefern, und wird für seine sanften, beruhigenden Wirkungen auf die Haut hoch geschätzt, wodurch es perfekt für die Kosmetik- und Pharmaindustrie geeignet ist. Neben der Erhaltung und Aufweichung der Haut verbessert es auch die Textur und stellt sicher, dass andere Inhaltsstoffe zusammenhalten und somit dem Endprodukt Stabilität verleihen.",
+        "additionalInfo": "Als natürliches Produkt wird die Qualität unseres raffinierten Bienenwachses von uns stark kontrolliert, um internationale regulative Anforderungen zu erfüllen. Es eignet sich besonders gut für Stäbchen und feste Zubereitungen aufgrund seiner inhärenten Fähigkeit, einen kohäsiven Film zu bilden und Materialien zusammenzubinden, wodurch Haltbarkeit und Grip verbessert werden."
+      },
+      "applications": {
+        "intro": "Natürliches Bienenwachs findet ideale Anwendung in:",
+        "items": [
+          "Salben",
+          "Balsame",
+          "Soft-Gel",
+          "Cremes",
+          "Lippenjellie",
+          "Pomaden",
+          "Lippenstifte",
+          "Haarpflege",
+          "Fußpflege",
+          "Ayurvedische und pflanzliche Pflegeprodukte",
+          "Pharmazeutische Nähte",
+          "Autopflegeprodukte",
+          "Kerzen",
+          "Kunststoffe",
+          "Möbelpolitur",
+          "Formen",
+          "Abgüsse",
+          "Verarbeitete Lebensmittelindustrie",
+          "Beschichtungen",
+          "Lederindustrie",
+          "Textilindustrie",
+          "Holz- und Papierveredelung",
+          "Schmierstoffe",
+          "Spezialchemikalien"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Wesentliche Merkmale unseres Bienenwachses",
+        "compliance": "Pharmakopöe-Konformität",
+        "otherCompliances": "Weitere Konformitäten",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "emulsifying-wax": {
+      "meta": {
+        "title": "Emulgierwachs - Unicorn Petroleum | Anionische und nichtionische Emulgierwachse",
+        "description": "Spezialisierte Emulgierwachse zur Herstellung stabiler W/O- und O/W-Emulsionen. Verwendung in Lotionen, Cremes, Salben und Kosmetikprodukten. Sowohl anionische als auch nichtionische Qualitäten verfügbar.",
+        "keywords": "Emulgierwachs, anionisches Emulgierwachs, nichtionisches Emulgierwachs, Emulsionsstabilisator, kosmetischer Emulgator, pharmazeutischer Emulgator, Lotionsbasis, Cremebasis, Unicorn Petroleum"
+      },
+      "name": "Emulgierwachs",
+      "purity": "Reinheit für jede Anwendung.",
+      "common": {
+        "title": "Emulgierwachs (ionisch / nicht-ionisch) / selbstemulgierendes Wachs",
+        "description": "Emulgierwachs ist eine Art kosmetischer Emulgierinhaltsstoff, der hauptsächlich bei der Herstellung von Cremes, Lotionen und anderen Schönheitsprodukten verwendet wird, die sowohl eine Wasser- als auch eine Ölphase haben. Diese Art von Wachs hilft beim Mischen oder Emulgieren der Wasser- und Ölphase zu einer Salbe, wodurch die Phasentrennung minimiert und die Stabilität der Formulierung insbesondere in Umgebungen mit unterschiedlichen Temperaturen erhöht wird.",
+        "additionalInfo": "Die Emulgierung erfolgt, wenn zwei Substanzen – in diesem Fall Öl und Wasser – erfolgreich miteinander verbunden werden; es entsteht eine Art Klebstoff, der die Inhaltsstoffe eines Produkts verbindet, was den Formulierungen eine gleichmäßige Viskosität und Struktur verleiht, was zu glatten, gleichmäßigen Cremes und Lotionen mit verbesserter Streichfähigkeit führt. Auf molekularer Ebene zieht Emulgierwachs gleichzeitig Wasser und Öl an und hält sie zusammen. Mit diesem Wachs hergestellte Emulsionen sind stabiler gegenüber schwachen Säuren wie Bor-, Karbol- und Salicylsäure. Emulgierwachs verdickt die Flüssigkeit und vereint die öl- und wasserbasierten Elemente der Kreation. Es hat eine weiße Farbe, ist fest und besitzt einen leichten Alkoholgeruch. Es ist einfach zu verarbeiten und zuverlässig in der Leistung, sodass es sowohl für kleinbetriebliche als auch für industrielle Fertigungsumgebungen geeignet ist."
+      },
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Emulgierwachs wird in der pharmazeutischen / kosmetischen Industrie häufig als Bestandteil von Creme- und Lotionsformulierungen verwendet.",
+          "Ionisches / anionisches Emulgierwachs eignet sich am besten für Wasser-in-Öl-Emulsionen. Die nichtionische Qualität eignet sich am besten für Öl-in-Wasser-Emulsionen."
+        ],
+        "items": [
+          "Salben",
+          "Lotionen",
+          "Cremes",
+          "Conditioner",
+          "Haarmasken",
+          "Sonnenschutzmittel",
+          "Körperbutter",
+          "Balsame",
+          "Lippenpflegeprodukte"
+        ]
+      },
+      "blends": {
+        "heading": "Wir bieten die folgenden Mischungen von selbstemulgierendem Wachs an",
+        "headers": {
+          "product": "Produktname",
+          "inci": "INCI-Bezeichnung"
+        },
+        "items": [
+          {
+            "name": "Anionisches Emulgierwachs",
+            "inci": "Cetearyl Alcohol & Sodium Lauryl Sulphate"
+          },
+          {
+            "name": "Nichtionisches Emulgierwachs",
+            "inci": "Cetearyl Alcohol & Cetereath-20"
+          },
+          {
+            "name": "Emulgierwachs 1440",
+            "inci": "Cetearyl Alcohol & Polysorbate 60"
+          }
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Wesentliche Merkmale unseres Emulgierwachses",
+        "compliance": "Pharmakopöe-Konformität",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]"
+        ]
+      }
+    },
+    "d-panthenol": {
+      "meta": {
+        "title": "D-Panthenol - Unicorn Petroleum | Provitamin B5 für Haut- & Haarpflege",
+        "description": "Hochreines D-Panthenol (Provitamin B5) für tiefenwirksame Hydratation, Beruhigung und regenerative Eigenschaften. Verwendung in Haut-, Haar-, Babypflege und wundheilenden Formulierungen. Hohe Reinheit und Stabilität.",
+        "keywords": "D-Panthenol, Provitamin B5, Panthenol, Hautpflege, Haarpflege, Feuchtigkeitsspender, Wundheilung, kosmetischer Wirkstoff, pharmazeutischer Inhaltsstoff, Unicorn Petroleum"
+      },
+      "name": "D-Panthenol",
+      "purity": "Provitamin B5 für Feuchtigkeit und Unterstützung der Hautbarriere",
+      "common": {
+        "title": "D-Panthenol / Dexpanthenol",
+        "description": "Die milde, gebrauchsfertige Vorstufe der Pantothensäure, auch als Superstar-Vitamin B5 bezeichnet, ist Panthenol. Es ist stabil, deckt einen breiten pH-Bereich ab und ist mit verschiedenen kosmetischen / pharmazeutischen Rohstoffen kompatibel, wodurch es sich gut in diverse Formulierungen einfügt. Es zeigt außergewöhnliche Humectant-Werte für langanhaltende Hydratation. Es löst sich leicht in Wasser, Alkohol, Propylenglykol, Ether, Chloroform und ist teilweise in Glycerin löslich. Panthenol wirkt wie ein seidig-glatter Feuchtigkeitsspender, der über die Haut gleitet und eine weiche und mit Feuchtigkeit versorgte Oberfläche hinterlässt, die drastisch glatter und flexibler ist.",
+        "additionalInfo": "Seine Expertise beschränkt sich jedoch nicht nur auf die Hautpflege. Panthenol und Pantothensäure sind beide ausgezeichnete Haarpflege-Inhaltsstoffe. Sie sorgen gemeinsam für Sprungkraft, Fülle und ein ansprechendes Aussehen des Haares und pflegen so Haar, das durch Hitze und chemische Behandlungen strapaziert wurde."
+      },
+      "applications": {
+        "intro": "Verwendet als Konditionierungsmittel, Feuchtigkeitsspender, Humectant & Emollient in Kosmetika und Körperpflegeprodukten. Es bindet sich leicht an Haarfollikel und ist ein häufiger Bestandteil von Shampoos und Haarconditionern. Es überzieht das Haar und versiegelt seine Oberfläche, schmiert die Follikel und lässt die Strähnen glänzend erscheinen.",
+        "items": [
+          "Feuchtigkeitscremes",
+          "Cremes",
+          "Haargele",
+          "Haarsprays",
+          "Shampoo",
+          "Balsame",
+          "Lippenstift",
+          "Lidschatten",
+          "Mascara"
+        ]
+      }
+    },
+    "preservatives": {
+      "meta": {
+        "title": "Konservierungsmittel - Unicorn Petroleum | Antimikrobielle Systeme für Körperpflege & Pharma",
+        "description": "Effektive Konservierungssysteme einschließlich Parabenen und Phenoxyethanol zur Verhinderung von mikrobiellem Wachstum und zur Verlängerung der Haltbarkeit. Behördlich zugelassene Konservierungsmittel für Kosmetika, Arzneimittel und Körperpflegeprodukte.",
+        "keywords": "Konservierungsmittel, Parabene, Phenoxyethanol, antimikrobielle Mittel, kosmetische Konservierungsmittel, pharmazeutische Konservierungsmittel, Verlängerung der Haltbarkeit, mikrobieller Schutz, Unicorn Petroleum"
+      },
+      "name": "Konservierungsmittel",
+      "purity": "Effektive antimikrobielle Systeme für Körperpflege und Pharma",
+      "common": {
+        "title": "Konservierungsmittel",
+        "description": "Konservierungsmittel sind spezifische Substanzen, die verwendet werden, um Zersetzung durch Bakterien, Pilze und Oxidation zu verhindern. Die Vermeidung verschiedener Arten von Abbau kann die Haltbarkeit einer breiten Palette von Waren verlängern, insbesondere von Nahrungsergänzungsmitteln, Medikamenten, Kosmetika und Industriechemikalien. Ihre Hauptaufgabe besteht darin, sicherzustellen, dass das Produkt über die Zeit gesund, effizient und nützlich bleibt, während gleichzeitig seine ursprüngliche Qualität und Leistung erhalten bleiben.",
+        "additionalInfo": "Die Zusammensetzung, der beabsichtigte Gebrauch und die Konservierungsumgebung des Produkts beeinflussen die Wahl und Konzentration der verwendeten Konservierungsmittel. Darüber hinaus wird ihre Anwendung durch strenge regulierte Richtlinien gesteuert, die darauf abzielen, Verbraucher zu schützen und damit verbundene Gesundheitsrisiken zu reduzieren."
+      },
+      "products": [
+        {
+          "name": "Phenoxyethanol",
+          "desc": ""
+        },
+        {
+          "name": "Ethylhexylglycerin",
+          "desc": "Klare, farblose Flüssigkeit ohne charakteristischen Geruch"
+        },
+        {
+          "name": "Parabene",
+          "desc": "Weißes oder fast weißes kristallines Pulver"
+        },
+        {
+          "name": "DMDM-Hydantoin",
+          "desc": "Klare Flüssigkeit mit geringem charakteristischem Geruch"
+        }
+      ],
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Kosmetik- und Körperpflegeindustrie: Aufgrund des Vorhandenseins von Wasser und organischen Inhaltsstoffen spielen Konservierungsmittel eine entscheidende Rolle, indem sie das Wachstum von Mikroorganismen / Bakterien verhindern oder verzögern und so die Sicherheit gewährleisten und die Stabilität, Wirksamkeit und Frische erhalten.",
+          "Lebensmittelindustrie: Um den Nährwert, die Zusammensetzung, die Textur und den Geschmack zu erhalten sowie Oxidation, enzymatischen Abbau und mikrobiellen Verderb zu verhindern, ist es entscheidend, Konservierungsmittel in kontrollierten und regulierten Proportionen hinzuzufügen und so die Haltbarkeit zu verlängern.",
+          "Pharmazeutische Industrie: Konservierungsmittel in der pharmazeutischen Industrie helfen, die therapeutischen Eigenschaften zu bewahren, indem sie Pilzwachstum verhindern und die Produktintegrität aufrechterhalten, um sicherzustellen, dass die Formulierung für die langfristige Anwendung sicher bleibt.",
+          "Farben- und Beschichtungsindustrie: Da sie äußeren Einflüssen wie direktem Sonnenlicht, Hitze, Feuchtigkeit, Regen und schlechtem Wetter ausgesetzt sind, spielen Konservierungsmittel eine zentrale Rolle in der Farben- und Beschichtungsindustrie."
+        ],
+        "items": [
+          "Cremes",
+          "Lotionen",
+          "Shampoos",
+          "Kosmetik",
+          "Hautpflege"
+        ]
+      }
+    },
+    "surfactants": {
+      "meta": {
+        "title": "Tenside - Unicorn Petroleum | Anionische und nichtionische Tenside für Reinigung & Körperpflege",
+        "description": "Hochwertige anionische und nichtionische Tenside für effektive Reinigung, Schaumbildung und Emulgierung. Verwendung in Shampoos, Waschmitteln, Körperpflegeprodukten und industriellen Reinigungslösungen.",
+        "keywords": "Tenside, anionische Tenside, nichtionische Tenside, Reinigungsmittel, Schaumbildner, Emulgatoren, Waschmittel, Inhaltsstoffe für Körperpflege, industrielle Tenside, Unicorn Petroleum"
+      },
+      "name": "Tenside",
+      "purity": "Anionische und nichtionische Tenside zur Reinigung und Emulgierung",
+      "common": {
+        "title": "Tenside",
+        "description": "Tenside sind in einer Vielzahl von Reinigungs- und Körperpflegeprodukten von Bedeutung, da sie die Oberflächenspannung verringern und das Vermischen von Wasser mit Schmutz und anderen Verunreinigungen ermöglichen. Gemeinsam spielen Tenside eine entscheidende Rolle in verschiedenen Formulierungen, vom Aufschäumen von Shampoos bis hin zum Entfernen von Fett. Aufgrund ihrer anpassungsfähigen Natur sind sie ein entscheidender Inhaltsstoff, der in der Heim- und Körperpflegeindustrie von Bedeutung ist.",
+        "additionalInfo": "Da Tenside in Kombination verwendet werden, platzieren sie sich so an der Grenzfläche zwischen zwei Substanzen, dass der hydrophile Teil mit den Wassermolekülen interagiert, während der hydrophobe Teil sich mit der anderen Substanz verbindet. Dies führt zu einer Barriere zwischen den beiden Verbindungen, wodurch die Oberflächenspannung verringert und der Schmutz für effektive Ergebnisse von der Oberfläche gehoben wird."
+      },
+      "products": [
+        {
+          "name": "Alpha-Olefinsulfonat (AOS)",
+          "desc": "Erhältlich in verschiedenen Qualitäten in Pulver- und Flüssigkeitsform."
+        },
+        {
+          "name": "Natriumlaurylethersulfat (SLES) 70",
+          "desc": "Durchscheinende Paste ohne charakteristischen Geruch."
+        },
+        {
+          "name": "CAPB / Betain",
+          "desc": "Farbtönung farblos bis hellgelbe Flüssigkeit."
+        },
+        {
+          "name": "LABSA 96%",
+          "desc": "Honigfarbene bis dunkelbraune Flüssigkeit."
+        }
+      ],
+      "applications": {
+        "intro": "Tenside haben vielfältige Anwendungsmöglichkeiten in verschiedenen Branchen, wie unten dargestellt:",
+        "points": [
+          "Körperpflege: Verbessern die Schaumbildung, Reinigung und Befeuchtung in Shampoos, Conditionern, Duschgels, Seifen und Zahnpasta.",
+          "Reinigungsmittel: Sie verbessern die Reinigungskraft und Schaumstabilität in Seifen, Waschmitteln und Geschirrspülmitteln durch das Entfernen von Schmutz / Fett.",
+          "Textilindustrie: Sie sind auch in der Textilindustrie von Bedeutung, indem sie Eigenschaften wie die Weichheit des Gewebes verbessern, das Gewebe antistatisch und antibakteriell machen, Schweiß absorbieren und ein schnelles Trocknen des Gewebes im Textilveredelungsprozess ermöglichen.",
+          "Automobilindustrie: Aufgrund ihrer Fähigkeit, die Oberflächenspannung zu verringern, werden Tenside häufig in Autoreinigungsmitteln und Motorentfettern verwendet, um Schmutz-, Fett- und Ölablagerungen zu entfernen.",
+          "Farben & Beschichtungen: Diese Mittel verbessern die Dispersion in Automobillacken, erhöhen die Haftung und Gleichmäßigkeit der Beschichtung und verhindern Defekte wie Streifen und Blasen beim Drucken. Sie fungieren als Emulgatoren, Netzmittel und Dispergiermittel."
+        ],
+        "items": [
+          "Shampoos",
+          "Duschgel",
+          "Gesichtswaschmittel",
+          "Flüssigseifen",
+          "Waschmittel"
+        ]
+      }
+    },
+    "uv-filters": {
+      "meta": {
+        "title": "UV-Filter - Unicorn Petroleum | Organische & anorganische UV-Filter für Sonnenschutz",
+        "description": "Breitband-UV-Filter (UVA & UVB) für Sonnenschutzmittel, Kosmetika und Feuchtigkeitscremes. Organische und anorganische UV-Filter zum Schutz vor Sonnenbrand, vorzeitiger Hautalterung und Hautkrebs. Behördlich zugelassene Sorten.",
+        "keywords": "UV-Filter, organische UV-Filter, anorganische UV-Filter, Inhaltsstoffe für Sonnenschutzmittel, UVA-Schutz, UVB-Schutz, Sonnenschutz, kosmetische UV-Filter, behördlich zugelassen, Unicorn Petroleum"
+      },
+      "name": "UV-Filter",
+      "purity": "Organische und anorganische UV-Filter für einen Breitbandschutz",
+      "common": {
+        "title": "UV-Filter",
+        "description": "UV-Filter werden zur Herstellung von Körperpflegeprodukten verwendet, um unsere Haut vor schädlicher ultravioletter Strahlung zu schützen. Sie haben die Fähigkeit, Hautschäden durch Exposition gegenüber UVA- und UVB-Licht zu verhindern, indem sie UV-Strahlen absorbieren oder reflektieren. UV-Filter werden in Kosmetika, Sonnenschutzmitteln und Feuchtigkeitscremes verwendet, die als Schutzschild gegen Sonnenbrand, vorzeitige Hautalterung und Hautkrebs wirken. Um die Sicherheit und Wirksamkeit in Konsumgütern zu gewährleisten, sind sie in vielen Ländern reguliert."
+      },
+      "products": [
+        {
+          "name": "Octylmethoxycinnamat",
+          "desc": "Aufgrund seiner Stabilität eine beliebte Wahl in Sonnenschutzformulierungen"
+        },
+        {
+          "name": "Octylsalicylat",
+          "desc": "Wird aus Salicylsäure und 2-Ethylhexanol gebildet und dient zum Filtern von UVB-Strahlen im Bereich von 280-320 nm"
+        },
+        {
+          "name": "Homosalat",
+          "desc": "Schutzbarriere gegen UVB-Strahlen, bietet jedoch minimalen Schutz gegen UVA-Strahlen"
+        },
+        {
+          "name": "Avobenzon",
+          "desc": "Ein potenter UV-Filter, der oft mit anderen Stabilisatoren wie Octocrylen kombiniert wird, um die Stabilität zu verbessern"
+        },
+        {
+          "name": "Benzophenon 3",
+          "desc": "Bietet Schutz gegen UVB- und einen Teil der UVA-Strahlen und verhindert so sowohl Sonnenbrand als auch DNA-Schäden"
+        },
+        {
+          "name": "Benzophenon 4",
+          "desc": "Schutzfilter gegen UVA- und UVB-Strahlen, der die Wirksamkeit und Langlebigkeit des Produkts verbessert"
+        },
+        {
+          "name": "Ethylhexyltriazon",
+          "desc": "Synthetische organische Verbindung, die für ihre Photostabilität bekannt ist und vor UVB-Strahlen schützt"
+        },
+        {
+          "name": "Octocrylen",
+          "desc": "Breitband-Sonnenschutz, der die Abwehr durch duale Absorption verstärkt"
+        }
+      ],
+      "applications": {
+        "intro": "UV-Filter werden zur Herstellung von Körperpflegeprodukten verwendet, um unsere Haut vor schädlicher ultravioletter Strahlung zu schützen. Sie haben die Fähigkeit, Hautschäden durch Exposition gegenüber UVA- und UVB-Licht zu verhindern, indem sie UV-Strahlen absorbieren oder reflektieren.",
+        "points": [
+          "Gesichtscremes & Feuchtigkeitscremes",
+          "Sonnenschutzmittel & Sonnencremes",
+          "Foundation Beauty Balms/CC-Creams und Lippenpflegeprodukte",
+          "Haarpflegeprodukte"
+        ],
+        "items": [
+          "Sonnenschutzmittel",
+          "Sonnenpflege",
+          "LSF-Cremes",
+          "Feuchtigkeitscremes",
+          "Kosmetik"
+        ]
+      },
+      "characteristics": {
+        "heading": "Eigenschaften",
+        "items": [
+          "Absorption von UV-Strahlung: UV-Filter wirken wie ein Schutzschild, indem sie verhindern, dass UV-Strahlung in die Haut eindringt, indem sie die UV-Strahlung entweder reflektieren, absorbieren oder streuen. Sie bieten einen Schutz gegen UVA- und UVB-Strahlung, die zu vorzeitiger Hautalterung und Sonnenbrand beiträgt.",
+          "Breitbandschutz: Unser Avobenzon und Octocrylen haben die Fähigkeit, durch Blockieren von UVA- bzw. UVB-Strahlung einen vollständigen Schutz zu bieten.",
+          "Photostabilität: Dies ist die Eigenschaft, welche die Stabilität von UV-Filtern bestimmt, wenn sie direktem Sonnenlicht ausgesetzt sind. Beispiel: Avobenzon kann unter direkter Sonneneinstrahlung zerfallen, es sei denn, es wird durch andere Inhaltsstoffe wie Octocrylen stabilisiert.",
+          "Sicherheit und Verträglichkeit: UV-Filter sollten bei dauerhafter Hautexposition keine nachteiligen Auswirkungen haben. Es sollten keine Reizungen oder allergischen Reaktionen auftreten, und sie sollten dazu neigen, die Poren nicht zu verstopfen. Beispiel: Benzophenon gilt für alle Hauttypen als sicher. Verschiedene UV-Filter können in unterschiedlichen Formulierungen verwendet werden, um Rundum-Stabilität und hautfreundliche Leistung zu verleihen."
+        ]
+      }
+    }
+  },
+  "packaging": {
+    "hdpe": "HDPE-Fässer",
+    "ms": "MS-Fässer",
+    "flexibag": "Flexibag",
+    "ibc": "IBC",
+    "bags": "Säcke",
+    "cartons": "Kartons",
+    "pails": "HDPE-Eimer",
+    "fibre": "Fiber-Trommeln"
+  },
+  "ui": {
+    "finalProductUtilization": "Endproduktanwendungen",
+    "packagedResponsiblyIn": "Verantwortungsvoll verpackt in",
+    "relatedProducts": "Verwandte Produkte",
+    "exploreOtherProducts": "Entdecken Sie weitere verwandte Produkte",
+    "viewDetails": "Details anzeigen"
+  }
+}

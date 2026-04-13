@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "Nosso Blog",
+    "subtitle": "Insights, atualizações e notícias do setor"
+  },
+  "posts": {
+    "post1": {
+      "title": "Entendendo as Aplicações da Vaselina",
+      "date": "15 de maio de 2024",
+      "category": "Produtos",
+      "excerpt": "A vaselina é um produto versátil usado em vários setores. Conheça suas principais aplicações em produtos farmacêuticos e cosméticos.",
+      "content": "<p>A vaselina, também conhecida como petrolato, é uma mistura semissólida de hidrocarbonetos. Descoberta em meados do século XIX, desde então se tornou um ingrediente essencial em vários setores.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Usos Farmacêuticos</h3><p>No setor farmacêutico, a vaselina é usada principalmente como ingrediente ativo em pomadas tópicas. Suas propriedades de barreira excepcionais ajudam a selar a pele, evitando a perda de umidade e protegendo pequenos cortes, arranhões e queimaduras de elementos externos.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Cosméticos e Cuidados Pessoais</h3><p>Sua natureza profundamente hidratante a torna um item essencial em cosméticos. É encontrada em protetores labiais, loções para a pele e até mesmo em formulações de produtos para cuidados com os cabelos para conferir brilho e reter a umidade natural. Ajuda a proteger a pele contra ambientes físicos e químicos agressivos.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Aplicações Industriais</h3><p>Além dos cuidados pessoais, as propriedades lubrificantes e anticorrosivas da vaselina encontram aplicações em fabricação, manutenção de máquinas e prevenção de ferrugem.</p>"
+    },
+    "post2": {
+      "title": "A Importância do Controle de Qualidade na Fabricação de Ceras",
+      "date": "28 de abril de 2024",
+      "category": "Qualidade",
+      "excerpt": "Garantir qualidade consistente na fabricação de ceras exige testes e padrões rigorosos. Saiba como mantemos a excelência.",
+      "content": "<p>A fabricação de ceras é uma ciência precisa. Alcançar as propriedades físicas e químicas exatas exigidas para aplicações específicas demanda protocolos rigorosos de controle de qualidade.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Padrões de Testes Rigorosos</h3><p>Nossos laboratórios realizam testes meticulosos em cada lote de cera. Isso inclui medir o ponto de fusão, ponto de congelamento, teor de óleo, cor e penetração da agulha. Esses parâmetros ditam o comportamento da cera em sua aplicação final.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Otimização de Processos</h3><p>O controle de qualidade começa muito antes de o produto final ser formado. Monitoramos as matérias-primas e controlamos precisamente as temperaturas e as proporções de mistura durante o processo de fabricação para garantir a consistência de lote para lote.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Certificações e Conformidade</h3><p>A Unicorn Petroleum adere estritamente aos padrões internacionais de qualidade, incluindo certificações ISO. Esse compromisso garante que nossos clientes recebam produtos seguros, confiáveis e perfeitamente adequados às suas necessidades.</p>"
+    },
+    "post3": {
+      "title": "Práticas Sustentáveis na Indústria Petroquímica",
+      "date": "10 de março de 2024",
+      "category": "Meio Ambiente",
+      "excerpt": "A sustentabilidade não é mais opcional. Descubra as medidas que a Unicorn Petroleum está tomando para minimizar o impacto ambiental.",
+      "content": "<p>A indústria petroquímica está passando por uma transformação significativa, impulsionada por uma necessidade urgente de responsabilidade ambiental. A Unicorn Petroleum está na vanguarda da implementação de práticas sustentáveis.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Eficiência Energética</h3><p>Estamos continuamente atualizando nossas instalações de fabricação para melhorar a eficiência energética. Ao otimizar os processos de aquecimento e recuperar o calor residual, reduzimos significativamente nossa pegada energética.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Redução de Resíduos e Reciclagem</h3><p>Nosso compromisso com a sustentabilidade se estende a protocolos rigorosos de gestão de resíduos. Visamos minimizar a geração de resíduos e maximizar a reciclagem de materiais em nossas operações. A conservação da água também é um foco principal, empregando sistemas avançados de circuito fechado.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Investindo em Tecnologias Verdes</h3><p>Estamos pesquisando e investindo ativamente em alternativas ecológicas e métodos de produção mais sustentáveis para garantir um futuro mais verde sem comprometer a qualidade do produto.</p>"
+    }
+  },
+  "ui": {
+    "readMore": "Ler mais",
+    "backToBlog": "Voltar ao Blog",
+    "postNotFound": "Postagem não encontrada"
+  }
+}

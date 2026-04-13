@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "Nuestro Blog",
+    "subtitle": "Información, actualizaciones y noticias de la industria"
+  },
+  "posts": {
+    "post1": {
+      "title": "Entenidendo las aplicaciones de la vaselina",
+      "date": "15 de mayo de 2024",
+      "category": "Productos",
+      "excerpt": "La vaselina es un producto versátil utilizado en diversas industrias. Conozca sus aplicaciones clave en el sector farmacéutico y cosmético.",
+      "content": "<p>La vaselina, también conocida como petrolatum, es una mezcla semisólida de hidrocarburos. Descubierta a mediados del siglo XIX, se ha convertido desde entonces en un ingrediente esencial en numerosas industrias.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Usos farmacéuticos</h3><p>En el sector farmacéutico, la vaselina se utiliza principalmente como ingrediente activo en pomadas tópicas. Sus excepcionales propiedades de barrera ayudan a sellar la piel, evitando la pérdida de humedad y protegiendo cortes, rasguños y quemaduras menores de los elementos externos.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Cosmética y cuidado personal</h3><p>Su naturaleza profundamente hidratante la convierte en un elemento básico en la cosmética. Se encuentra en bálsamos labiales, lociones para la piel e incluso en formulaciones de productos para el cuidado del cabello para aportar brillo y retener la humedad natural. Ayuda a proteger la piel contra ambientes físicos y químicos agresivos.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Aplicaciones industriales</h3><p>Más allá del cuidado personal, las propiedades lubricantes y anticorrosivas de la vaselina encuentran aplicaciones en la fabricación, el mantenimiento de maquinaria y la prevención de la oxidación.</p>"
+    },
+    "post2": {
+      "title": "La importancia del control de calidad en la fabricación de ceras",
+      "date": "28 de abril de 2024",
+      "category": "Calidad",
+      "excerpt": "Garantizar una calidad constante en la fabricación de ceras requiere pruebas y estándares rigurosos. Así es como mantenemos la excelencia.",
+      "content": "<p>La fabricación de ceras es una ciencia precisa. Lograr las propiedades físicas y químicas exactas requeridas para aplicaciones específicas exige protocolos de control de calidad estrictos.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Estándares de prueba rigurosos</h3><p>Nuestros laboratorios realizan pruebas minuciosas en cada lote de cera. Esto incluye la medición del punto de fusión, el punto de congelación, el contenido de aceite, el color y la penetración de aguja. Estos parámetros dictan el comportamiento de la cera en su aplicación final.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Optimización del proceso</h3><p>El control de calidad comienza mucho antes de que se forme el producto final. Supervisamos las materias primas y controlamos con precisión las temperaturas y las proporciones de mezcla durante el proceso de fabricación para garantizar la consistencia entre lotes.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Certificaciones y cumplimiento</h3><p>Unicorn Petroleum se adhiere estrictamente a los estándares internacionales de calidad, incluidas las certificaciones ISO. Este compromiso garantiza que nuestros clientes reciban productos seguros, confiables y perfectamente adecuados para sus necesidades.</p>"
+    },
+    "post3": {
+      "title": "Prácticas sostenibles en la industria petroquímica",
+      "date": "10 de marzo de 2024",
+      "category": "Medio ambiente",
+      "excerpt": "La sostenibilidad ya no es opcional. Descubra los pasos que Unicorn Petroleum está tomando para minimizar el impacto ambiental.",
+      "content": "<p>La industria petroquímica está experimentando una transformación significativa, impulsada por una necesidad urgente de responsabilidad ambiental. Unicorn Petroleum está a la vanguardia en la implementación de prácticas sostenibles.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Eficiencia energética</h3><p>Actualizamos continuamente nuestras instalaciones de fabricación para mejorar la eficiencia energética. Al optimizar los procesos de calentamiento y recuperar el calor residual, reducimos significativamente nuestra huella energética.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Reducción de residuos y reciclaje</h3><p>Nuestro compromiso con la sostenibilidad se extiende a protocolos estrictos de gestión de residuos. Nuestro objetivo es minimizar la generación de residuos y maximizar el reciclaje de materiales en nuestras operaciones. La conservación del agua también es un foco principal, empleando sistemas avanzados de circuito cerrado.</p><h3 class='text-xl font-semibold mt-6 mb-3 text-gray-800'>Inversión en tecnologías verdes</h3><p>Estamos investigando e invirtiendo activamente en alternativas ecológicas y métodos de producción más sostenibles para garantizar un futuro más verde sin comprometer la calidad del producto.</p>"
+    }
+  },
+  "ui": {
+    "readMore": "Leer más",
+    "backToBlog": "Volver al Blog",
+    "postNotFound": "Artículo no encontrado"
+  }
+}

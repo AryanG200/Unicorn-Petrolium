@@ -1,0 +1,300 @@
+{
+  "hero": {
+    "title": "Unsere Anwendungen",
+    "description": "Bereitstellung hochwertiger Lösungen für verschiedene Branchen"
+  },
+  "breadcrumbs": {
+    "home": "Startseite",
+    "applications": "Anwendungen",
+    "pharmaceutical": "Pharmazie",
+    "cosmetics": "Kosmetik",
+    "personal-care": "Körperpflege",
+    "home-care": "Haushaltspflege",
+    "textile": "Textil",
+    "lubricants": "Schmierstoffe",
+    "agrochemical": "Agrarchemie",
+    "bulk-chemical": "Industriechemie"
+  },
+  "sections": {
+    "overview": {
+      "title": "Branchenübersicht"
+    },
+    "relatedProducts": {
+      "title": "Ähnliche Produkte",
+      "viewDetails": "Details anzeigen"
+    }
+  },
+  "categories": {
+    "pharmaceutical": { "name": "Pharmazie" },
+    "cosmetics": { "name": "Kosmetik" },
+    "personal-care": { "name": "Körperpflege" },
+    "home-care": { "name": "Haushaltspflege" },
+    "textile": { "name": "Textil" },
+    "lubricants": { "name": "Schmierstoffe" },
+    "agrochemical": { "name": "Agrarchemie" }
+  },
+  "products": {
+    "petroleumJelly": {
+      "name": "Vaseline",
+      "description": "Heilsalben, Hautschutzmittel und Hilfsstoffe in topischen Medikamenten."
+    },
+    "whiteMineralOils": {
+      "name": "Weiße Mineralöle",
+      "description": "Verwendet als Abführmittel, Tablettenüberzug, Salbenbasis und in topischen Formulierungen."
+    },
+    "lanolin": {
+      "name": "Lanolin",
+      "description": "Raffiniertes Wollfett, das als hautpflegender Hilfsstoff verwendet wird."
+    },
+    "naturalBeeswax": {
+      "name": "Natürliches Bienenwachs",
+      "description": "Verwendet in Salben, Tablettenüberzügen und als Bindemittel."
+    },
+    "emulsifyingWax": {
+      "name": "Emulgierendes Wachs",
+      "description": "Verwendet in emulgierten medizinischen Cremes."
+    },
+    "dPanthenol": {
+      "name": "D-Panthenol",
+      "description": "Provitamin B5 zur Unterstützung der Hautregeneration und Feuchtigkeitsversorgung."
+    },
+    "preservatives": {
+      "name": "Konservierungsmittel",
+      "description": "Verhindert mikrobielles Wachstum in Sirupen, Augentropfen, Salben und Injektionen."
+    },
+    "hardParaffinWax": {
+      "name": "Hartparaffin",
+      "description": "Verwendet in Cremes, Salben, Balsamen und Lippenpflegeprodukten."
+    },
+    "microcrystallineWax": {
+      "name": "Mikrokristallines Wachs",
+      "description": "Verwendet bei der Herstellung von Salben und Balsamen."
+    },
+    "uvFilters": {
+      "name": "UV-Filter",
+      "description": "Verwendet in dermatologischen Formulierungen zum Schutz vor UV-Schäden."
+    },
+    "surfactants": {
+      "name": "Tenside",
+      "description": "Lösungsvermittler, Emulgatoren, Netzmittel in Sirupen und topischen Formulierungen."
+    }
+  },
+  "industries": {
+    "pharmaceutical": {
+      "hero": {
+        "title": "Pharmazeutische Anwendungen",
+        "description": "Hochreine Inhaltsstoffe für lebensrettende Medikamente"
+      },
+      "meta": {
+        "title": "Pharmazeutische Anwendungen - Unicorn Petroleum",
+        "description": "Hochreine pharmazeutische Inhaltsstoffe gemäß USP/NF, EP und IP Standards.",
+        "keywords": "Pharmazie, Pharma-Inhaltsstoffe, Hilfsstoffe, USP, GMP"
+      },
+      "overview": {
+        "title": "Massgeschneidert für Pharmaprodukte",
+        "description": "Unsere Produkte werden in der Pharmaindustrie häufig als praktische Additive und Herstellungshilfsmittel eingesetzt."
+      },
+      "tailoredForPharma": {
+        "heading": "Maßgeschneidert für Pharma",
+        "subheading": "Spezialisierte Lösungen für pharmazeutische Formulierungen",
+        "features": [
+          { "title": "Einhaltung gesetzlicher Vorschriften", "description": "Vollständige Konformität mit USP/NF, EP, IP Standards und FDA 21 CFR" },
+          { "title": "Hohe Reinheitsgrade", "description": "Inhaltsstoffe in Pharmaqualität mit einer Reinheit von 99,9%+" },
+          { "title": "Kundenspezifische Formulierungen", "description": "Lösungen für spezifische Anwendungen und Darreichungsformen" }
+        ]
+      },
+      "applications": {
+        "heading": "Hauptanwendungen",
+        "subheading": "Kritische Anwendungen in pharmazeutischen Formulierungen",
+        "cards": [
+          { "title": "Salben & Cremes", "description": "Vaseline und weiße Mineralöle für topische Anwendungen" },
+          { "title": "Tablettenformulierungen", "description": "Gleitmittel und Bindemittel für feste orale Darreichungsformen" },
+          { "title": "Injektionspräparate", "description": "Hochreine Inhaltsstoffe für parenterale Formulierungen" },
+          { "title": "Suppositorien", "description": "Basismaterialien für rektale und vaginale Präparate" }
+        ]
+      },
+      "compliance": {
+        "title": "Regulierungskonformität",
+        "items": ["USP/NF Konformität", "EP Konformität", "IP Konformität", "FDA 21 CFR", "GMP-zertifiziert"]
+      }
+    },
+    "cosmetics": {
+      "hero": {
+        "title": "Kosmetische Anwendungen",
+        "description": "Schönheitswirkstoffe, die weltweiten Standards entsprechen"
+      },
+      "overview": {
+        "title": "Kosmetikindustrie",
+        "description": "Unsere Chemikalien verbessern die Textur, den Glanz und die Verstreichbarkeit von Pflegeprodukten."
+      },
+      "tailoredForPharma": {
+        "heading": "Premium-Kosmetik",
+        "subheading": "Spezialisierte Inhaltsstoffe für hochwertige Schönheitslösungen",
+        "features": [
+          { "title": "Sensorische Exzellenz", "description": "Verbessert Hautgefühl, Verstreichbarkeit und Ästhetik" },
+          { "title": "Globale Standards", "description": "Konform mit EU, FDA und asiatischen Kosmetikvorschriften" },
+          { "title": "Hypoallergene Qualitäten", "description": "Reinheitsgrade für empfindliche Haut" }
+        ]
+      },
+      "applications": {
+        "heading": "Hauptanwendungen",
+        "subheading": "Kosmetische Anwendungen in der gesamten Branche",
+        "cards": [
+          { "title": "Hautpflege", "description": "Basisinhaltsstoffe für Cremes, Lotions und Seren" },
+          { "title": "Make-up", "description": "Bindemittel und Texturgeber für dekorative Kosmetik" },
+          { "title": "Haarpflege", "description": "Konditionierende Inhaltsstoffe" },
+          { "title": "Sonnenschutz", "description": "Stabilisatoren für UV-Filter" }
+        ]
+      }
+    },
+    "personal-care": {
+      "hero": {
+        "title": "Körperpflege",
+        "description": "Inhaltsstoffe für die tägliche Hygiene"
+      },
+      "overview": {
+        "title": "Körperpflege",
+        "description": "Unsere Produkte helfen, Feuchtigkeit zu speichern und die Geschmeidigkeit von Haut und Haar zu verbessern."
+      },
+      "tailoredForPharma": {
+        "heading": "Lösungen für die tägliche Pflege",
+        "subheading": "Vielseitige Inhaltsstoffe für Hygieneprodukte",
+        "features": [
+          { "title": "Hautverträglichkeit", "description": "Milde Inhaltstoffe, geeignet für die ganze Familie und Kinder" },
+          { "title": "Hohe Stabilität", "description": "Produktintegrität unter verschiedenen Bedingungen" },
+          { "title": "Feuchtigkeitsspeicherung", "description": "Hervorragende pflegende Eigenschaften" }
+        ]
+      },
+      "applications": {
+        "heading": "Hauptanwendungen",
+        "subheading": "Hygiene und Pflege im täglichen Leben",
+        "cards": [
+          { "title": "Babypflege", "description": "Ultra-reine Inhaltsstoffe für empfindliche Babyhaut" },
+          { "title": "Dermatologie", "description": "Klinische Grundlagen für die Hautregeneration" },
+          { "title": "Haarhygiene", "description": "Basen für Shampoos und Kopfhautpflege" },
+          { "title": "Pädiatrie", "description": "Sichere Komponenten für die Kinderhygiene" }
+        ]
+      }
+    },
+    "home-care": {
+      "hero": {
+        "title": "Haushaltspflege",
+        "description": "Zuverlässige Inhaltsstoffe für Reinigungsmittel"
+      },
+      "overview": {
+        "title": "Haushaltspflege",
+        "description": "Unsere Produkte verbessern die Wirksamkeit und Stabilität von Reinigungslösungen."
+      },
+      "tailoredForPharma": {
+        "heading": "Leistung im Haushalt",
+        "subheading": "Langlebige Chemikalien für moderne Reinigungslösungen",
+        "features": [
+          { "title": "Oberflächenschutz", "description": "Schutzbarriere für Böden, Möbel und Küche" },
+          { "title": "pH-Stabilität", "description": "Wirksam in sauren und alkalischen Umgebungen" },
+          { "title": "Effizientes Polieren", "description": "Überlegener Glanz und Finish" }
+        ]
+      },
+      "applications": {
+        "heading": "Hauptanwendungen",
+        "subheading": "Haushaltspflege und spezialisierte Reinigung",
+        "cards": [
+          { "title": "Reinigungsmittel", "description": "Additive für Waschmittel und Geschirrspüler" },
+          { "title": "Politur", "description": "Basiswachse und Öle für Möbel und Böden" },
+          { "title": "Küche & Bad", "description": "Spezialreiniger für Hygiene und Entkalkung" },
+          { "title": "Autopflege", "description": "Wachse und Cockpit-Schutz" }
+        ]
+      }
+    },
+    "textile": {
+      "hero": {
+        "title": "Textilanwendungen",
+        "description": "Hilfsmittel für die Faser- und Gewebeverarbeitung"
+      },
+      "overview": {
+        "title": "Textilindustrie",
+        "description": "Produkte unterstützen die Faserschmierung und Garnherstellung."
+      },
+      "tailoredForPharma": {
+        "heading": "Textile Exzellenz",
+        "subheading": "Technische Lösungen für die Hochgeschwindigkeitsproduktion",
+        "features": [
+          { "title": "Niedrige Reibung", "description": "Optimiert Maschinenleistung und reduziert Garnbruch" },
+          { "title": "Vergilbungsschutz", "description": "Erhält die Farbe von Natur- und Synthetikfasern" },
+          { "title": "Leichte Auswaschbarkeit", "description": "Einfache Entfernung während der Veredelung" }
+        ]
+      },
+      "applications": {
+        "heading": "Hauptanwendungen",
+        "subheading": "Vom Spinnen bis zur Endveredelung",
+        "cards": [
+          { "title": "Spinnöle", "description": "Gleitmittel für die Woll- und Baumwollproduktion" },
+          { "title": "Webereihilfsmittel", "description": "Antistatika und Garnfestiger" },
+          { "title": "Gewebeveredelung", "description": "Weichmacher und Glanzverbesserer" },
+          { "title": "Farbegalisierung", "description": "Färbereihilfsmittel für gleichmäßige Farben" }
+        ]
+      }
+    },
+    "lubricants": {
+      "hero": {
+        "title": "Schmierstoffe",
+        "description": "Hochleistungsbasen für die Industrieschmierung"
+      },
+      "overview": {
+        "title": "Schmierstoffindustrie",
+        "description": "Unsere Materialien sorgen für stabile Viskosität und thermische Stabilität."
+      },
+      "tailoredForPharma": {
+        "heading": "Mechanische Präzision",
+        "subheading": "Robuste Komponenten für extreme Belastungen",
+        "features": [
+          { "title": "Thermische Stabilität", "description": "Erhält Viskosität bei hoher Betriebswärme" },
+          { "title": "Oxidationsbeständigkeit", "description": "Verhindert Schlammbildung" },
+          { "title": "Viskositätskontrolle", "description": "Präzise Qualitäten für Hydraulik und Motoren" }
+        ]
+      },
+      "applications": {
+        "heading": "Hauptanwendungen",
+        "subheading": "Spezialisierte Basen",
+        "cards": [
+          { "title": "Industrieöle", "description": "Basen für Hydraulikflüssigkeiten und Getriebeöle" },
+          { "title": "Automobil", "description": "Qualitätskomponenten für Motorenöle und Fette" },
+          { "title": "Prozessöle", "description": "Öle für die Gummi- und Kunststoffherstellung" },
+          { "title": "Metallbearbeitung", "description": "Kühl- und Schmiermittel" }
+        ]
+      }
+    },
+    "agrochemical": {
+      "hero": {
+        "title": "Agrarchemie",
+        "description": "Spezialisierte Inhaltsstoffe für landwirtschaftliche Formulierungen"
+      },
+      "overview": {
+        "title": "Agrarchemische Produkte",
+        "description": "Verbessert die Stabilität der Formulierungen unter schwierigen Bedingungen."
+      },
+      "tailoredForPharma": {
+        "heading": "Landwirtschaftliche Effizienz",
+        "subheading": "Optimierung der Wirkstoffabgabe",
+        "features": [
+          { "title": "Spritzhaftung", "description": "Reduziert Abfluss und verbessert die Haftung auf Blättern" },
+          { "title": "Verdunstungsschutz", "description": "Verhindert schnelles Austrocknen in heißem Klima" },
+          { "title": "Niedrige Phytotoxizität", "description": "Schützt den Wirkstoff, ohne die Ernte zu schädigen" }
+        ]
+      },
+      "applications": {
+        "heading": "Hauptanwendungen",
+        "subheading": "Pflanzenschutz und Bodenbehandlung",
+        "cards": [
+          { "title": "Pestizidträger", "description": "Wachse und Öle zur Stabilisierung von Pestiziden" },
+          { "title": "Düngemittelüberzug", "description": "Antibackmittel für frei fließendes Granulat" },
+          { "title": "Adjuvantien", "description": "Verbessern die Aufnahme von Chemikalien durch die Pflanze" },
+          { "title": "Langzeitfreisetzung", "description": "Wachsbasen für die kontrollierte Nährstoffabgabe" }
+        ]
+      }
+    }
+  },
+  "ui": {
+    "relatedProducts": "Ähnliche Produkte",
+    "viewDetails": "Details anzeigen"
+  }
+}

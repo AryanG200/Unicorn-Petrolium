@@ -1,0 +1,633 @@
+{
+  "index": {
+    "title": "Our Products",
+    "subtitle": "Comprehensive range of high-quality petroleum and specialty products",
+    "heroTitle": "Our Product Portfolio",
+    "heroSubtitle": "High-Quality Petroleum Specialties for Diverse Industries",
+    "completePortfolio": "Complete Product Portfolio",
+    "viewCategory": "View Category",
+    "viewProduct": "View Product",
+    "helpTitle": "Need Help Choosing the Right Product?",
+    "helpDesc": "Our experts are here to help you find the perfect solution for your specific needs and applications.",
+    "contactBtn": "Contact Our Experts",
+    "applicationsBtn": "View Applications"
+  },
+  "sidebar": {
+    "title": "Our Products",
+    "allProducts": "All Products"
+  },
+  "categories": {
+    "petroleum-jelly": {
+      "name": "Petroleum Jelly",
+      "desc": "Versatile emollient and protective agent for skin care applications"
+    },
+    "white-mineral-oils": {
+      "name": "White Mineral Oils",
+      "desc": "High-quality mineral oils for various industrial and cosmetic uses"
+    },
+    "microcrystalline-wax": {
+      "name": "Microcrystalline Wax",
+      "desc": "Fine-grained wax with excellent binding and coating properties"
+    },
+    "paraffin-wax": {
+      "name": "Hard Paraffin Wax",
+      "desc": "Versatile wax products for multiple industrial applications"
+    },
+    "natural-beeswax": {
+      "name": "Natural Beeswax",
+      "desc": "Pure natural wax with excellent emulsifying properties"
+    },
+    "lanolin": {
+      "name": "Lanolin",
+      "desc": "Refined wool grease for cosmetic, pharmaceutical, and industrial use"
+    },
+    "emulsifying-wax": {
+      "name": "Emulsifying Wax",
+      "desc": "Specialized wax for creating stable emulsions"
+    },
+    "d-panthenol": {
+      "name": "D-Panthenol",
+      "desc": "Provitamin B5 for enhanced skin conditioning and healing"
+    },
+    "preservatives": {
+      "name": "Preservatives",
+      "desc": "Antimicrobial agents to extend product shelf life"
+    },
+    "surfactants": {
+      "name": "Surfactants",
+      "desc": "Surface-active agents for cleaning and emulsification"
+    },
+    "uv-filters": {
+      "name": "UV Filters",
+      "desc": "UV protection agents for sun care formulations"
+    }
+  },
+  "subItems": {
+    "light-mineral-oil": {
+      "name": "Light Mineral Oil",
+      "desc": "Light viscosity mineral oil for cosmetic and pharmaceutical applications"
+    },
+    "heavy-mineral-oil": {
+      "name": "Heavy Mineral Oil",
+      "desc": "Heavy viscosity mineral oil for industrial lubrication"
+    },
+    "soft-paraffin": {
+      "name": "Soft Paraffin",
+      "desc": "Soft consistency paraffin wax for topical applications"
+    },
+    "hard-paraffin": {
+      "name": "Hard Paraffin",
+      "desc": "Hard consistency paraffin wax for industrial uses"
+    },
+    "parabens": {
+      "name": "Parabens",
+      "desc": "Traditional preservative system for cosmetic products"
+    },
+    "phenoxyethanol": {
+      "name": "Phenoxyethanol",
+      "desc": "Broad-spectrum preservative with excellent compatibility"
+    },
+    "anionic": {
+      "name": "Anionic",
+      "desc": "Anionic surfactants for effective cleaning and foaming"
+    },
+    "nonionic": {
+      "name": "Nonionic",
+      "desc": "Nonionic surfactants for gentle cleaning applications"
+    },
+    "organic-filters": {
+      "name": "Organic Filters",
+      "desc": "Organic UV filters for broad-spectrum sun protection"
+    },
+    "inorganic-filters": {
+      "name": "Inorganic Filters",
+      "desc": "Inorganic UV filters for physical sun protection"
+    }
+  },
+  "pages": {
+    "petroleum-jelly": {
+      "meta": {
+        "title": "Petroleum Jelly - Unicorn Petroleum | Premium Quality Petrolatum",
+        "description": "High-quality Petroleum Jelly (Petrolatum) manufactured since 1964. Versatile emollient for pharmaceutical and cosmetic applications. Strict quality control ensures consistency and purity.",
+        "keywords": "petroleum jelly, petrolatum, white soft paraffin, yellow soft paraffin, emollient, skin care, pharmaceutical ingredients, cosmetic ingredients, Unicorn Petroleum"
+      },
+      "name": "Petroleum Jelly",
+      "purity": "Purity for every application",
+      "common": {
+        "title": "Petroleum Jelly / Petrolatum / Soft Paraffin",
+        "description": "Petroleum Jelly is an ointment-like, homogenous, highly refined semi-solid with a delicate balance between liquid and solid hydrocarbons for skin-care application and topical formulations.\n Our product maintains a good structure during processing and congeals to form a smooth surface while packing, which adds to aesthetic value, and it has the ability to resist moisture, prevent decolorization and retain oil content even at elevated temperatures.",
+        "additionalInfo": "It is available in the following colours: bright snow-white, off-white, pearl-white, Lily, Pale-yellow, bright-yellow and amber."
+      },
+      "applications": {
+        "intro": "White/Yellow petroleum jelly find varied applications as an excipient in cosmetic and pharmaceutical formulations; such as the following:",
+        "items": [
+          "Ointments",
+          "Pain balms",
+          "Cosmetic creams",
+          "Foot care creams",
+          "Hair food formulations",
+          "Eye applicaps",
+          "Gauze dressings",
+          "Skin protectants",
+          "Dental adhesive",
+          "General-purpose lubricant"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Key features of Petroleum Jelly from us",
+        "compliance": "Pharmacopoeial compliance",
+        "otherCompliances": "Other compliances"
+      }
+    },
+    "white-mineral-oils": {
+      "meta": {
+        "title": "White Mineral Oils - Unicorn Petroleum | High-Quality Paraffinic Mineral Oils",
+        "description": "Premium white mineral oils (paraffinic) in various viscosities for pharmaceutical, cosmetic, personal care, and industrial applications. Colorless, odorless, and highly refined.",
+        "keywords": "white mineral oil, mineral oil, paraffinic mineral oil, light mineral oil, heavy mineral oil, pharmaceutical mineral oil, cosmetic mineral oil, industrial lubricant"
+      },
+      "name": "White Mineral Oils",
+      "purity": "Purity for every application",
+      "common": {
+        "title": "White Mineral Oil / Liquid Paraffin / White Oil",
+        "description": "Mineral Oils are colourless, odourless mixtures of saturated liquid hydrocarbons obtained from the distillation of petroleum. Our Mineral Oils are paraffinic in nature and we offer a wide range for viscosities for varied applications.",
+        "additionalInfo": "Our Unimin range of cosmetic / pharmaceutical grade Mineral Oils are highly refined, and tailor made for skincare and hair-care formulations. These products are treated for harmful polycyclic aromatic impurities and they pass the Polycyclic Aromatic Hydrocarbon test along with other purity norms in the Pharmacopoeia and comply with all the Regulatory requirements as per the European Commission and USFDA. They do not support pathogenic bacterial growth and due to this property, they become ideal blending bases for pharmaceutical / cosmetic applications. Having excellent lubricating property, it can be used as a general-purpose lubricant. Characterized by a high viscosity index, our White Mineral Oils keep stable viscosity at extreme temperatures."
+      },
+      "applications": {
+        "intro": "We provide different levels of viscosity which permit a wide range of use in:",
+        "items": [
+          "Baby / bath oils",
+          "Cold creams & moisturising creams",
+          "Lotions",
+          "Suntans / sunscreens",
+          "Antibiotics",
+          "Eye make-up",
+          "Gelatin capsules",
+          "Protective coatings for fruits and vegetables",
+          "Soaps and detergents",
+          "Anti-static coning oils",
+          "Knitting oils",
+          "Textile auxiliaries",
+          "Dyes and Dye intermediates",
+          "Flexible Intermediate Bulk Container (FIBC)",
+          "Leather chemicals and fat liquors",
+          "Specialty chemicals",
+          "Perfumery chemicals",
+          "Coatings and polished",
+          "Ink chemicals",
+          "Softener during plastic processing",
+          "Medical instruments",
+          "Filling / packaging machines in the food industry",
+          "Compressor cylinder in the beverage industry"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Key features of White Mineral Oils from us",
+        "compliance": "Pharmacopoeial compliance",
+        "otherCompliances": "Other compliances"
+      }
+    },
+    "lanolin": {
+      "meta": {
+        "title": "Lanolin - Unicorn Petroleum | Refined Wool Grease for Cosmetic & Pharma",
+        "description": "Lanolin (Wool Fat / Adeps Lanae) is a highly refined natural grease derived from wool. Used in cosmetic, pharmaceutical, and industrial applications for moisture retention and protective properties.",
+        "keywords": "lanolin, wool fat, adeps lanae, cosmetic ingredients, pharmaceutical ingredients, refined lanolin, skin conditioning, unicorn petroleum"
+      },
+      "name": "Lanolin",
+      "purity": "Highly refined wool grease for cosmetic, pharmaceutical, and industrial use.",
+      "common": {
+        "title": "Lanolin",
+        "description": "Lanolin which is frequently referred to as Wool Fat / Adeps Lanae is a highly refined and purified natural grease that originates as a unique substance secreted by sheep from the sebaceous glands in their skin to form a natural protective coating on the wool fibers and is completely different from the body fat of animals. The crude grease is recovered from the natural, greasy wool of sheep and finished Lanolin is derived from the said natural grease after intensive refining and a series of other unique processes."
+      },
+      "characteristics": {
+        "heading": "Characteristics",
+        "items": [
+          "Being 100% natural & by virtue of its unique characters, it has enormous potential for use in skincare, cosmetic and topical pharmaceutical applications and/or products.",
+          "It has the characteristic ability to absorb twice its own weight of water & adhesion to dry skin, forming protective films on the skin.",
+          "Improves the stability of oil in water emulsions.",
+          "Its emollience restores and retains the moisture balance of the skin while not interfering with its normal transpiration, thereby preventing the drying and the chapping of the skin. It thus makes the skin feel smooth, soft and supple.",
+          "It possesses anti-corrosive, protective and lubricating properties which are used for industrial applications. Lanolin is non-conductive thereby finding extensive use in making electric components."
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Key features of Lanolin from us",
+        "compliance": "Pharmacopoeial compliance",
+        "otherCompliances": "Other compliances"
+      }
+    },
+    "microcrystalline-wax": {
+      "meta": {
+        "title": "Microcrystalline Wax - Unicorn Petroleum | Fine-Grained Wax for Formulations",
+        "description": "High-quality microcrystalline wax with excellent binding and coating properties. Used in cosmetic and pharmaceutical formulations for structural strength, texture, and stability.",
+        "keywords": "microcrystalline wax, petroleum wax, cosmetic wax, pharmaceutical wax, binding agent, coating agent, texture modifier, Unicorn Petroleum"
+      },
+      "name": "Microcrystalline Wax",
+      "purity": "Purity for every application",
+      "common": {
+        "title": "Microcrystalline Wax",
+        "description": "Microcrystalline waxes are a type of wax produced by de-oiling petrolatum, as part of the petroleum refining process. It is characterised by the fineness of its crystals and is a higher molecular weight saturated aliphatic hydrocarbon. The elastic and adhesive characteristics of microcrystalline waxes are due to their branched-chain components. This wax has affinity for paraffin wax and mineral oil, due to which it is widely used in oil-based formulations in the cosmetic/pharmaceutical industry. It provides strong oil-holding performance, minimizing oil separation, thus helping formulations to remain stable and consistent throughout long-term storage. Microwax works as a reliable occlusive agent, creating a protective layer on the skin that helps lock in moisture and prevent dehydration in topical formulations. Micro waxes add structural strength and lustre to the final product."
+      },
+      "applications": {
+        "intro": "Microcrystalline waxes find ideal application towards final product utilization of:",
+        "items": [
+          "Cosmetic creams",
+          "Lotions",
+          "Pharmaceutical ointments",
+          "Petroleum jelly",
+          "Lipsticks",
+          "Balms",
+          "Pain rubs",
+          "Gloss",
+          "Chewing gums",
+          "Adhesives",
+          "Cables",
+          "Candles",
+          "Chemical industry",
+          "Corrosion protection",
+          "Crayons",
+          "Packaging",
+          "Pipe wrap tape",
+          "Plastic and polymers",
+          "Industrial products",
+          "Personal care industry"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Key features of Microcrystalline Wax from us",
+        "compliance": "Pharmacopoeial compliance",
+        "otherCompliances": "Other compliances",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "paraffin-wax": {
+      "meta": {
+        "title": "Hard Paraffin Wax - Unicorn Petroleum | Versatile Wax for Industrial Applications",
+        "description": "High-quality paraffin wax products for multiple industrial applications. Solid hydrocarbons with excellent binding properties, suitable for candles, packaging, cosmetics, and pharmaceutical uses.",
+        "keywords": "paraffin wax, industrial wax, candle wax, packaging wax, cosmetic wax, pharmaceutical wax, solid hydrocarbons, Unicorn Petroleum"
+      },
+      "name": "Hard Paraffin Wax",
+      "purity": "Purity for every application",
+      "common": {
+        "title": "Hard Paraffin Wax / Candle Wax",
+        "description": "Hard paraffin wax that is derived as a byproduct from crude oil, is a blend of solid hydrocarbons with a higher molecular weight. It dissolves partly in solvents like benzene, turpentine, chloroform, ether, carbon di-sulphide & oil and is distinguished by its ability to form naturally bigger crystals that do not dissolve in water & alcohol. Its adaptability in different formulations is further enhanced by the fact that it combines nicely with fats. Hard paraffin wax is frequently utilized in protective coatings and sealing applications where dependable moisture preservation is crucial because of its potent water-resistant qualities."
+      },
+      "applications": {
+        "intro": "Hard Paraffin Wax is ideally suitable for use in formulations and manufacturing of the following:",
+        "items": [
+          "Creams",
+          "Ointments",
+          "Balms",
+          "Lip care",
+          "Foot care",
+          "Petroleum jelly",
+          "Candles"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Key features of Hard Paraffin Wax from us",
+        "compliance": "Pharmacopoeial compliance",
+        "otherCompliances": "Other compliances",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "natural-beeswax": {
+      "meta": {
+        "title": "Natural Beeswax - Unicorn Petroleum | Pure Refined Beeswax for Cosmetics & Pharmaceuticals",
+        "description": "100% natural, highly refined beeswax with emollient, soothing, and softening properties. Pharmaceutical and cosmetic grade beeswax for topical formulations. Complies with international regulatory requirements.",
+        "keywords": "natural beeswax, refined beeswax, cosmetic beeswax, pharmaceutical beeswax, emollient, natural wax, cosmetic ingredients, pharmaceutical ingredients, Unicorn Petroleum"
+      },
+      "name": "Natural Beeswax",
+      "purity": "Purity for every application",
+      "common": {
+        "title": "Beeswax / Cera Alba (White Wax) / Cera Flava (Yellow Wax)",
+        "description": "Beeswax is a natural substance produced by honeybees within the hive of genus Apis. It has a distinct structure composed of esters of fatty acids and long-chain alcohols. Our beeswax is carefully treated to provide a smooth, pale yellow appearance and is highly valued for its gentle, calming effects on the skin thereby making it a perfect fit for the cosmetic and pharmaceutical industry. In addition to preserving and softening the skin, it also enhances the texture and guarantees that other ingredients stay together thereby providing stability to the finished product.",
+        "additionalInfo": "Being a natural product, the quality of our refined beeswax is highly moderated by us to comply with international regulatory requirements. It works especially well in stick and for solid preparations because of its inherent ability to create a cohesive film and bind materials together, improving durability and grip."
+      },
+      "applications": {
+        "intro": "Natural Beeswax finds ideal application in:",
+        "items": [
+          "Ointments",
+          "Balms",
+          "Soft-gel",
+          "Creams",
+          "Lip jellies",
+          "Pomades",
+          "Lipsticks",
+          "Haircare",
+          "Foot care",
+          "Ayurvedic and herbal care products",
+          "Pharmaceutical sutures",
+          "Car-care cleaning products",
+          "Candles",
+          "Plastics",
+          "Furniture polish",
+          "Moulds",
+          "Casts",
+          "Processed food industry",
+          "Coatings",
+          "Leather industry",
+          "Textile industry",
+          "Wood and paper finishes",
+          "Lubricants",
+          "Specialty chemicals"
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Key features of Beeswax from us",
+        "compliance": "Pharmacopoeial compliance",
+        "otherCompliances": "Other compliances",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]",
+          "European Pharmacopoeia [Ph. Eur.]"
+        ]
+      }
+    },
+    "emulsifying-wax": {
+      "meta": {
+        "title": "Emulsifying Wax - Unicorn Petroleum | Anionic & Non-Ionic Emulsifying Waxes",
+        "description": "Specialized emulsifying waxes for creating stable water-in-oil and oil-in-water emulsions. Used in lotions, creams, ointments, and beauty products. Both anionic and non-ionic grades available.",
+        "keywords": "emulsifying wax, anionic emulsifying wax, non-ionic emulsifying wax, emulsion stabilizer, cosmetic emulsifier, pharmaceutical emulsifier, lotion base, cream base, Unicorn Petroleum"
+      },
+      "name": "Emulsifying Wax",
+      "purity": "Purity for every application.",
+      "common": {
+        "title": "Emulsifying Wax (Ionic / Non-Ionic) / Self Emulsifying Wax",
+        "description": "Emulsifying Wax is a type of cosmetic emulsifying ingredient used primarily in the manufacturing of creams, lotions, and other beauty products that have both water and oil phase. This type of wax helps in mixing or emulsifying the water phase and oil phase together to form an ointment minimizing phase separation and increasing formulation stability especially during a diverse temperature environment.",
+        "additionalInfo": "The emulsification occurs when two substances — in this case, oil and water — are successfully bound together; creating a sort of glue that combines the ingredients of a product which provides consistent viscosity and structure to formulations, resulting in smooth, uniform creams and lotions with improved spreadability. At the molecular level, Emulsifying Wax attracts both water and oil at the same time and keeps them together. Emulsions made with this wax are more stable to weak acids such as Boric, Carbolic & Salicylic. Emulsifying Wax thickens the liquid and marries the oil - and water-based elements of the creation. It is white in colour, solid, and possesses a light alcohol scent. It is easy to process and reliable in performance, making it suitable for both small-scale and industrial manufacturing environments."
+      },
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Emulsifying Wax is widely used in the Pharmaceutical / Cosmetic industry as a part of creams and lotion formulations.",
+          "Ionic / Anionic Emulsifying Wax are most suitable for water in oil type of emulsion Non-Ionic Grade is most suitable for oil in water type of emulsion"
+        ],
+        "items": [
+          "Ointment",
+          "Lotions",
+          "Creams",
+          "Conditioners",
+          "Hair masks",
+          "Sunscreens",
+          "Body butters",
+          "Balms",
+          "Lip care products"
+        ]
+      },
+      "blends": {
+        "heading": "We offer the following blends of Self-emulsifying wax",
+        "headers": {
+          "product": "Product name",
+          "inci": "INCI name"
+        },
+        "items": [
+          {
+            "name": "Anionic Emulsifying Wax",
+            "inci": "Cetearyl Alcohol & Sodium Lauryl Sulphate"
+          },
+          {
+            "name": "Non-Ionic Emulsifying wax",
+            "inci": "Cetearyl Alcohol & Cetereath-20"
+          },
+          {
+            "name": "Emulsifying Wax 1440",
+            "inci": "Cetearyl Alcohol & Polysorbate 60"
+          }
+        ]
+      },
+      "keyFeatures": {
+        "heading": "Key features of Emulsifying Wax from us",
+        "compliance": "Pharmacopoeial compliance",
+        "complianceItems": [
+          "Indian Pharmacopoeia [IP]",
+          "British Pharmacopoeia [BP]",
+          "United States Pharmacopoeia [USP]"
+        ]
+      }
+    },
+    "d-panthenol": {
+      "meta": {
+        "title": "D-Panthenol - Unicorn Petroleum | Provitamin B5 for Skin & Hair Care",
+        "description": "High-purity D-Panthenol (Provitamin B5) for deeply hydrating, soothing, and regenerative properties. Used in skin care, hair care, baby care, and wound-healing formulations. High purity and formulation stability.",
+        "keywords": "D-panthenol, provitamin B5, panthenol, skin conditioning, hair conditioning, moisturizing agent, wound healing, cosmetic active, pharmaceutical ingredient, Unicorn Petroleum"
+      },
+      "name": "D-Panthenol",
+      "purity": "Provitamin B5 for moisturization and skin barrier support",
+      "common": {
+        "title": "D-Panthenol / Dexpanthenol",
+        "description": "The mild, ready-to-use precursor of pantothenic acid also referred to as the superstar vitamin B5 is panthenol that is stable, covering a wide pH range and is suitable with varied cosmetic / pharmaceutical raw materials, thereby blending well into diverse formulations. It showcases exceptional humectant values for long-lasting hydration. It readily dissolves in water, alcohol, propylene glycol, ether, chloroform and is partially soluble in glycerin. Panthenol acts as a silky-smooth moisturizer gliding over the skin, leaving a soft and moisturized looking surface that is drastically smoother and more flexible.",
+        "additionalInfo": "However, its expertise is not limited to skincare. Panthenol and Pantothenic Acid are both excellent hair care ingredients. They pair up providing the hair bounce, plumpness, and an appealing appearance thereby nourishing hair that's been worn down by heat and chemical treatments."
+      },
+      "applications": {
+        "intro": "Used as a conditioning agent, moisturizer, humectant & emollient in cosmetics and personal-care products. It binds to hair follicles readily and is a frequent component of shampoos and hair conditioners. It coats the hair and seals its surface, lubricating follicles and making strands appear shiny.",
+        "items": [
+          "Moisturizers",
+          "Creams",
+          "Hair gels",
+          "Hair sprays",
+          "Shampoo",
+          "Balms",
+          "Lipstick",
+          "Eye shadow",
+          "Mascara"
+        ]
+      }
+    },
+    "preservatives": {
+      "meta": {
+        "title": "Preservatives - Unicorn Petroleum | Antimicrobial Systems for Personal Care & Pharma",
+        "description": "Effective preservative systems including parabens and phenoxyethanol to prevent microbial growth and extend shelf life. Regulatory-compliant preservatives for cosmetics, pharmaceuticals, and personal care products.",
+        "keywords": "preservatives, parabens, phenoxyethanol, antimicrobial agents, cosmetic preservatives, pharmaceutical preservatives, shelf life extension, microbial protection, Unicorn Petroleum"
+      },
+      "name": "Preservatives",
+      "purity": "Effective antimicrobial systems for personal care and pharma",
+      "common": {
+        "title": "Preservatives",
+        "description": "Preservatives are specific substances used to prevent decomposition caused by bacteria, fungi, and oxidation. Preventing multiple kinds of degradation can extend the shelf life of an extensive selection of commodities, particularly dietary supplements, medications, cosmetics, and industrial chemicals. Its primary task is to ensure that the product is healthy, efficient, and useful over time, while also preserving its original quality and performance.",
+        "additionalInfo": "The composition, intended usage, and preservation environment of the product impact the choice and concentration of preservatives utilised. Furthermore, its application is driven by strict regulated guidelines aiming to safeguard consumers and reduce any related health hazards."
+      },
+      "products": [
+        {
+          "name": "Phenoxyethanol",
+          "desc": ""
+        },
+        {
+          "name": "Ethylhexylglycerine",
+          "desc": "Clear colourless liquid with no characteristic odour"
+        },
+        {
+          "name": "Parabens",
+          "desc": "White or almost white crystalline powder"
+        },
+        {
+          "name": "DMDM Hydantoin",
+          "desc": "Clear liquid with a low characteristic odour"
+        }
+      ],
+      "applications": {
+        "intro": " ",
+        "points": [
+          "Cosmetics and Personal Care industry: Due to the presence of water & organic ingredients, preservatives play a vital role by preventing or delaying the growth of microorganisms / bacteria, thereby ensuring safety & maintaining its stability, efficacy & freshness.",
+          "Food industry: In order to preserve the nutritional value, composition, texture-taste, prevent oxidation, enzymatic degradation & microbial spoilage; it is crucial to add preservatives in controlled and regulated proportions, thereby extending its shelf life.",
+          "Pharmaceutical industry: Preservatives in the pharmaceutical industry helps to conserve the therapeutic properties by preventing fungal growth and maintaining its product integrity by ensuring the formulation remains safe for long term use.",
+          "Paints and Coating industry: Being exposed to exterior environment like direct sunlight, heat, moisture, rains and bad weather; preservatives play a pivotal role in the paints and coating industry."
+        ],
+        "items": [
+          "Creams",
+          "Lotions",
+          "Shampoos",
+          "Cosmetics",
+          "Skincare"
+        ]
+      }
+    },
+    "surfactants": {
+      "meta": {
+        "title": "Surfactants - Unicorn Petroleum | Anionic & Nonionic Surfactants for Cleaning & Personal Care",
+        "description": "High-quality anionic and nonionic surfactants for effective cleaning, foaming, and emulsification. Used in shampoos, detergents, personal care products, and industrial cleaning solutions.",
+        "keywords": "surfactants, anionic surfactants, nonionic surfactants, cleaning agents, foaming agents, emulsifiers, detergents, personal care ingredients, industrial surfactants, Unicorn Petroleum"
+      },
+      "name": "Surfactants",
+      "purity": "Anionic and nonionic surfactants for cleansing and emulsification",
+      "common": {
+        "title": "Surfactants",
+        "description": "Surfactants find its importance in a varied range of cleaning & personal care products by reducing surface tension and enabling blending of water with dirt & other contaminants. Jointly, surfactants play a vital role in diverse formulations from helping shampoos foam up to removing grease from products. Due to its adaptable nature, it is a crucial ingredient that finds its importance in the homecare and personal care industry.",
+        "additionalInfo": "As surfactants are used in combination, they place themselves at the junction between two substances in a way that the hydrophilic part interacts with the water molecules while the hydrophobic part attaches with the other substance. This leads to an obstruction between the two compounds thereby decreasing surface tension and lifting the dirt from the surface for effective results."
+      },
+      "products": [
+        {
+          "name": "Alpha olefin sulphonate (AOS)",
+          "desc": "Available in different grades in powder and liquid states."
+        },
+        {
+          "name": "Sodium lauryl ether sulphate (SLES) 70",
+          "desc": "Translucent paste with no characteristic odour."
+        },
+        {
+          "name": "CAPB / Betaine",
+          "desc": "Appears colorless to light yellow liquid."
+        },
+        {
+          "name": "LABSA 96%",
+          "desc": "Appears as honey to dark brown liquid."
+        }
+      ],
+      "applications": {
+        "intro": "Surfactants have diverse usefulness across multiple industries as shown below:",
+        "points": [
+          "Personal care: Enhance foaming, cleaning, and moisturising in shampoos, conditioners, body washes, soaps, and toothpaste.",
+          "Cleaning agents: They improve the cleaning power and foam stability in soaps, detergents, and dishwashing liquids by removing dirt / grease.",
+          "Textile industry: They also serve their importance in textile industry by improving properties like softness of the fabric, making the fabric antistatic and anti-bacterial, sweat absorbent and allowing the fabric to dry quickly in textile finishing process.",
+          "Automotive industry: Due to their ability to reduce surface tension, surfactants are widely used in car cleaning agents and in engine degreases to remove dirt / grease & oil deposits.",
+          "Paints & Coatings: These agents improve dispersion in automotive paints, enhance coating adhesion and uniformity, and prevent defects like streaks and bubbles during printing. They function as emulsifiers, wetting agents, and dispersants."
+        ],
+        "items": [
+          "Shampoos",
+          "Body Wash",
+          "Face Wash",
+          "Liquid Soaps",
+          "Detergents"
+        ]
+      }
+    },
+    "uv-filters": {
+      "meta": {
+        "title": "UV Filters - Unicorn Petroleum | Organic & Inorganic UV Filters for Sun Protection",
+        "description": "Broad-spectrum UV filters (UVA & UVB) for sunscreens, cosmetics, and moisturizers. Organic and inorganic UV filters to protect against sunburns, premature aging, and skin cancer. Regulatory-compliant grades.",
+        "keywords": "UV filters, organic UV filters, inorganic UV filters, sunscreen ingredients, UVA protection, UVB protection, sun protection, cosmetic UV filters, regulatory compliant, Unicorn Petroleum"
+      },
+      "name": "UV Filters",
+      "purity": "Organic and inorganic UV filters for broad-spectrum protection",
+      "common": {
+        "title": "UV Filters",
+        "description": "UV filters are used to manufacture personal care products to protect our skin from detrimental ultraviolet radiation. It has the ability to prevent skin defacement caused by exposure to UVA & UVB lights by absorbing or reflecting UV Rays. UV filters are used in cosmetics, sunscreens and moisturizers that work as a shield against sunburns, premature ageing and skin cancer. To ensure safety and effectiveness in consumer products, it is regulated in many countries."
+      },
+      "products": [
+        {
+          "name": "Octylmethoxy cinnamate",
+          "desc": "A popular choice in sunscreen formulations due to its stability"
+        },
+        {
+          "name": "Octyl salicylate",
+          "desc": "Formed from salicylic acid and 2-ethylhexanol, is used to filter UVB rays in the range of 280-320 nm"
+        },
+        {
+          "name": "Homosalate",
+          "desc": "Protective barrier against UVB rays but provides minimal defense against UVA rays"
+        },
+        {
+          "name": "Avobenzone",
+          "desc": "A potent UV filter often combined with other stabilizers like Octocrylene to improve stability"
+        },
+        {
+          "name": "Benzophenone 3",
+          "desc": "Offers protection against UVB and a portion of UVA rays, preventing both sunburn and DNA damage"
+        },
+        {
+          "name": "Benzophenone 4",
+          "desc": "Safeguard filter against both UVA and UVB rays, enhancing effectiveness and longevity of product"
+        },
+        {
+          "name": "Ethyl hexyl triazone",
+          "desc": "Synthetic organic compound known for its photostability, protecting against UVB rays"
+        },
+        {
+          "name": "Octocrylene",
+          "desc": "Broad spectrum sun protection used enhancing defence with dual absorption"
+        }
+      ],
+      "applications": {
+        "intro": "UV filters are used to manufacture personal care products to protect our skin from detrimental ultraviolet radiation. It has the ability to prevent skin defacement caused by exposure to UVA & UVB lights by absorbing or reflecting UV Rays.",
+        "points": [
+          "Facial creams & moisturizers",
+          "Sunblocks & sunscreens",
+          "Foundation beauty balms/color corrector creams and lip care products",
+          "Hair care products"
+        ],
+        "items": [
+          "Sunscreens",
+          "Sun Care",
+          "SPF Creams",
+          "Moisturizers",
+          "Cosmetics"
+        ]
+      },
+      "characteristics": {
+        "heading": "Characteristics",
+        "items": [
+          "Absorption of UV Radiation: UV filters act as a shield by blocking UV radiation from entering into the skin either by reflecting, absorbing or scattering the UV radiation. They provide a shield against UVA and UVB radiation which contributes to premature skin ageing and sunburns.",
+          "Wide-Range protection: Our Avobenzone and Octocrylene have the ability to provide complete protection by blocking UVA & UVB radiation respectively.",
+          "Photostability: This is the property that determines the stability of UV Filters when exposed to direct sunlight. Example: Avobenzone can deteriorate under direct sunrays unless it is stabilised by other ingredients such as Octocrylene.",
+          "Safety and Compatibility: UV Filters should not cause any adverse effects for continuous skin exposure. There should not be any irritation or allergic reaction and they should have the tendency not to block the pores. Example: Benzophenone is considered to be safe for all skin types. Various UV Filters can be used in diverse formulations to impart all-around stability and skin-friendly performance."
+        ]
+      }
+    }
+  },
+  "packaging": {
+    "hdpe": "HDPE drums",
+    "ms": "MS drums",
+    "flexibag": "Flexibag",
+    "ibc": "IBC",
+    "bags": "Bags",
+    "cartons": "Cartons",
+    "pails": "HDPE pails",
+    "fibre": "Fibre drums"
+  },
+  "ui": {
+    "finalProductUtilization": "Final product utilization",
+    "packagedResponsiblyIn": "Packaged responsibly in",
+    "relatedProducts": "Related products",
+    "exploreOtherProducts": "Explore other relevant products",
+    "viewDetails": "View Details"
+  }
+}

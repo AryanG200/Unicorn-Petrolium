@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "aboutUs": "Über uns",
+    "products": "Produkte",
+    "excipients": "Hilfsstoffe",
+    "petroleumJelly": "Vaseline",
+    "whiteMineralOils": "Weiße Mineralöle",
+    "lanolin": "Lanolin",
+    "waxes": "Wachse",
+    "microcrystallineWax": "Mikrokristallines Wachs",
+    "hardParaffinWax": "Hartparaffin",
+    "naturalBeeswax": "Natürliches Bienenwachs",
+    "emulsifyingWax": "Emulgierwachs",
+    "dPanthenol": "D-Panthenol",
+    "preservatives": "Konservierungsstoffe",
+    "surfactants": "Tenside",
+    "uvFilters": "UV-Filter",
+    "applications": "Anwendungen",
+    "pharmaceutical": "Pharmazie",
+    "cosmetics": "Kosmetika",
+    "personalCare": "Körperpflege",
+    "homeCare": "Häusliche Pflege",
+    "textile": "Textilien",
+    "lubricants": "Schmierstoffe",
+    "globalReach": "Globale Reichweite",
+    "blog": "Blog",
+    "contactUs": "Kontaktieren",
+    "events": "Veranstaltungen",
+    "whatsappUs": "WhatsApp"
+  },
+  "events": {
+    "upcomingEvents": "Kommende Veranstaltungen",
+    "upcomingEventsDesc": "Vernetzen Sie sich mit Unicorn Petroleum und entdecken Sie unsere neuesten Innovationen auf den wichtigsten Industriemessen.",
+    "pastEvents": "Vergangene Veranstaltungen",
+    "pastEventsDesc": "Werfen Sie einen Blick zurück auf einige unserer bedeutenden internationalen Ausstellungen und Branchenengagements im Laufe der Jahre.",
+    "eventDate": "Veranstaltungsdatum",
+    "location": "Ort",
+    "aboutEvent": "Über die Veranstaltung",
+    "joinUsAt": "Besuchen Sie uns auf der",
+    "discoverDesc": "um die neuesten Fortschritte und Innovationen der Branche zu entdecken. Treten Sie mit unseren Experten in Kontakt und erfahren Sie, wie die hochwertigen Produkte von Unicorn Petroleum Ihre Geschäftsanforderungen unterstützen können.",
+    "upcomingEvent": "Kommende Veranstaltung",
+    "pastEvent": "Vergangene Veranstaltung",
+    "close": "Schließen",
+    "contactUs": "Kontaktieren"
+  },
+  "home": {
+    "strengths": {
+      "heading": "Unsere Stärken",
+      "subheading": "Exzellenz, die auf sechs Jahrzehnten Erfahrung und Vertrauen aufbaut",
+      "ctaText": "Infos anfordern",
+      "items": {
+        "0": {
+          "title": "Sechs Jahrzehnte Erfahrung",
+          "description": "Wegweisende Qualitätszutaten für die Kosmetik- und Pharmaindustrie seit 1964"
+        },
+        "1": {
+          "title": "Maßgeschneiderte Formulierungen",
+          "description": "Reibungslose Beschaffung, persönlicher Support – Lieferung hochwertiger Rohstoffe aus Indien in die ganze Welt"
+        },
+        "2": {
+          "title": "Petrochemische Spezialitäten",
+          "description": "Hochleistungs-Petrochemikalien und Spezialitäten, raffiniert, um die Bedürfnisse verschiedener Branchen zu erfüllen"
+        }
+      }
+    },
+    "hero": {
+      "title": "Wegweisende Exzellenz bei Erdölspezialitäten seit über 6 Jahrzehnten",
+      "primaryButton": "Produkte entdecken",
+      "secondaryButton": "Warum wir?"
+    },
+    "products": {
+      "heading": "Unser Kernproduktportfolio",
+      "subheading": "Wo Innovation auf Qualität trifft - Seit 1964",
+      "viewDetails": "Details ansehen →",
+      "viewAll": "Alle Produkte ansehen →"
+    },
+    "industries": {
+      "heading": "Wir beliefern verschiedene Branchen weltweit",
+      "subheading": "Wir gestalten die Zukunft kosmetischer & pharmazeutischer Inhaltsstoffe"
+    },
+    "qualityStandards": {
+      "heading": "Qualitäts- und Sicherheitsstandards",
+      "subheading": "Angetrieben von Qualität, Vertrauen über Generationen.",
+      "viewAll": "Alle Zertifizierungen ansehen →"
+    },
+    "news": {
+      "heading": "Neueste Nachrichten",
+      "readMore": "Mehr lesen →",
+      "viewAll": "Alle Nachrichten ansehen →"
+    },
+    "statement": {
+      "heading": "Unicorn Petroleum Industries Pvt. Ltd.",
+      "subheading": "Über 60 Jahre Innovation",
+      "text": "Globale Zutaten. Indische Expertise.",
+      "learnMore": "Mehr über uns erfahren →"
+    },
+    "cta": {
+      "heading": "Bereit für eine Partnerschaft?",
+      "subtitle": "Kontaktieren Sie uns noch heute.",
+      "primaryButton": "Vertrieb kontaktieren",
+      "secondaryButton": "Muster anfordern"
+    }
+  },
+  "form": {
+    "quoteTitle": "Fordern Sie ein Angebot oder Muster an",
+    "fullName": "Vollständigen Namen eingeben",
+    "company": "Firmenname eingeben",
+    "email": "Email eingeben",
+    "mobile": "Telefonnummer eingeben",
+    "country": "Land eingeben",
+    "grade": "Qualität eingeben",
+    "subject": "Thema auswählen",
+    "message": "Nachricht",
+    "submitQuote": "Anfrage senden",
+    "submitContact": "Nachricht senden",
+    "successTitle": "Danke! Ihre Nachricht wurde gesendet.",
+    "successDesc": "Wir melden uns in 24h",
+    "errorTitle": "Fehler beim Senden",
+    "errorDesc": "Bitte versuchen Sie es erneut",
+    "submitting": "Senden..."
+  },
+  "footerText": {
+    "partner": "Ihr vertrauenswürdiger Partner für Spezialprodukte aus Indien",
+    "quickLinks": "Schnellzugriff",
+    "contactHeader": "Kontaktiere uns",
+    "copyright": "Copyright © 2020 Unicorn. Alle Rechte vorbehalten."
+  }
+}
