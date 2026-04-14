@@ -22,7 +22,7 @@ export const getHomeData = (t) => ({
         icon: "/assets/Icons/Property 1=Thermal.png",
         title: t('home.strengths.items.2.title', "Petrochemical specialties"),
         description: t('home.strengths.items.2.description', "High-performance petrochemicals and specialties refined to meet the needs of various industries"),
-        image: "/assets/about/Artboard 1.jpg"
+        image: "/assets/new-petro-image.jpg"
       }
     ]
   },
@@ -104,8 +104,8 @@ export const getHomeData = (t) => ({
         link: "/products/white-mineral-oils",
       },
       {
-        image: "/assets/RELATED PROD IMG/Lanolin.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/lanolin1.jpg",
+        image: "/assets/RELATED%20PROD%20IMG/Lanolin.jpg",
+        hoverImage: "/assets/RELATED%20PROD%20IMG/lanolin1.jpg",
         title: t('navbar.lanolin', "Lanolin"),
         description: "Highly refined, high-purity wool wax alcohol complex with controlled odor and color offering excellent emolliency and water-binding capacity for dermatological and topical formulations.",
         buttonText: t('home.products.viewDetails', "View Details →"),
@@ -247,29 +247,6 @@ export const getHomeData = (t) => ({
   },
 
 
-  news: {
-    heading: t('home.news.heading', "Latest News & Company Updates"),
-    cards: [
-      {
-        date: "20/06/25",
-        image: "/assets/RELATED PROD IMG/parabens.png",
-        title: "Unicorn Petro Exhibits at ChemExpo India 2025",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        linkText: t('home.news.readMore', "Read More →"),
-        linkUrl: "/blog",
-      },
-      {
-        date: "20/06/25",
-        image: "/assets/RELATED PROD IMG/sodium-salphate.png",
-        title: "New Grade Launch: Ophthalmic-Ready Jelly Now in Production",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        linkText: t('home.news.readMore', "Read More →"),
-        linkUrl: "/blog",
-      },
-    ],
-    buttonText: t('home.news.viewAll', "View All News →"),
-    buttonLink: "/blog",
-  },
 
 
   statement: {

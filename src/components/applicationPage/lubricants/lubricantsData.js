@@ -1,7 +1,7 @@
 export const lubricantsData = {
   hero: { title: 'Lubricant Applications', description: 'Base oils and waxes for lubrication' },
   slider: [
-    { title: 'Lubricant Applications', subtitle: 'Base oils and waxes for lubrication', image: '/assets/Application%20Banner/lubricant%20application.jpg', mobileImage: '/assets/Application%20Banner/lubricant%20application.jpg' },
+    { title: 'Lubricant Applications', subtitle: 'Base oils and waxes for lubrication', image: '/assets/Application%20Banner/lubricant-application-new.jpg', mobileImage: '/assets/Application%20Banner/lubricant-application-new.jpg' },
   ],
   overview: {
     title: 'Lubricant Industry',
@@ -13,7 +13,7 @@ export const lubricantsData = {
     { name: 'Petroleum Jelly', image: '/assets/RELATED PROD IMG/NEW IMAGES/Petroleumjelly.jpg', hoverImage: '/assets/RELATED PROD IMG/New Hover Images/Petroleumjelly.jpg', description: 'Healing ointments, skin protectants, and excipients in topical medicines.' },
     { name: 'Hard Paraffin Wax', image: '/assets/RELATED PROD IMG/NEW IMAGES/paraffinwax.jpg', hoverImage: '/assets/RELATED PROD IMG/New Hover Images/paraffin2.jpg', description: 'Anti-static and friction-reducing coating for threads' },
     { name: 'Microcrystalline Wax', image: '/assets/RELATED PROD IMG/NEW IMAGES/microcrystalline wax.jpg', hoverImage: '/assets/RELATED PROD IMG/New Hover Images/micro2.jpg', description: 'Used in manufacturing ointments and balms.' },
-    { name: 'Lanolin', image: '/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg', hoverImage: '/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg', description: 'Refined wool grease used as a skin-conditioning excipient in cosmetic and topical formulations.' },
+    { name: 'Lanolin', image: '/assets/RELATED PROD IMG/NEW IMAGES/lanolin-1.jpg', hoverImage: '/assets/RELATED PROD IMG/NEW IMAGES/lanolin-1.jpg', description: 'Refined wool grease used as a skin-conditioning excipient in cosmetic and topical formulations.' },
     { name: 'Preservatives', image: '/assets/RELATED PROD IMG/NEW IMAGES/Preservative.jpg', hoverImage: '/assets/RELATED PROD IMG/New Hover Images/preservative.jpg', description: 'Prevent microbial contamination in water-based metalworking fluids.' },
   ],
 };

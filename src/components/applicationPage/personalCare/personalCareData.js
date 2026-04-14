@@ -1,7 +1,7 @@
 export const personalCareData = {
   hero: { title: 'Personal Care Applications', description: 'Ingredients for daily care products' },
   slider: [
-    { title: 'Personal Care Applications', subtitle: 'Ingredients for daily care products', image: '/assets/Application%20Banner/Personal%20care%20application.jpg', mobileImage: '/assets/Application%20Banner/Personal%20care%20application.jpg' },
+    { title: 'Personal Care Applications', subtitle: 'Ingredients for daily care products', image: '/assets/Application%20Banner/personal-care-application.jpg', mobileImage: '/assets/Application%20Banner/personal-care-application.jpg' },
   ],
   overview: {
     title: 'Personal Care',

@@ -73,8 +73,8 @@ export default function PersonalCarePage() {
         name: t('products.lanolin.name', 'Lanolin'),
         link: "/products/lanolin",
         description: t('products.lanolin.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg"
+        image: "/assets/RELATED%20PROD%20IMG/Lanolin.jpg",
+        hoverImage: "/assets/RELATED%20PROD%20IMG/lanolin1.jpg"
       },
       {
         name: t('products.uvFilters.name', 'UV Filters'),

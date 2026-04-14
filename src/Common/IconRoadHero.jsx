@@ -84,21 +84,21 @@ export default function IconRoadHero({ data = {} }) {
             const translate = isLeftImage ? "-translate-x-6" : "translate-x-6";
             const leftMask = {
               WebkitMaskImage:
-                "linear-gradient(to right, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 88%)",
+                "linear-gradient(to right, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%)",
               maskImage:
-                "linear-gradient(to right, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 88%)",
+                "linear-gradient(to right, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%)",
             };
             const rightMask = {
               WebkitMaskImage:
-                "linear-gradient(to left, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 88%)",
+                "linear-gradient(to left, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%)",
               maskImage:
-                "linear-gradient(to left, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 88%)",
+                "linear-gradient(to left, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%)",
             };
             const bottomMask = {
               WebkitMaskImage:
-                "linear-gradient(to bottom, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%)",
+                "linear-gradient(to bottom, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%)",
               maskImage:
-                "linear-gradient(to bottom, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%)",
+                "linear-gradient(to bottom, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%)",
             };
             return (
               <div key={index} className="relative" data-observe="true" data-idx={index}>

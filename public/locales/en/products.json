@@ -141,16 +141,16 @@
     },
     "white-mineral-oils": {
       "meta": {
-        "title": "White Mineral Oils - Unicorn Petroleum | High-Quality Paraffinic Mineral Oils",
+        "title": "White Mineral Oil - Unicorn Petroleum | High-Quality Paraffinic Mineral Oils",
         "description": "Premium white mineral oils (paraffinic) in various viscosities for pharmaceutical, cosmetic, personal care, and industrial applications. Colorless, odorless, and highly refined.",
         "keywords": "white mineral oil, mineral oil, paraffinic mineral oil, light mineral oil, heavy mineral oil, pharmaceutical mineral oil, cosmetic mineral oil, industrial lubricant"
       },
-      "name": "White Mineral Oils",
+      "name": "White Mineral Oil",
       "purity": "Purity for every application",
       "common": {
         "title": "White Mineral Oil / Liquid Paraffin / White Oil",
-        "description": "Mineral Oils are colourless, odourless mixtures of saturated liquid hydrocarbons obtained from the distillation of petroleum. Our Mineral Oils are paraffinic in nature and we offer a wide range for viscosities for varied applications.",
-        "additionalInfo": "Our Unimin range of cosmetic / pharmaceutical grade Mineral Oils are highly refined, and tailor made for skincare and hair-care formulations. These products are treated for harmful polycyclic aromatic impurities and they pass the Polycyclic Aromatic Hydrocarbon test along with other purity norms in the Pharmacopoeia and comply with all the Regulatory requirements as per the European Commission and USFDA. They do not support pathogenic bacterial growth and due to this property, they become ideal blending bases for pharmaceutical / cosmetic applications. Having excellent lubricating property, it can be used as a general-purpose lubricant. Characterized by a high viscosity index, our White Mineral Oils keep stable viscosity at extreme temperatures."
+        "description": "Mineral oils are colourless, odourless mixtures of saturated liquid hydrocarbons obtained from the distillation of petroleum. Our Mineral oils are paraffinic in nature and we offer a wide range for viscosities for varied applications.",
+        "additionalInfo": "Our Unimin range of cosmetic / pharmaceutical grade Mineral oils are highly refined, and tailor made for skincare and hair-care formulations. These products are treated for harmful polycyclic aromatic impurities and they pass the Polycyclic Aromatic Hydrocarbon test along with other purity norms in the Pharmacopoeia and comply with all the Regulatory requirements as per the European Commission and USFDA. They do not support pathogenic bacterial growth and due to this property, they become ideal blending bases for pharmaceutical / cosmetic applications. Having excellent lubricating property, it can be used as a general-purpose lubricant. Characterized by a high viscosity index, our white mineral oils keep stable viscosity at extreme temperatures."
       },
       "applications": {
         "intro": "We provide different levels of viscosity which permit a wide range of use in:",
@@ -181,7 +181,7 @@
         ]
       },
       "keyFeatures": {
-        "heading": "Key features of White Mineral Oils from us",
+        "heading": "Key features of White Mineral Oil from us",
         "compliance": "Pharmacopoeial compliance",
         "otherCompliances": "Other compliances"
       }

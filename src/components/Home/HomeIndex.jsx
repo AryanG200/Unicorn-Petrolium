@@ -32,6 +32,7 @@ const HomeIndex = () => {
         secondaryButtonLink={homeData.hero.secondaryButtonLink}
         primaryButtonColor={homeData.hero.primaryButtonColor}
         secondaryButtonColor={homeData.hero.secondaryButtonColor}
+        contentPosition="top-left"
         overlapClass="md:-mt-4"
         paddingTopClass="pt-0 md:pt-[68px]"
       />

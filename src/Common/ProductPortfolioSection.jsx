@@ -271,7 +271,7 @@ export default function ProductPortfolioSection({ data }) {
                 >
                   <Link
                     to={getCardLink(card)}
-                    className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer border-[1.5px] border-[#EDA94E] flex flex-col"
+                    className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer border-[1.5px] border-[#EDA94E] flex flex-col h-full"
                   >
                     <div className="h-40 sm:h-44 md:h-48 overflow-hidden relative">
                       <img
@@ -295,7 +295,7 @@ export default function ProductPortfolioSection({ data }) {
                         {card.title}
                       </h3>
 
-                      <p className="text-gray-600 text-xs sm:text-sm mb-4 line-clamp-4 md:line-clamp-5 min-h-[5rem] sm:min-h-[6rem] md:min-h-[7rem]">
+                      <p className="text-gray-600 text-xs sm:text-sm mb-4 min-h-[5rem] sm:min-h-[6rem] md:min-h-[7rem]">
                         {card.description}
                       </p>
 

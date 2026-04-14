@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { useLocation } from "react-router-dom";
 import BannerWithNavigation from "../Common/BannerWithNavigation";
 import QualityStandardsSection from "../Common/QualityStandardsSection";
@@ -41,7 +41,7 @@ const ContactPage = () => {
       <BannerWithNavigation
         title={t('title')}
         subtitle={t('subtitle')}
-        bannerImage="/assets/hero-bg-home.jpg"
+        bannerImage="/assets/contact-image.jpg"
         breadcrumbs={breadcrumbs}
       />
 
@@ -72,7 +72,9 @@ const ContactPage = () => {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-sm leading-relaxed break-words text-gray-800">
-                      {t('factory1')}
+                      <Trans t={t} i18nKey="factory1">
+                        <span className="underline">Unicorn Petroleum Industries Pvt. Ltd.</span>, 10, Vaibhav Industrial Estate, Sion - Trombay Road, Deonar, Mumbai - 400088, MH, India.
+                      </Trans>
                     </p>
                     <p className="text-sm leading-relaxed break-words text-gray-800 mt-1">
                       {t('factory2')}
@@ -137,7 +139,11 @@ const ContactPage = () => {
                     <p className="text-sm font-semibold text-[#E99322] leading-relaxed">{t('factoryAddresses')}</p>
                   </div>
                   <div className="text-sm leading-relaxed break-words text-gray-800 space-y-1">
-                    <p>{t('factory1')}</p>
+                    <p>
+                      <Trans t={t} i18nKey="factory1">
+                        <span className="underline">Unicorn Petroleum Industries Pvt. Ltd.</span>, 10, Vaibhav Industrial Estate, Sion - Trombay Road, Deonar, Mumbai - 400088, MH, India.
+                      </Trans>
+                    </p>
                     <p>{t('factory2')}</p>
                   </div>
 
