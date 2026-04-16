@@ -1,6 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { FiX, FiMapPin, FiCalendar, FiArrowRight } from "react-icons/fi";
 import { useTranslation } from "react-i18next";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -8,6 +16,7 @@ import { useTranslation } from "react-i18next";
 const UPCOMING_IDS = [
   { id: "u1", year: 2025, image: "/assets/BannerImages/ChemExpoExhibition.jpeg" },
   { id: "u2", year: 2025, image: "/assets/about/Advance production units.jpg" },
+  { id: "u3", year: 2025, image: "/assets/about/Artboard 1.jpg" },
 ];
 
 const PAST_IDS = [
@@ -67,7 +76,48 @@ export default function EventsPage() {
 
   return (
     <div className="events-page" style={{ fontFamily: "'Inter', sans-serif", background: "#f9f6f1", minHeight: "100vh" }}>
-
+      <style>{`
+        .events-swiper {
+          padding: 20px 0 50px !important;
+        }
+        .events-swiper .swiper-pagination-bullet {
+          background: #c17b2a;
+          opacity: 0.3;
+        }
+        .events-swiper .swiper-pagination-bullet-active {
+          opacity: 1;
+          width: 24px;
+          border-radius: 4px;
+        }
+        .events-swiper .swiper-button-next,
+        .events-swiper .swiper-button-prev {
+          color: #c17b2a;
+          background: #fff;
+          width: 44px;
+          height: 44px;
+          border-radius: 50%;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+          transform: scale(0.85);
+          transition: all 0.2s;
+        }
+        .events-swiper .swiper-button-next:after,
+        .events-swiper .swiper-button-prev:after {
+          font-size: 1.2rem;
+          font-weight: 800;
+        }
+        .events-swiper .swiper-button-next:hover,
+        .events-swiper .swiper-button-prev:hover {
+          transform: scale(0.95);
+          background: #c17b2a;
+          color: #fff;
+        }
+        @media (max-width: 768px) {
+          .events-swiper .swiper-button-next,
+          .events-swiper .swiper-button-prev {
+            display: none;
+          }
+        }
+      `}</style>
       {/* ── Hero Banner ───────────────────────────────────────── */}
       <section style={{ position: "relative", width: "100%", height: "380px", overflow: "hidden" }}>
         <img
@@ -91,62 +141,90 @@ export default function EventsPage() {
         </div>
       </section>
 
-      {/* ── Upcoming Events ───────────────────────────────────── */}
-      <section style={{ background: "#f9f6f1", padding: "60px 0 40px" }}>
+      {/* ── Upcoming Events Slideshow ─────────────────────────── */}
+      <section style={{ background: "#f9f6f1", padding: "80px 0 40px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
-          <h2 style={{
-            fontSize: "clamp(1.3rem, 3vw, 1.75rem)", fontWeight: 700,
-            color: "#1a1a1a", marginBottom: "32px",
-          }}>
-            {t("sections.upcoming")}
-          </h2>
-
-          <div style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))",
-            gap: "28px",
-          }}>
-            {upcomingEvents.map((event) => (
-              <UpcomingCard key={event.id} event={event} t={t} onClick={() => handleEventClick({ ...event, type: "Upcoming Event" })} />
-            ))}
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "32px" }}>
+            <h2 style={{
+              fontSize: "clamp(1.5rem, 4vw, 2.25rem)", fontWeight: 800,
+              color: "#1a1a1a", margin: 0,
+            }}>
+              {t("sections.upcoming")}
+            </h2>
+            <div style={{ height: "4px", flex: 1, background: "linear-gradient(to right, #c17b2a 0%, transparent 100%)", marginLeft: "24px", opacity: 0.2 }}></div>
           </div>
+
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay, EffectFade]}
+            spaceBetween={30}
+            slidesPerView={1}
+            loop={true}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            pagination={{ clickable: true }}
+            navigation={true}
+            breakpoints={{
+              768: { slidesPerView: 2 },
+              1100: { slidesPerView: 2 }
+            }}
+            className="events-swiper"
+          >
+            {upcomingEvents.map((event) => (
+              <SwiperSlide key={event.id}>
+                <UpcomingCard key={event.id} event={event} t={t} onClick={() => handleEventClick({ ...event, type: "Upcoming Event" })} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </section>
 
-      {/* ── Past Events ───────────────────────────────────────── */}
-      <section style={{ background: "#f9f6f1", padding: "48px 0 80px" }}>
+      {/* ── Past Events 3x3 Grid ──────────────────────────────── */}
+      <section style={{ background: "#f9f6f1", padding: "48px 0 100px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
-
-          {/* Year Filter Pills */}
-          <div style={{ display: "flex", gap: "10px", marginBottom: "40px", flexWrap: "wrap", alignItems: "center" }}>
-            {ALL_YEARS.map((year) => (
-              <button
-                key={year}
-                onClick={() => setSelectedYear(year)}
-                style={{
-                  padding: "8px 24px",
-                  borderRadius: "6px",
-                  border: selectedYear === year ? "2px solid #c17b2a" : "2px solid #c8b99a",
-                  background: selectedYear === year ? "#c17b2a" : "transparent",
-                  color: selectedYear === year ? "#fff" : "#7a6a52",
-                  fontWeight: 700,
-                  fontSize: "0.95rem",
-                  cursor: "pointer",
-                  transition: "all 0.2s ease",
-                  letterSpacing: "0.02em",
-                }}
-              >
-                {year}
-              </button>
-            ))}
+          
+          <div style={{ borderBottom: "1px solid #e8e0d5", marginBottom: "40px", pb: "8px" }}>
+            <h2 style={{ fontSize: "1.75rem", fontWeight: 800, color: "#1a1a1a", marginBottom: "24px" }}>
+              Past Exhibitions
+            </h2>
+            {/* Year Filter Pills */}
+            <div style={{ display: "flex", gap: "12px", marginBottom: "32px", flexWrap: "wrap", alignItems: "center" }}>
+              {ALL_YEARS.map((year) => (
+                <button
+                  key={year}
+                  onClick={() => setSelectedYear(year)}
+                  style={{
+                    padding: "10px 28px",
+                    borderRadius: "50px",
+                    border: selectedYear === year ? "2px solid #c17b2a" : "2px solid #e8e0d5",
+                    background: selectedYear === year ? "#c17b2a" : "#fff",
+                    color: selectedYear === year ? "#fff" : "#7a6a52",
+                    fontWeight: 700,
+                    fontSize: "0.95rem",
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+                    letterSpacing: "0.02em",
+                    boxShadow: selectedYear === year ? "0 4px 12px rgba(193, 123, 42, 0.25)" : "none",
+                  }}
+                >
+                  {year}
+                </button>
+              ))}
+            </div>
           </div>
 
-          {/* Cards Grid */}
+          {/* Cards Grid - Desktop: 3 columns (3x3 if items=9) */}
           <div style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-            gap: "28px",
-          }}>
+            gridTemplateColumns: "repeat(1, 1fr)",
+            gap: "32px",
+          }} className="past-events-grid">
+            <style>{`
+              @media (min-width: 640px) {
+                .past-events-grid { grid-template-columns: repeat(2, 1fr) !important; }
+              }
+              @media (min-width: 1024px) {
+                .past-events-grid { grid-template-columns: repeat(3, 1fr) !important; }
+              }
+            `}</style>
             {filteredPastEvents.map((event) => (
               <PastCard key={event.id} event={event} onClick={() => handleEventClick({ ...event, type: "Past Event" })} />
             ))}
