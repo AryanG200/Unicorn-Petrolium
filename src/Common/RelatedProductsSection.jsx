@@ -19,7 +19,9 @@ const RelatedProductsSection = ({ data }) => {
 
   
   useEffect(() => {
-    if (products.length <= visibleCount) return; 
+    const isMobile = window.innerWidth < 768;
+    const effectiveVisibleCount = isMobile ? 1 : visibleCount;
+    if (products.length <= effectiveVisibleCount) return; 
 
     const startAutoSlide = () => {
       if (autoScrollIntervalRef.current) {
@@ -48,7 +50,9 @@ const RelatedProductsSection = ({ data }) => {
   
   useEffect(() => {
     const el = scrollContainerRef.current;
-    if (!el || products.length <= visibleCount) return;
+    const isMobile = window.innerWidth < 768;
+    const effectiveVisibleCount = isMobile ? 1 : visibleCount;
+    if (!el || products.length <= effectiveVisibleCount) return;
     
     
     const timeoutId = setTimeout(() => {
@@ -56,7 +60,8 @@ const RelatedProductsSection = ({ data }) => {
       if (!firstCard) return;
       
       const cardWidth = firstCard.offsetWidth;
-      const gap = 32; 
+      const isMobile = window.innerWidth < 768;
+      const gap = isMobile ? 16 : 32; 
       const scrollPosition = currentIndex * (cardWidth + gap);
       
       el.scrollTo({
@@ -82,7 +87,7 @@ const RelatedProductsSection = ({ data }) => {
         
         <div 
           ref={scrollContainerRef}
-          className="flex gap-8 overflow-x-auto scrollbar-hide"
+          className="flex gap-4 md:gap-8 overflow-x-auto scrollbar-hide"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
@@ -91,7 +96,7 @@ const RelatedProductsSection = ({ data }) => {
             return (
             <div
               key={index}
-              className="related-product-card flex-shrink-0 w-full md:w-[calc(33.333%-21.33px)] bg-white rounded-2xl border-[1.5px] border-[#EDA94E] hover:shadow-lg transition-all duration-300 overflow-hidden"
+              className="related-product-card flex-shrink-0 w-[calc(85%-16px)] md:w-[calc(33.333%-21.33px)] bg-white rounded-2xl border-[1.5px] border-[#EDA94E] hover:shadow-lg transition-all duration-300 overflow-hidden"
             >
               {}
               <div className="md:hidden">
@@ -137,7 +142,7 @@ const RelatedProductsSection = ({ data }) => {
                       {product.name}
                     </h3>
                     <div className="mt-auto w-full flex justify-center">
-                      <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-5 py-2 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[150px] justify-center">
+                      <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-4 py-1.5 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[120px] justify-center text-sm">
                             {t('ui.viewDetails')}
                       </Link>
                     </div>
@@ -150,9 +155,9 @@ const RelatedProductsSection = ({ data }) => {
         </div>
 
         {}
-        {products.length > visibleCount && (
+        {products.length > (window.innerWidth < 768 ? 1 : visibleCount) && (
           <div className="flex justify-center gap-2 mt-6">
-            {Array.from({ length: Math.max(1, products.length - visibleCount + 1) }).map((_, index) => (
+            {Array.from({ length: Math.max(1, products.length - (window.innerWidth < 768 ? 0 : (visibleCount - 1))) }).map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}

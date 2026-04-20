@@ -119,7 +119,7 @@ export default function EventsPage() {
         }
       `}</style>
       {/* ── Hero Banner ───────────────────────────────────────── */}
-      <section style={{ position: "relative", width: "100%", height: "380px", overflow: "hidden" }}>
+      <section style={{ position: "relative", width: "100%", height: "clamp(250px, 40vh, 380px)", overflow: "hidden" }}>
         <img
           src="/assets/BannerImages/exhibition desktop2.jpg"
           alt="Events"
@@ -130,11 +130,13 @@ export default function EventsPage() {
           position: "absolute", inset: 0,
           background: "linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.55) 100%)",
           display: "flex", alignItems: "center", justifyContent: "center",
+          padding: "0 20px"
         }}>
           <h1 style={{
-            color: "#fff", fontSize: "clamp(2rem, 5vw, 3.25rem)",
+            color: "#fff", fontSize: "clamp(1.75rem, 5vw, 3.25rem)",
             fontWeight: 700, letterSpacing: "0.02em",
             textShadow: "0 2px 16px rgba(0,0,0,0.35)",
+            textAlign: "center"
           }}>
             {t("hero.title")}
           </h1>
@@ -142,7 +144,7 @@ export default function EventsPage() {
       </section>
 
       {/* ── Upcoming Events Slideshow ─────────────────────────── */}
-      <section style={{ background: "#f9f6f1", padding: "80px 0 40px" }}>
+      <section style={{ background: "#f9f6f1", padding: "calc(var(--section-padding-y) * 1.5) 0 40px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "32px" }}>
             <h2 style={{
@@ -186,19 +188,19 @@ export default function EventsPage() {
               Past Exhibitions
             </h2>
             {/* Year Filter Pills */}
-            <div style={{ display: "flex", gap: "12px", marginBottom: "32px", flexWrap: "wrap", alignItems: "center" }}>
+            <div style={{ display: "flex", gap: "10px", marginBottom: "32px", flexWrap: "wrap", alignItems: "center" }}>
               {ALL_YEARS.map((year) => (
                 <button
                   key={year}
                   onClick={() => setSelectedYear(year)}
                   style={{
-                    padding: "10px 28px",
+                    padding: "8px 20px",
                     borderRadius: "50px",
                     border: selectedYear === year ? "2px solid #c17b2a" : "2px solid #e8e0d5",
                     background: selectedYear === year ? "#c17b2a" : "#fff",
                     color: selectedYear === year ? "#fff" : "#7a6a52",
                     fontWeight: 700,
-                    fontSize: "0.95rem",
+                    fontSize: "0.9rem",
                     cursor: "pointer",
                     transition: "all 0.3s ease",
                     letterSpacing: "0.02em",
@@ -439,20 +441,30 @@ function EventModal({ event, onClose, t }) {
       />
 
       {/* Modal Box */}
-      <div style={{
-        position: "relative",
-        background: "#fff",
-        borderRadius: "18px",
-        boxShadow: "0 32px 80px rgba(0,0,0,0.28)",
-        width: "100%",
-        maxWidth: "860px",
-        maxHeight: "90vh",
-        overflow: "hidden",
-        display: "flex",
-        flexDirection: "row",
-        zIndex: 10,
-        animation: "zoomIn 0.25s ease",
-      }}>
+      <div 
+        className="modal-box"
+        style={{
+          position: "relative",
+          background: "#fff",
+          borderRadius: "18px",
+          boxShadow: "0 32px 80px rgba(0,0,0,0.28)",
+          width: "100%",
+          maxWidth: "860px",
+          maxHeight: "90vh",
+          overflow: "hidden",
+          display: "flex",
+          flexDirection: "column", // Default to column for mobile
+          zIndex: 10,
+          animation: "zoomIn 0.25s ease",
+        }}
+      >
+        <style>{`
+          @media (min-width: 768px) {
+            .modal-box { flex-direction: row !important; }
+            .modal-image-side { width: 42% !important; min-height: 480px !important; }
+            .modal-content-side { padding: 48px !important; }
+          }
+        `}</style>
         {/* Close */}
         <button
           onClick={onClose}
@@ -471,7 +483,7 @@ function EventModal({ event, onClose, t }) {
         </button>
 
         {/* Image Side */}
-        <div style={{ width: "42%", minHeight: "360px", position: "relative", flexShrink: 0 }}>
+        <div className="modal-image-side" style={{ width: "100%", height: "200px", position: "relative", flexShrink: 0 }}>
           <img
             src={event.image}
             alt={event.title}
@@ -482,14 +494,14 @@ function EventModal({ event, onClose, t }) {
             position: "absolute", inset: 0,
             background: "linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 55%)",
             display: "flex", flexDirection: "column", justifyContent: "flex-end",
-            padding: "24px",
+            padding: "20px",
           }}>
             <span style={{
               display: "inline-block",
               background: event.type === "Upcoming Event" ? "#006633" : "#c17b2a",
               color: "#fff",
-              fontSize: "0.7rem", fontWeight: 700,
-              padding: "5px 14px", borderRadius: "20px",
+              fontSize: "0.65rem", fontWeight: 700,
+              padding: "4px 12px", borderRadius: "20px",
               textTransform: "uppercase", letterSpacing: "0.08em",
               width: "fit-content",
             }}>
@@ -499,45 +511,45 @@ function EventModal({ event, onClose, t }) {
         </div>
 
         {/* Content Side */}
-        <div style={{ flex: 1, padding: "36px 32px", overflowY: "auto", display: "flex", flexDirection: "column", gap: "20px" }}>
+        <div className="modal-content-side" style={{ flex: 1, padding: "24px 20px", overflowY: "auto", display: "flex", flexDirection: "column", gap: "16px" }}>
           <div>
-            <h3 style={{ fontSize: "1.8rem", fontWeight: 800, color: "#1a1a1a", lineHeight: 1.25, marginBottom: "6px" }}>
+            <h3 style={{ fontSize: "clamp(1.25rem, 4vw, 1.8rem)", fontWeight: 800, color: "#1a1a1a", lineHeight: 1.25, marginBottom: "4px" }}>
               {event.title}
             </h3>
             {event.subtitle && (
-              <p style={{ fontSize: "0.8rem", fontWeight: 700, color: "#c17b2a", letterSpacing: "0.15em", textTransform: "uppercase" }}>
+              <p style={{ fontSize: "0.75rem", fontWeight: 700, color: "#c17b2a", letterSpacing: "0.12em", textTransform: "uppercase" }}>
                 {event.subtitle}
               </p>
             )}
           </div>
 
           {/* Info Cards */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
             <InfoRow icon={<FiCalendar />} label={t("ui.eventDate")} value={event.date} />
             <InfoRow icon={<FiMapPin />} label={t("ui.location")} value={event.location} />
           </div>
 
           {/* About */}
           <div>
-            <h4 style={{ fontSize: "1rem", fontWeight: 700, color: "#1a1a1a", marginBottom: "8px" }}>
+            <h4 style={{ fontSize: "0.9rem", fontWeight: 700, color: "#1a1a1a", marginBottom: "6px" }}>
               {t("ui.aboutEvent")}
             </h4>
-            <p style={{ fontSize: "0.92rem", color: "#666", lineHeight: 1.7 }}>
+            <div style={{ fontSize: "0.85rem", color: "#555", lineHeight: 1.6 }}>
               {event.description ||
                 `${t("ui.joinUsAt")} ${event.title} ${t("ui.discoverDesc")}`}
-            </p>
+            </div>
           </div>
 
-          {}
-          <div style={{ marginTop: "auto", display: "flex", gap: "12px", justifyContent: "flex-end", borderTop: "1px solid #f0ece6", paddingTop: "20px" }}>
+          <div style={{ marginTop: "auto", display: "flex", gap: "10px", justifyContent: "flex-end", borderTop: "1px solid #f0ece6", paddingTop: "16px", flexWrap: "wrap" }}>
             <button
               onClick={onClose}
               style={{
-                padding: "10px 24px", borderRadius: "8px",
+                padding: "8px 20px", borderRadius: "8px",
                 border: "2px solid #e0e0e0",
                 background: "transparent", color: "#555",
                 fontWeight: 700, cursor: "pointer",
-                fontSize: "0.88rem",
+                fontSize: "0.85rem",
+                flex: "1 1 100px"
               }}
             >
               {t("ui.close")}
@@ -545,12 +557,13 @@ function EventModal({ event, onClose, t }) {
             <button
               onClick={onClose}
               style={{
-                padding: "10px 24px", borderRadius: "8px",
+                padding: "8px 20px", borderRadius: "8px",
                 border: "2px solid #006633",
                 background: "#006633", color: "#fff",
                 fontWeight: 700, cursor: "pointer",
-                fontSize: "0.88rem",
+                fontSize: "0.85rem",
                 boxShadow: "0 4px 16px rgba(0,102,51,0.2)",
+                flex: "1 1 120px"
               }}
             >
               {t("ui.contactUs")}

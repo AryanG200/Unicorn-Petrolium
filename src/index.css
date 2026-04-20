@@ -14,13 +14,19 @@ html, body {
   -ms-text-size-adjust: 100%;
 }
 
-#root {
-  width: 100%;
-  overflow-x: hidden;
+:root {
+  --section-padding-y: 4rem; /* 64px */
 }
 
-/* Ensure navbar overlap works on mobile */
 @media (max-width: 767px) {
+  :root {
+    --section-padding-y: 2.5rem; /* 40px */
+  }
+  
+  h1 { font-size: 2.25rem !important; line-height: 2.5rem !important; }
+  h2 { font-size: 1.875rem !important; line-height: 2.25rem !important; }
+  h3 { font-size: 1.5rem !important; line-height: 2rem !important; }
+  
   .sticky {
     position: sticky !important;
   }
@@ -30,8 +36,20 @@ html, body {
   
   /* Adjust breadcrumbs to prevent cutoff */
   .breadcrumbs-container {
-    top: 8rem !important;
+    top: 6rem !important; /* Adjusted for mobile navbar height */
+    width: 90% !important;
   }
+
+  /* Utility to remove aggressive side effects on mobile */
+  .mobile-vignette-fix {
+    box-shadow: none !important;
+    background-image: none !important;
+  }
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 /* Hide scrollbars for scrollable containers */

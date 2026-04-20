@@ -267,7 +267,7 @@ export default function ProductPortfolioSection({ data }) {
               {duplicatedCards.map((card, index) => (
                 <div 
                   key={`${card.title}-${index}`} 
-                  className="product-card flex-shrink-0 w-72 sm:w-80"
+                  className="product-card flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px]"
                 >
                   <Link
                     to={getCardLink(card)}

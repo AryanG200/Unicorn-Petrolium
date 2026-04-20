@@ -70,10 +70,10 @@ const AboutPage = () => {
       </section>
 
       {}
-      <section className="py-16 px-4 border-b-0">
+      <section className="py-[var(--section-padding-y)] px-4 border-b-0">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">{t('hero.title')}</h2><br></br><br></br>
-          <h3 className="text-3xl font-bold text-gray-800 mb-8">{t('hero.subtitle')}</h3>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{t('hero.title')}</h2><br className="hidden sm:block"></br><br className="hidden sm:block"></br>
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-8">{t('hero.subtitle')}</h3>
           
           <p className="text-lg text-gray-700 mb-6 leading-relaxed text-justify text-left">
             {t('intro.p1')}
@@ -92,7 +92,7 @@ const AboutPage = () => {
       </div>
 
       {}
-      <section className="py-16 px-4 bg-gray-50 border-b-0">
+      <section className="py-[var(--section-padding-y)] px-4 bg-gray-50 border-b-0">
           <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-6">
             <div className="w-16 h-16 flex items-center justify-center">
@@ -103,7 +103,7 @@ const AboutPage = () => {
               />
             </div>
           </div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">{t('belief.title')}</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">{t('belief.title')}</h2>
           <p className="text-lg text-gray-700 leading-relaxed text-justify text-left">
             <Trans i18nKey="belief.text" t={t}>
               We, at Unicorn, firmly believe in <strong>Total Customer Satisfaction</strong>, providing customers with the best solutions to suit their diverse applications with tailor-made, consistently superior products, along with efficient services at reasonable costs. The name "<strong>UNICORN</strong>" is now synonymous for ethical practices, superior consistent quality and customer oriented management.
@@ -113,7 +113,7 @@ const AboutPage = () => {
       </section>
 
       {}
-      <section className="py-16 px-4 border-b-0">
+      <section className="py-[var(--section-padding-y)] px-4 border-b-0">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-6">
             <div className="w-16 h-16 rounded-full flex items-center justify-center">
@@ -124,7 +124,7 @@ const AboutPage = () => {
               />
             </div>
           </div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">{t('vision.title')}</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">{t('vision.title')}</h2>
           <p className="text-lg text-gray-700 leading-relaxed text-justify text-left">
             <Trans i18nKey="vision.text" t={t}>
               Become a customer-centric, result oriented organization, with sustainable resources, for over-all self and society development. We aim to be recognized as trend-setters for <strong>setting the standards of excellence in the field of petrochemical specialties</strong> in the Indian sub-continent. We are committed to meeting our commitments to our valuable customers, stake-holders and employees in an ethical, professional manner.
@@ -134,7 +134,7 @@ const AboutPage = () => {
       </section>
 
       {}
-      <section className="py-16 px-4 bg-gray-50 border-b-0">
+      <section className="py-[var(--section-padding-y)] px-4 bg-gray-50 border-b-0">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-6">
             <div className="w-16 h-16 flex items-center justify-center">
@@ -145,7 +145,7 @@ const AboutPage = () => {
               />
             </div>
           </div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-8">{t('mission.title')}</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">{t('mission.title')}</h2>
           <p className="text-lg text-gray-700 leading-relaxed text-justify text-left">
             <Trans i18nKey="mission.text" t={t}>
               To strive earnestly to meet the expectations and aspirations of our customers vis-a-vis <strong>quality, consistency and compatibility of our products</strong>, while maintaining the highest standards of integrity, value and business ethics. To innovate and develop customer centric products to suit diverse applications.
@@ -161,7 +161,7 @@ const AboutPage = () => {
       </div>
 
         {}
-        <section className="pt-20 pb-20 md:pb-24 px-4 bg-white" ref={coreValuesRef}>
+        <section className="py-[var(--section-padding-y)] px-4 bg-white" ref={coreValuesRef}>
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t('values.title')}</h2>
           
@@ -181,8 +181,8 @@ const AboutPage = () => {
                     className="w-14 h-14 md:w-16 md:h-16 object-contain animate-icon-float"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('values.items.customer.title')}</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('values.items.customer.title')}</h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-sm mx-auto">
                   {t('values.items.customer.desc')}
                 </p>
               </div>
@@ -196,8 +196,8 @@ const AboutPage = () => {
                     className="w-14 h-14 md:w-16 md:h-16 object-contain animate-icon-float"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('values.items.quality.title')}</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('values.items.quality.title')}</h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-sm mx-auto">
                   {t('values.items.quality.desc')}
                 </p>
               </div>
@@ -211,8 +211,8 @@ const AboutPage = () => {
                     className="w-14 h-14 md:w-16 md:h-16 object-contain animate-icon-float"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('values.items.ethics.title')}</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('values.items.ethics.title')}</h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-sm mx-auto">
                   {t('values.items.ethics.desc')}
                 </p>
               </div>
@@ -226,8 +226,8 @@ const AboutPage = () => {
                     className="w-14 h-14 md:w-16 md:h-16 object-contain animate-icon-float"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('values.items.integrity.title')}</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('values.items.integrity.title')}</h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-sm mx-auto">
                   {t('values.items.integrity.desc')}
                 </p>
               </div>
@@ -241,8 +241,8 @@ const AboutPage = () => {
                     className="w-14 h-14 md:w-16 md:h-16 object-contain"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">{t('values.items.safety.title')}</h3>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">{t('values.items.safety.title')}</h3>
+                <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-sm mx-auto">
                   {t('values.items.safety.desc')}
                 </p>
               </div>
@@ -351,9 +351,9 @@ const AboutPage = () => {
       </div>
 
         {}
-        <section className="py-16 px-4 bg-white" ref={manufacturingRef}>
+        <section className="py-[var(--section-padding-y)] px-4 bg-white" ref={manufacturingRef}>
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">{t('facilities.title')}</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-12">{t('facilities.title')}</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {}

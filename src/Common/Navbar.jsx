@@ -345,107 +345,120 @@ export default function Navbar() {
 
           { }
           {isOpen && (
-            <div className="md:hidden py-4 border-t border-gray-300/30 rounded-b-lg bg-white/10 backdrop-blur-lg">
-              {menuItems.map((item, index) => (
-                <div key={index} className="border-b border-gray-300/30 last:border-b-0">
-                  {item.hasDropdown ? (
-                    <div>
-                      <button
-                        onClick={() => toggleMobileDropdown(index)}
-                        className="w-full text-left px-4 py-3 text-gray-800 hover:text-[#E99322]/80 flex items-center justify-between"
-                      >
-                        <span className="font-semibold">{item.name}</span>
-                        <FiChevronDown className={`text-sm transition-transform ${mobileDropdowns[index] ? 'rotate-180' : ''}`} />
-                      </button>
-                      {mobileDropdowns[index] && (
-                        <div className="border-t border-gray-300/30 bg-white/10 backdrop-blur-lg">
-                          {item.dropdownItems?.map((dropdownItem, dropdownIndex) => {
-                            const nestedKey = `${index}-${dropdownIndex}`;
-                            const hasNested = dropdownItem.subItems && dropdownItem.subItems.length > 0;
+            <div className="md:hidden py-6 border-t border-gray-300/30 rounded-b-xl bg-white shadow-2xl animate-fade-in-up">
+              <div className="flex flex-col space-y-1">
+                {menuItems.map((item, index) => (
+                  <div key={index} className="px-2">
+                    {item.hasDropdown ? (
+                      <div className="rounded-lg overflow-hidden">
+                        <button
+                          onClick={() => toggleMobileDropdown(index)}
+                          className={`w-full text-left px-4 py-4 flex items-center justify-between transition-colors ${
+                            mobileDropdowns[index] ? 'bg-[#E99322]/5 text-[#E99322]' : 'text-gray-800 hover:bg-gray-50'
+                          }`}
+                        >
+                          <span className="font-bold text-base">{item.name}</span>
+                          <FiChevronDown className={`text-lg transition-transform duration-300 ${mobileDropdowns[index] ? 'rotate-180' : ''}`} />
+                        </button>
+                        
+                        {mobileDropdowns[index] && (
+                          <div className="bg-[#E99322]/5 py-2 px-4 space-y-2 animate-fade-in">
+                            {item.dropdownItems?.map((dropdownItem, dropdownIndex) => {
+                              const nestedKey = `${index}-${dropdownIndex}`;
+                              const hasNested = dropdownItem.subItems && dropdownItem.subItems.length > 0;
 
-                            if (hasNested) {
+                              if (hasNested) {
+                                return (
+                                  <div key={nestedKey} className="rounded-md overflow-hidden bg-white/50 mb-1">
+                                    <button
+                                      onClick={() => setMobileNestedDropdowns(prev => ({
+                                        ...prev,
+                                        [nestedKey]: !prev[nestedKey]
+                                      }))}
+                                      className="w-full text-left px-4 py-3 text-gray-800 flex items-center justify-between hover:bg-white/80"
+                                    >
+                                      <span className="text-sm font-semibold">{dropdownItem.name}</span>
+                                      <FiChevronDown className={`text-xs transition-transform ${mobileNestedDropdowns[nestedKey] ? 'rotate-180' : ''}`} />
+                                    </button>
+                                    
+                                    {mobileNestedDropdowns[nestedKey] && (
+                                      <div className="bg-white/30 py-1 space-y-1 border-t border-gray-200/50">
+                                        {dropdownItem.subItems.map((subItem, subIndex) => (
+                                          <Link
+                                            key={`${nestedKey}-${subIndex}`}
+                                            to={subItem.link}
+                                            className="block px-8 py-3 text-sm text-gray-700 hover:text-[#E99322] border-b border-gray-100 last:border-b-0"
+                                            onClick={() => {
+                                              setIsOpen(false);
+                                              setMobileDropdowns({});
+                                              setMobileNestedDropdowns({});
+                                              window.scrollTo(0, 0);
+                                            }}
+                                          >
+                                            {subItem.name}
+                                          </Link>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                );
+                              }
+
                               return (
-                                <div key={nestedKey} className="border-b border-gray-300/30 last:border-b-0">
-                                  <button
-                                    onClick={() => setMobileNestedDropdowns(prev => ({
-                                      ...prev,
-                                      [nestedKey]: !prev[nestedKey]
-                                    }))}
-                                    className="w-full text-left px-8 py-3 text-gray-800 hover:text-[#E99322]/80 flex items-center justify-between"
-                                  >
-                                    <span className="text-sm font-semibold">{dropdownItem.name}</span>
-                                    <FiChevronDown className={`text-sm transition-transform ${mobileNestedDropdowns[nestedKey] ? 'rotate-180' : ''}`} />
-                                  </button>
-                                  {mobileNestedDropdowns[nestedKey] && (
-                                    <div className="bg-white/20">
-                                      {dropdownItem.subItems.map((subItem, subIndex) => (
-                                        <Link
-                                          key={`${nestedKey}-${subIndex}`}
-                                          to={subItem.link}
-                                          className="block px-10 py-3 text-xs text-gray-800 hover:text-[#E99322]/80 border-t border-gray-300/30"
-                                          onClick={() => {
-                                            setIsOpen(false);
-                                            setMobileDropdowns({});
-                                            setMobileNestedDropdowns({});
-                                            window.scrollTo(0, 0);
-                                          }}
-                                        >
-                                          {subItem.name}
-                                        </Link>
-                                      ))}
-                                    </div>
-                                  )}
-                                </div>
+                                <Link
+                                  key={nestedKey}
+                                  to={dropdownItem.link}
+                                  className="block px-4 py-3 text-sm text-gray-700 hover:text-[#E99322] hover:bg-white rounded-md transition-all"
+                                  onClick={() => {
+                                    setIsOpen(false);
+                                    setMobileDropdowns({});
+                                    setMobileNestedDropdowns({});
+                                    window.scrollTo(0, 0);
+                                  }}
+                                >
+                                  {dropdownItem.name}
+                                </Link>
                               );
-                            }
+                            })}
+                          </div>
+                        )}
+                      </div>
+                    ) : (
+                      <Link
+                        to={item.link}
+                        className="block px-4 py-4 text-gray-800 hover:text-[#E99322] font-bold text-base hover:bg-gray-50 rounded-lg transition-colors"
+                        onClick={() => { setIsOpen(false); window.scrollTo(0, 0); }}
+                      >
+                        {item.name}
+                      </Link>
+                    )}
+                  </div>
+                ))}
+              </div>
 
-                            return (
-                              <Link
-                                key={nestedKey}
-                                to={dropdownItem.link}
-                                className="block px-8 py-3 text-sm text-gray-800 hover:text-[#E99322]/80 hover:bg-white/20 border-b border-gray-300/30 last:border-b-0"
-                                onClick={() => {
-                                  setIsOpen(false);
-                                  setMobileDropdowns({});
-                                  setMobileNestedDropdowns({});
-                                  window.scrollTo(0, 0);
-                                }}
-                              >
-                                {dropdownItem.name}
-                              </Link>
-                            );
-                          })}
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <Link
-                      to={item.link}
-                      className="block px-4 py-3 text-gray-800 hover:text-[#E99322]/80 font-semibold"
-                      onClick={() => { setIsOpen(false); window.scrollTo(0, 0); }}
-                    >
-                      {item.name}
-                    </Link>
-                  )}
-                </div>
-              ))}
-
-              <div className="px-4 py-3 border-t border-gray-300/30 mt-4 flex flex-col gap-3">
+              <div className="px-6 py-6 border-t border-gray-100 mt-6 flex flex-col gap-6">
                 {/* Mobile Language Switcher */}
-                <div className="flex flex-wrap gap-2 justify-center py-2">
-                  {languages.map((lang) => (
-                    <button
-                      key={lang.code}
-                      onClick={() => handleLanguageChange(lang.code)}
-                      className={`px-3 py-1.5 rounded-full text-xs font-semibold transition-colors flex-grow text-center ${i18n.language === lang.code ? 'bg-[#E99322] text-white shadow-md' : 'bg-white/40 text-gray-800 hover:bg-white/60'}`}
-                    >
-                      {lang.label}
-                    </button>
-                  ))}
+                <div>
+                  <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3 px-1">{t('navbar.selectLanguage') || 'Select Language'}</p>
+                  <div className="grid grid-cols-3 gap-2">
+                    {languages.map((lang) => (
+                      <button
+                        key={lang.code}
+                        onClick={() => handleLanguageChange(lang.code)}
+                        className={`px-2 py-2 rounded-lg text-xs font-semibold transition-all border ${
+                          i18n.language === lang.code 
+                            ? 'bg-[#E99322] text-white border-[#E99322] shadow-md' 
+                            : 'bg-white text-gray-600 border-gray-200 hover:border-[#E99322]/30 hover:bg-[#E99322]/5'
+                        }`}
+                      >
+                        {lang.label.split(' ')[0]}
+                      </button>
+                    ))}
+                  </div>
                 </div>
                 
-                <button className="w-full bg-[#E99322] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#E99322]/90 transition-all duration-300 flex items-center justify-center gap-2 shadow-sm">
-                  <FaWhatsapp className="text-lg" />
+                <button className="w-full bg-[#E99322] text-white px-6 py-4 rounded-xl text-base font-bold hover:bg-[#E99322]/90 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg shadow-[#E99322]/20">
+                  <FaWhatsapp className="text-xl" />
                   {t('navbar.whatsappUs')}
                 </button>
               </div>

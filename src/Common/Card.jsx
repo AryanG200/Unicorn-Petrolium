@@ -130,7 +130,7 @@ const Card = ({
 
   return (
     <div
-      className={`bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow h-full flex ${className}`}
+      className={`bg-white rounded-xl p-4 sm:p-6 shadow-sm hover:shadow-md transition-shadow h-full flex flex-col ${className}`}
       onClick={onClick}
     >
       {renderCardContent()}

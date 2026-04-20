@@ -200,7 +200,7 @@ export default function SliderHero({
         { }
         {((currentSlideData.title && currentSlideData.title.trim() !== "") || (currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "")) && (
           <div
-            className={`relative z-20 flex h-full ${isTopLeftPosition ? "justify-start items-start pt-0 pl-0" :
+            className={`relative z-20 flex h-full ${isTopLeftPosition ? "justify-start items-start pt-20 sm:pt-24 md:pt-0 pl-0" :
                 isBottomPosition ? "justify-center items-end pb-8 sm:pb-10 md:pb-12 lg:pb-16" :
                   "justify-center items-center"
               }`}

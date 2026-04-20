@@ -37,21 +37,21 @@ export default function BannerWithNavigation({
       </div>
 
       {breadcrumbs && (
-        <div className="absolute top-16 sm:top-20 md:top-24 lg:top-28 left-1/2 -translate-x-1/2 z-20 breadcrumbs-container">
-          <nav className="text-black font-semibold text-sm sm:text-base md:text-lg lg:text-xl">
-            <ol className="flex items-center space-x-1 sm:space-x-2">
+        <div className="absolute top-16 sm:top-20 md:top-24 lg:top-28 left-1/2 -translate-x-1/2 z-20 breadcrumbs-container w-[95%] max-w-7xl">
+          <nav className="text-black font-semibold text-xs sm:text-sm md:text-base lg:text-lg bg-white/40 backdrop-blur-md px-3 py-1.5 rounded-full inline-block mx-auto flex justify-center items-center overflow-x-auto scrollbar-hide whitespace-nowrap shadow-sm">
+            <ol className="flex items-center space-x-1 sm:space-x-2 px-1">
               {breadcrumbs.map((crumb, index) => (
                 <React.Fragment key={index}>
-                  <li>
+                  <li className="flex-shrink-0">
                     {crumb.link ? (
-                      <Link to={crumb.link} className="hover:text-gray-700">
+                      <Link to={crumb.link} className="hover:text-[#E99322] transition-colors">
                         {crumb.text}
                       </Link>
                     ) : (
                       <span className="text-gray-900">{crumb.text}</span>
                     )}
                   </li>
-                  {index < breadcrumbs.length - 1 && <li>›</li>}
+                  {index < breadcrumbs.length - 1 && <li className="text-gray-400">›</li>}
                 </React.Fragment>
               ))}
             </ol>

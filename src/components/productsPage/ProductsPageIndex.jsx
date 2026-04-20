@@ -83,15 +83,15 @@ export default function ProductsPageIndex() {
           <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
             {t('index.completePortfolio')}
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {allProducts.map((product, index) => (
               <Link 
                 key={product.id} 
                 to={product.link} 
-                className={`group block border-[1.5px] border-[#EDA94E] rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 animate-stagger-in animate-stagger-${(index % 6) + 1}`}
+                className={`group block border-[1.5px] border-[#EDA94E] rounded-xl p-4 sm:p-6 hover:shadow-xl transition-all duration-300 hover:scale-105 animate-stagger-in animate-stagger-${(index % 6) + 1}`}
               >
                 <div className="mb-4">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2 group-hover:text-[#E99322] transition-colors">
+                  <h4 className="text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-2 group-hover:text-[#E99322] transition-colors line-clamp-2 min-h-[3rem] sm:min-h-0">
                     {product.name}
                   </h4>
                   {product.parentCategory && (
@@ -101,7 +101,7 @@ export default function ProductsPageIndex() {
                   )}
                 </div>
                 
-                <p className="text-gray-600 mb-4 leading-relaxed">
+                <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-4 leading-relaxed line-clamp-3 sm:line-clamp-none">
                   {product.description}
                 </p>
                 

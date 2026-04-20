@@ -46,13 +46,13 @@ const ContactPage = () => {
       />
 
       {}
-      <section className="py-12 md:py-16 w-full">
+      <section className="py-[var(--section-padding-y)] w-full">
         <div className="w-full px-4">
           {}
-          <div className="max-w-7xl mx-auto p-4 md:p-6 border border-gray-300 rounded-lg">
+          <div className="max-w-7xl mx-auto p-5 md:p-8 border border-gray-200 rounded-2xl shadow-sm bg-white">
             <div className="grid grid-cols-1 md:grid-cols-10 gap-0 items-center w-full">
               {}
-              <div className="md:hidden space-y-4">
+              <div className="md:hidden space-y-6">
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 mt-1">
                     <svg className="w-6 h-6 text-[#E99322]" fill="currentColor" viewBox="0 0 20 20">
@@ -60,7 +60,8 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm leading-relaxed break-words text-gray-800">{t('officeLocation')}</p>
+                    <p className="text-xs font-bold text-[#E99322] uppercase tracking-wider mb-1">{t('mainOffice')}</p>
+                    <p className="text-sm leading-relaxed text-gray-800">{t('officeLocation')}</p>
                   </div>
                 </div>
                 
@@ -71,14 +72,17 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm leading-relaxed break-words text-gray-800">
-                      <Trans t={t} i18nKey="factory1">
-                        <span className="underline">Unicorn Petroleum Industries Pvt. Ltd.</span>, 10, Vaibhav Industrial Estate, Sion - Trombay Road, Deonar, Mumbai - 400088, MH, India.
-                      </Trans>
-                    </p>
-                    <p className="text-sm leading-relaxed break-words text-gray-800 mt-1">
-                      {t('factory2')}
-                    </p>
+                    <p className="text-xs font-bold text-[#E99322] uppercase tracking-wider mb-1">{t('factoryAddresses')}</p>
+                    <div className="text-sm leading-relaxed text-gray-800 space-y-2">
+                      <p>
+                        <Trans t={t} i18nKey="factory1">
+                          <span className="underline">Unicorn Petroleum Industries Pvt. Ltd.</span>, 10, Vaibhav Industrial Estate, Sion - Trombay Road, Deonar, Mumbai - 400088, MH, India.
+                        </Trans>
+                      </p>
+                      <p>
+                        {t('factory2')}
+                      </p>
+                    </div>
                   </div>
                 </div>
                 
@@ -89,7 +93,8 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm leading-relaxed break-words text-gray-800">+91-22-42324121, +91-22-42324122</p>
+                    <p className="text-xs font-bold text-[#E99322] uppercase tracking-wider mb-1">{t('phones')}</p>
+                    <p className="text-sm leading-relaxed text-gray-800">+91-22-42324121, +91-22-42324122</p>
                   </div>
                 </div>
                 
@@ -101,7 +106,8 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm leading-relaxed break-words text-gray-800">info@unicornpetro.co.in, manan@unicornpetro.co.in</p>
+                    <p className="text-xs font-bold text-[#E99322] uppercase tracking-wider mb-1">{t('emails')}</p>
+                    <p className="text-sm leading-relaxed text-gray-800">info@unicornpetro.co.in, manan@unicornpetro.co.in</p>
                   </div>
                 </div>
                 
@@ -112,7 +118,8 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="text-sm leading-relaxed break-words text-gray-800">{t('hoursVal')}</p>
+                    <p className="text-xs font-bold text-[#E99322] uppercase tracking-wider mb-1">{t('workingHours')}</p>
+                    <p className="text-sm leading-relaxed text-gray-800">{t('hoursVal')}</p>
                   </div>
                 </div>
               </div>

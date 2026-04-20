@@ -106,7 +106,7 @@ const ReachPage = () => {
   return (
     <div className="min-h-screen bg-white">
       {}
-      <div className="relative h-[340px] sm:h-[480px] md:h-[600px] lg:h-[650px] overflow-visible md:-mt-8 pt-20 md:pt-16 mb-8 md:mb-32">
+      <div className="relative h-[280px] sm:h-[380px] md:h-[500px] lg:h-[600px] overflow-visible md:-mt-8 pt-20 md:pt-16 mb-6 sm:mb-12 md:mb-32">
         {}
         <div className="absolute inset-0">
           {}
@@ -123,21 +123,21 @@ const ReachPage = () => {
         </div>
 
         {}
-        <div className="absolute top-28 sm:top-28 md:top-28 lg:top-32 left-1/2 -translate-x-1/2 z-20">
-          <nav className="text-black font-semibold text-xs sm:text-sm md:text-base lg:text-lg">
-            <ol className="flex items-center space-x-1 sm:space-x-2">
+        <div className="absolute top-24 sm:top-28 md:top-28 lg:top-32 left-1/2 -translate-x-1/2 z-20 w-[90%] max-w-7xl">
+          <nav className="text-black font-semibold text-[10px] sm:text-xs md:text-sm lg:text-lg bg-white/40 backdrop-blur-md px-3 py-1.5 rounded-full inline-block mx-auto flex justify-center items-center overflow-x-auto scrollbar-hide whitespace-nowrap shadow-sm">
+            <ol className="flex items-center space-x-1 sm:space-x-2 px-1">
               {breadcrumbs.map((crumb, index) => (
                 <React.Fragment key={index}>
-                  <li>
+                  <li className="flex-shrink-0">
                     {crumb.link ? (
-                      <a href={crumb.link} className="hover:text-gray-700 transition-colors">
+                      <a href={crumb.link} className="hover:text-[#E99322] transition-colors">
                         {crumb.text}
                       </a>
                     ) : (
                       <span className="text-gray-900">{crumb.text}</span>
                     )}
                   </li>
-                  {index < breadcrumbs.length - 1 && <li>›</li>}
+                  {index < breadcrumbs.length - 1 && <li className="text-gray-400">›</li>}
                 </React.Fragment>
               ))}
             </ol>
@@ -185,30 +185,30 @@ const ReachPage = () => {
       </div>
 
       {}
-      <section ref={mobileCounterRef} className="block md:hidden px-4 pt-0 pb-6 bg-white">
-        <div className="max-w-md mx-auto grid grid-cols-2 gap-5">
+      <section ref={mobileCounterRef} className="block md:hidden px-4 pt-4 pb-8 bg-white relative z-30 -mt-12 backdrop-vignette-fix">
+        <div className="max-w-md mx-auto grid grid-cols-2 gap-4">
           {}
-          <div className="w-40 h-40 bg-white rounded-full flex flex-col items-center justify-center p-4 shadow-xl mx-auto">
+          <div className="bg-white rounded-2xl flex flex-col items-center justify-center p-6 shadow-xl border border-[#EDA94E]/30 animate-fade-in">
             <div className="text-2xl font-bold text-[#E99322] mb-0.5">{counts.years}+</div>
-            <div className="text-sm font-medium text-[#E99322]">{t('years')}</div>
+            <div className="text-xs font-bold text-gray-500 uppercase tracking-tight">{t('years')}</div>
           </div>
 
           {}
-          <div className="w-40 h-40 bg-white rounded-full flex flex-col items-center justify-center p-4 shadow-xl mx-auto">
+          <div className="bg-white rounded-2xl flex flex-col items-center justify-center p-6 shadow-xl border border-[#EDA94E]/30 animate-fade-in">
             <div className="text-2xl font-bold text-[#E99322] mb-0.5">{counts.countries}+</div>
-            <div className="text-sm font-medium text-[#E99322]">{t('countries')}</div>
+            <div className="text-xs font-bold text-gray-500 uppercase tracking-tight">{t('countries')}</div>
           </div>
 
           {}
-          <div className="col-span-2 place-self-center w-40 h-40 bg-white rounded-full flex flex-col items-center justify-center p-4 shadow-xl">
+          <div className="col-span-2 bg-white rounded-2xl flex flex-col items-center justify-center p-6 shadow-xl border border-[#EDA94E]/30 animate-fade-in">
             <div className="text-2xl font-bold text-[#E99322] mb-0.5">{counts.companies}+</div>
-            <div className="text-sm font-medium text-[#E99322]">{t('companies')}</div>
+            <div className="text-xs font-bold text-gray-500 uppercase tracking-tight">{t('companies')}</div>
           </div>
         </div>
       </section>
 
       {}
-      <section className="py-16 px-4 bg-white mt-8 md:mt-48">
+      <section className="py-[var(--section-padding-y)] px-4 bg-white md:mt-48">
         {}
         <div className="max-w-6xl mx-auto mb-8 text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
