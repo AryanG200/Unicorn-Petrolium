@@ -83,13 +83,11 @@ export const emulsifyingWaxData = {
 
   relatedProducts: {
     relatedProducts: [
-      { name: "Mineral Oil", image: "/assets/RELATED PROD IMG/NEW IMAGES/whiteMineraloil1.jpg" },
-      { name: "Natural Beeswax", image: "/assets/RELATED PROD IMG/NEW IMAGES/Naturalbeeswax.jpg" },
-      { name: "D-Panthenol", image: "/assets/RELATED PROD IMG/NEW IMAGES/Dpanthenol.jpg" },
+      { id: "white-mineral-oils", name: "Mineral Oil", image: "/assets/RELATED PROD IMG/NEW IMAGES/whiteMineraloil1.jpg" },
+      { id: "natural-beeswax", name: "Natural Beeswax", image: "/assets/RELATED PROD IMG/NEW IMAGES/Naturalbeeswax.jpg" },
+      { id: "d-panthenol", name: "D-Panthenol", image: "/assets/RELATED PROD IMG/NEW IMAGES/Dpanthenol.jpg" },
     ],
   },
 };
 
 export default emulsifyingWaxData;
-
-

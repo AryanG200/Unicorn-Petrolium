@@ -125,13 +125,11 @@ export const uvFiltersData = {
 
   relatedProducts: {
     relatedProducts: [
-      { name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
-      { name: "D-Panthenol", image: "/assets/RELATED PROD IMG/NEW IMAGES/Dpanthenol.jpg" },
-      { name: "Preservatives", image: "/assets/RELATED PROD IMG/NEW IMAGES/Preservative.jpg" },
+      { id: "emulsifying-wax", name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
+      { id: "d-panthenol", name: "D-Panthenol", image: "/assets/RELATED PROD IMG/NEW IMAGES/Dpanthenol.jpg" },
+      { id: "preservatives", name: "Preservatives", image: "/assets/RELATED PROD IMG/NEW IMAGES/Preservative.jpg" },
     ],
   },
 };
 
 export default uvFiltersData;
-
-

@@ -91,13 +91,11 @@ export const preservativesData = {
 
   relatedProducts: {
     relatedProducts: [
-      { name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
-      { name: "D-Panthenol", image: "/assets/RELATED PROD IMG/NEW IMAGES/Dpanthenol.jpg" },
-      { name: "Surfactants", image: "/assets/RELATED PROD IMG/NEW IMAGES/surfactant.jpg" },
+      { id: "emulsifying-wax", name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
+      { id: "d-panthenol", name: "D-Panthenol", image: "/assets/RELATED PROD IMG/NEW IMAGES/Dpanthenol.jpg" },
+      { id: "surfactants", name: "Surfactants", image: "/assets/RELATED PROD IMG/NEW IMAGES/surfactant.jpg" },
     ],
   },
 };
 
 export default preservativesData;
-
-

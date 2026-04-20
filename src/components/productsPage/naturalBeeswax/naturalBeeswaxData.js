@@ -85,9 +85,9 @@ export const naturalBeeswaxData = {
 
   relatedProducts: {
     relatedProducts: [
-      { name: "Petroleum Jelly", image: "/assets/RELATED PROD IMG/NEW IMAGES/Petroleumjelly.jpg" },
-      { name: "Microcrystalline Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/microcrystalline wax.jpg" },
-      { name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
+      { id: "petroleum-jelly", name: "Petroleum Jelly", image: "/assets/RELATED PROD IMG/NEW IMAGES/Petroleumjelly.jpg" },
+      { id: "microcrystalline-wax", name: "Microcrystalline Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/microcrystalline wax.jpg" },
+      { id: "emulsifying-wax", name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
     ],
   },
 };

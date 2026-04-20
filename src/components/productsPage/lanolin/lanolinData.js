@@ -44,6 +44,14 @@ export const lanolinData = {
       },
     ],
   },
+  
+  relatedProducts: {
+    relatedProducts: [
+      { id: "petroleum-jelly", name: "Petroleum Jelly", image: "/assets/RELATED PROD IMG/NEW IMAGES/Petroleumjelly.jpg" },
+      { id: "white-mineral-oils", name: "Mineral Oil", image: "/assets/RELATED PROD IMG/NEW IMAGES/whiteMineraloil1.jpg" },
+      { id: "emulsifying-wax", name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
+    ],
+  },
 };
 
 export default lanolinData;

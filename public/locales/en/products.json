@@ -629,5 +629,31 @@
     "relatedProducts": "Related products",
     "exploreOtherProducts": "Explore other relevant products",
     "viewDetails": "View Details"
+  },
+  "standard": {
+    "additionalInfo": "This page follows Unicorn's standard layout. Provide brochure and specs as needed.",
+    "applicationsPlaceholder": "Content will be updated from Figma desktop copy. This placeholder keeps alignment consistent.",
+    "useCases": ["Use case 1", "Use case 2", "Use case 3"],
+    "packaging": {
+      "bags": "Bags",
+      "cartons": "Cartons"
+    },
+    "features": {
+      "heading": "Key Features of {{name}} from Unicorn",
+      "quality": {
+        "title": "Quality & Compliance",
+        "items": ["Consistent quality", "Regulatory conformance", "Reliable supply"]
+      },
+      "versatility": {
+        "title": "Application Versatility",
+        "items": ["Multiple end uses", "Stable performance", "Formulation friendly"]
+      }
+    },
+    "related": {
+      "mineralOil": "White Mineral Oil",
+      "microcrystalline": "Microcrystalline Wax",
+      "paraffin": "Hard Paraffin Wax",
+      "petroleumJelly": "Petroleum Jelly"
+    }
   }
 }

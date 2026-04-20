@@ -60,9 +60,9 @@
 
     relatedProducts: {
       relatedProducts: [
-        { name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
-        { name: "Preservatives", image: "/assets/RELATED PROD IMG/NEW IMAGES/Preservative.jpg" },
-        { name: "Surfactants", image: "/assets/RELATED PROD IMG/NEW IMAGES/surfactant.jpg" },
+        { id: "emulsifying-wax", name: "Emulsifying Wax", image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg" },
+        { id: "preservatives", name: "Preservatives", image: "/assets/RELATED PROD IMG/NEW IMAGES/Preservative.jpg" },
+        { id: "surfactants", name: "Surfactants", image: "/assets/RELATED PROD IMG/NEW IMAGES/surfactant.jpg" },
       ],
     },
   };

@@ -93,6 +93,24 @@ const RelatedProductsSection = ({ data }) => {
           onMouseLeave={() => setIsPaused(false)}
         >
           {products.map((product, index) => {
+            const productId = product.id || (
+              product.name.toLowerCase().includes('mineral') ? 'white-mineral-oils' :
+              product.name.toLowerCase().includes('microcrystalline') ? 'microcrystalline-wax' :
+              product.name.toLowerCase().includes('paraffin') ? 'paraffin-wax' :
+              product.name.toLowerCase().includes('petroleum jelly') ? 'petroleum-jelly' :
+              product.name.toLowerCase().includes('lanolin') ? 'lanolin' :
+              product.name.toLowerCase().includes('panthenol') ? 'd-panthenol' :
+              product.name.toLowerCase().includes('surfactant') ? 'surfactants' :
+              product.name.toLowerCase().includes('preservative') ? 'preservatives' :
+              product.name.toLowerCase().includes('uv filter') ? 'uv-filters' :
+              product.name.toLowerCase().includes('emulsifying') ? 'emulsifying-wax' :
+              product.name.toLowerCase().includes('beeswax') ? 'natural-beeswax' :
+              null
+            );
+
+            const displayName = productId ? t(`categories.${productId}.name`) : t(product.name);
+            const displayDesc = productId ? t(`categories.${productId}.desc`) : "";
+
             return (
             <div
               key={index}
@@ -103,46 +121,56 @@ const RelatedProductsSection = ({ data }) => {
                 <div className="w-full h-48 relative">
                   <img
                     src={product.image}
-                    alt={product.name}
+                    alt={displayName}
                     className="w-full h-full object-cover"
                     onError={(e)=>{ e.target.style.display='none'; const fallback=e.target.nextSibling; if(fallback && fallback.dataset.fallback==='1'){ fallback.style.display='flex'; } }}
                   />
                   <div data-fallback="1" className="hidden absolute inset-0 bg-gray-200 items-center justify-center">
-                    <span className="text-gray-600 font-semibold">{product.name}</span>
+                    <span className="text-gray-600 font-semibold">{displayName}</span>
                   </div>
                 </div>
                 
-                <div className="p-6 text-center">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4 leading-tight">
-                    {product.name}
+                <div className="p-6 text-center flex flex-col items-center">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2 leading-tight">
+                    {displayName}
                   </h3>
-                  <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-5 py-2 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[150px] justify-center">
+                  {displayDesc && (
+                    <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                      {displayDesc}
+                    </p>
+                  )}
+                  <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-5 py-2 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[150px] justify-center mt-auto">
                         {t('ui.viewDetails')}
                   </Link>
                 </div>
               </div>
 
               {}
-              <div className="hidden md:grid h-36" style={{ gridTemplateColumns: '40% 60%' }}>
+              <div className="hidden md:grid min-h-[200px]" style={{ gridTemplateColumns: '40% 60%' }}>
                 <div className="h-full w-full relative">
                   <img
                     src={product.image}
-                    alt={product.name}
+                    alt={displayName}
                     className="w-full h-full object-cover"
                     onError={(e)=>{ e.target.style.display='none'; const fallback=e.target.nextSibling; if(fallback && fallback.dataset.fallback==='1'){ fallback.style.display='flex'; } }}
                   />
                   <div data-fallback="1" className="hidden absolute inset-0 bg-gray-200 items-center justify-center">
-                    <span className="text-gray-600 font-semibold">{product.name}</span>
+                    <span className="text-gray-600 font-semibold">{displayName}</span>
                   </div>
                 </div>
                 
-                <div className="h-full">
-                  <div className="w-full h-full px-6 py-3 flex flex-col items-center text-center">
-                    <h3 className="text-lg font-semibold text-gray-800 mb-1 leading-tight min-h-[2.25rem] flex items-center justify-center">
-                      {product.name}
+                <div className="flex flex-col bg-white">
+                  <div className="w-full flex-grow px-4 lg:px-6 py-5 flex flex-col items-center justify-center text-center">
+                    <h3 className="text-base lg:text-lg font-semibold text-gray-800 mb-2 leading-tight min-h-[2.5rem] flex items-center justify-center">
+                      {displayName}
                     </h3>
-                    <div className="mt-auto w-full flex justify-center">
-                      <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-4 py-1.5 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[120px] justify-center text-sm">
+                    {displayDesc && (
+                      <p className="text-xs lg:text-sm text-gray-600 mb-4 line-clamp-3">
+                        {displayDesc}
+                      </p>
+                    )}
+                    <div className="mt-auto pt-1 w-full flex justify-center">
+                      <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-4 py-1.5 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[120px] justify-center text-xs lg:text-sm shadow-sm hover:shadow-md">
                             {t('ui.viewDetails')}
                       </Link>
                     </div>
