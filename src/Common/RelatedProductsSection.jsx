@@ -139,7 +139,7 @@ const RelatedProductsSection = ({ data }) => {
                       {displayDesc}
                     </p>
                   )}
-                  <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-5 py-2 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[150px] justify-center mt-auto">
+                  <Link to={product.link || (productId ? `/products/${productId}` : getProductPath(product.name))} className="bg-[#E99322] text-white px-5 py-2 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[150px] justify-center mt-auto">
                         {t('ui.viewDetails')}
                   </Link>
                 </div>
@@ -170,7 +170,7 @@ const RelatedProductsSection = ({ data }) => {
                       </p>
                     )}
                     <div className="mt-auto pt-1 w-full flex justify-center">
-                      <Link to={product.link || getProductPath(product.name)} className="bg-[#E99322] text-white px-4 py-1.5 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[120px] justify-center text-xs lg:text-sm shadow-sm hover:shadow-md">
+                      <Link to={product.link || (productId ? `/products/${productId}` : getProductPath(product.name))} className="bg-[#E99322] text-white px-4 py-1.5 rounded-full font-medium hover:bg-[#E99322]/90 transition-all duration-300 inline-flex items-center whitespace-nowrap min-w-[120px] justify-center text-xs lg:text-sm shadow-sm hover:shadow-md">
                             {t('ui.viewDetails')}
                       </Link>
                     </div>
