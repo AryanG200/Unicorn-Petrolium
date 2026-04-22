@@ -225,42 +225,47 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
 
   
   const handleMouseDown = (e) => {
-    e.preventDefault();
-    isDragging.current = true;
+    // Don't prevent default here to allow clicks on Link children
+    isDragging.current = false;
     touchStartX.current = e.clientX;
-    setIsPaused(true);
-    setIsManualScroll(true);
-    
-    
-    if (marqueeRef.current) {
-      marqueeRef.current.style.animation = 'none';
-      const currentScroll = containerRef.current?.scrollLeft || 0;
-      marqueeRef.current.style.transform = `translateX(-${currentScroll}px)`;
-    }
-    if (containerRef.current) {
-      containerRef.current.style.overflowX = 'auto';
-      containerRef.current.style.cursor = 'grabbing';
-    }
-    
     
     document.addEventListener('mousemove', handleMouseMove);
     document.addEventListener('mouseup', handleMouseUp);
   };
 
   const handleMouseMove = (e) => {
-    if (isDragging.current && containerRef.current) {
+    if (containerRef.current) {
       const deltaX = touchStartX.current - e.clientX;
-      containerRef.current.scrollLeft += deltaX;
-      touchStartX.current = e.clientX;
+      
+      // Threshold check: Only start dragging if moved more than 5px
+      if (!isDragging.current && Math.abs(deltaX) > 5) {
+        isDragging.current = true;
+        setIsPaused(true);
+        setIsManualScroll(true);
+        
+        // Stop animation when drag starts
+        if (marqueeRef.current) {
+          marqueeRef.current.style.animation = 'none';
+          const currentScroll = containerRef.current?.scrollLeft || 0;
+          marqueeRef.current.style.transform = `translateX(-${currentScroll}px)`;
+        }
+        if (containerRef.current) {
+          containerRef.current.style.overflowX = 'auto';
+          containerRef.current.style.cursor = 'grabbing';
+        }
+      }
+
+      if (isDragging.current) {
+        containerRef.current.scrollLeft += deltaX;
+        touchStartX.current = e.clientX;
+      }
     }
   };
 
   const resumeAutoSlide = () => {
-    
     if (scrollTimeoutRef.current) {
       clearTimeout(scrollTimeoutRef.current);
     }
-    
     
     scrollTimeoutRef.current = setTimeout(() => {
       setIsPaused(false);
@@ -277,25 +282,23 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
     }, 2000);
   };
 
-  const handleMouseUp = () => {
+  const handleMouseUp = (e) => {
     const wasDragging = isDragging.current;
-    const wasManualScroll = isManualScroll;
     
     isDragging.current = false;
     document.removeEventListener('mousemove', handleMouseMove);
     document.removeEventListener('mouseup', handleMouseUp);
     
     if (containerRef.current) {
-      containerRef.current.style.cursor = wasManualScroll ? 'grab' : 'default';
+      containerRef.current.style.cursor = isManualScroll ? 'grab' : 'default';
     }
     
-    
-    if (wasManualScroll || wasDragging) {
+    // Only resume (and eventually reset to start) if we actually dragged
+    if (wasDragging) {
       resumeAutoSlide();
     }
   };
 
-  
   useEffect(() => {
     return () => {
       if (scrollTimeoutRef.current) {

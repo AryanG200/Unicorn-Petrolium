@@ -1,7 +1,7 @@
 export const lanolinData = {
   name: "Lanolin",
   description: "Highly refined wool grease for cosmetic, pharmaceutical, and industrial use.",
-  bannerImage: "/assets/hero-bg-home.jpg",
+  bannerImage: "/assets/RELATED%20PROD%20IMG/lanolin-1.jpg",
   slider: [],
 
   commonSection: {

@@ -112,11 +112,11 @@ export default function SliderHero({
   const contentBgClass =
     contentBackground === "solid"
       ? fullWidthContent
-        ? "bg-gradient-to-r from-white/0 via-white/95 to-white/0 w-[100%] md:w-[85%] lg:w-[70%] xl:w-[60%] mx-auto py-3 sm:py-4 md:py-5 lg:py-6 shadow-xl rounded-none"
+        ? "bg-gradient-to-r from-white/0 via-white/95 to-white/0 w-[100%] md:w-[90%] lg:w-[80%] xl:w-[70%] mx-auto py-3 sm:py-4 md:py-5 lg:py-6 rounded-none"
         : "bg-white/80 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 lg:px-10 lg:py-6 shadow-xl"
       : contentBackground === "none"
         ? ""
-        : "bg-white/10 backdrop-blur-xl rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 shadow-xl border-[1.5px] border-[#EDA94E]";
+        : "bg-white/15 backdrop-blur-lg rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 shadow-xl border-[1.5px] border-[#EDA94E]";
 
   return (
     <div
@@ -152,7 +152,7 @@ export default function SliderHero({
           />
           { }
           {((currentSlideData.title && currentSlideData.title.trim() !== "") || (currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "")) && (
-            <div className="absolute inset-0 bg-white/25 pointer-events-none z-10" />
+            <div className="absolute inset-0 bg-white/15 pointer-events-none z-10" />
           )}
 
         </div>
@@ -201,8 +201,8 @@ export default function SliderHero({
         {((currentSlideData.title && currentSlideData.title.trim() !== "") || (currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "")) && (
           <div
             className={`relative z-20 flex h-full ${isTopLeftPosition ? "justify-start items-start pt-20 sm:pt-24 md:pt-0 pl-0" :
-                isBottomPosition ? "justify-center items-end pb-8 sm:pb-10 md:pb-12 lg:pb-16" :
-                  "justify-center items-center"
+              isBottomPosition ? "justify-center items-end pb-8 sm:pb-10 md:pb-12 lg:pb-16" :
+                "justify-center items-center"
               }`}
           >
             <div
