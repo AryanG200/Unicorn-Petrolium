@@ -29,6 +29,26 @@ export default function SliderHero({
   const [isSliding, setIsSliding] = useState(false);
   const intervalRef = useRef(null);
 
+  const [touchStart, setTouchStart] = useState(0);
+  const [touchEnd, setTouchEnd] = useState(0);
+  const minSwipeDistance = 50;
+
+  const handleTouchStart = (e) => {
+    setTouchEnd(0);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    if (distance > minSwipeDistance) handleNext();
+    if (distance < -minSwipeDistance) handlePrev();
+  };
+
 
   const hasMultipleSlides = slides && slides.length > 0;
 
@@ -123,6 +143,9 @@ export default function SliderHero({
       className={`relative w-full h-[550px] sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden ${overlapClass} ${paddingTopClass}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
     >
 
       <div className="relative w-full h-full">
@@ -200,7 +223,7 @@ export default function SliderHero({
         { }
         {((currentSlideData.title && currentSlideData.title.trim() !== "") || (currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "")) && (
           <div
-            className={`relative z-20 flex h-full ${isTopLeftPosition ? "justify-start items-start pt-20 sm:pt-24 md:pt-0 pl-0" :
+            className={`relative z-20 flex h-full ${isTopLeftPosition ? "justify-center items-center md:justify-start md:items-start pt-20 sm:pt-24 md:pt-0 md:pl-0" :
               isBottomPosition ? "justify-center items-end pb-8 sm:pb-10 md:pb-12 lg:pb-16" :
                 "justify-center items-center"
               }`}
@@ -210,7 +233,7 @@ export default function SliderHero({
                 fullWidthContent
                   ? "w-full mx-auto px-0 text-center text-black"
                   : `${primaryButton || secondaryButton ? "max-w-4xl" : "text-center text-black max-w-4xl"
-                  } ${isTopLeftPosition ? "ml-[-8px]" : "mx-auto"} ${isTopLeftPosition ? "pl-0 pr-5" : "px-5 sm:px-7"} w-full`
+                  } ${isTopLeftPosition ? "md:ml-[-8px] mx-auto md:mx-0" : "mx-auto"} ${isTopLeftPosition ? "px-4 md:pl-0 md:pr-5" : "px-5 sm:px-7"} w-full`
               }
             >
               { }
@@ -218,7 +241,7 @@ export default function SliderHero({
                 <div className={fullWidthContent ? "max-w-5xl mx-auto px-4 sm:px-8" : ""}>
                   {(currentSlideData.title && currentSlideData.title.trim() !== "") && (
                     <h1
-                      className={`${(primaryButton || secondaryButton) ? 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-6 leading-tight text-left' : 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-2 sm:mb-3 md:mb-4 tracking-tight text-center'} font-bold animate-fade-in`}
+                      className={`${(primaryButton || secondaryButton) ? 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-6 leading-tight text-center md:text-left' : 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-2 sm:mb-3 md:mb-4 tracking-tight text-center'} font-bold animate-fade-in`}
                       style={{ opacity: isSliding ? 0 : 1 }}
                     >
                       {currentSlideData.title}
@@ -226,7 +249,7 @@ export default function SliderHero({
                   )}
                   {(currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "") && (
                     <p
-                      className={`${(primaryButton || secondaryButton) ? 'text-sm sm:text-base md:text-lg lg:text-xl mb-8 max-w-3xl text-left' : 'text-base sm:text-lg md:text-xl lg:text-2xl font-medium text-center'} text-black animate-fade-in`}
+                      className={`${(primaryButton || secondaryButton) ? 'text-sm sm:text-base md:text-lg lg:text-xl mb-8 max-w-3xl text-center md:text-left' : 'text-base sm:text-lg md:text-xl lg:text-2xl font-medium text-center'} text-black animate-fade-in`}
                       style={{ opacity: isSliding ? 0 : 1 }}
                     >
                       {currentSlideData.subtitle}
@@ -235,7 +258,7 @@ export default function SliderHero({
 
 
                   {((currentSlideData.title && currentSlideData.title.trim() !== "") && (primaryButton || secondaryButton)) && (
-                    <div className="hidden sm:flex flex-row gap-4 justify-center items-center">
+                    <div className={`flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center ${isTopLeftPosition ? 'md:justify-start' : ''}`}>
                       {primaryButton && (
                         <Link
                           to={primaryButtonLink || "/products"}

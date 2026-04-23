@@ -173,8 +173,9 @@ export default function Navbar() {
     },
     { name: t('navbar.globalReach'), link: "/reach", hasDropdown: false },
     { name: t('navbar.blog'), link: "/blog", hasDropdown: false },
-    { name: t('navbar.contactUs'), link: "/contact", hasDropdown: false },
-    { name: t('navbar.events'), link: "/events", hasDropdown: false }
+    { name: t('navbar.events'), link: "/events", hasDropdown: false },
+    { name: t('navbar.contactUs'), link: "/contact", hasDropdown: false }
+
   ];
 
   return (
@@ -306,7 +307,7 @@ export default function Navbar() {
             <div className="hidden md:flex items-center space-x-4">
               {/* Language Switcher */}
               <div className="relative">
-                <button 
+                <button
                   onClick={() => setLangDropdownOpen(!langDropdownOpen)}
                   className="flex items-center space-x-1 text-gray-800 hover:text-[#E99322] transition-colors bg-gray-100 px-3 py-1.5 rounded-full"
                 >
@@ -353,14 +354,13 @@ export default function Navbar() {
                       <div className="rounded-lg overflow-hidden">
                         <button
                           onClick={() => toggleMobileDropdown(index)}
-                          className={`w-full text-left px-4 py-4 flex items-center justify-between transition-colors ${
-                            mobileDropdowns[index] ? 'bg-[#E99322]/5 text-[#E99322]' : 'text-gray-800 hover:bg-gray-50'
-                          }`}
+                          className={`w-full text-left px-4 py-4 flex items-center justify-between transition-colors ${mobileDropdowns[index] ? 'bg-[#E99322]/5 text-[#E99322]' : 'text-gray-800 hover:bg-gray-50'
+                            }`}
                         >
                           <span className="font-bold text-base">{item.name}</span>
                           <FiChevronDown className={`text-lg transition-transform duration-300 ${mobileDropdowns[index] ? 'rotate-180' : ''}`} />
                         </button>
-                        
+
                         {mobileDropdowns[index] && (
                           <div className="bg-[#E99322]/5 py-2 px-4 space-y-2 animate-fade-in">
                             {item.dropdownItems?.map((dropdownItem, dropdownIndex) => {
@@ -380,7 +380,7 @@ export default function Navbar() {
                                       <span className="text-sm font-semibold">{dropdownItem.name}</span>
                                       <FiChevronDown className={`text-xs transition-transform ${mobileNestedDropdowns[nestedKey] ? 'rotate-180' : ''}`} />
                                     </button>
-                                    
+
                                     {mobileNestedDropdowns[nestedKey] && (
                                       <div className="bg-white/30 py-1 space-y-1 border-t border-gray-200/50">
                                         {dropdownItem.subItems.map((subItem, subIndex) => (
@@ -445,18 +445,17 @@ export default function Navbar() {
                       <button
                         key={lang.code}
                         onClick={() => handleLanguageChange(lang.code)}
-                        className={`px-2 py-2 rounded-lg text-xs font-semibold transition-all border ${
-                          i18n.language === lang.code 
-                            ? 'bg-[#E99322] text-white border-[#E99322] shadow-md' 
+                        className={`px-2 py-2 rounded-lg text-xs font-semibold transition-all border ${i18n.language === lang.code
+                            ? 'bg-[#E99322] text-white border-[#E99322] shadow-md'
                             : 'bg-white text-gray-600 border-gray-200 hover:border-[#E99322]/30 hover:bg-[#E99322]/5'
-                        }`}
+                          }`}
                       >
                         {lang.label.split(' ')[0]}
                       </button>
                     ))}
                   </div>
                 </div>
-                
+
                 <button className="w-full bg-[#E99322] text-white px-6 py-4 rounded-xl text-base font-bold hover:bg-[#E99322]/90 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg shadow-[#E99322]/20">
                   <FaWhatsapp className="text-xl" />
                   {t('navbar.whatsappUs')}
