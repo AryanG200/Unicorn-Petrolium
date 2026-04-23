@@ -25,13 +25,27 @@
     }
   },
   "categories": {
-    "pharmaceutical": { "name": "Farmaceutisch" },
-    "cosmetics": { "name": "Cosmetica" },
-    "personal-care": { "name": "Persoonlijke Verzorging" },
-    "home-care": { "name": "Huishoudelijke Verzorging" },
-    "textile": { "name": "Textiel" },
-    "lubricants": { "name": "Smeermiddelen" },
-    "agrochemical": { "name": "Agrochemisch" }
+    "pharmaceutical": {
+      "name": "Farmaceutisch"
+    },
+    "cosmetics": {
+      "name": "Cosmetica"
+    },
+    "personal-care": {
+      "name": "Persoonlijke Verzorging"
+    },
+    "home-care": {
+      "name": "Huishoudelijke Verzorging"
+    },
+    "textile": {
+      "name": "Textiel"
+    },
+    "lubricants": {
+      "name": "Smeermiddelen"
+    },
+    "agrochemical": {
+      "name": "Agrochemisch"
+    }
   },
   "products": {
     "petroleumJelly": {
@@ -93,29 +107,6 @@
       "overview": {
         "title": "Op maat gemaakt voor farma-producten",
         "description": "Onze producten worden in de farmaceutische sector veelvuldig gebruikt als praktische additieven en productiehulpmiddelen."
-      },
-      "tailoredForPharma": {
-        "heading": "Op maat voor Pharma",
-        "subheading": "Gespecialiseerde oplossingen ontworpen voor farmaceutische formuleringen",
-        "features": [
-          { "title": "Regelgevende Compliance", "description": "Volledige naleving van USP/NF, EP, IP standaarden en FDA 21 CFR eisen" },
-          { "title": "Hoogwaardige Zuiverheid", "description": "Ingrediënten van farmaceutische kwaliteit met 99,9%+ zuiverheid" },
-          { "title": "Aangepaste Formuleringen", "description": "Oplossingen op maat voor specifieke farmaceutische toepassingen" }
-        ]
-      },
-      "applications": {
-        "heading": "Kernapplicaties",
-        "subheading": "Kritieke toepassingen in farmaceutische formuleringen",
-        "cards": [
-          { "title": "Zalven & Crèmes", "description": "Petroleum jelly en witte minerale oliën voor topische formuleringen" },
-          { "title": "Tabletformuleringen", "description": "Smeermiddelen en bindmiddelen voor vaste orale doseervormen" },
-          { "title": "Injecteerbare Preparaten", "description": "Hoogzuivere ingrediënten voor parenterale formuleringen" },
-          { "title": "Suppositoria", "description": "Basismaterialen voor rectale en vaginale preparaten" }
-        ]
-      },
-      "compliance": {
-        "title": "Regelgevende Naleving",
-        "items": ["USP/NF compliance", "EP compliance", "IP compliance", "FDA 21 CFR compliance", "GMP gecertificeerde productie"]
       }
     },
     "cosmetics": {
@@ -126,25 +117,6 @@
       "overview": {
         "title": "Cosmetische Industrie",
         "description": "Onze chemicaliën verbeteren de textuur, glans en smeerbaarheid van verzorgingsproducten."
-      },
-      "tailoredForPharma": {
-        "heading": "Premium Cosmetica",
-        "subheading": "Gespecialiseerde ingrediënten voor hoogwaardige beautyoplossingen",
-        "features": [
-          { "title": "Sensorische Excellentie", "description": "Verbetert het huidgevoel en de esthetische aantrekkingskracht" },
-          { "title": "Wereldwijde Normen", "description": "Conform de veiligheidsvoorschriften van EU, FDA en Azië" },
-          { "title": "Hypoallergene Kwaliteiten", "description": "Zuiverheidsniveaus geschikt voor de gevoelige huid" }
-        ]
-      },
-      "applications": {
-        "heading": "Kernapplicaties",
-        "subheading": "Beauty-toepassingen in de cosmetische industrie",
-        "cards": [
-          { "title": "Huidverzorging", "description": "Basisingrediënten voor crèmes, lotions en serums" },
-          { "title": "Make-up Formuleringen", "description": "Bindmiddelen en getextureerde agentia voor kleurcosmetica" },
-          { "title": "Haarverzorging", "description": "Conditionerende ingrediënten" },
-          { "title": "Zonverzorging", "description": "Stabilisatoren voor UV-filters" }
-        ]
       }
     },
     "personal-care": {
@@ -155,25 +127,6 @@
       "overview": {
         "title": "Persoonlijke Verzorging",
         "description": "Onze producten helpen vocht vast te houden en verbeteren de soepelheid van huid en haar."
-      },
-      "tailoredForPharma": {
-        "heading": "Daily Care Oplossingen",
-        "subheading": "Veelzijdige ingrediënten voor hygiëneproducten",
-        "features": [
-          { "title": "Huidvriendelijk", "description": "Milde ingrediënten geschikt voor het hele gezin en baby's" },
-          { "title": "Hoge Stabiliteit", "description": "Behoudt productintegriteit onder diverse omstandigheden" },
-          { "title": "Vochtretentie", "description": "Uitstekende verzachtende eigenschappen" }
-        ]
-      },
-      "applications": {
-        "heading": "Kernapplicaties",
-        "subheading": "Hygiëne- en verzorgingstoepassingen",
-        "cards": [
-          { "title": "Babyverzorging", "description": "Ultra-zuivere ingrediënten voor de gevoelige babyhuid" },
-          { "title": "Dermatologie", "description": "Klinische basissen voor huidherstel" },
-          { "title": "Haarhygiëne", "description": "Basis voor shampoos en hoofdhuidverzorging" },
-          { "title": "Kinderzorg", "description": "Veilige componenten voor de hygiëne van kinderen" }
-        ]
       }
     },
     "home-care": {
@@ -184,25 +137,6 @@
       "overview": {
         "title": "Home Care",
         "description": "Onze producten verbeteren de effectiviteit en stabiliteit van schoonmaakmiddelen."
-      },
-      "tailoredForPharma": {
-        "heading": "Huishoudelijke Prestaties",
-        "subheading": "Duurzame chemicaliën voor moderne schoonmaakmiddelen",
-        "features": [
-          { "title": "Oppervlaktebescherming", "description": "Beschermende barrière voor vloeren en meubels" },
-          { "title": "pH-stabiliteit", "description": "Effectief in zure en alkalische milieus" },
-          { "title": "Efficiënt Polijsten", "description": "Superieure glans en afwerking" }
-        ]
-      },
-      "applications": {
-        "heading": "Kernapplicaties",
-        "subheading": "Huishoudelijke verzorging en reiniging",
-        "cards": [
-          { "title": "Detergenten", "description": "Additieven voor wasmiddelen en vaatwasmiddelen" },
-          { "title": "Polijsten", "description": "Basiswas en oliën voor meubels en vloeren" },
-          { "title": "Keuken & Badkamer", "description": "Gespecialiseerde reinigers voor hygiëne" },
-          { "title": "Auto Care", "description": "Wassen en dashboardbeschermers" }
-        ]
       }
     },
     "textile": {
@@ -213,25 +147,6 @@
       "overview": {
         "title": "Textielindustrie",
         "description": "Producten ondersteunen vezelsmering en garencreatie."
-      },
-      "tailoredForPharma": {
-        "heading": "Textiele Excellentie",
-        "subheading": "Technische oplossingen voor hogesnelheidsproductie",
-        "features": [
-          { "title": "Lage Wrijving", "description": "Optimaliseert machineprestaties en vermindert garenbreuk" },
-          { "title": "Anti-vergeling", "description": "Behoudt de kleur van natuurlijke en synthetische vezels" },
-          { "title": "Gemakkelijk Uitwasbaar", "description": "Eenvoudige verwijdering tijdens finishen" }
-        ]
-      },
-      "applications": {
-        "heading": "Kernapplicaties",
-        "subheading": "Van vezelspin tot eindbehandeling",
-        "cards": [
-          { "title": "Spinoliën", "description": "Smeermiddelen voor wol- en katoenproductie" },
-          { "title": "Weefhulpmiddelen", "description": "Antistatica en garenversterkers" },
-          { "title": "Stofafwerking", "description": "Verzachters en glansversterkers" },
-          { "title": "Kleurverdeling", "description": "Verfhulpmiddelen voor egale kleuren" }
-        ]
       }
     },
     "lubricants": {
@@ -242,25 +157,6 @@
       "overview": {
         "title": "Smeermiddelenindustrie",
         "description": "Onze materialen zorgen voor stabiele viscositeit en thermische stabiliteit."
-      },
-      "tailoredForPharma": {
-        "heading": "Mechanische Precisie",
-        "subheading": "Robuuste componenten voor extreme druk",
-        "features": [
-          { "title": "Thermische Stabiliteit", "description": "Behoudt viscositeit onder hoge operationele hitte" },
-          { "title": "Oxidatieve Weerstand", "description": "Voorkomt slibvorming" },
-          { "title": "Viscositeitscontrole", "description": "Precieze kwaliteiten voor hydrauliek" }
-        ]
-      },
-      "applications": {
-        "heading": "Kernapplicaties",
-        "subheading": "Gespecialiseerde basissen",
-        "cards": [
-          { "title": "Industriële Oliën", "description": "Basissen voor hydraulische vloeistoffen en tandwielen" },
-          { "title": "Automotive", "description": "Kwaliteitscomponenten voor motoroliën en vetten" },
-          { "title": "Procesoliën", "description": "Voor de rubber- en kunststofindustrie" },
-          { "title": "Metaalbewerking", "description": "Koel- en smeermiddelen" }
-        ]
       }
     },
     "agrochemical": {
@@ -276,19 +172,40 @@
         "heading": "Agrarische Efficiëntie",
         "subheading": "Optimalisatie van de levering van actieve ingrediënten",
         "features": [
-          { "title": "Huidhechting", "description": "Vermindert afvloeiing en verbetert hechting op bladeren" },
-          { "title": "Verdampingscontrole", "description": "Voorkomt uitdroging in hete klimaten" },
-          { "title": "Lage Phytotoxiciteit", "description": "Zuivere oliën die het gewas niet schaden" }
+          {
+            "title": "Huidhechting",
+            "description": "Vermindert afvloeiing en verbetert hechting op bladeren"
+          },
+          {
+            "title": "Verdampingscontrole",
+            "description": "Voorkomt uitdroging in hete klimaten"
+          },
+          {
+            "title": "Lage Phytotoxiciteit",
+            "description": "Zuivere oliën die het gewas niet schaden"
+          }
         ]
       },
       "applications": {
         "heading": "Kernapplicaties",
         "subheading": "Gewasbescherming en bodembehandeling",
         "cards": [
-          { "title": "Bestrijdingsmiddelendrager", "description": "Wassen en oliën die actieve stoffen stabiliseren" },
-          { "title": "Meststofcoating", "description": "Anti-klontermiddelen voor vrije doorstroming" },
-          { "title": "Adjuvantia", "description": "Verbeteren de opname door de plant" },
-          { "title": "Vertraagde Afgifte", "description": "Wasbasissen voor gecontroleerde afgifte" }
+          {
+            "title": "Bestrijdingsmiddelendrager",
+            "description": "Wassen en oliën die actieve stoffen stabiliseren"
+          },
+          {
+            "title": "Meststofcoating",
+            "description": "Anti-klontermiddelen voor vrije doorstroming"
+          },
+          {
+            "title": "Adjuvantia",
+            "description": "Verbeteren de opname door de plant"
+          },
+          {
+            "title": "Vertraagde Afgifte",
+            "description": "Wasbasissen voor gecontroleerde afgifte"
+          }
         ]
       }
     }

@@ -2,20 +2,20 @@ export const whiteMineralOilsData = {
   name: "White Mineral Oil",
   description:
     "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/whiteMineraloil%201.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/wmo1.jpg",
 
   slider: [
     {
       title: "White Mineral Oil",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/whiteMineraloil%201.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-oil%201.jpg"
+      image: "/assets/BannerImages/productsPage/wmo1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/wmo1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/whiteMineraloil%202.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-oil%202.jpg"
+      image: "/assets/BannerImages/productsPage/wmo2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/wmo2.jpg"
     }
   ],
 

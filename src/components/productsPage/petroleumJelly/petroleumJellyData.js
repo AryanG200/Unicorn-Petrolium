@@ -13,8 +13,8 @@ export const petroleumJellyData = {
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/petroleumjelly2.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-jelly%202.jpg"
+      image: "/assets/BannerImages/MobileProductPage/PJ2.jpg",
+      mobileImage: "/assets/BannerImages/MobileProductPage/PJ2.jpg"
     }
   ],
 

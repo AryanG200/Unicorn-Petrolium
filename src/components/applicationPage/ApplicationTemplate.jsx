@@ -399,41 +399,43 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
             )}
 
             {/* Compliance & Benefits */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
-              {(industryData.compliance || data?.compliance) && (
-                <div className="bg-gray-50 p-8 rounded-xl">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                    <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center mr-3 text-sm">✓</span>
-                    {industryData.compliance?.title || data.compliance.title}
-                  </h3>
-                  <ul className="space-y-4">
-                    {(industryData.compliance?.items || data.compliance.items).map((item, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-[#E99322] mr-3">•</span>
-                        <span className="text-gray-700">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+            {((industryData.compliance || data?.compliance) || (industryData.benefits || data?.benefits)) && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+                {(industryData.compliance || data?.compliance) && (
+                  <div className="bg-gray-50 p-8 rounded-xl">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                      <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center mr-3 text-sm">✓</span>
+                      {industryData.compliance?.title || data.compliance.title}
+                    </h3>
+                    <ul className="space-y-4">
+                      {(industryData.compliance?.items || data.compliance.items).map((item, index) => (
+                        <li key={index} className="flex items-start">
+                          <span className="text-[#E99322] mr-3">•</span>
+                          <span className="text-gray-700">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
-              {(industryData.benefits || data?.benefits) && (
-                <div className="bg-[#E99322]/5 p-8 rounded-xl">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                    <span className="w-8 h-8 bg-[#E99322]/20 text-[#E99322] rounded-full flex items-center justify-center mr-3 text-sm">★</span>
-                    {industryData.benefits?.title || data.benefits.title}
-                  </h3>
-                  <ul className="space-y-4">
-                    {(industryData.benefits?.items || data.benefits.items).map((item, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-[#E99322] mr-3">•</span>
-                        <span className="text-gray-700">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
+                {(industryData.benefits || data?.benefits) && (
+                  <div className="bg-[#E99322]/5 p-8 rounded-xl">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                      <span className="w-8 h-8 bg-[#E99322]/20 text-[#E99322] rounded-full flex items-center justify-center mr-3 text-sm">★</span>
+                      {industryData.benefits?.title || data.benefits.title}
+                    </h3>
+                    <ul className="space-y-4">
+                      {(industryData.benefits?.items || data.benefits.items).map((item, index) => (
+                        <li key={index} className="flex items-start">
+                          <span className="text-[#E99322] mr-3">•</span>
+                          <span className="text-gray-700">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            )}
 
               {products && products.length > 0 && (
                 <div className="relative">

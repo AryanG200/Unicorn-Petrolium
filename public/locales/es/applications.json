@@ -25,13 +25,27 @@
     }
   },
   "categories": {
-    "pharmaceutical": { "name": "Farmacéutica" },
-    "cosmetics": { "name": "Cosmética" },
-    "personal-care": { "name": "Cuidado Personal" },
-    "home-care": { "name": "Cuidado del Hogar" },
-    "textile": { "name": "Textil" },
-    "lubricants": { "name": "Lubricantes" },
-    "agrochemical": { "name": "Agroquímica" }
+    "pharmaceutical": {
+      "name": "Farmacéutica"
+    },
+    "cosmetics": {
+      "name": "Cosmética"
+    },
+    "personal-care": {
+      "name": "Cuidado Personal"
+    },
+    "home-care": {
+      "name": "Cuidado del Hogar"
+    },
+    "textile": {
+      "name": "Textil"
+    },
+    "lubricants": {
+      "name": "Lubricantes"
+    },
+    "agrochemical": {
+      "name": "Agroquímica"
+    }
   },
   "products": {
     "petroleumJelly": {
@@ -93,29 +107,6 @@
       "overview": {
         "title": "Diseñado para productos farmacéuticos",
         "description": "Nuestros productos se utilizan ampliamente como aditivos prácticos y auxiliares de fabricación en el sector farmacéutico."
-      },
-      "tailoredForPharma": {
-        "heading": "Diseñado para Pharma",
-        "subheading": "Soluciones especializadas para formulaciones farmacéuticas",
-        "features": [
-          { "title": "Cumplimiento Normativo", "description": "Cumplimiento total con USP/NF, EP, IP y requisitos FDA 21 CFR" },
-          { "title": "Grados de Alta Pureza", "description": "Ingredientes de grado farmacéutico con 99.9%+ de pureza" },
-          { "title": "Formulaciones a Medida", "description": "Soluciones adaptadas para aplicaciones farmacéuticas específicas" }
-        ]
-      },
-      "applications": {
-        "heading": "Aplicaciones Clave",
-        "subheading": "Aplicaciones críticas en formulaciones farmacéuticas",
-        "cards": [
-          { "title": "Ungüentos y Cremas", "description": "Vaselina y aceites minerales para formulaciones tópicas" },
-          { "title": "Tabletas", "description": "Lubricantes y aglutinantes para formas orales sólidas" },
-          { "title": "Inyectables", "description": "Ingredientes de alta pureza para formulaciones parenterales" },
-          { "title": "Supositorios", "description": "Bases para preparaciones rectales y vaginales" }
-        ]
-      },
-      "compliance": {
-        "title": "Cumplimiento Normativo",
-        "items": ["Cumplimiento USP/NF", "Cumplimiento EP", "Cumplimiento IP", "FDA 21 CFR", "Certificación GMP"]
       }
     },
     "cosmetics": {
@@ -126,25 +117,6 @@
       "overview": {
         "title": "Industria Cosmética",
         "description": "Nuestros productos químicos mejoran la textura, el brillo y la extensibilidad de los productos de belleza."
-      },
-      "tailoredForPharma": {
-        "heading": "Cosméticos Premium",
-        "subheading": "Ingredientes especializados para soluciones de belleza de alta gama",
-        "features": [
-          { "title": "Excelencia Sensorial", "description": "Mejora la sensación en la piel y el atractivo estético" },
-          { "title": "Estándares Globales", "description": "Conforme a las leyes de seguridad de la UE, FDA y Asia" },
-          { "title": "Grados Hipoalergénicos", "description": "Pureza ideal para pieles sensibles y oftalmología" }
-        ]
-      },
-      "applications": {
-        "heading": "Aplicaciones Clave",
-        "subheading": "Aplicaciones en toda la industria cosmética",
-        "cards": [
-          { "title": "Cuidado de la Piel", "description": "Bases para cremas, lociones, sueros y tratamientos" },
-          { "title": "Maquillaje", "description": "Agentes aglutinantes para cosméticos de color" },
-          { "title": "Cuidado del Cabello", "description": "Ingredientes acondicionadores y de peinado" },
-          { "title": "Cuidado Solar", "description": "Estabilizadores para filtros UV y fórmulas resistentes" }
-        ]
       }
     },
     "personal-care": {
@@ -155,25 +127,6 @@
       "overview": {
         "title": "Cuidado Personal",
         "description": "Nuestros productos ayudan a retener la humedad y mejoran la elasticidad de la piel y el cabello."
-      },
-      "tailoredForPharma": {
-        "heading": "Soluciones de Cuidado Diario",
-        "subheading": "Ingredientes versátiles para productos de higiene de gran volumen",
-        "features": [
-          { "title": "Compatibilidad Cutánea", "description": "Ingredientes suaves y no irritantes para toda la familia" },
-          { "title": "Alta Estabilidad", "description": "Mantiene el producto íntegro en diversas condiciones" },
-          { "title": "Retención de Humedad", "description": "Excelentes propiedades emolientes" }
-        ]
-      },
-      "applications": {
-        "heading": "Aplicaciones Clave",
-        "subheading": "Higiene y cuidado en la vida diaria",
-        "cards": [
-          { "title": "Cuidado del Bebé", "description": "Ingredientes ultrapuros para la piel sensible del bebé" },
-          { "title": "Dermatología", "description": "Bases clínicas para reparación y acondicionamiento dérmico" },
-          { "title": "Higiene Capilar", "description": "Bases para champús y cuidado del cuero cabelludo" },
-          { "title": "Cuidado Pediátrico", "description": "Componentes seguros para la higiene infantil" }
-        ]
       }
     },
     "home-care": {
@@ -184,25 +137,6 @@
       "overview": {
         "title": "Cuidado del Hogar",
         "description": "Nuestros productos mejoran la eficacia y estabilidad de las soluciones de limpieza."
-      },
-      "tailoredForPharma": {
-        "heading": "Rendimiento en el Hogar",
-        "subheading": "Químicos duraderos para soluciones modernas",
-        "features": [
-          { "title": "Protección de Superficies", "description": "Barrera protectora en suelos, muebles y cocinas" },
-          { "title": "Estabilidad de pH", "description": "Eficaces en medios ácidos y alcalinos" },
-          { "title": "Pulido Eficiente", "description": "Brillo y acabado superior" }
-        ]
-      },
-      "applications": {
-        "heading": "Aplicaciones Clave",
-        "subheading": "Cuidado del hogar y limpieza especializada",
-        "cards": [
-          { "title": "Detergentes", "description": "Aditivos para lavado de ropa y vajilla" },
-          { "title": "Pulido", "description": "Ceras y aceites para muebles y calzado" },
-          { "title": "Cocina y Baño", "description": "Limpiadores para cal y desinfección" },
-          { "title": "Cuidado de Autos", "description": "Ceras y protectores de tablero" }
-        ]
       }
     },
     "textile": {
@@ -213,25 +147,6 @@
       "overview": {
         "title": "Industria Textil",
         "description": "Nuestros productos ayudan en la lubricación de fibras y creación de hilos."
-      },
-      "tailoredForPharma": {
-        "heading": "Excelencia Textil",
-        "subheading": "Soluciones técnicas para fabricación de alta velocidad",
-        "features": [
-          { "title": "Baja Fricción", "description": "Optimiza maquinaria y reduce rotura de hilos" },
-          { "title": "Antiamarilleo", "description": "Mantiene el color de fibras naturales y sintéticas" },
-          { "title": "Fácil Lavado", "description": "Eliminación sencilla para telas limpias" }
-        ]
-      },
-      "applications": {
-        "heading": "Aplicaciones Clave",
-        "subheading": "De la fibra al tratamiento final",
-        "cards": [
-          { "title": "Aceites de Hilado", "description": "Lubricantes para lana, algodón y fibras sintéticas" },
-          { "title": "Ayudas para el Tejido", "description": "Antiestáticos y fortalecedores de hilo" },
-          { "title": "Acabado Textil", "description": "Suavizantes y realzadores de brillo" },
-          { "title": "Niveladores de Color", "description": "Auxiliares de teñido para colores uniformes" }
-        ]
       }
     },
     "lubricants": {
@@ -242,25 +157,6 @@
       "overview": {
         "title": "Industria de Lubricantes",
         "description": "Nuestros materiales aseguran viscosidad estable y estabilidad térmica."
-      },
-      "tailoredForPharma": {
-        "heading": "Precisión Mecánica",
-        "subheading": "Componentes robustos para condiciones extremas",
-        "features": [
-          { "title": "Estabilidad Térmica", "description": "Mantiene viscosidad bajo calor intenso" },
-          { "title": "Resistencia a la Oxidación", "description": "Evita lodos y prolonga la vida útil" },
-          { "title": "Control de Viscosidad", "description": "Grados precisos para sistemas hidráulicos" }
-        ]
-      },
-      "applications": {
-        "heading": "Aplicaciones Clave",
-        "subheading": "Bases especializadas para diversas necesidades",
-        "cards": [
-          { "title": "Aceites Industriales", "description": "Para fluidos hidráulicos, engranajes y compresores" },
-          { "title": "Automoción", "description": "Componentes para aceites de motor y grasas" },
-          { "title": "Aceites de Proceso", "description": "Para industria de caucho y plásticos" },
-          { "title": "Metalurgia", "description": "Agentes de enfriamiento y corte" }
-        ]
       }
     },
     "agrochemical": {
@@ -276,19 +172,40 @@
         "heading": "Eficacia Agrícola",
         "subheading": "Optimizando la entrega de activos para mejores cosechas",
         "features": [
-          { "title": "Adhesión de Spray", "description": "Reduce el escurrimiento y mejora la retención en hojas" },
-          { "title": "Control de Evaporación", "description": "Evita el secado rápido en climas cálidos" },
-          { "title": "Baja Fitotoxicidad", "description": "Aceites puros que protegen al activo sin dañar al cultivo" }
+          {
+            "title": "Adhesión de Spray",
+            "description": "Reduce el escurrimiento y mejora la retención en hojas"
+          },
+          {
+            "title": "Control de Evaporación",
+            "description": "Evita el secado rápido en climas cálidos"
+          },
+          {
+            "title": "Baja Fitotoxicidad",
+            "description": "Aceites puros que protegen al activo sin dañar al cultivo"
+          }
         ]
       },
       "applications": {
         "heading": "Aplicaciones Clave",
         "subheading": "Protección de cultivos y tratamiento de suelos",
         "cards": [
-          { "title": "Vehículo de Pesticidas", "description": "Aceites y ceras que estabilizan los activos" },
-          { "title": "Recubrimiento de Fertilizantes", "description": "Antiaglomerantes para gránulos fluidos" },
-          { "title": "Coadyuvantes", "description": "Mejoran la absorción química por la planta" },
-          { "title": "Liberación Lenta", "description": "Bases de cera para entrega controlada" }
+          {
+            "title": "Vehículo de Pesticidas",
+            "description": "Aceites y ceras que estabilizan los activos"
+          },
+          {
+            "title": "Recubrimiento de Fertilizantes",
+            "description": "Antiaglomerantes para gránulos fluidos"
+          },
+          {
+            "title": "Coadyuvantes",
+            "description": "Mejoran la absorción química por la planta"
+          },
+          {
+            "title": "Liberación Lenta",
+            "description": "Bases de cera para entrega controlada"
+          }
         ]
       }
     }

@@ -25,13 +25,27 @@
     }
   },
   "categories": {
-    "pharmaceutical": { "name": "Pharmaceutical" },
-    "cosmetics": { "name": "Cosmetics" },
-    "personal-care": { "name": "Personal Care" },
-    "home-care": { "name": "Home Care" },
-    "textile": { "name": "Textile" },
-    "lubricants": { "name": "Lubricants" },
-    "agrochemical": { "name": "Agrochemical" }
+    "pharmaceutical": {
+      "name": "Pharmaceutical"
+    },
+    "cosmetics": {
+      "name": "Cosmetics"
+    },
+    "personal-care": {
+      "name": "Personal Care"
+    },
+    "home-care": {
+      "name": "Home Care"
+    },
+    "textile": {
+      "name": "Textile"
+    },
+    "lubricants": {
+      "name": "Lubricants"
+    },
+    "agrochemical": {
+      "name": "Agrochemical"
+    }
   },
   "products": {
     "petroleumJelly": {
@@ -97,66 +111,6 @@
       "overview": {
         "title": "Tailored for pharmaceutical products",
         "description": "Our products are widely used as practical additives and manufacturing aids in the pharmaceutical business. They help in the production of lotions, gels, creams, liquids, and pills for oral use by increasing durability, heterogeneity, and consistency. These components are also employed in topical, oral, and external formulations, as well as medicinal and wellness applications. Additionally, they help with lubrication, surface protection, and equipment efficiency during packaging activities within this industry. Their purified character makes them ideal for applications that need purity and dependability. Manufacturers utilize them to guarantee that their finished products are processed efficiently, operate consistently, and give secure and excellent healthcare solutions."
-      },
-      "tailoredForPharma": {
-        "heading": "Tailored for Pharma",
-        "subheading": "Specialized solutions designed specifically for pharmaceutical formulations",
-        "features": [
-          {
-            "title": "Regulatory Compliance",
-            "description": "Full compliance with USP/NF, EP, IP standards and FDA 21 CFR requirements"
-          },
-          {
-            "title": "High Purity Grades",
-            "description": "Pharmaceutical-grade ingredients with 99.9%+ purity and batch-to-batch consistency"
-          },
-          {
-            "title": "Custom Formulations",
-            "description": "Tailored solutions for specific pharmaceutical applications and dosage forms"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Key Applications",
-        "subheading": "Critical applications in pharmaceutical formulations",
-        "cards": [
-          {
-            "title": "Ointments & Creams",
-            "description": "Petroleum jelly and white mineral oils for topical pharmaceutical formulations"
-          },
-          {
-            "title": "Tablet Formulations",
-            "description": "Lubricants and binders for oral solid dosage forms"
-          },
-          {
-            "title": "Injectable Preparations",
-            "description": "High-purity ingredients for parenteral formulations"
-          },
-          {
-            "title": "Suppositories",
-            "description": "Base materials for rectal and vaginal preparations"
-          }
-        ]
-      },
-      "compliance": {
-        "title": "Regulatory Compliance",
-        "items": [
-          "USP/NF compliance",
-          "EP compliance",
-          "IP compliance",
-          "FDA 21 CFR compliance",
-          "GMP certified manufacturing"
-        ]
-      },
-      "benefits": {
-        "title": "Key Benefits",
-        "items": [
-          "Consistent quality batch after batch",
-          "Documentation support for regulatory submissions",
-          "Fast-track approval processes",
-          "Global supply chain reliability",
-          "Technical support and formulation guidance"
-        ]
       }
     },
     "cosmetics": {
@@ -172,66 +126,6 @@
       "overview": {
         "title": "Cosmetic industry",
         "description": "Our chemicals are frequently used as both base materials and functional additions in cosmetic formulations. They improve the texture, gloss, and spreading ability of cosmetic and skincare products. These chemicals improve formulation stability and homogeneity in a wide range of product types, particularly lotions and creams, lip balms, and pigmented cosmetics. They provide a smooth application of face, body, and lip care products while also boosting the sensory experience. Their adaptability also allows for usage in decorative cosmetics and skin conditioning treatments and this versatility qualifies them for an extensive list of cosmetic advancements and developments."
-      },
-      "tailoredForPharma": {
-        "heading": "Premium Cosmetics",
-        "subheading": "Specialized ingredients for high-end beauty solutions",
-        "features": [
-          {
-            "title": "Sensory Excellence",
-            "description": "Enhances skin feel, spreadability, and aesthetic appeal of finished products"
-          },
-          {
-            "title": "Global Standards",
-            "description": "Compliant with EU, FDA, and Asian cosmetic safety regulations"
-          },
-          {
-            "title": "Hypoallergenic Grades",
-            "description": "Purity levels suitable for sensitive skin and ophthalmological preparations"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Key Applications",
-        "subheading": "Beauty applications across the cosmetic industry",
-        "cards": [
-          {
-            "title": "Skincare Products",
-            "description": "Base ingredients for creams, lotions, serums, and anti-aging treatments"
-          },
-          {
-            "title": "Makeup Formulations",
-            "description": "Binding and texturizing agents for color cosmetics and foundations"
-          },
-          {
-            "title": "Hair Care",
-            "description": "Conditioning and styling ingredients for professional and consumer products"
-          },
-          {
-            "title": "Sun Care",
-            "description": "Stabilizing agents for UV filters and water-resistant formulations"
-          }
-        ]
-      },
-      "compliance": {
-        "title": "Cosmetic Compliance",
-        "items": [
-          "EU Cosmetics Regulation compliance",
-          "FDA cosmetic ingredient safety",
-          "ISO 22716 GMP for cosmetics",
-          "Halal and Kosher certification",
-          "REACH compliance"
-        ]
-      },
-      "benefits": {
-        "title": "Key Benefits",
-        "items": [
-          "Enhanced formulation stability",
-          "Improved sensory profiles",
-          "Global regulatory acceptance",
-          "Sustainability and ethical sourcing",
-          "Wide range of viscosity options"
-        ]
       }
     },
     "personal-care": {
@@ -247,66 +141,6 @@
       "overview": {
         "title": "Personal Care",
         "description": "Our products have a substantial influence on generic personal care formulas. They help to retain moisture, increase suppleness, and facilitate delicate treatment to one's skin and hair. These materials contribute to product durability and increased shelf life in both day-to-day usage and wash-off formulations. These are extensively used in dermatological applications, hair treatment, pediatric treatment, dental care, and other personal hygiene products. They also find their use in helping with cleaning, conditioning, and protection in daily activities. Their steady functioning assures continuous quality in consumer goods allowing manufacturers to furnish dependable and efficient personal care solutions."
-      },
-      "tailoredForPharma": {
-        "heading": "Daily Care Solutions",
-        "subheading": "Versatile ingredients for high-volume consumer hygiene products",
-        "features": [
-          {
-            "title": "Skin Compatibility",
-            "description": "Non-irritating and gentle ingredients suitable for family and pediatric use"
-          },
-          {
-            "title": "High Stability",
-            "description": "Maintains product integrity across varied storage conditions and shelf life"
-          },
-          {
-            "title": "Moisture Retention",
-            "description": "Excellent emollient properties that prevent skin and hair dryness"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Key Applications",
-        "subheading": "Hygiene and care applications for daily life",
-        "cards": [
-          {
-            "title": "Baby Care",
-            "description": "Ultra-pure ingredients for sensitive baby skin and diaper rash ointments"
-          },
-          {
-            "title": "Dermatological",
-            "description": "Clinical grade bases for medicinal skin conditioning and repair"
-          },
-          {
-            "title": "Hair Hygiene",
-            "description": "Base materials for conditioning shampoos and scalp treatments"
-          },
-          {
-            "title": "Pediatric Care",
-            "description": "Safe and effective components for children's hygiene and health"
-          }
-        ]
-      },
-      "compliance": {
-        "title": "Quality Compliance",
-        "items": [
-          "ISO 9001:2015 certification",
-          "GMP standards",
-          "Non-toxic and skin-safe evaluation",
-          "Halal and Kosher certified",
-          "Safe for pediatric use"
-        ]
-      },
-      "benefits": {
-        "title": "Key Benefits",
-        "items": [
-          "Cost-effective for high-volume production",
-          "Proven safety record for all ages",
-          "Consistent physical properties",
-          "Rapid technical support",
-          "Reliable global shipping"
-        ]
       }
     },
     "home-care": {
@@ -322,66 +156,6 @@
       "overview": {
         "title": "Home Care",
         "description": "Our products are commonly used as useful additives in home care and cleaning solutions. They improve the product's efficacy, stability, and convenience of use. These materials provide effective cleaning, surface protection and monitored usage of spray-based formulations. Our products’ finds applications in home cleansers, detergents, polishing agents, and surface care products such as those for the kitchen, bathroom, and floor. In everyday use, their stability and dependability contribute to consistent outcomes. They allow manufacturers to provide safe, effective, and trustworthy home care solutions for everyday use."
-      },
-      "tailoredForPharma": {
-        "heading": "Household Performance",
-        "subheading": "Durable and effective chemicals for modern cleaning solutions",
-        "features": [
-          {
-            "title": "Surface Protection",
-            "description": "Creates a protective barrier on floors, furniture, and kitchen surfaces"
-          },
-          {
-            "title": "pH Stability",
-            "description": "Works effectively in both acidic and alkaline cleaning formulations"
-          },
-          {
-            "title": "Efficient Polishing",
-            "description": "Provides superior gloss and finish for automotive and household polishing"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Key Applications",
-        "subheading": "Household care and specialized cleaning solutions",
-        "cards": [
-          {
-            "title": "Detergents",
-            "description": "Functional additives for high-efficiency laundry and dishwashing liquids"
-          },
-          {
-            "title": "Surface Polishing",
-            "description": "Base waxes and oils for furniture, floor, and shoe polish"
-          },
-          {
-            "title": "Kitchen & Bath",
-            "description": "Specialized cleaners for hygiene and limescale removal"
-          },
-          {
-            "title": "Auto Care",
-            "description": "Conditioning agents for car wax and dashboard protection"
-          }
-        ]
-      },
-      "compliance": {
-        "title": "Environmental Compliance",
-        "items": [
-          "REACH compliant chemicals",
-          "VOC emission standards",
-          "Biodegradability supporting grades",
-          "Sulphate-free options",
-          "Safety Data Sheet (SDS) availability"
-        ]
-      },
-      "benefits": {
-        "title": "Key Benefits",
-        "items": [
-          "Long-lasting surface shine",
-          "Improved cleaning power",
-          "Stability in diverse temperatures",
-          "Compatability with perfumes and dyes",
-          "High concentration for bulk manufacturing"
-        ]
       }
     },
     "textile": {
@@ -397,66 +171,6 @@
       "overview": {
         "title": "Textile Industry",
         "description": "Our products are commonly used as processing aids in the textile manufacturing and finishing sectors. They help with fibre lubrication, yarn creation, and fabric handling throughout the manufacturing process, including fibre preparation. These substances improve machine function and minimize friction on high-speed processing lines. They have numerous applications in the fields of spinning, weaving, knitting, finishing, and fabric treatment activities, such as dyeing and coating procedures. Their stability and homogeneity contribute to constant fabric quality and processing efficiency. They help textile producers achieve dependable performance and predictable manufacturing results."
-      },
-      "tailoredForPharma": {
-        "heading": "Fabric Excellence",
-        "subheading": "Technical solutions for high-speed textile manufacturing",
-        "features": [
-          {
-            "title": "Low Friction",
-            "description": "Optimizes high-speed machinery performance and reduces yarn breakage"
-          },
-          {
-            "title": "Non-Yellowing",
-            "description": "Maintains the pure color of natural and synthetic fibers during heat treatment"
-          },
-          {
-            "title": "Wash-Off Ease",
-            "description": "Ensures easy removal during finishing to guarantee clean final fabrics"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Key Applications",
-        "subheading": "From fiber spinning to final fabric treatment",
-        "cards": [
-          {
-            "title": "Spinning Oils",
-            "description": "Fiber lubricants for wool, cotton, and synthetic yarn production"
-          },
-          {
-            "title": "Weaving Aids",
-            "description": "Anti-static and thread strengthening agents for weaving and knitting"
-          },
-          {
-            "title": "Fabric Finishing",
-            "description": "Softeners and gloss enhancers for premium textile appeal"
-          },
-          {
-            "title": "Color Leveling",
-            "description": "Dyeing auxiliaries that ensure uniform color distribution across fabrics"
-          }
-        ]
-      },
-      "compliance": {
-        "title": "Industry Compliance",
-        "items": [
-          "Oeko-Tex Standard compatibility",
-          "BlueSign criteria support",
-          "REACH registration",
-          "APEO/NPEO free products",
-          "High flash point for safety"
-        ]
-      },
-      "benefits": {
-        "title": "Key Benefits",
-        "items": [
-          "Increased manufacturing speeds",
-          "Reduced downtime and maintenance",
-          "Superior fabric hand-feel",
-          "Consistent batch-to-batch quality",
-          "Thermal stability during processing"
-        ]
       }
     },
     "lubricants": {
@@ -472,66 +186,6 @@
       "overview": {
         "title": "Lubricant Industry",
         "description": "Our materials are used in lubricant formulations as functional components and base stocks. They help to provide consistent performance, controlled viscosity, and thermal stability. These materials provide for smooth mechanical action, wear prevention, and friction reduction in hydraulic systems, gear oils, and industrial equipment applications. They may be utilized in a wide range of automotive, marine, and heavy-duty industrial lubricant compositions. Their durability guarantees consistent performance across a wide variety of operational circumstances enabling lubricant manufacturers to provide long-lasting, efficient and diverse lubrication solutions."
-      },
-      "tailoredForPharma": {
-        "heading": "Mechanical Precision",
-        "subheading": "Robust components for extreme pressure and high-temperature lubrication",
-        "features": [
-          {
-            "title": "Thermal Stability",
-            "description": "Maintains viscosity and performance under high operational heat"
-          },
-          {
-            "title": "Oxidative Resistance",
-            "description": "Prevents sludge formation and extends the life of the lubricant"
-          },
-          {
-            "title": "Viscosity Control",
-            "description": "Precise grades tailored for specific hydraulic and engine requirements"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Key Applications",
-        "subheading": "Specialized bases for diverse lubrication needs",
-        "cards": [
-          {
-            "title": "Industrial Oils",
-            "description": "Base stocks for hydraulic fluids, gear oils, and compressor lubricants"
-          },
-          {
-            "title": "Automotive",
-            "description": "High-quality components for engine oils and greases"
-          },
-          {
-            "title": "Process Oils",
-            "description": "Industrial oils for rubber, plastic, and ink manufacturing"
-          },
-          {
-            "title": "Metalworking",
-            "description": "Cooling and lubricating agents for metal cutting and shaping"
-          }
-        ]
-      },
-      "compliance": {
-        "title": "Standard Compliance",
-        "items": [
-          "ISO 9001 certified base stocks",
-          "NSF H1/H3 food-grade options",
-          "ASTM standard compliance",
-          "REACH registered",
-          "Technical grade purity"
-        ]
-      },
-      "benefits": {
-        "title": "Key Benefits",
-        "items": [
-          "Reduced machinery wear",
-          "Extended drain intervals",
-          "Excellent low-temperature flow",
-          "Water separation efficiency",
-          "Large scale bulk delivery"
-        ]
       }
     },
     "agrochemical": {
