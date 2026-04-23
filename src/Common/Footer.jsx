@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
 
 export default function Footer() {
-  const { t } = useTranslation();
+  const { t } = useTranslation(['translation', 'contact']);
   return (
     <>
       {}

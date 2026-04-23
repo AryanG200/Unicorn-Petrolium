@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 
 function MobileCardsLayout({ cards, showDescriptions }) {
   const cardsCount = cards.length;
+  const isOdd = cardsCount % 2 !== 0;
+  const regularCardsCount = isOdd ? cardsCount - 1 : cardsCount;
 
   return (
     <div className="md:hidden">
-      <div className="grid grid-cols-2 gap-4 mb-4">
-        {cards.slice(0, Math.max(0, cardsCount - 1)).map((card, index) => {
+      <div className={`grid grid-cols-2 gap-4 ${isOdd ? 'mb-4' : ''}`}>
+        {cards.slice(0, regularCardsCount).map((card, index) => {
           const CardWrapper = card.link ? Link : "div";
           const cardProps = card.link
             ? { to: card.link }
@@ -41,7 +43,7 @@ function MobileCardsLayout({ cards, showDescriptions }) {
           );
         })}
       </div>
-      {cardsCount > 0 && (
+      {isOdd && cardsCount > 0 && (
         <div className="grid grid-cols-2 gap-4 mb-4">
           <div className="col-span-2 justify-self-center w-[calc(50%-0.5rem)]">
             {(() => {
