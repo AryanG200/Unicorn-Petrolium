@@ -12,8 +12,7 @@
     "home-care": "Haushaltspflege",
     "textile": "Textil",
     "lubricants": "Schmierstoffe",
-    "agrochemical": "Agrarchemie",
-    "bulk-chemical": "Industriechemie"
+    "bulk-chemical": "Basischemikalien"
   },
   "sections": {
     "overview": {
@@ -42,9 +41,6 @@
     },
     "lubricants": {
       "name": "Schmierstoffe"
-    },
-    "agrochemical": {
-      "name": "Agrarchemie"
     }
   },
   "products": {
@@ -157,16 +153,6 @@
       "overview": {
         "title": "Schmierstoffindustrie",
         "description": "Unsere Materialien sorgen für stabile Viskosität und thermische Stabilität."
-      }
-    },
-    "agrochemical": {
-      "hero": {
-        "title": "Agrarchemie",
-        "description": "Spezialisierte Inhaltsstoffe für landwirtschaftliche Formulierungen"
-      },
-      "overview": {
-        "title": "Agrarchemische Produkte",
-        "description": "Verbessert die Stabilität der Formulierungen unter schwierigen Bedingungen."
       }
     }
   },

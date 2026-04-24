@@ -7,61 +7,223 @@
   },
   "events": {
     "u1": {
-      "title": "GLOBALChemShow",
-      "subtitle": "Exposition Int'l 2025",
-      "date": "18-19 Décembre 2025",
-      "location": "Bombay Exhibition Centre, Nesco, Mumbai, Inde",
-      "tag": "18-19 Déc 2025"
+      "title": "ChemExpo India",
+      "date": "Avril 2026",
+      "location": "Bombay Exhibition Centre (BEC), Halls 2, 3 & 6, Goregaon East, Mumbai.",
+      "booth": "Hall 6 - 6G15",
+      "tag": "AVRIL 2026"
     },
     "u2": {
-      "title": "beautyworld MIDDLE EAST",
-      "subtitle": "MOYEN-ORIENT",
-      "date": "27-29 Octobre 2025",
-      "location": "Dubai World Trade Centre, ÉAU",
-      "tag": "27-29 Oct 2025"
+      "title": "IN-COSMETICS GLOBAL - Paris",
+      "date": "Avril 2026",
+      "location": "Paris Expo Porte de Versailles en France",
+      "booth": "2 S48",
+      "tag": "AVRIL 2026"
     },
     "u3": {
-      "title": "Cosmet'in 2025",
-      "subtitle": "Vitrine Industrielle",
-      "date": "10-12 Novembre 2025",
-      "location": "Lyon, France",
-      "tag": "10-12 Nov 2025"
+      "title": "NYSCC Suppliers' Day",
+      "date": "Juin 2026",
+      "location": "Jacob K. Javits Convention Center, New York, NY",
+      "booth": "",
+      "tag": "JUIN 2026"
     },
-    "p1": {
-      "title": "in-cosmetics Global",
-      "date": "16-18 Avril 2024",
-      "location": "Paris Expo Porte de Versailles, France",
-      "description": "Unicorn Petroleum à in-cosmetics Global 2024, présentant des ingrédients cosmétiques de spécialité."
+    "u4": {
+      "title": "Cosmohome Tech Expo",
+      "date": "Juillet 2026",
+      "location": "Pragati Maidan, New Delhi",
+      "booth": "",
+      "tag": "JUILLET 2026"
     },
-    "p2": {
-      "title": "Chemspec Europe 2024",
-      "date": "05-06 Juin 2024",
-      "location": "Messe Munich, Allemagne",
-      "description": "Présentation de notre dernier portefeuille de produits chimiques de spécialité aux marchés européens."
+    "u5": {
+      "title": "iPHEX",
+      "date": "Septembre 2026",
+      "location": "Bharat Mandapam, Delhi, Inde",
+      "booth": "",
+      "tag": "SEPTEMBRE 2026"
     },
-    "p3": {
-      "title": "CPhI Worldwide 2024",
-      "date": "08-10 Octobre 2024",
-      "location": "Fira Barcelona Gran Via, Espagne",
-      "description": "Rencontre avec les leaders mondiaux de la pharma et exploration de partenariats en ingrédients pharmaceutiques."
+    "u6": {
+      "title": "Beautyworld Middle East",
+      "date": "Octobre 2026",
+      "location": "Dubai World Trade Centre",
+      "booth": "",
+      "tag": "OCTOBRE 2026"
+    },
+    "u7": {
+      "title": "CPHI India",
+      "date": "Novembre 2026",
+      "location": "India Expo Centre & Mart (IEML) à Greater Noida, Delhi NCR",
+      "booth": "",
+      "tag": "NOVEMBRE 2026"
+    },
+    "u8": {
+      "title": "IN-COSMETICS ASIA",
+      "date": "Novembre 2026",
+      "location": "Bangkok International Trade & Exhibition Centre (BITEC) à Bangkok, Thaïlande.",
+      "booth": "",
+      "tag": "NOVEMBRE 2026"
+    },
+    "u9": {
+      "title": "GLOBAL CHEM EXPO",
+      "date": "Décembre 2026",
+      "location": "Bombay Exhibition Centre (NESCO) à Mumbai, Inde.",
+      "booth": "",
+      "tag": "DÉCEMBRE 2026"
+    },
+    "p32": {
+      "title": "GLOBAL CHEM EXPO",
+      "date": "18 – 19 décembre 2025",
+      "location": "Bombay Exhibition Centre (NESCO) à Mumbai, Inde",
+      "booth": "D 11"
+    },
+    "p30": {
+      "title": "CPHI India",
+      "date": "25 – 27 novembre 2025",
+      "location": "India Expo Centre & Mart (IEML) à Greater Noida, Delhi NCR",
+      "booth": "8.Q37 - Hall 8"
+    },
+    "p31": {
+      "title": "IN-COSMETICS ASIA",
+      "date": "4 – 6 novembre 2025",
+      "location": "Bangkok International Trade & Exhibition Centre (BITEC) à Bangkok, Thaïlande.",
+      "booth": "G71"
+    },
+    "p29": {
+      "title": "Beautyworld Middle East",
+      "date": "27 – 29 octobre 2025",
+      "location": "Dubai World Trade Centre",
+      "booth": "2- H31"
+    },
+    "p28": {
+      "title": "iPHEX",
+      "date": "4 – 6 septembre 2025",
+      "location": "Bharat Mandapam, Delhi, Inde",
+      "booth": "5E - 26 - Hall 5"
+    },
+    "p27": {
+      "title": "Cosmohome Tech Expo",
+      "date": "16 – 17 juillet 2025",
+      "location": "Pragati Maidan, New Delhi",
+      "booth": "I - 1A - Hall 3"
+    },
+    "p26": {
+      "title": "NYSCC Suppliers' Day",
+      "date": "3 – 4 juin 2025",
+      "location": "Jacob K. Javits Convention Center, New York, NY",
+      "booth": "1473 - Niveau 3"
+    },
+    "p24": {
+      "title": "ChemExpo India",
+      "date": "29 – 30 avril 2025",
+      "location": "Bombay Exhibition Centre (BEC), Halls 2, 3 & 6, Goregaon East, Mumbai.",
+      "booth": "6D09 - Hall 6"
+    },
+    "p25": {
+      "title": "IN-COSMETICS GLOBAL - AMSTERDAM",
+      "date": "8 – 10 avril 2025",
+      "location": "RAI Amsterdam, Pays-Bas",
+      "booth": "5G1219I - Hall 5"
+    },
+    "p15": {
+      "title": "ChemExpo India",
+      "date": "24 – 25 avril 2024",
+      "location": "Bombay Exhibition Centre (NESCO)",
+      "booth": "1C11 - Hall 1"
+    },
+    "p16": {
+      "title": "IN-COSMETICS GLOBAL, PARIS",
+      "date": "16 – 18 avril 2024",
+      "location": "Paris Expo Porte de Versailles, Paris, France",
+      "booth": "V14 - Hall 1"
+    },
+    "p17": {
+      "title": "NYSCC Suppliers' Day",
+      "date": "1 – 2 mai 2024",
+      "location": "Jacob K. Javits Convention Center, New York City, NY",
+      "booth": "461"
+    },
+    "p18": {
+      "title": "FCE PHARMA - BRÉSIL",
+      "date": "4 – 6 juin 2024",
+      "location": "Sao Paulo Expo Exhibition & Convention Center, Sao Paulo, Brésil",
+      "booth": "157"
+    },
+    "p19": {
+      "title": "COSMOHOME TECH EXPO",
+      "date": "17 – 18 juillet 2024",
+      "location": "Pragati Maidan, New Delhi, Inde",
+      "booth": "F04"
+    },
+    "p20": {
+      "title": "Beautyworld - Dubai",
+      "date": "28 – 30 octobre 2024",
+      "location": "Dubai World Trade Centre (DWTC), Dubaï, Émirats arabes unis",
+      "booth": "4-A20"
+    },
+    "p21": {
+      "title": "In-cosmetics Asia 2024",
+      "date": "5 – 7 novembre 2024",
+      "location": "International Trade & Exhibition Centre (BITEC), Bangkok, Thaïlande",
+      "booth": "G80"
+    },
+    "p22": {
+      "title": "CPHI - INDIA",
+      "date": "26 – 28 novembre 2024",
+      "location": "India Expo Centre, Greater Noida, Inde",
+      "booth": "8.Q37 - Hall 8"
+    },
+    "p23": {
+      "title": "Global Chem Show",
+      "date": "19 – 20 décembre 2024",
+      "location": "Bombay Exhibition Centre (NESCO), Mumbai, Inde",
+      "booth": "E 10"
     },
     "p4": {
-      "title": "CPhI Worldwide",
-      "date": "24-26 Octobre 2023",
-      "location": "Fira Barcelona Gran Via, Espagne",
-      "description": "Unicorn Petroleum à CPhI Worldwide 2023, présentant des produits de qualité pharmaceutique."
+      "title": "In - Cosmetics Global Barcelona",
+      "date": "28 – 30 mars 2023",
+      "location": "Fira de Barcelona - Gran Via",
+      "booth": "C83"
     },
     "p5": {
-      "title": "Middle East Coatings Show",
-      "date": "19-21 Juin 2023",
-      "location": "Dubai World Trade Centre, ÉAU",
-      "description": "Présentation de nos huiles minérales et cires pour revêtements aux clients du Moyen-Orient."
+      "title": "Chem Expo",
+      "date": "26 – 27 avril 2023",
+      "location": "Bombay Exhibition Centre (NESCO)",
+      "booth": "G04"
     },
     "p6": {
-      "title": "in-cosmetics Global 2023",
-      "date": "18-20 Avril 2023",
-      "location": "Barcelone, Espagne",
-      "description": "Exploration des dernières tendances en matières premières cosmétiques aux côtés des fabricants mondiaux."
+      "title": "NYSCC Suppliers' Day",
+      "date": "2 – 3 mai 2023",
+      "location": "Jacob K. Javits Convention Center in New York City",
+      "booth": "1757"
+    },
+    "p10": {
+      "title": "CPHI Barcelona",
+      "date": "24 – 26 octobre 2023",
+      "location": "Fira Barcelona Gran Via in Barcelona",
+      "booth": "5A19"
+    },
+    "p11": {
+      "title": "Beauty world Middle East - Dubai",
+      "date": "30 octobre – 1 novembre 2023",
+      "location": "Dubai World Trade Centre",
+      "booth": "SA-G18"
+    },
+    "p12": {
+      "title": "In-Cosmetics Asia Bangkok",
+      "date": "7 – 9 novembre 2023",
+      "location": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "booth": "R80"
+    },
+    "p13": {
+      "title": "Cosmohome tech",
+      "date": "",
+      "location": "",
+      "booth": "4-F6C"
+    },
+    "p14": {
+      "title": "CPHI - INDIA",
+      "date": "28 – 30 novembre 2023",
+      "location": "India Expo Centre, Greater Noida, Delhi NCR",
+      "booth": "8.Q37"
     },
     "p7": {
       "title": "Chemspec Europe 2022",
@@ -87,6 +249,7 @@
     "aboutEvent": "À propos de l'événement",
     "eventDate": "Date de l'événement",
     "location": "Lieu",
+    "boothNumber": "Numéro de Stand",
     "close": "Fermer",
     "contactUs": "Contactez-nous",
     "joinUsAt": "Rejoignez-nous à",

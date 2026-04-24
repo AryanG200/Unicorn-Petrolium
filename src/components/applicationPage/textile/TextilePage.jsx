@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export default function TextilePage() {
   const { t } = useTranslation('applications');
   const industryData = t('industries.textile', { returnObjects: true });
-  
+
   useMetaTags(
     t('industries.textile.meta.title'),
     t('industries.textile.meta.description'),
@@ -59,8 +59,8 @@ export default function TextilePage() {
         name: t('products.lanolin.name', 'Lanolin'),
         link: "/products/lanolin",
         description: t('products.lanolin.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg"
+        image: "/assets/RELATED%20PROD%20IMG/lanolin-1.jpg",
+        hoverImage: "/assets/RELATED%20PROD%20IMG/lanolin1.jpg"
       },
       {
         name: t('products.surfactants.name', 'Surfactants'),

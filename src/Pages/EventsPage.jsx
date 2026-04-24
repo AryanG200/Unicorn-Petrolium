@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { FiX, FiMapPin, FiCalendar, FiArrowRight } from "react-icons/fi";
+import { FiX, FiMapPin, FiCalendar, FiArrowRight, FiGrid } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 
@@ -14,29 +16,53 @@ import "swiper/css/effect-fade";
 
 // ─── Constants ─────────────────────────────────────────────────────────────
 const UPCOMING_IDS = [
-  { id: "u1", year: 2025, image: "/assets/BannerImages/ChemExpoExhibition.jpeg" },
-  { id: "u2", year: 2025, image: "/assets/about/Advance production units.jpg" },
-  { id: "u3", year: 2025, image: "/assets/about/Artboard 1.jpg" },
+  { id: "u1", year: 2026, image: "/assets/event/chemexpo2026.jpg", tag: "APRIL 2026" },
+  { id: "u2", year: 2026, image: "/assets/event/incos2026.jpg", tag: "APRIL 2026" },
+  { id: "u3", year: 2026, image: "/assets/event/nyss2026.jpg", tag: "JUNE 2026" },
+  { id: "u4", year: 2026, image: "/assets/event/cosmo2024.jpg", tag: "JULY 2026" },
+  { id: "u5", year: 2026, image: "/assets/event/iphex2026.jpg", tag: "SEPTEMBER 2026" },
+  { id: "u6", year: 2026, image: "/assets/event/beauty2025.jpg", tag: "OCTOBER 2026" },
+  { id: "u7", year: 2026, image: "/assets/event/cphi2024.jpg", tag: "NOVEMBER 2026" },
+  { id: "u8", year: 2026, image: "/assets/event/incoss2026.jpg", tag: "NOVEMBER 2026" },
+  { id: "u9", year: 2026, image: "/assets/event/global2025.jpg", tag: "DECEMBER 2026" }
 ];
 
 const PAST_IDS = [
-  { id: "p1", year: 2024, image: "/assets/about/packaging.jpg" },
-  { id: "p2", year: 2024, image: "/assets/about/r&d.jpg" },
-  { id: "p3", year: 2024, image: "/assets/about/Advance production units.jpg" },
-  { id: "p4", year: 2023, image: "/assets/about/r&d.jpg" },
-  { id: "p5", year: 2023, image: "/assets/about/Artboard 1.jpg" },
-  { id: "p6", year: 2023, image: "/assets/about/packaging.jpg" },
-  { id: "p7", year: 2022, image: "/assets/about/Artboard 2.jpg" },
-  { id: "p8", year: 2022, image: "/assets/about/Advance production units.jpg" },
-  { id: "p9", year: 2022, image: "/assets/about/r&d.jpg" },
+  { id: "p25", year: 2025, image: "/assets/event/incos2025.jpg" },
+  { id: "p24", year: 2025, image: "/assets/event/chemexpo2025.jpg" },
+  { id: "p26", year: 2025, image: "/assets/event/nyss2025.jpg" },
+  { id: "p27", year: 2025, image: "/assets/event/cosmo2024.jpg" },
+  { id: "p28", year: 2025, image: "/assets/event/iphex2025.jpg" },
+  { id: "p29", year: 2025, image: "/assets/event/beauty2025.jpg" },
+  { id: "p31", year: 2025, image: "/assets/event/incoss2025.jpg" },
+  { id: "p30", year: 2025, image: "/assets/event/cphi2024.jpg" },
+  { id: "p32", year: 2025, image: "/assets/event/global2025.jpg" },
+  { id: "p15", year: 2024, image: "/assets/event/chemexpo2024.jpg" },
+  { id: "p16", year: 2024, image: "/assets/event/incos2024.jpg" },
+  { id: "p17", year: 2024, image: "/assets/event/nyss2024.jpg" },
+  { id: "p18", year: 2024, image: "/assets/event/fce2024.jpg" },
+  { id: "p19", year: 2024, image: "/assets/event/cosmo2024.jpg" },
+  { id: "p20", year: 2024, image: "/assets/event/beauty2025.jpg" },
+  { id: "p21", year: 2024, image: "/assets/event/incoss2024.jpg" },
+  { id: "p22", year: 2024, image: "/assets/event/cphi2024.jpg" },
+  { id: "p23", year: 2024, image: "/assets/event/global.jpg" },
+  { id: "p4", year: 2023, image: "/assets/event/incos2023.jpg" },
+  { id: "p5", year: 2023, image: "/assets/event/chemexpo2023.jpg" },
+  { id: "p6", year: 2023, image: "/assets/event/nyss2023.jpg" },
+  { id: "p10", year: 2023, image: "/assets/event/cphi2023.jpg" },
+  { id: "p11", year: 2023, image: "/assets/event/beauty2023.jpg" },
+  { id: "p12", year: 2023, image: "/assets/event/bangkok2023.jpg" },
+  { id: "p13", year: 2023, image: "/assets/event/cosmo2023.jpg" },
+  { id: "p14", year: 2023, image: "/assets/event/cphi-in2023.jpg" },
 ];
 
-const ALL_YEARS = [2024, 2023, 2022];
+const ALL_YEARS = [2025, 2024, 2023];
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
 export default function EventsPage() {
   const { t } = useTranslation("events");
+  const navigate = useNavigate();
   const [selectedYear, setSelectedYear] = useState(ALL_YEARS[0]);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -144,45 +170,47 @@ export default function EventsPage() {
       </section>
 
       {/* ── Upcoming Events Slideshow ─────────────────────────── */}
-      <section style={{ background: "#f9f6f1", padding: "calc(var(--section-padding-y) * 1.5) 0 40px" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "32px" }}>
-            <h2 style={{
-              fontSize: "clamp(1.5rem, 4vw, 2.25rem)", fontWeight: 800,
-              color: "#1a1a1a", margin: 0,
-            }}>
-              {t("sections.upcoming")}
-            </h2>
-            <div style={{ height: "4px", flex: 1, background: "linear-gradient(to right, #c17b2a 0%, transparent 100%)", marginLeft: "24px", opacity: 0.2 }}></div>
-          </div>
+      {upcomingEvents.length > 0 && (
+        <section style={{ background: "#f9f6f1", padding: "calc(var(--section-padding-y) * 1.5) 0 40px" }}>
+          <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "32px" }}>
+              <h2 style={{
+                fontSize: "clamp(1.5rem, 4vw, 2.25rem)", fontWeight: 800,
+                color: "#1a1a1a", margin: 0,
+              }}>
+                {t("sections.upcoming")}
+              </h2>
+              <div style={{ height: "4px", flex: 1, background: "linear-gradient(to right, #c17b2a 0%, transparent 100%)", marginLeft: "24px", opacity: 0.2 }}></div>
+            </div>
 
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay, EffectFade]}
-            spaceBetween={30}
-            slidesPerView={1}
-            loop={true}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
-            pagination={{ clickable: true }}
-            navigation={true}
-            breakpoints={{
-              768: { slidesPerView: 2 },
-              1100: { slidesPerView: 2 }
-            }}
-            className="events-swiper"
-          >
-            {upcomingEvents.map((event) => (
-              <SwiperSlide key={event.id}>
-                <UpcomingCard key={event.id} event={event} t={t} onClick={() => handleEventClick({ ...event, type: "Upcoming Event" })} />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-      </section>
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay, EffectFade]}
+              spaceBetween={30}
+              slidesPerView={1}
+              loop={true}
+              autoplay={{ delay: 5000, disableOnInteraction: false }}
+              pagination={{ clickable: true }}
+              navigation={true}
+              breakpoints={{
+                768: { slidesPerView: 2 },
+                1100: { slidesPerView: 2 }
+              }}
+              className="events-swiper"
+            >
+              {upcomingEvents.map((event) => (
+                <SwiperSlide key={event.id}>
+                  <UpcomingCard key={event.id} event={event} t={t} onClick={() => handleEventClick({ ...event, type: "Upcoming Event" })} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+        </section>
+      )}
 
       {/* ── Past Events 3x3 Grid ──────────────────────────────── */}
       <section style={{ background: "#f9f6f1", padding: "48px 0 100px" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "0 24px" }}>
-          
+
           <div style={{ borderBottom: "1px solid #e8e0d5", marginBottom: "40px", pb: "8px" }}>
             <h2 style={{ fontSize: "1.75rem", fontWeight: 800, color: "#1a1a1a", marginBottom: "24px" }}>
               Past Exhibitions
@@ -236,7 +264,7 @@ export default function EventsPage() {
 
       {/* ── Modal ─────────────────────────────────────────────── */}
       {isModalOpen && selectedEvent && (
-        <EventModal event={selectedEvent} onClose={closeModal} t={t} />
+        <EventModal event={selectedEvent} onClose={closeModal} t={t} navigate={navigate} />
       )}
     </div>
   );
@@ -280,7 +308,7 @@ function UpcomingCard({ event, onClick, t }) {
         {/* Date tag badge */}
         <div style={{
           position: "absolute", top: "14px", left: "14px",
-          background: "#006633",
+          background: "#c17b2a",
           color: "#fff",
           fontSize: "0.72rem",
           fontWeight: 700,
@@ -305,15 +333,22 @@ function UpcomingCard({ event, onClick, t }) {
           )}
         </div>
 
+        <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#555", fontSize: "0.88rem" }}>
+          <FiCalendar style={{ color: "#c17b2a", flexShrink: 0 }} />
+          <span>{event.date}</span>
+        </div>
+
         <div style={{ display: "flex", alignItems: "flex-start", gap: "8px", color: "#555", fontSize: "0.88rem" }}>
           <FiMapPin style={{ marginTop: "2px", color: "#c17b2a", flexShrink: 0 }} />
           <span>{event.location}</span>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#555", fontSize: "0.88rem" }}>
-          <FiCalendar style={{ color: "#c17b2a", flexShrink: 0 }} />
-          <span>{event.date}</span>
-        </div>
+        {event.booth && (
+          <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#555", fontSize: "0.88rem" }}>
+            <FiGrid style={{ color: "#c17b2a", flexShrink: 0 }} />
+            <span>{event.booth}</span>
+          </div>
+        )}
 
         <div style={{ marginTop: "auto", paddingTop: "12px" }}>
           <button
@@ -391,15 +426,22 @@ function PastCard({ event, onClick }) {
           {event.title}
         </h3>
 
+        <div style={{ display: "flex", alignItems: "center", gap: "7px", color: "#777", fontSize: "0.82rem" }}>
+          <FiCalendar style={{ color: "#c17b2a", flexShrink: 0, fontSize: "0.8rem" }} />
+          <span>{event.date}</span>
+        </div>
+
         <div style={{ display: "flex", alignItems: "flex-start", gap: "7px", color: "#777", fontSize: "0.82rem" }}>
           <FiMapPin style={{ marginTop: "2px", color: "#c17b2a", flexShrink: 0, fontSize: "0.8rem" }} />
           <span>{event.location}</span>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", gap: "7px", color: "#777", fontSize: "0.82rem" }}>
-          <FiCalendar style={{ color: "#c17b2a", flexShrink: 0, fontSize: "0.8rem" }} />
-          <span>{event.date}</span>
-        </div>
+        {event.booth && (
+          <div style={{ display: "flex", alignItems: "center", gap: "7px", color: "#777", fontSize: "0.82rem" }}>
+            <FiGrid style={{ color: "#c17b2a", flexShrink: 0, fontSize: "0.8rem" }} />
+            <span>{event.booth}</span>
+          </div>
+        )}
 
         {event.description && (
           <p style={{
@@ -420,7 +462,7 @@ function PastCard({ event, onClick }) {
 
 // ─── Modal ────────────────────────────────────────────────────────────────────
 
-function EventModal({ event, onClose, t }) {
+function EventModal({ event, onClose, t, navigate }) {
   return (
     <div
       style={{
@@ -441,7 +483,7 @@ function EventModal({ event, onClose, t }) {
       />
 
       {/* Modal Box */}
-      <div 
+      <div
         className="modal-box"
         style={{
           position: "relative",
@@ -498,7 +540,7 @@ function EventModal({ event, onClose, t }) {
           }}>
             <span style={{
               display: "inline-block",
-              background: event.type === "Upcoming Event" ? "#006633" : "#c17b2a",
+              background: "#c17b2a",
               color: "#fff",
               fontSize: "0.65rem", fontWeight: 700,
               padding: "4px 12px", borderRadius: "20px",
@@ -527,17 +569,7 @@ function EventModal({ event, onClose, t }) {
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
             <InfoRow icon={<FiCalendar />} label={t("ui.eventDate")} value={event.date} />
             <InfoRow icon={<FiMapPin />} label={t("ui.location")} value={event.location} />
-          </div>
-
-          {/* About */}
-          <div>
-            <h4 style={{ fontSize: "0.9rem", fontWeight: 700, color: "#1a1a1a", marginBottom: "6px" }}>
-              {t("ui.aboutEvent")}
-            </h4>
-            <div style={{ fontSize: "0.85rem", color: "#555", lineHeight: 1.6 }}>
-              {event.description ||
-                `${t("ui.joinUsAt")} ${event.title} ${t("ui.discoverDesc")}`}
-            </div>
+            {event.booth && <InfoRow icon={<FiGrid />} label={t("ui.boothNumber")} value={event.booth} />}
           </div>
 
           <div style={{ marginTop: "auto", display: "flex", gap: "10px", justifyContent: "flex-end", borderTop: "1px solid #f0ece6", paddingTop: "16px", flexWrap: "wrap" }}>
@@ -549,25 +581,49 @@ function EventModal({ event, onClose, t }) {
                 background: "transparent", color: "#555",
                 fontWeight: 700, cursor: "pointer",
                 fontSize: "0.85rem",
-                flex: "1 1 100px"
+                flex: event.type === "Upcoming Event" ? "1 1 100px" : "0 1 auto",
+                minWidth: event.type === "Upcoming Event" ? "100px" : "140px"
               }}
             >
               {t("ui.close")}
             </button>
-            <button
-              onClick={onClose}
-              style={{
-                padding: "8px 20px", borderRadius: "8px",
-                border: "2px solid #006633",
-                background: "#006633", color: "#fff",
-                fontWeight: 700, cursor: "pointer",
-                fontSize: "0.85rem",
-                boxShadow: "0 4px 16px rgba(0,102,51,0.2)",
-                flex: "1 1 120px"
-              }}
-            >
-              {t("ui.contactUs")}
-            </button>
+            {event.type === "Upcoming Event" && (
+              <>
+                <button
+                  style={{
+                    padding: "8px 20px", borderRadius: "8px",
+                    border: "2px solid #25D366",
+                    background: "#25D366", color: "#fff",
+                    fontWeight: 700, cursor: "pointer",
+                    fontSize: "0.85rem",
+                    boxShadow: "0 4px 16px rgba(37,211,102,0.2)",
+                    display: "flex", alignItems: "center", gap: "8px",
+                    flex: "1 1 120px",
+                    justifyContent: "center"
+                  }}
+                >
+                  <FaWhatsapp style={{ fontSize: "1.1rem" }} />
+                  WhatsApp
+                </button>
+                <button
+                  onClick={() => {
+                    onClose();
+                    navigate("/contact#quote-form-section");
+                  }}
+                  style={{
+                    padding: "8px 20px", borderRadius: "8px",
+                    border: "2px solid #c17b2a",
+                    background: "#c17b2a", color: "#fff",
+                    fontWeight: 700, cursor: "pointer",
+                    fontSize: "0.85rem",
+                    boxShadow: "0 4px 16px rgba(193, 123, 42, 0.2)",
+                    flex: "1 1 120px"
+                  }}
+                >
+                  {t("ui.contactUs")}
+                </button>
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -596,7 +652,7 @@ function InfoRow({ icon, label, value }) {
         {icon}
       </div>
       <div>
-        <p style={{ fontSize: "0.72rem", fontWeight: 700, color: "#006633", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "3px" }}>
+        <p style={{ fontSize: "0.72rem", fontWeight: 700, color: "#c17b2a", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: "3px" }}>
           {label}
         </p>
         <span style={{ fontSize: "1rem", fontWeight: 600, color: "#1a1a1a" }}>{value}</span>

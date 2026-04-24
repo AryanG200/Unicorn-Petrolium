@@ -115,7 +115,7 @@ export default function ProductPageLayout({
         breadcrumbsTopClass="top-16 sm:top-20 md:top-28 lg:top-36"
         breadcrumbsNavClass="text-black font-semibold text-[10px] sm:text-xs md:text-sm lg:text-base px-2 sm:px-4 -mt-[21%] md:mt-2 lg:mt-4"
          contentPosition="bottom"
-         contentBackground="solid"
+         contentBackground="none"
          fullWidthContent={true}
       />
 

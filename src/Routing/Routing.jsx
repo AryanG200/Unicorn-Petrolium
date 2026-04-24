@@ -32,7 +32,6 @@ import CosmeticsPage from "../components/applicationPage/cosmetics/CosmeticsPage
 import BulkChemicalPage from "../components/applicationPage/bulkChemical/BulkChemicalPage";
 import PersonalCarePage from "../components/applicationPage/personalCare/PersonalCarePage";
 import LubricantsPage from "../components/applicationPage/lubricants/LubricantsPage";
-import AgrochemicalPage from "../components/applicationPage/agrochemical/AgrochemicalPage";
 import TextilePage from "../components/applicationPage/textile/TextilePage";
 
 
@@ -74,7 +73,6 @@ const router = createBrowserRouter([
       { path: "/applications/personal-care", element: <PersonalCarePage /> },
       { path: "/applications/textile", element: <TextilePage /> },
       { path: "/applications/lubricants", element: <LubricantsPage /> },
-      { path: "/applications/agrochemical", element: <AgrochemicalPage /> },
       { path: "/reach", element: <ReachPage /> },
       { path: "/blog", element: <BlogPage /> },
       { path: "/blog/:id", element: <SingleBlogPage /> },

@@ -12,8 +12,7 @@ export const navigationData = {
       { id: 'personal-care', name: 'Personal Care', link: '/applications/personal-care' },
       { id: 'home-care', name: 'Home Care', link: '/applications/home-care' },
       { id: 'textile', name: 'Textile', link: '/applications/textile' },
-      { id: 'lubricants', name: 'Lubricants', link: '/applications/lubricants' },
-      { id: 'agrochemical', name: 'Agrochemical', link: '/applications/agrochemical' }
+      { id: 'lubricants', name: 'Lubricants', link: '/applications/lubricants' }
     ]
   },
   products: {

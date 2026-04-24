@@ -7,61 +7,223 @@
   },
   "events": {
     "u1": {
-      "title": "GLOBALChemShow",
-      "subtitle": "2025年国际展览会",
-      "date": "2025年12月18日-19日",
-      "location": "印度孟买 Nesco 孟买展览中心",
-      "tag": "2025年12月18-19日"
+      "title": "ChemExpo India",
+      "date": "2026年4月",
+      "location": "孟买展览中心 (BEC)，2、3和6号展厅",
+      "booth": "6号展厅 - 6G15",
+      "tag": "2026年4月"
     },
     "u2": {
-      "title": "beautyworld MIDDLE EAST",
-      "subtitle": "中东地区",
-      "date": "2025年10月27日-29日",
-      "location": "阿联酋迪拜世界贸易中心",
-      "tag": "2025年10月27-29日"
+      "title": "IN-COSMETICS GLOBAL - 巴黎",
+      "date": "2026年4月",
+      "location": "法国巴黎凡尔赛门展览馆",
+      "booth": "2 S48",
+      "tag": "2026年4月"
     },
     "u3": {
-      "title": "Cosmet'in 2025",
-      "subtitle": "工业展示阶段",
-      "date": "2025年11月10月-12日",
-      "location": "法国里昂",
-      "tag": "2025年11月10-12日"
+      "title": "NYSCC 供应商日",
+      "date": "2026年6月",
+      "location": "贾维茨会展中心，纽约州纽约市",
+      "booth": "",
+      "tag": "2026年6月"
     },
-    "p1": {
-      "title": "in-cosmetics Global",
+    "u4": {
+      "title": "Cosmohome 科技博览会",
+      "date": "2026年7月",
+      "location": "普拉加蒂·马丹，新德里",
+      "booth": "",
+      "tag": "2026年7月"
+    },
+    "u5": {
+      "title": "iPHEX",
+      "date": "2026年9月",
+      "location": "巴拉特·曼达帕姆，德里，印度",
+      "booth": "",
+      "tag": "2026年9月"
+    },
+    "u6": {
+      "title": "中东美容展 (Beautyworld Middle East)",
+      "date": "2026年10月",
+      "location": "迪拜世界贸易中心",
+      "booth": "",
+      "tag": "2026年10月"
+    },
+    "u7": {
+      "title": "世界制药原料印度展 (CPHI India)",
+      "date": "2026年11月",
+      "location": "大诺伊达印度博览中心（IEML），德里国家首都辖区",
+      "booth": "",
+      "tag": "2026年11月"
+    },
+    "u8": {
+      "title": "亚洲化妆品原料展 (IN-COSMETICS ASIA)",
+      "date": "2026年11月",
+      "location": "泰国曼谷国际贸易展览中心 (BITEC)",
+      "booth": "",
+      "tag": "2026年11月"
+    },
+    "u9": {
+      "title": "全球化工博览会 (GLOBAL CHEM EXPO)",
+      "date": "2026年12月",
+      "location": "印度孟买展览中心 (NESCO)",
+      "booth": "",
+      "tag": "2026年12月"
+    },
+    "p32": {
+      "title": "全球化工博览会 (GLOBAL CHEM EXPO)",
+      "date": "2025年12月18日-19日",
+      "location": "孟买展览中心 (NESCO)",
+      "booth": "D 11"
+    },
+    "p30": {
+      "title": "CPHI India",
+      "date": "2025年11月25日-27日",
+      "location": "印度大诺伊达博览中心 (IEML)",
+      "booth": "8.Q37 - 8号馆"
+    },
+    "p31": {
+      "title": "亚洲化妆品展 (IN-COSMETICS ASIA)",
+      "date": "2025年11月4日-6日",
+      "location": "泰国曼谷国际贸易展览中心 (BITEC)",
+      "booth": "G71"
+    },
+    "p29": {
+      "title": "Beautyworld Middle East",
+      "date": "2025年10月27日-29日",
+      "location": "迪拜世界贸易中心",
+      "booth": "2- H31"
+    },
+    "p28": {
+      "title": "iPHEX",
+      "date": "2025年9月4日-6日",
+      "location": "新德里 Bharat Mandapam",
+      "booth": "5E - 26 - 5号展厅"
+    },
+    "p27": {
+      "title": "Cosmohome Tech Expo",
+      "date": "2025年7月16日-17日",
+      "location": "新德里 Pragati Maidan",
+      "booth": "I - 1A - 3号展厅"
+    },
+    "p26": {
+      "title": "NYSCC 供应商日 (NYSCC Suppliers' Day)",
+      "date": "2025年6月3日-4日",
+      "location": "纽约州纽约市贾维茨会议中心 (Jacob K. Javits Convention Center, New York, NY)",
+      "booth": "1473 - 3层"
+    },
+    "p24": {
+      "title": "印度化工展 (ChemExpo India)",
+      "date": "2025年4月29日-30日",
+      "location": "孟买展览中心 (BEC)，2、3和6号展厅，孟买 Goregaon East。",
+      "booth": "6D09 - 6号展厅"
+    },
+    "p25": {
+      "title": "荷兰阿姆斯特丹国际化妆品原料展 (IN-COSMETICS GLOBAL - AMSTERDAM)",
+      "date": "2025年4月8日-10日",
+      "location": "荷兰阿姆斯特丹 RAI 会展中心。",
+      "booth": "5G1219I - 5号展厅"
+    },
+    "p15": {
+      "title": "ChemExpo India",
+      "date": "2024年4月24日-25日",
+      "location": "孟买会展中心 (NESCO)",
+      "booth": "1C11 - Hall 1"
+    },
+    "p16": {
+      "title": "IN-COSMETICS GLOBAL, 巴黎",
       "date": "2024年4月16日-18日",
       "location": "法国巴黎凡尔赛门展览中心",
-      "description": "Unicorn Petroleum 参加 2024 年全球化妆品原料展 (in-cosmetics Global)，展示特种化妆品原料。"
+      "booth": "V14 - Hall 1"
     },
-    "p2": {
-      "title": "Chemspec Europe 2024",
-      "date": "2024年6月5日-6日",
-      "location": "德国慕尼黑展览中心",
-      "description": "向欧洲市场展示我们最新的特种化学品组合。"
+    "p17": {
+      "title": "NYSCC Suppliers' Day",
+      "date": "2024年5月1日-2日",
+      "location": "纽约市贾维茨会议中心",
+      "booth": "461"
     },
-    "p3": {
-      "title": "CPhI Worldwide 2024",
-      "date": "2024年10月8日-10日",
-      "location": "西班牙巴塞罗那 Fira Gran Via 展览中心",
-      "description": "会见全球制药巨头，探讨药物成分合作伙伴关系。"
+    "p18": {
+      "title": "FCE PHARMA - 巴西",
+      "date": "2024年6月4日-6日",
+      "location": "巴西圣保罗会展中心",
+      "booth": "157"
+    },
+    "p19": {
+      "title": "COSMOHOME TECH EXPO",
+      "date": "2024年7月17日-18日",
+      "location": "印度新德里 Pragati Maidan",
+      "booth": "F04"
+    },
+    "p20": {
+      "title": "Beautyworld - 迪拜",
+      "date": "2024年10月28日-30日",
+      "location": "阿联酋迪拜世界贸易中心 (DWTC)",
+      "booth": "4-A20"
+    },
+    "p21": {
+      "title": "In-cosmetics Asia 2024",
+      "date": "2024年11月5日-7日",
+      "location": "泰国曼谷国际贸易展览中心 (BITEC)",
+      "booth": "G80"
+    },
+    "p22": {
+      "title": "CPHI - INDIA",
+      "date": "2024年11月26日-28日",
+      "location": "印度大诺伊达印度展览中心 (India Expo Centre)",
+      "booth": "8.Q37 - 8号展厅"
+    },
+    "p23": {
+      "title": "全球化工展 (Global Chem Show)",
+      "date": "2024年12月19日-20日",
+      "location": "孟买展览中心 (NESCO)",
+      "booth": "E 10"
     },
     "p4": {
-      "title": "CPhI Worldwide",
-      "date": "2023年10月24日-26日",
-      "location": "西班牙巴塞罗那 Fira Gran Via 展览中心",
-      "description": "Unicorn Petroleum 参加 2023 年世界制药原料展 (CPhI Worldwide)，展示医药级产品。"
+      "title": "In - Cosmetics Global Barcelona",
+      "date": "2023年3月28日-30日",
+      "location": "巴塞罗那 Fira Gran Via 展览中心",
+      "booth": "C83"
     },
     "p5": {
-      "title": "Middle East Coatings Show",
-      "date": "2023年6月19日-21日",
-      "location": "阿联酋迪拜世界贸易中心",
-      "description": "向中东客户展示我们的涂料级矿物油和蜡。"
+      "title": "Chem Expo",
+      "date": "2023年4月26日-27日",
+      "location": "Bombay Exhibition Centre (NESCO)",
+      "booth": "G04"
     },
     "p6": {
-      "title": "in-cosmetics Global 2023",
-      "date": "2023年4月18日-20日",
-      "location": "西班牙巴塞罗那",
-      "description": "与全球制造商共同探讨化妆品原料的最新趋势。"
+      "title": "NYSCC Suppliers' Day",
+      "date": "2023年5月2日-3日",
+      "location": "纽约市 Jacob K. Javits 会议中心",
+      "booth": "1757"
+    },
+    "p10": {
+      "title": "CPHI Barcelona",
+      "date": "2023年10月24日-26日",
+      "location": "巴塞罗那 Fira Gran Via 展览中心",
+      "booth": "5A19"
+    },
+    "p11": {
+      "title": "Beauty world Middle East - Dubai",
+      "date": "2023年10月30日-11月1日",
+      "location": "迪拜世界贸易中心",
+      "booth": "SA-G18"
+    },
+    "p12": {
+      "title": "In-Cosmetics Asia Bangkok",
+      "date": "2023年11月7日-9日",
+      "location": "曼谷国际贸易展览中心 (BITEC)",
+      "booth": "R80"
+    },
+    "p13": {
+      "title": "Cosmohome tech",
+      "date": "",
+      "location": "",
+      "booth": "4-F6C"
+    },
+    "p14": {
+      "title": "CPHI - INDIA",
+      "date": "2023年11月28日-30日",
+      "location": "印度大诺伊达会展中心，德里国家首都辖区",
+      "booth": "8.Q37"
     },
     "p7": {
       "title": "Chemspec Europe 2022",
@@ -87,6 +249,7 @@
     "aboutEvent": "展会介绍",
     "eventDate": "展会日期",
     "location": "地点",
+    "boothNumber": "展位号",
     "close": "关闭",
     "contactUs": "联系我们",
     "joinUsAt": "欢迎莅临",

@@ -12,7 +12,6 @@
     "home-care": "Home Care",
     "textile": "Textile",
     "lubricants": "Lubricants",
-    "agrochemical": "Agrochemical",
     "bulk-chemical": "Bulk Chemical"
   },
   "sections": {
@@ -42,9 +41,6 @@
     },
     "lubricants": {
       "name": "Lubricants"
-    },
-    "agrochemical": {
-      "name": "Agrochemical"
     }
   },
   "products": {
@@ -186,21 +182,6 @@
       "overview": {
         "title": "Lubricant Industry",
         "description": "Our materials are used in lubricant formulations as functional components and base stocks. They help to provide consistent performance, controlled viscosity, and thermal stability. These materials provide for smooth mechanical action, wear prevention, and friction reduction in hydraulic systems, gear oils, and industrial equipment applications. They may be utilized in a wide range of automotive, marine, and heavy-duty industrial lubricant compositions. Their durability guarantees consistent performance across a wide variety of operational circumstances enabling lubricant manufacturers to provide long-lasting, efficient and diverse lubrication solutions."
-      }
-    },
-    "agrochemical": {
-      "hero": {
-        "title": "Agrochemical Applications",
-        "description": "Specialized ingredients for agricultural formulations"
-      },
-      "meta": {
-        "title": "Agrochemical Applications - Unicorn Petroleum | Crop Protection",
-        "description": "Adjuvants and oils for pesticides, fertilizers, and plant protection products.",
-        "keywords": "agrochemical, crop care, pesticide adjuvants, fertilizer coating"
-      },
-      "overview": {
-        "title": "Agrochemical products",
-        "description": "Agrochemical products need to perform under tough environmental conditions. Our base materials—such as mineral oils and waxes—enhance formulation stability, delivery efficiency, and surface adhesion in pesticides, fertilizers, and plant protection products."
       }
     }
   }

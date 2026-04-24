@@ -168,8 +168,7 @@ export default function Navbar() {
         { name: t('navbar.personalCare'), link: "/applications/personal-care" },
         { name: t('navbar.homeCare'), link: "/applications/home-care" },
         { name: t('navbar.textile'), link: "/applications/textile" },
-        { name: t('navbar.lubricants'), link: "/applications/lubricants" },
-        { name: t('navbar.agrochemical'), link: "/applications/agrochemical" }
+        { name: t('navbar.lubricants'), link: "/applications/lubricants" }
       ]
     },
     { name: t('navbar.globalReach'), link: "/reach", hasDropdown: false },

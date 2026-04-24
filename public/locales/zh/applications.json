@@ -12,8 +12,7 @@
     "home-care": "家庭护理",
     "textile": "纺织",
     "lubricants": "润滑剂",
-    "agrochemical": "农用化学品",
-    "bulk-chemical": "精细化工"
+    "bulk-chemical": "大宗化学品"
   },
   "sections": {
     "overview": {
@@ -41,10 +40,7 @@
       "name": "纺织行业"
     },
     "lubricants": {
-      "name": "润滑油行业"
-    },
-    "agrochemical": {
-      "name": "农用化学品"
+      "name": "润滑剂"
     }
   },
   "products": {
@@ -157,16 +153,6 @@
       "overview": {
         "title": "润滑剂行业",
         "description": "我们的材料在润滑剂配方中用作功能成分和基础油。"
-      }
-    },
-    "agrochemical": {
-      "hero": {
-        "title": "农用化学品应用",
-        "description": "农业配方的专业原料"
-      },
-      "overview": {
-        "title": "农用化学产品",
-        "description": "农用化学产品需要在恶劣的环境条件下运行，我们的材料有助于增强稳定性。"
       }
     }
   },

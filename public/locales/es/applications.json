@@ -12,7 +12,6 @@
     "home-care": "Cuidado del Hogar",
     "textile": "Textil",
     "lubricants": "Lubricantes",
-    "agrochemical": "Agroquímica",
     "bulk-chemical": "Química Industrial"
   },
   "sections": {
@@ -42,9 +41,6 @@
     },
     "lubricants": {
       "name": "Lubricantes"
-    },
-    "agrochemical": {
-      "name": "Agroquímica"
     }
   },
   "products": {
@@ -157,16 +153,6 @@
       "overview": {
         "title": "Industria de Lubricantes",
         "description": "Nuestros materiales aseguran viscosidad estable y estabilidad térmica."
-      }
-    },
-    "agrochemical": {
-      "hero": {
-        "title": "Agroquímica",
-        "description": "Ingredientes especializados para agricultura"
-      },
-      "overview": {
-        "title": "Productos Agroquímicos",
-        "description": "Nuestros materiales mejoran la estabilidad de fórmulas en ambientes duros."
       }
     }
   },

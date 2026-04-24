@@ -12,7 +12,6 @@
     "home-care": "Huishoudelijke Verzorging",
     "textile": "Textiel",
     "lubricants": "Smeermiddelen",
-    "agrochemical": "Agrochemisch",
     "bulk-chemical": "Bulkchemie"
   },
   "sections": {
@@ -42,9 +41,6 @@
     },
     "lubricants": {
       "name": "Smeermiddelen"
-    },
-    "agrochemical": {
-      "name": "Agrochemisch"
     }
   },
   "products": {
@@ -157,16 +153,6 @@
       "overview": {
         "title": "Smeermiddelenindustrie",
         "description": "Onze materialen zorgen voor stabiele viscositeit en thermische stabiliteit."
-      }
-    },
-    "agrochemical": {
-      "hero": {
-        "title": "Agrochemie",
-        "description": "Gespecialiseerde ingrediënten voor landbouwformuleringen"
-      },
-      "overview": {
-        "title": "Agrochemische Producten",
-        "description": "Verbetert de stabiliteit van producten onder moeilijke weersomstandigheden."
       }
     }
   },
