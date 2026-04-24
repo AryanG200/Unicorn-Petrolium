@@ -169,6 +169,7 @@ export default function Navbar() {
         { name: t('navbar.homeCare'), link: "/applications/home-care" },
         { name: t('navbar.textile'), link: "/applications/textile" },
         { name: t('navbar.lubricants'), link: "/applications/lubricants" },
+        { name: t('navbar.agrochemical'), link: "/applications/agrochemical" }
       ]
     },
     { name: t('navbar.globalReach'), link: "/reach", hasDropdown: false },
@@ -446,8 +447,8 @@ export default function Navbar() {
                         key={lang.code}
                         onClick={() => handleLanguageChange(lang.code)}
                         className={`px-2 py-2 rounded-lg text-xs font-semibold transition-all border ${i18n.language === lang.code
-                            ? 'bg-[#E99322] text-white border-[#E99322] shadow-md'
-                            : 'bg-white text-gray-600 border-gray-200 hover:border-[#E99322]/30 hover:bg-[#E99322]/5'
+                          ? 'bg-[#E99322] text-white border-[#E99322] shadow-md'
+                          : 'bg-white text-gray-600 border-gray-200 hover:border-[#E99322]/30 hover:bg-[#E99322]/5'
                           }`}
                       >
                         {lang.label.split(' ')[0]}

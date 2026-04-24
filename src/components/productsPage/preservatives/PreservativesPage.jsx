@@ -71,122 +71,12 @@ export default function PreservativesPage() {
   const certificationsRef = useRef(null);
   const contentWrapperRef = useRef(null);
   const contentColumnRef = useRef(null);
-  const [sidebarStyle, setSidebarStyle] = useState({ position: 'sticky', top: '140px' });
-
-  useEffect(() => {
-    
-    const updateSidebarHeight = () => {
-      if (contentColumnRef.current && sidebarColumnRef.current) {
-        
-        const contentRect = contentColumnRef.current.getBoundingClientRect();
-        const contentHeight = contentColumnRef.current.offsetHeight || contentRect.height;
-        if (contentHeight > 0) {
-          
-          sidebarColumnRef.current.style.height = `${contentHeight}px`;
-          sidebarColumnRef.current.style.minHeight = `${contentHeight}px`;
-        }
-      }
-    };
-
-    const timeoutId = setTimeout(() => {
-      updateSidebarHeight();
-      setTimeout(() => {
-        if (handleScroll) handleScroll();
-      }, 50);
-    }, 200);
-
-    updateSidebarHeight();
-    window.addEventListener('resize', updateSidebarHeight);
-
-    let resizeObserver;
-    if (contentColumnRef.current && window.ResizeObserver) {
-      resizeObserver = new ResizeObserver(() => {
-        updateSidebarHeight();
-      });
-      resizeObserver.observe(contentColumnRef.current);
-    }
-
-    const handleScroll = () => {
-      if (window.innerWidth < 1024) {
-        setSidebarStyle({ position: 'relative', top: '0px' });
-        return;
-      }
-
-      if (!sidebarRef.current || !certificationsRef.current || !contentWrapperRef.current || !sidebarColumnRef.current) {
-        return;
-      }
-
-      const sidebar = sidebarRef.current;
-      const sidebarColumn = sidebarColumnRef.current;
-      const certifications = certificationsRef.current;
-      const wrapper = contentWrapperRef.current;
-
-      const certificationsRect = certifications.getBoundingClientRect();
-      const wrapperRect = wrapper.getBoundingClientRect();
-      
-      const topOffset = 140; 
-      const sidebarHeight = sidebar.offsetHeight;
-      const sidebarColumnWidth = sidebarColumn.offsetWidth;
-      
-      const certificationsTop = certificationsRect.top + window.scrollY;
-      const wrapperTop = wrapperRect.top + window.scrollY;
-      const currentScroll = window.scrollY;
-      
-      const sidebarBottomIfSticky = currentScroll + topOffset + sidebarHeight;
-      
-      if (wrapperRect.bottom > 0 && sidebarBottomIfSticky >= certificationsTop) {
-        const maxScrollInWrapper = certificationsTop - wrapperTop - sidebarHeight - topOffset;
-        setSidebarStyle({ 
-          position: 'absolute',
-          top: `${Math.max(0, maxScrollInWrapper)}px`,
-          width: `${sidebarColumnWidth}px`,
-          left: '0px',
-          right: 'auto'
-        });
-      } else {
-        setSidebarStyle({ 
-          position: 'sticky', 
-          top: `${topOffset}px`,
-          width: `${sidebarColumnWidth}px`,
-          left: '0px',
-          right: 'auto'
-        });
-      }
-    };
-
-    let rafId = null;
-    const onScroll = () => {
-      if (window.innerWidth < 1024) {
-        return;
-      }
-      if (rafId) return;
-      rafId = requestAnimationFrame(() => {
-        handleScroll();
-        rafId = null;
-      });
-    };
-
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', handleScroll, { passive: true });
-    handleScroll(); 
-
-    return () => {
-      clearTimeout(timeoutId);
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', handleScroll);
-      window.removeEventListener('resize', updateSidebarHeight);
-      if (resizeObserver) {
-        resizeObserver.disconnect();
-      }
-      if (rafId) cancelAnimationFrame(rafId);
-    };
-  }, []);
 
   return (
     <ProductPageLayout title={data.name} subtitle={data.description} bannerImage={data.bannerImage} slider={data.slider}>
       <div ref={contentWrapperRef} className="hidden lg:grid lg:grid-cols-12 gap-8 mb-8 relative items-start">
-        <div ref={sidebarColumnRef} className="lg:col-span-3 relative self-start">
-          <div ref={sidebarRef} className="z-10 w-full" style={sidebarStyle}>
+        <div ref={sidebarColumnRef} className="lg:col-span-3 relative self-stretch">
+          <div ref={sidebarRef} className="sticky top-[140px] z-10 w-full">
             <FloatingSidebar navigationData={productsNavigationData} />
           </div>
         </div>

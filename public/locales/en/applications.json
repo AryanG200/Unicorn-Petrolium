@@ -201,66 +201,6 @@
       "overview": {
         "title": "Agrochemical products",
         "description": "Agrochemical products need to perform under tough environmental conditions. Our base materials—such as mineral oils and waxes—enhance formulation stability, delivery efficiency, and surface adhesion in pesticides, fertilizers, and plant protection products."
-      },
-      "tailoredForPharma": {
-        "heading": "Agricultural Efficacy",
-        "subheading": "Optimizing active ingredient delivery for better crop yields",
-        "features": [
-          {
-            "title": "Spray Adhesion",
-            "description": "Reduces runoff and improves spray retention on plant foliage"
-          },
-          {
-            "title": "Evaporation Control",
-            "description": "Prevents rapid drying of sprays in hot and dry climates"
-          },
-          {
-            "title": "Low Phytotoxicity",
-            "description": "High-purity oils that protect the active ingredient without harming the crop"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Key Applications",
-        "subheading": "Enhancing crop protection and soil treatment",
-        "cards": [
-          {
-            "title": "Pesticide Carrier",
-            "description": "Oils and waxes that stabilize and deliver active pesticide ingredients"
-          },
-          {
-            "title": "Fertilizer Coating",
-            "description": "Anti-caking agents that ensure free-flowing fertilizer granules"
-          },
-          {
-            "title": "Adjuvants",
-            "description": "Penetration enhancers that improve chemical intake by the plant"
-          },
-          {
-            "title": "Slow Release",
-            "description": "Wax bases for controlled delivery of herbicides and nutrients"
-          }
-        ]
-      },
-      "compliance": {
-        "title": "Crop Safety Compliance",
-        "items": [
-          "EPA regulated chemical compatibility",
-          "REACH registration",
-          "FAO quality standards",
-          "Phytotoxicity-tested grades",
-          "Non-persistent in soil"
-        ]
-      },
-      "benefits": {
-        "title": "Key Benefits",
-        "items": [
-          "Improved chemical efficiency",
-          "Reduced application frequency",
-          "Uniform spray coverage",
-          "Stable in diverse weather",
-          "Technical formulation assistance"
-        ]
       }
     }
   }

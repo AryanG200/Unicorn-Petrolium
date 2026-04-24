@@ -105,22 +105,13 @@ export default function ProductPageLayout({
     setIsSwiping(false);
     swipeStartX.current = null;
   };
-
-  const breadcrumbs = [
-    { text: "Home", link: "/" },
-    { text: "Products", link: "/products" },
-    { text: resolvedTitle }
-  ];
-
   return (
     <div className="min-h-screen bg-gray-50 overflow-x-hidden" style={{ marginTop: '-3%' }}>
-      {}
       <SliderHero
         title={title || resolvedTitle}
         subtitle={subtitle || resolvedSubtitle}
         bannerImage={bannerImage}
         slides={slider}
-        breadcrumbs={breadcrumbs}
         breadcrumbsTopClass="top-16 sm:top-20 md:top-28 lg:top-36"
         breadcrumbsNavClass="text-black font-semibold text-[10px] sm:text-xs md:text-sm lg:text-base px-2 sm:px-4 -mt-[21%] md:mt-2 lg:mt-4"
          contentPosition="bottom"

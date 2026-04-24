@@ -1,20 +1,20 @@
 export const surfactantsData = {
   name: "Surfactants",
   description: "Anionic and nonionic surfactants for cleansing and emulsification",
-  bannerImage: "/assets/BannerImages/productsPage/surfactants%201.jpg", 
-  
+  bannerImage: "/assets/BannerImages/productsPage/surfactants%201.jpg",
+
   slider: [
     {
       title: "Surfactants",
       subtitle: "Anionic and nonionic surfactants for cleansing and emulsification",
-      image: "/assets/BannerImages/productsPage/surfactants%201.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-surfactants%201.jpg"
+      image: "/assets/BannerImages/productsPage/surf1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/surf1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/surfactants%202.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-surfactants%202.jpg"
+      image: "/assets/BannerImages/productsPage/surf2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/surf2.jpg"
     }
   ],
 

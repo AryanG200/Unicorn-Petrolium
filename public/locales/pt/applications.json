@@ -167,46 +167,6 @@
       "overview": {
         "title": "Produtos Agroquímicos",
         "description": "Nossos materiais melhoram a estabilidade das fórmulas no campo."
-      },
-      "tailoredForPharma": {
-        "heading": "Eficácia Agrícola",
-        "subheading": "Otimizando a entrega de ativos para safras melhores",
-        "features": [
-          {
-            "title": "Adesão de Spray",
-            "description": "Reduz o escorrimento nas folhas"
-          },
-          {
-            "title": "Controle de Evaporação",
-            "description": "Evita secagem rápida em climas quentes"
-          },
-          {
-            "title": "Baixa Fitotoxicidade",
-            "description": "Óleos puros que protegem sem danificar a cultura"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Principais Aplicações",
-        "subheading": "Proteção de safras e tratamento de solos",
-        "cards": [
-          {
-            "title": "Veículo de Pesticidas",
-            "description": "Óleos e ceras que estabilizam ativos"
-          },
-          {
-            "title": "Revestimento Fertilizante",
-            "description": "Anti-empedrantes para grânulos"
-          },
-          {
-            "title": "Coadjuvantes",
-            "description": "Melhoram a absorção pela planta"
-          },
-          {
-            "title": "Liberação Lenta",
-            "description": "Bases de cera para entrega controlada"
-          }
-        ]
       }
     }
   },

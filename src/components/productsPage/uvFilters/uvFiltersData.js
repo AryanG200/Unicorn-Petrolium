@@ -1,20 +1,20 @@
 export const uvFiltersData = {
   name: "UV Filters",
   description: "Organic and inorganic UV filters for broad-spectrum protection",
-  bannerImage: "/assets/BannerImages/productsPage/uv%202-1.jpg", 
-  
+  bannerImage: "/assets/BannerImages/productsPage/uv%202-1.jpg",
+
   slider: [
     {
       title: "UV Filters",
       subtitle: "Organic and inorganic UV filters for broad-spectrum protection",
-      image: "/assets/BannerImages/productsPage/uv%202-1.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-uv%201.jpg"
+      image: "/assets/BannerImages/productsPage/uv1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/uv1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/uv%202.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-uv%202.jpg"
+      image: "/assets/BannerImages/productsPage/uv2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/uv2.jpg"
     }
   ],
 
@@ -93,7 +93,7 @@ export const uvFiltersData = {
       "UV filters are used to manufacture personal care products to protect our skin from detrimental ultraviolet radiation. It has the ability to prevent skin defacement caused by exposure to UVA & UVB lights by absorbing or reflecting UV Rays.",
     applicationPoints: [
       "Facial creams & moisturizers",
-      "Sunblocks & sunscreens", 
+      "Sunblocks & sunscreens",
       "Foundation beauty balms/color corrector creams and lip care products",
       "Hair care products"
     ],

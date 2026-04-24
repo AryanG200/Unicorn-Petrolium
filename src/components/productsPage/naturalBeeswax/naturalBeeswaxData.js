@@ -2,20 +2,20 @@ export const naturalBeeswaxData = {
   name: "Natural Beeswax",
   description:
     "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/beeswax%201.jpg", 
-  
+  bannerImage: "/assets/BannerImages/productsPage/beeswax%201.jpg",
+
   slider: [
     {
       title: "Natural Beeswax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/beeswax%201.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-beeswax%201.jpg"
+      image: "/assets/BannerImages/productsPage/Beeswax1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/Beeswax1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/beeswax%202.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-beeswax%202.jpg"
+      image: "/assets/BannerImages/productsPage/Beeswax2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/Beeswax2.jpg"
     }
   ],
 
@@ -61,15 +61,15 @@ export const naturalBeeswaxData = {
   },
 
   packagedResponsibly: {
-  packagingOptions: [
+    packagingOptions: [
       { icon: "/assets/Icons/ICON/Icon 4.jpg.jpeg", type: "Bags", weight: "25 kg", additionalText: "Pellet form" },
-       { icon: "box", type: "Cartons", weight: "25 kg", additionalText: "Slab form" },
-     ],
-   },
+      { icon: "box", type: "Cartons", weight: "25 kg", additionalText: "Slab form" },
+    ],
+  },
 
   keyFeatures: {
-  heading: "Key features of Beeswax from us",
-  features: [
+    heading: "Key features of Beeswax from us",
+    features: [
       {
         icon: "/assets/Icons/Property 1=Compliance.png",
         title: "Pharmacopoeial compliance",

@@ -9,11 +9,7 @@ const ApplicationPage = () => {
     "petroleum applications, pharmaceutical applications, cosmetic applications, industrial applications, personal care, home care, textile, lubricants"
   );
 
-  const breadcrumbs = [
-    { text: "Home", link: "/" },
-    { text: "Applications" }
-  ];
-  return <ComingSoon title="Applications" breadcrumbs={breadcrumbs} />;
+  return <ComingSoon title="Applications" />;
 };
 
 export default ApplicationPage;

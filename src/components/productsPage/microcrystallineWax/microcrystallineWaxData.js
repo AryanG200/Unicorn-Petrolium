@@ -2,19 +2,19 @@ export const microcrystallineWaxData = {
   name: "Microcrystalline Wax",
   description:
     "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/microcrystalline%201.jpg", 
-  
+  bannerImage: "/assets/BannerImages/productsPage/microcrystalline%201.jpg",
+
   slider: [
     {
       title: "Microcrystalline Wax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/microcrystalline%201.jpg",
+      image: "/assets/BannerImages/productsPage/microwax1.jpg",
       mobileImage: "/assets/BannerImages/MobileProductPage/M-microcrystalline%201.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/microcrystalline%202.jpg",
+      image: "/assets/BannerImages/productsPage/microwax2.jpg",
       mobileImage: "/assets/BannerImages/MobileProductPage/M-microcrystalline%202.jpg"
     }
   ],
@@ -23,8 +23,8 @@ export const microcrystallineWaxData = {
     title: "Microcrystalline wax",
     description:
       "Microcrystalline waxes are a type of wax produced by de-oiling petrolatum, as part of the petroleum refining process. It is characterised by the fineness of its crystals and is a higher molecular weight saturated aliphatic hydrocarbon. The elastic and adhesive characteristics of microcrystalline waxes are due to their branched-chain components. This wax has affinity for paraffin wax and mineral oil, due to which it is widely used in oil-based formulations in the cosmetic/pharmaceutical industry. It provides strong oil-holding performance, minimizing oil separation, thus helping formulations to remain stable and consistent throughout long-term storage. Microwax works as a reliable occlusive agent, creating a protective layer on the skin that helps lock in moisture and prevent dehydration in topical formulations. Micro waxes add structural strength and lustre to the final product.",
-    
-    
+
+
     brochureUrl: "#",
   },
 
@@ -63,7 +63,7 @@ export const microcrystallineWaxData = {
     ],
   },
 
-  
+
   keyFeatures: {
     heading: "Key features of Microcrystalline Wax from us",
     features: [

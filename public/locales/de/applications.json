@@ -167,46 +167,6 @@
       "overview": {
         "title": "Agrarchemische Produkte",
         "description": "Verbessert die Stabilität der Formulierungen unter schwierigen Bedingungen."
-      },
-      "tailoredForPharma": {
-        "heading": "Landwirtschaftliche Effizienz",
-        "subheading": "Optimierung der Wirkstoffabgabe",
-        "features": [
-          {
-            "title": "Spritzhaftung",
-            "description": "Reduziert Abfluss und verbessert die Haftung auf Blättern"
-          },
-          {
-            "title": "Verdunstungsschutz",
-            "description": "Verhindert schnelles Austrocknen in heißem Klima"
-          },
-          {
-            "title": "Niedrige Phytotoxizität",
-            "description": "Schützt den Wirkstoff, ohne die Ernte zu schädigen"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Hauptanwendungen",
-        "subheading": "Pflanzenschutz und Bodenbehandlung",
-        "cards": [
-          {
-            "title": "Pestizidträger",
-            "description": "Wachse und Öle zur Stabilisierung von Pestiziden"
-          },
-          {
-            "title": "Düngemittelüberzug",
-            "description": "Antibackmittel für frei fließendes Granulat"
-          },
-          {
-            "title": "Adjuvantien",
-            "description": "Verbessern die Aufnahme von Chemikalien durch die Pflanze"
-          },
-          {
-            "title": "Langzeitfreisetzung",
-            "description": "Wachsbasen für die kontrollierte Nährstoffabgabe"
-          }
-        ]
       }
     }
   },

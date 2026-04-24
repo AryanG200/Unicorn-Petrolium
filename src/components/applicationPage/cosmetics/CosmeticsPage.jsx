@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export default function CosmeticsPage() {
   const { t } = useTranslation('applications');
   const industryData = t('industries.cosmetics', { returnObjects: true });
-  
+
   useMetaTags(
     t('industries.cosmetics.meta.title'),
     t('industries.cosmetics.meta.description'),
@@ -73,8 +73,8 @@ export default function CosmeticsPage() {
         name: t('products.lanolin.name', 'Lanolin'),
         link: "/products/lanolin",
         description: t('products.lanolin.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/NEW IMAGES/lanolin.jpg"
+        image: "/assets/RELATED%20PROD%20IMG/Lanolin.jpg",
+        hoverImage: "/assets/RELATED%20PROD%20IMG/lanolin1.jpg"
       },
       {
         name: t('products.dPanthenol.name', 'D-Panthenol'),

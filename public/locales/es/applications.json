@@ -167,46 +167,6 @@
       "overview": {
         "title": "Productos Agroquímicos",
         "description": "Nuestros materiales mejoran la estabilidad de fórmulas en ambientes duros."
-      },
-      "tailoredForPharma": {
-        "heading": "Eficacia Agrícola",
-        "subheading": "Optimizando la entrega de activos para mejores cosechas",
-        "features": [
-          {
-            "title": "Adhesión de Spray",
-            "description": "Reduce el escurrimiento y mejora la retención en hojas"
-          },
-          {
-            "title": "Control de Evaporación",
-            "description": "Evita el secado rápido en climas cálidos"
-          },
-          {
-            "title": "Baja Fitotoxicidad",
-            "description": "Aceites puros que protegen al activo sin dañar al cultivo"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Aplicaciones Clave",
-        "subheading": "Protección de cultivos y tratamiento de suelos",
-        "cards": [
-          {
-            "title": "Vehículo de Pesticidas",
-            "description": "Aceites y ceras que estabilizan los activos"
-          },
-          {
-            "title": "Recubrimiento de Fertilizantes",
-            "description": "Antiaglomerantes para gránulos fluidos"
-          },
-          {
-            "title": "Coadyuvantes",
-            "description": "Mejoran la absorción química por la planta"
-          },
-          {
-            "title": "Liberación Lenta",
-            "description": "Bases de cera para entrega controlada"
-          }
-        ]
       }
     }
   },

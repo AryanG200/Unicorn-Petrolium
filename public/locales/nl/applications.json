@@ -167,46 +167,6 @@
       "overview": {
         "title": "Agrochemische Producten",
         "description": "Verbetert de stabiliteit van producten onder moeilijke weersomstandigheden."
-      },
-      "tailoredForPharma": {
-        "heading": "Agrarische Efficiëntie",
-        "subheading": "Optimalisatie van de levering van actieve ingrediënten",
-        "features": [
-          {
-            "title": "Huidhechting",
-            "description": "Vermindert afvloeiing en verbetert hechting op bladeren"
-          },
-          {
-            "title": "Verdampingscontrole",
-            "description": "Voorkomt uitdroging in hete klimaten"
-          },
-          {
-            "title": "Lage Phytotoxiciteit",
-            "description": "Zuivere oliën die het gewas niet schaden"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Kernapplicaties",
-        "subheading": "Gewasbescherming en bodembehandeling",
-        "cards": [
-          {
-            "title": "Bestrijdingsmiddelendrager",
-            "description": "Wassen en oliën die actieve stoffen stabiliseren"
-          },
-          {
-            "title": "Meststofcoating",
-            "description": "Anti-klontermiddelen voor vrije doorstroming"
-          },
-          {
-            "title": "Adjuvantia",
-            "description": "Verbeteren de opname door de plant"
-          },
-          {
-            "title": "Vertraagde Afgifte",
-            "description": "Wasbasissen voor gecontroleerde afgifte"
-          }
-        ]
       }
     }
   },

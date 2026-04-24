@@ -1,20 +1,20 @@
 export const paraffinWaxData = {
   name: "Hard Paraffin Wax",
   description: "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/paraffin%201.jpg", 
-  
+  bannerImage: "/assets/BannerImages/productsPage/paraffin%201.jpg",
+
   slider: [
     {
       title: "Hard Paraffin Wax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/paraffin%201.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-paraffin%201.jpg"
+      image: "/assets/BannerImages/productsPage/hpw1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/hpw1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/paraffin%202.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-paraffin%202.jpg"
+      image: "/assets/BannerImages/productsPage/hpw2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/hpw2.jpg"
     }
   ],
 
@@ -48,7 +48,7 @@ export const paraffinWaxData = {
     ],
   },
 
-  
+
   keyFeatures: {
     heading: "Key features of Hard Paraffin Wax from us",
     features: [

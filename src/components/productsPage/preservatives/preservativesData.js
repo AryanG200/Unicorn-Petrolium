@@ -1,20 +1,20 @@
 export const preservativesData = {
   name: "Preservatives",
   description: "Effective antimicrobial systems for personal care and pharma",
-  bannerImage: "/assets/BannerImages/productsPage/preseravtives%201.jpg", 
-  
+  bannerImage: "/assets/BannerImages/productsPage/preseravtives%201.jpg",
+
   slider: [
     {
       title: "Preservatives",
       subtitle: "Effective antimicrobial systems for personal care and pharma",
-      image: "/assets/BannerImages/productsPage/preseravtives%201.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-preservatives%201.jpg"
+      image: "/assets/BannerImages/productsPage/pres1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/pres1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/preservatives%202.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-preservatives%202.jpg"
+      image: "/assets/BannerImages/productsPage/pres2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/pres2.jpg"
     }
   ],
 
@@ -27,7 +27,7 @@ export const preservativesData = {
     brochureUrl: "#",
   },
 
-  
+
   preservativeProducts: {
     products: [
       {

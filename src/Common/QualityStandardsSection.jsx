@@ -96,7 +96,7 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
           `}</style>
           <Swiper
             modules={[Autoplay, Pagination]}
-            spaceBetween={20}
+            spaceBetween={10}
             slidesPerView={3}
             centeredSlides={true}
             loop={true}
@@ -119,16 +119,14 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
           >
             {certifications.map((cert, idx) => (
               <SwiperSlide key={idx}>
-                <div className="flex items-center justify-center py-4">
-                  <img 
-                    src={cert.logo} 
-                    alt={cert.code} 
-                    className="w-24 h-24 object-contain" 
-                    style={{
-                      transform: 'scale(1)',
-                      transition: 'transform 0.3s ease'
-                    }}
-                  />
+                <div className="flex items-center justify-center py-6">
+                  <div className="w-20 h-20 bg-white rounded-lg p-2 shadow-sm border border-gray-100 flex items-center justify-center">
+                    <img 
+                      src={cert.logo} 
+                      alt={cert.code} 
+                      className="max-w-full max-h-full object-contain" 
+                    />
+                  </div>
                 </div>
               </SwiperSlide>
             ))}
@@ -140,13 +138,13 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
           {certifications.map((cert, idx) => (
             <div 
               key={idx} 
-              className="text-center"
+              className="text-center group"
             >
-              <div className="w-28 h-28 sm:w-32 sm:h-32 md:w-28 md:h-28 mx-auto mb-2 sm:mb-3 flex items-center justify-center">
+              <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-2 sm:mb-3 flex items-center justify-center bg-white rounded-lg p-3 shadow-sm border border-gray-100 transition-all duration-300 group-hover:shadow-md group-hover:border-[#E99322]/30">
                 <img
                   src={cert.logo}
                   alt={cert.code}
-                  className="w-full h-full object-contain"
+                  className="max-w-full max-h-full object-contain"
                 />
               </div>
               <div className="space-y-1">

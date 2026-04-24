@@ -18,81 +18,6 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
   const sidebarColumnRef = useRef(null);
   const certificationsRef = useRef(null);
   const contentWrapperRef = useRef(null);
-  const [sidebarStyle, setSidebarStyle] = useState({ position: 'sticky', top: '140px' });
-
-  useEffect(() => {
-    const handleScroll = () => {
-      
-      if (window.innerWidth < 1024) {
-        setSidebarStyle({ position: 'relative', top: '0px' });
-        return;
-      }
-
-      if (!sidebarRef.current || !certificationsRef.current || !contentWrapperRef.current || !sidebarColumnRef.current) {
-        return;
-      }
-
-      const sidebar = sidebarRef.current;
-      const sidebarColumn = sidebarColumnRef.current;
-      const certifications = certificationsRef.current;
-      const wrapper = contentWrapperRef.current;
-
-      const certificationsTop = certifications.getBoundingClientRect().top + window.scrollY;
-      const wrapperTop = wrapper.getBoundingClientRect().top + window.scrollY;
-      const currentScroll = window.scrollY;
-      const topOffset = 140; 
-      const sidebarHeight = sidebar.offsetHeight;
-      const sidebarColumnWidth = sidebarColumn.offsetWidth;
-      
-      
-      const stopScrollPosition = certificationsTop - sidebarHeight - topOffset - 20;
-      
-      
-      if (currentScroll < stopScrollPosition) {
-        setSidebarStyle({ 
-          position: 'sticky', 
-          top: `${topOffset}px`,
-          width: `${sidebarColumnWidth}px`,
-          left: '0px',
-          right: 'auto'
-        });
-      } else {
-        
-        const maxScrollDistance = stopScrollPosition - wrapperTop;
-        setSidebarStyle({ 
-          position: 'absolute',
-          top: `${maxScrollDistance}px`,
-          width: `${sidebarColumnWidth}px`,
-          left: '0px',
-          right: 'auto'
-        });
-      }
-    };
-
-    
-    let rafId = null;
-    const onScroll = () => {
-      
-      if (window.innerWidth < 1024) {
-        return;
-      }
-      if (rafId) return;
-      rafId = requestAnimationFrame(() => {
-        handleScroll();
-        rafId = null;
-      });
-    };
-
-    window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', handleScroll, { passive: true });
-    handleScroll(); 
-
-    return () => {
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', handleScroll);
-      if (rafId) cancelAnimationFrame(rafId);
-    };
-  }, []);
 
   const products = data.relatedProducts || [];
   const [isPaused, setIsPaused] = useState(false);
@@ -103,12 +28,6 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
   const touchStartY = useRef(0);
   const isDragging = useRef(false);
   const scrollTimeoutRef = useRef(null);
-
-  const breadcrumbs = [
-    { text: t("breadcrumbs.home"), link: "/" },
-    { text: t("breadcrumbs.applications"), link: "/applications" },
-    { text: t(`breadcrumbs.${(breadcrumbsTitle || title).toLowerCase()}`, breadcrumbsTitle || title) },
-  ];
 
   
   const duplicatedProducts = [...products, ...products];
@@ -325,7 +244,6 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
         subtitle={translatedHeroDescription}
         slides={translatedSlides}
         bannerImage="/assets/BannerImages/applications%20desktop.jpg"
-        breadcrumbs={breadcrumbs}
         contentPosition="bottom"
         contentBackground="solid"
         fullWidthContent={true}
@@ -337,7 +255,7 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
       <div ref={contentWrapperRef} className="relative max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           <div ref={sidebarColumnRef} className="lg:col-span-3 relative">
-            <div ref={sidebarRef} className="self-start z-10 w-full" style={sidebarStyle}>
+            <div ref={sidebarRef} className="sticky top-[140px] self-start z-10 w-full">
               <FloatingSidebar navigationData={applicationsNavData} ns="applications" />
             </div>
           </div>
@@ -572,6 +490,3 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
     </div>
   );
 }
-
-
-

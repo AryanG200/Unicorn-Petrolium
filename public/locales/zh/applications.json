@@ -167,46 +167,6 @@
       "overview": {
         "title": "农用化学产品",
         "description": "农用化学产品需要在恶劣的环境条件下运行，我们的材料有助于增强稳定性。"
-      },
-      "tailoredForPharma": {
-        "heading": "农业功效",
-        "subheading": "优化活性成分传输，提高作物产量",
-        "features": [
-          {
-            "title": "喷雾附着力",
-            "description": "减少流失并提高喷雾在植物叶片上的附着力"
-          },
-          {
-            "title": "蒸发控制",
-            "description": "防止喷雾在炎热干燥气候下快速干燥"
-          },
-          {
-            "title": "低药害",
-            "description": "保护活性成分而不伤害作物的高纯度油类"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "核心应用",
-        "subheading": "增强作物保护和土壤处理",
-        "cards": [
-          {
-            "title": "农药载体",
-            "description": "稳定并传输农药活性成分的油和蜡"
-          },
-          {
-            "title": "肥料包衣",
-            "description": "确保化肥颗粒自由流动的防结块剂"
-          },
-          {
-            "title": "助剂",
-            "description": "提高植物对化学物质摄取量的渗透增强剂"
-          },
-          {
-            "title": "缓释技术",
-            "description": "用于除草剂和营养素受控释放的蜡基材料"
-          }
-        ]
       }
     }
   },

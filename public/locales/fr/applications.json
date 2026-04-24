@@ -167,46 +167,6 @@
       "overview": {
         "title": "Produits Agrochimiques",
         "description": "Nos matériaux améliorent la stabilité des formulations en milieu difficile."
-      },
-      "tailoredForPharma": {
-        "heading": "Efficacité Agricole",
-        "subheading": "Optimiser la délivrance des actifs pour de meilleurs rendements",
-        "features": [
-          {
-            "title": "Adhérence",
-            "description": "Réduit le lessivage et améliore la rétention sur les feuilles"
-          },
-          {
-            "title": "Contrôle Évaporation",
-            "description": "Prévient le séchage rapide en climat chaud"
-          },
-          {
-            "title": "Faible Phytotoxicité",
-            "description": "Huiles pures protégeant l'actif sans nuire à la culture"
-          }
-        ]
-      },
-      "applications": {
-        "heading": "Applications Clés",
-        "subheading": "Protection des cultures et traitement des sols",
-        "cards": [
-          {
-            "title": "Vecteur Pesticide",
-            "description": "Huiles et cires stabilisant les actifs pesticides"
-          },
-          {
-            "title": "Enrobage Engrais",
-            "description": "Agents anti-mottage pour granules fluides"
-          },
-          {
-            "title": "Adjuvants",
-            "description": "Améliorent l'absorption des produits par la plante"
-          },
-          {
-            "title": "Libération Lente",
-            "description": "Bases de cire pour une délivrance contrôlée"
-          }
-        ]
       }
     }
   },

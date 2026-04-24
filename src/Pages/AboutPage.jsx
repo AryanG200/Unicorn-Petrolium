@@ -57,19 +57,6 @@ const AboutPage = () => {
       />
 
       {}
-      <section className="py-4 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <nav className="text-sm">
-            <span className="text-gray-500">{t('breadcrumb.home')}</span>
-            <span className="mx-2 text-gray-400">&gt;</span>
-            <span className="text-gray-500">{t('breadcrumb.aboutUs')}</span>
-            <span className="mx-2 text-gray-400">&gt;</span>
-            <span className="text-[#E99322] font-medium">{t('breadcrumb.profile')}</span>
-          </nav>
-        </div>
-      </section>
-
-      {}
       <section className="py-[var(--section-padding-y)] px-4 border-b-0">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">{t('hero.title')}</h2><br className="hidden sm:block"></br><br className="hidden sm:block"></br>
@@ -398,7 +385,7 @@ const AboutPage = () => {
 
               {}
               <div className="bg-white rounded-2xl border-[1.5px] border-[#EDA94E] text-center overflow-hidden">
-                <div className="w-full">
+                <div className="w-full border-b border-[#EDA94E]">
                   <img
                     src="/assets/about/packaging (1).jpg"
                     alt="Flexible packaging options"

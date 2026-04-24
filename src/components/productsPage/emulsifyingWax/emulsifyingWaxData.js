@@ -1,20 +1,20 @@
 export const emulsifyingWaxData = {
   name: "Emulsifying Wax",
   description: "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/emulsifying%201.jpg", 
-  
+  bannerImage: "/assets/BannerImages/productsPage/emulsifying%201.jpg",
+
   slider: [
     {
       title: "Emulsifying Wax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/emulsifying%201.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-emulsifying%201.jpg"
+      image: "/assets/BannerImages/productsPage/EW1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/EW1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/emulsifying%202.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-emulsifying%202.jpg"
+      image: "/assets/BannerImages/productsPage/EW2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/EW2.jpg"
     }
   ],
 
@@ -51,11 +51,11 @@ export const emulsifyingWaxData = {
   packagedResponsibly: {
     packagingOptions: [
       { icon: "bag", type: "Bags", weight: "20 kg / 25 kg", additionalText: "Pastilles / Flakes form" },
-      
+
     ],
   },
 
-  
+
   emulsifyingWaxBlends: {
     heading: "We offer the following blends of Self-emulsifying wax",
     tableData: [
@@ -65,7 +65,7 @@ export const emulsifyingWaxData = {
     ],
   },
 
-  
+
   keyFeatures: {
     heading: "Key features of Emulsifying Wax from us",
     features: [
