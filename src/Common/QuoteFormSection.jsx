@@ -33,9 +33,10 @@ export default function QuoteFormSection({ mode = "quote", title }) {
     setErrorMessage("");
 
     try {
-      const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:3001";
+      const backendUrl = import.meta.env.VITE_BACKEND_URL || "";
+      const endpoint = backendUrl ? `${backendUrl}/api/contact` : "/api/contact";
 
-      const response = await fetch(`${backendUrl}/api/contact`, {
+      const response = await fetch(endpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

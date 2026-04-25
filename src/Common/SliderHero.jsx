@@ -129,11 +129,12 @@ export default function SliderHero({
   const isBottomPosition = contentPosition === "bottom";
   const isTopLeftPosition = contentPosition === "top-left";
 
+  // ✅ REDUCED OPACITY: white/40 → white/20, via-white/50 → via-white/20
   const contentBgClass =
     contentBackground === "solid"
       ? fullWidthContent
-        ? "bg-gradient-to-r from-white/0 via-white/50 to-white/0 w-[100%] md:w-[90%] lg:w-[80%] xl:w-[70%] mx-auto py-3 sm:py-4 md:py-5 lg:py-6 rounded-none"
-        : "bg-white/40 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 lg:px-10 lg:py-6 shadow-xl"
+        ? "bg-gradient-to-r from-white/0 via-white/20 to-white/0 w-[100%] md:w-[90%] lg:w-[80%] xl:w-[70%] mx-auto py-3 sm:py-4 md:py-5 lg:py-6 rounded-none"
+        : "bg-white/20 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 lg:px-10 lg:py-6 shadow-xl"
       : contentBackground === "none"
         ? ""
         : "bg-white/5 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 shadow-md border-[1.5px] border-[#EDA94E]";
@@ -149,9 +150,9 @@ export default function SliderHero({
     >
 
       <div className="relative w-full h-full">
-        { }
+        {/* Background image layer */}
         <div className="absolute inset-0 z-0 transition-opacity duration-500 bg-gray-200">
-          { }
+          {/* Desktop image */}
           <div
             className="hidden md:block absolute inset-0 transition-opacity duration-500"
             style={{
@@ -162,7 +163,7 @@ export default function SliderHero({
               opacity: isSliding ? 0.7 : 1,
             }}
           />
-          { }
+          {/* Mobile image */}
           <div
             className="md:hidden absolute inset-0 transition-opacity duration-500"
             style={{
@@ -173,14 +174,13 @@ export default function SliderHero({
               opacity: isSliding ? 0.7 : 1,
             }}
           />
-          { }
+          {/* Overlay */}
           {((currentSlideData.title && currentSlideData.title.trim() !== "") || (currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "")) && (
             <div className="absolute inset-0 bg-transparent pointer-events-none z-10" />
           )}
-
         </div>
 
-        { }
+        {/* Prev / Next buttons */}
         {hasMultipleSlides && totalSlides > 1 && (
           <>
             <button
@@ -203,7 +203,7 @@ export default function SliderHero({
           </>
         )}
 
-        { }
+        {/* Dot indicators */}
         {hasMultipleSlides && totalSlides > 1 && (
           <div className="absolute bottom-4 sm:bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2 sm:gap-3">
             {slides.map((_, index) => (
@@ -220,7 +220,7 @@ export default function SliderHero({
           </div>
         )}
 
-        { }
+        {/* Content overlay */}
         {((currentSlideData.title && currentSlideData.title.trim() !== "") || (currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "")) && (
           <div
             className={`relative z-20 flex h-full ${isTopLeftPosition ? "justify-center items-center md:justify-start md:items-start pt-20 sm:pt-24 md:pt-0 md:pl-0" :
@@ -236,7 +236,6 @@ export default function SliderHero({
                   } ${isTopLeftPosition ? "md:ml-[-8px] mx-auto md:mx-0" : "mx-auto"} ${isTopLeftPosition ? "px-4 md:pl-0 md:pr-5" : "px-5 sm:px-7"} w-full`
               }
             >
-              { }
               <div className={`${contentBgClass} animate-fade-in`}>
                 <div className={fullWidthContent ? "max-w-5xl mx-auto px-4 sm:px-8" : ""}>
                   {(currentSlideData.title && currentSlideData.title.trim() !== "") && (
@@ -255,7 +254,6 @@ export default function SliderHero({
                       {currentSlideData.subtitle}
                     </p>
                   )}
-
 
                   {((currentSlideData.title && currentSlideData.title.trim() !== "") && (primaryButton || secondaryButton)) && (
                     <div className={`flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center ${isTopLeftPosition ? 'md:justify-start' : ''}`}>
@@ -290,7 +288,7 @@ export default function SliderHero({
           </div>
         )}
 
-        { }
+        {/* Breadcrumbs */}
         {breadcrumbs && (
           <div className={`absolute ${breadcrumbsTopClass} left-1/2 -translate-x-1/2 z-20 breadcrumbs-container`}>
             <nav className={`${breadcrumbsNavClass}`}>
@@ -315,7 +313,6 @@ export default function SliderHero({
         )}
       </div>
 
-      { }
       <style jsx>{`
         @keyframes fade-in {
           from {
@@ -334,4 +331,3 @@ export default function SliderHero({
     </div>
   );
 }
-

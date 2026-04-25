@@ -1,17 +1,24 @@
-import express from "express";
-import cors from "cors";
 import nodemailer from "nodemailer";
-import dotenv from "dotenv";
 
-dotenv.config();
+export default async function handler(req, res) {
+  // Add CORS headers for flexibility, though usually not needed for same-domain
+  res.setHeader('Access-Control-Allow-Credentials', true);
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
+  res.setHeader(
+    'Access-Control-Allow-Headers',
+    'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version'
+  );
 
-const app = express();
-const PORT = process.env.PORT || 3001;
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
 
-app.use(cors());
-app.use(express.json());
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: "Method not allowed" });
+  }
 
-app.post("/api/contact", async (req, res) => {
   const {
     fullName,
     companyName,
@@ -37,20 +44,12 @@ app.post("/api/contact", async (req, res) => {
       CONTACT_TO_EMAIL
     } = process.env;
 
+    // If SMTP settings are missing, we can't send email but we can log for debugging
     if (!SMTP_HOST || !SMTP_PORT || !SMTP_USER || !SMTP_PASS || !CONTACT_TO_EMAIL) {
-      console.warn("⚠️ SMTP settings are missing. Message details logged to console instead of sending email.");
-      console.log("--- Contact Form Submission ---");
-      console.log(`Type: ${formType}`);
-      console.log(`Name: ${fullName}`);
-      console.log(`Email: ${email}`);
-      console.log(`Company: ${companyName}`);
-      console.log(`Subject: ${subject}`);
-      console.log(`Message: ${message}`);
-      console.log("-------------------------------");
-      
-      return res.json({ 
-        success: true, 
-        message: "Message received (Development Mode: logged to console)" 
+      console.warn("⚠️ SMTP settings are missing in Vercel Environment Variables.");
+      return res.status(500).json({ 
+        success: false, 
+        error: "Server configuration error: SMTP settings missing." 
       });
     }
 
@@ -85,7 +84,7 @@ Message:
 ${message}
 
 ---
-This email was sent from the Unicorn Petroleum website contact form.
+This email was sent from the Unicorn Petroleum website contact form via Vercel Serverless.
 Timestamp: ${new Date().toLocaleString()}
       `.trim()
     };
@@ -97,16 +96,7 @@ Timestamp: ${new Date().toLocaleString()}
     console.error("Error sending contact email:", err);
     return res.status(500).json({
       success: false,
-      error: "Failed to send email from server. Check SMTP settings and try again."
+      error: "Failed to send email. Check SMTP settings and try again."
     });
   }
-});
-
-app.get("/api/health", (_req, res) => {
-  res.json({ status: "ok" });
-});
-
-app.listen(PORT, () => {
-  console.log(`Contact form server running on http://localhost:${PORT}`);
-});
-
+}
