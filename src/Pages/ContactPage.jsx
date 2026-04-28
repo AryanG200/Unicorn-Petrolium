@@ -73,14 +73,16 @@ const ContactPage = () => {
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="text-xs font-bold text-[#E99322] uppercase tracking-wider mb-1">{t('factoryAddresses')}</p>
-                    <div className="text-sm leading-relaxed text-gray-800 space-y-2">
+                    <div className="text-sm leading-relaxed text-gray-800 space-y-4">
                       <p>
                         <Trans t={t} i18nKey="factory1">
                           <span className="underline">Unicorn Petroleum Industries Pvt. Ltd.</span>, 10, Vaibhav Industrial Estate, Sion - Trombay Road, Deonar, Mumbai - 400088, MH, India.
                         </Trans>
                       </p>
                       <p>
-                        {t('factory2')}
+                        <Trans t={t} i18nKey="factory2">
+                          <span className="underline">Eastern Petroleum Pvt. Ltd.</span>, 235-239 Jawahar Industrial Estate, Kamothe, Panvel, Dist. Raigad, Maharashtra 410209, India.
+                        </Trans>
                       </p>
                     </div>
                   </div>
@@ -145,13 +147,17 @@ const ContactPage = () => {
                     </div>
                     <p className="text-sm font-semibold text-[#E99322] leading-relaxed">{t('factoryAddresses')}</p>
                   </div>
-                  <div className="text-sm leading-relaxed break-words text-gray-800 space-y-1">
+                  <div className="text-sm leading-relaxed break-words text-gray-800 space-y-4">
                     <p>
                       <Trans t={t} i18nKey="factory1">
                         <span className="underline">Unicorn Petroleum Industries Pvt. Ltd.</span>, 10, Vaibhav Industrial Estate, Sion - Trombay Road, Deonar, Mumbai - 400088, MH, India.
                       </Trans>
                     </p>
-                    <p>{t('factory2')}</p>
+                    <p>
+                      <Trans t={t} i18nKey="factory2">
+                        <span className="underline">Eastern Petroleum Pvt. Ltd.</span>, 235-239 Jawahar Industrial Estate, Kamothe, Panvel, Dist. Raigad, Maharashtra 410209, India.
+                      </Trans>
+                    </p>
                   </div>
 
                   <div className="grid grid-cols-[24px_1fr] gap-x-3 items-start text-right w-full">
