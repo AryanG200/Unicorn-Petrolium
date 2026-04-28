@@ -21,22 +21,26 @@ export default function BlogPageIndex() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col relative animate-in fade-in duration-700">
       <BannerWithNavigation
-        title={t("hero.title")}
-        subtitle={t("hero.subtitle")}
+        bannerImage="/assets/BannerImages/blognew.jpeg"
+        backgroundPosition="center"
+        backgroundSize="cover"
+        backgroundColor="#ffffff"
+        showOverlay={false}
+        heightClass="h-[400px] sm:h-[500px] md:h-[550px]"
       />
-      
+
       <div className="flex-grow max-w-7xl mx-auto px-4 py-16 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogPosts.map((post, index) => (
-            <article 
-              key={post.id} 
+            <article
+              key={post.id}
               className="bg-white rounded-2xl border-[1.5px] border-[#EDA94E] overflow-hidden hover:shadow-xl transition-all duration-500 flex flex-col h-full animate-in slide-in-from-bottom-8 fade-in fill-mode-both"
               style={{ animationDelay: `${index * 150}ms`, animationDuration: '700ms' }}
             >
               <Link to={`/blog/${post.id}`} className="relative h-48 overflow-hidden shrink-0 block group">
-                <img 
-                  src={post.image} 
-                  alt={post.title} 
+                <img
+                  src={post.image}
+                  alt={post.title}
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                   onError={(e) => {
                     e.target.src = "/assets/hero-bg-home.jpg";
@@ -54,8 +58,8 @@ export default function BlogPageIndex() {
                 <p className="text-gray-700 text-base mb-4 flex-grow">
                   {post.excerpt}
                 </p>
-                <Link 
-                  to={`/blog/${post.id}`} 
+                <Link
+                  to={`/blog/${post.id}`}
                   className="inline-flex items-center gap-1 text-[#E99322] font-semibold group/link text-left mt-auto hover:text-[#c47719] transition-colors w-fit"
                 >
                   {t("ui.readMore")}

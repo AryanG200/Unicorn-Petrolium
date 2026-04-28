@@ -9,7 +9,7 @@ export default function Footer() {
     <>
       {}
       <div className="text-center">
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-600 pb-6 sm:pb-8 md:pb-10 px-4">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-600 py-3 sm:py-4 md:py-5 px-4">
             {t('home.statement.text')}
           </p>
         </div>
@@ -65,14 +65,6 @@ export default function Footer() {
                     className="text-gray-600 hover:text-[#E99322] transition-colors"
                   >
                     {t('navbar.applications')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/reach"
-                    className="text-gray-600 hover:text-[#E99322] transition-colors"
-                  >
-                    {t('navbar.globalReach')}
                   </Link>
                 </li>
                 <li>

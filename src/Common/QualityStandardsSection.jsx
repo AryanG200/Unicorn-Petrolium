@@ -9,53 +9,64 @@ import 'swiper/css/effect-fade';
 
 export default function QualityStandardsSection({ title, subtitle, showLink = false }) {
   const { t } = useTranslation();
-  
+
   const certifications = [
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 449.png", 
+      logo: "/assets/Quality Standards Certificates/Frame 449.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 450.png", 
+      logo: "/assets/Quality Standards Certificates/Frame 450.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 451.png", 
+      logo: "/assets/Quality Standards Certificates/Frame 451.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/ISO 140012015.jpg.jpeg",
+      logo: "/assets/Quality Standards Certificates/isonew14001.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/ISO LOGO.jpg.jpeg",
+      logo: "/assets/Quality Standards Certificates/iso450001new.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 452.png", 
+      logo: "/assets/Quality Standards Certificates/Frame 452.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 453.png", 
+      logo: "/assets/Quality Standards Certificates/Frame 453.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 454.png", 
+      logo: "/assets/Quality Standards Certificates/Frame 454.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 455.png", 
+      logo: "/assets/Quality Standards Certificates/Frame 455.png",
     },
+
+    {
+      code: "",
+      full: "",
+      logo: "/assets/Quality Standards Certificates/chemexcil.png",
+    },
+    {
+      code: "",
+      full: "",
+      logo: "/assets/Quality Standards Certificates/ecovadis.png",
+    }
   ];
 
   return (
@@ -70,7 +81,7 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
           )}
         </div>
 
-        {}
+        { }
         <div className="block md:hidden">
           <style jsx>{`
             .certifications-swiper .swiper-pagination {
@@ -121,10 +132,10 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
               <SwiperSlide key={idx}>
                 <div className="flex items-center justify-center py-6">
                   <div className="w-20 h-20 bg-white rounded-lg p-2 shadow-sm border border-gray-100 flex items-center justify-center">
-                    <img 
-                      src={cert.logo} 
-                      alt={cert.code} 
-                      className="max-w-full max-h-full object-contain" 
+                    <img
+                      src={cert.logo}
+                      alt={cert.code}
+                      className="max-w-full max-h-full object-contain"
                     />
                   </div>
                 </div>
@@ -133,31 +144,37 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
           </Swiper>
         </div>
 
-        {}
-        <div className="hidden md:grid md:grid-cols-4 lg:grid-cols-9 gap-4 md:gap-6 mb-6 md:mb-8 w-fit mx-auto justify-items-center">
-          {certifications.map((cert, idx) => (
-            <div 
-              key={idx} 
-              className="text-center group"
-            >
-              <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-2 sm:mb-3 flex items-center justify-center bg-white rounded-lg p-3 shadow-sm border border-gray-100 transition-all duration-300 group-hover:shadow-md group-hover:border-[#E99322]/30">
-                <img
-                  src={cert.logo}
-                  alt={cert.code}
-                  className="max-w-full max-h-full object-contain"
-                />
+        { }
+        <div className="hidden md:flex flex-col items-center justify-center gap-4 md:gap-6 mb-6 md:mb-8 max-w-6xl mx-auto">
+          {/* Row 1: 6 items */}
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
+            {certifications.slice(0, 6).map((cert, idx) => (
+              <div key={idx} className="text-center group">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-2 sm:mb-3 flex items-center justify-center bg-white rounded-lg p-3 shadow-sm border border-gray-100 transition-all duration-300 group-hover:shadow-md group-hover:border-[#E99322]/30">
+                  <img src={cert.logo} alt={cert.code} className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="space-y-1">
+                  {cert.code && <p className="text-xs sm:text-sm text-gray-800 font-semibold leading-tight">{cert.code}</p>}
+                  {cert.full && <p className="text-xs text-gray-600 whitespace-pre-line leading-tight">{cert.full}</p>}
+                </div>
               </div>
-              <div className="space-y-1">
-                {}
-                {cert.code && (
-                  <p className="text-xs sm:text-sm text-gray-800 font-semibold leading-tight">{cert.code}</p>
-                )}
-                {cert.full && (
-                  <p className="text-xs text-gray-600 whitespace-pre-line leading-tight">{cert.full}</p>
-                )}
+            ))}
+          </div>
+
+          {/* Row 2: 5 items */}
+          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6">
+            {certifications.slice(6).map((cert, idx) => (
+              <div key={idx} className="text-center group">
+                <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-2 sm:mb-3 flex items-center justify-center bg-white rounded-lg p-3 shadow-sm border border-gray-100 transition-all duration-300 group-hover:shadow-md group-hover:border-[#E99322]/30">
+                  <img src={cert.logo} alt={cert.code} className="max-w-full max-h-full object-contain" />
+                </div>
+                <div className="space-y-1">
+                  {cert.code && <p className="text-xs sm:text-sm text-gray-800 font-semibold leading-tight">{cert.code}</p>}
+                  {cert.full && <p className="text-xs text-gray-600 whitespace-pre-line leading-tight">{cert.full}</p>}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {showLink && (

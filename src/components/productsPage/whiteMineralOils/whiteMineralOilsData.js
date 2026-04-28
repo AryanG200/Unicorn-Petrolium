@@ -9,13 +9,19 @@ export const whiteMineralOilsData = {
       title: "White Mineral Oil",
       subtitle: "Purity for every application",
       image: "/assets/BannerImages/productsPage/wmo1.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/wmo1.jpg"
+      mobileImage: "/assets/BannerImages/productsPage/wmo1.jpg",
+      bgSize: "contain",
+      bgPosition: "center 85%",
+      bgColor: "#F8F8F8"
     },
     {
       title: "",
       subtitle: "",
       image: "/assets/BannerImages/productsPage/wmo2.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/wmo2.jpg"
+      mobileImage: "/assets/BannerImages/productsPage/wmo2.jpg",
+      bgSize: "contain",
+      bgPosition: "center 85%",
+      bgColor: "#F8F8F8"
     }
   ],
 
@@ -69,7 +75,7 @@ export const whiteMineralOilsData = {
     packagingOptions: [
       { icon: "/assets/Icons/ICON/Icon 1.jpg.jpeg", type: "HDPE drums", weight: "" },
       { icon: "/assets/Icons/ICON/Icon 1.jpg.jpeg", type: "MS drums", weight: "" },
-      { icon: "/assets/Icons/ICON/Icon 5.jpg.jpeg", type: "Flexibag", weight: "" },
+      { icon: "/assets/Icons/icon 64 x 64 jpg-2.jpg.jpeg", type: "Flexibag", weight: "" },
       { icon: "/assets/Icons/ICON/Icon 3.jpg.jpeg", type: "IBC", weight: "" },
     ],
   },

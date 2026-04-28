@@ -4,7 +4,6 @@ import HomeIndex from "../components/Home/HomeIndex";
 import AboutPage from "../Pages/AboutPage";
 import ProductPage from "../Pages/ProductPage";
 import ApplicationPage from "../Pages/ApplicationPage";
-import ReachPage from "../Pages/ReachPage";
 import ContactPage from "../Pages/ContactPage";
 import NotFoundPage from "../Pages/NotFoundPage";
 import BlogPage from "../Pages/BlogPage";
@@ -73,7 +72,6 @@ const router = createBrowserRouter([
       { path: "/applications/personal-care", element: <PersonalCarePage /> },
       { path: "/applications/textile", element: <TextilePage /> },
       { path: "/applications/lubricants", element: <LubricantsPage /> },
-      { path: "/reach", element: <ReachPage /> },
       { path: "/blog", element: <BlogPage /> },
       { path: "/blog/:id", element: <SingleBlogPage /> },
       { path: "/events", element: <EventsPage /> },

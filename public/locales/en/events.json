@@ -9,7 +9,7 @@
     "u1": {
       "title": "ChemExpo India",
       "date": "April 2026",
-      "location": "Bombay Exhibition Centre (BEC), Halls 2, 3 & 6, Goregaon East, Mumbai.",
+      "location": "Bombay Exhibition Centre (BEC), Mumbai.",
       "booth": "Hall 6 - 6G15",
       "tag": "APRIL 2026"
     },
@@ -65,26 +65,26 @@
     "u9": {
       "title": "GLOBAL CHEM EXPO",
       "date": "December 2026",
-      "location": "Bombay Exhibition Centre (NESCO) in Mumbai, India.",
+      "location": "Bombay Exhibition Centre, Mumbai, India.",
       "booth": "",
       "tag": "DECEMBER 2026"
     },
     "p32": {
       "title": "GLOBAL CHEM EXPO",
       "date": "18th - 19th December 2025",
-      "location": "Bombay Exhibition Centre (NESCO) in Mumbai, India",
+      "location": "Bombay Exhibition Centre in Mumbai",
       "booth": "D 11"
     },
     "p30": {
       "title": "CPHI India",
       "date": "25th - 27th November 2025",
-      "location": "India Expo Centre & Mart (IEML) in Greater Noida, Delhi NCR",
+      "location": "IEML in Greater Noida, Delhi NCR",
       "booth": "8.Q37 - Hall 8"
     },
     "p31": {
       "title": "IN-COSMETICS ASIA",
       "date": "4th - 6th November 2025",
-      "location": "Bangkok International Trade & Exhibition Centre (BITEC) in Bangkok, Thailand.",
+      "location": "BITEC in Bangkok, Thailand.",
       "booth": "G71"
     },
     "p29": {
@@ -108,13 +108,13 @@
     "p26": {
       "title": "NYSCC Suppliers' Day",
       "date": "3 – 4 June 2025",
-      "location": "Jacob K. Javits Convention Center, New York, NY",
+      "location": "Jacob K. Javits Convention Center, New York",
       "booth": "1473 - Level 3"
     },
     "p24": {
       "title": "ChemExpo India",
       "date": "29 – 30 April 2025",
-      "location": "Bombay Exhibition Centre (BEC), Halls 2, 3 & 6, Goregaon East, Mumbai.",
+      "location": "Bombay Exhibition Centre (BEC), Mumbai.",
       "booth": "6D09 - Hall 6"
     },
     "p25": {
@@ -138,13 +138,13 @@
     "p17": {
       "title": "NYSCC Suppliers' Day",
       "date": "1 – 2 May 2024",
-      "location": "Jacob K. Javits Convention Center, New York City, NY",
+      "location": "Jacob K. Javits Convention Center, New York",
       "booth": "461"
     },
     "p18": {
       "title": "FCE PHARMA - BRAZIL",
       "date": "4 – 6 June 2024",
-      "location": "Sao Paulo Expo Exhibition & Convention Center, Sao Paulo, Brazil",
+      "location": "Sao Paulo Expo Center, Brazil",
       "booth": "157"
     },
     "p19": {
@@ -162,7 +162,7 @@
     "p21": {
       "title": "In-cosmetics Asia 2024",
       "date": "5 – 7 November 2024",
-      "location": "International Trade & Exhibition Centre (BITEC), Bangkok, Thailand",
+      "location": "BITEC, Bangkok, Thailand",
       "booth": "G80"
     },
     "p22": {
@@ -210,13 +210,13 @@
     "p12": {
       "title": "In-Cosmetics Asia Bangkok",
       "date": "7 – 9 November 2023",
-      "location": "Bangkok International Trade & Exhibition Centre (BITEC)",
+      "location": "BITEC, Bangkok, Thailand",
       "booth": "R80"
     },
     "p13": {
-      "title": "Cosmohome tech",
-      "date": "",
-      "location": "",
+      "title": "Cosmohome Tech Expo",
+      "date": "19-21 July 2023",
+      "location": "Pragati Maidan, New Delhi",
       "booth": "4-F6C"
     },
     "p14": {

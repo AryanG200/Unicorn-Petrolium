@@ -71,9 +71,6 @@ const NotFoundPage = () => {
               <Link to="/quality" className="text-[#E99322] hover:text-[#E99322]/80 transition-colors">
                 Quality Standards
               </Link>
-              <Link to="/reach" className="text-[#E99322] hover:text-[#E99322]/80 transition-colors">
-                Our Reach
-              </Link>
             </div>
           </div>
         </div>

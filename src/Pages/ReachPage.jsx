@@ -15,10 +15,7 @@ const ReachPage = () => {
   const desktopCounterRef = useRef(null);
   const mobileCounterRef = useRef(null);
 
-  const breadcrumbs = [
-    { text: "Home", link: "/" }, 
-    { text: t('title') }
-  ];
+
 
   useEffect(() => {
     if (isVisible) return; 
@@ -123,26 +120,7 @@ const ReachPage = () => {
         </div>
 
         {}
-        <div className="absolute top-24 sm:top-28 md:top-28 lg:top-32 left-1/2 -translate-x-1/2 z-20 w-[90%] max-w-7xl">
-          <nav className="text-black font-semibold text-[10px] sm:text-xs md:text-sm lg:text-lg bg-white/40 backdrop-blur-md px-3 py-1.5 rounded-full inline-block mx-auto flex justify-center items-center overflow-x-auto scrollbar-hide whitespace-nowrap shadow-sm">
-            <ol className="flex items-center space-x-1 sm:space-x-2 px-1">
-              {breadcrumbs.map((crumb, index) => (
-                <React.Fragment key={index}>
-                  <li className="flex-shrink-0">
-                    {crumb.link ? (
-                      <a href={crumb.link} className="hover:text-[#E99322] transition-colors">
-                        {crumb.text}
-                      </a>
-                    ) : (
-                      <span className="text-gray-900">{crumb.text}</span>
-                    )}
-                  </li>
-                  {index < breadcrumbs.length - 1 && <li className="text-gray-400">›</li>}
-                </React.Fragment>
-              ))}
-            </ol>
-          </nav>
-        </div>
+
 
         {}
         <div className="hidden md:block absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-full max-w-4xl px-4 z-10 pointer-events-none">

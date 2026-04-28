@@ -171,7 +171,6 @@ export default function Navbar() {
         { name: t('navbar.lubricants'), link: "/applications/lubricants" }
       ]
     },
-    { name: t('navbar.globalReach'), link: "/reach", hasDropdown: false },
     { name: t('navbar.blog'), link: "/blog", hasDropdown: false },
     { name: t('navbar.events'), link: "/events", hasDropdown: false },
     { name: t('navbar.contactUs'), link: "/contact", hasDropdown: false }

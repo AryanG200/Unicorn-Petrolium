@@ -6,19 +6,30 @@ export default function BannerWithNavigation({
   title,
   subtitle,
   bannerImage = "/assets/hero-bg-home.jpg",
-  breadcrumbs
+  breadcrumbs,
+  backgroundPosition = "center",
+  backgroundSize = "cover",
+  heightClass = "h-[400px] sm:h-[500px] md:h-[550px] md:-mt-16",
+  style = {},
+  backgroundColor = "transparent",
+  showOverlay = true
 }) {
   return (
-    <div className="relative w-full h-[400px] sm:h-[500px] md:h-[550px] overflow-hidden md:-mt-16 pt-4 md:pt-8">
+    <div 
+      className={`relative w-full ${heightClass} overflow-hidden pt-4 md:pt-8`}
+      style={style}
+    >
       <div
         className="absolute inset-0"
         style={{
           backgroundImage: `url(${bannerImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundSize: backgroundSize,
+          backgroundPosition: backgroundPosition,
+          backgroundRepeat: "no-repeat",
+          backgroundColor: backgroundColor,
         }}
       />
-      <div className="absolute inset-0 bg-white/25" />
+      {showOverlay && <div className="absolute inset-0 bg-white/25" />}
 
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="text-center text-black max-w-4xl mx-auto px-4">

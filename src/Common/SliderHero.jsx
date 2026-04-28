@@ -133,11 +133,11 @@ export default function SliderHero({
   const contentBgClass =
     contentBackground === "solid"
       ? fullWidthContent
-        ? "bg-gradient-to-r from-white/0 via-white/20 to-white/0 w-[100%] md:w-[90%] lg:w-[80%] xl:w-[70%] mx-auto py-3 sm:py-4 md:py-5 lg:py-6 rounded-none"
+        ? "bg-gradient-to-r from-white/0 via-white/70 to-white/0 w-[100%] md:w-[90%] lg:w-[80%] xl:w-[70%] mx-auto py-3 sm:py-4 md:py-5 lg:py-6 rounded-none"
         : "bg-white/20 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 lg:px-10 lg:py-6 shadow-xl"
       : contentBackground === "none"
         ? ""
-        : "bg-white/5 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 shadow-md border-[1.5px] border-[#EDA94E]";
+        : "bg-white/5 backdrop-blur-sm rounded-2xl px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 lg:px-12 lg:py-6 shadow-md border-[1.5px] border-[#EDA94E]";
 
   return (
     <div
@@ -157,9 +157,10 @@ export default function SliderHero({
             className="hidden md:block absolute inset-0 transition-opacity duration-500"
             style={{
               backgroundImage: `url(${currentSlideData.image || bannerImage || "/assets/hero-bg-home.jpg"})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundColor: "#e5e7eb",
+              backgroundSize: currentSlideData.bgSize || "cover",
+              backgroundPosition: currentSlideData.bgPosition || "center",
+              backgroundRepeat: currentSlideData.bgRepeat || "no-repeat",
+              backgroundColor: currentSlideData.bgColor || "#e5e7eb",
               opacity: isSliding ? 0.7 : 1,
             }}
           />
@@ -168,9 +169,10 @@ export default function SliderHero({
             className="md:hidden absolute inset-0 transition-opacity duration-500"
             style={{
               backgroundImage: `url(${currentSlideData.mobileImage || currentSlideData.image || bannerImage || "/assets/hero-bg-home.jpg"})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundColor: "#e5e7eb",
+              backgroundSize: currentSlideData.mobileBgSize || currentSlideData.bgSize || "cover",
+              backgroundPosition: currentSlideData.mobileBgPosition || currentSlideData.bgPosition || "center",
+              backgroundRepeat: currentSlideData.mobileBgRepeat || currentSlideData.bgRepeat || "no-repeat",
+              backgroundColor: currentSlideData.mobileBgColor || currentSlideData.bgColor || "#e5e7eb",
               opacity: isSliding ? 0.7 : 1,
             }}
           />
@@ -236,12 +238,17 @@ export default function SliderHero({
                   } ${isTopLeftPosition ? "md:ml-[-8px] mx-auto md:mx-0" : "mx-auto"} ${isTopLeftPosition ? "px-4 md:pl-0 md:pr-5" : "px-5 sm:px-7"} w-full`
               }
             >
-              <div className={`${contentBgClass} animate-fade-in`}>
+              <div className={`${contentBgClass} animate-fade-in ${isTopLeftPosition ? 'slant-cut' : ''} relative`}>
+                {isTopLeftPosition && (
+                  <svg className="absolute inset-0 w-full h-full pointer-events-none z-30 hidden md:block" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <polyline points="0,100 85,100 100,0" fill="none" stroke="#EDA94E" strokeWidth="1.5" vectorEffect="non-scaling-stroke" />
+                  </svg>
+                )}
                 <div className={fullWidthContent ? "max-w-5xl mx-auto px-4 sm:px-8" : ""}>
                   {(currentSlideData.title && currentSlideData.title.trim() !== "") && (
                     <h1
-                      className={`${(primaryButton || secondaryButton) ? 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-6 leading-tight text-center md:text-left' : 'text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-2 sm:mb-3 md:mb-4 tracking-tight text-center'} font-bold animate-fade-in`}
-                      style={{ opacity: isSliding ? 0 : 1 }}
+                      className={`${(primaryButton || secondaryButton) ? 'text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6 leading-tight text-center md:text-left' : 'text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-2 sm:mb-3 md:mb-4 tracking-tight text-center'} font-bold animate-fade-in text-black`}
+                      style={{ opacity: isSliding ? 0 : 1, textShadow: "0 0 10px rgba(255,255,255,0.5)" }}
                     >
                       {currentSlideData.title}
                     </h1>
@@ -249,7 +256,7 @@ export default function SliderHero({
                   {(currentSlideData.subtitle && currentSlideData.subtitle.trim() !== "") && (
                     <p
                       className={`${(primaryButton || secondaryButton) ? 'text-sm sm:text-base md:text-lg lg:text-xl mb-8 max-w-3xl text-center md:text-left' : 'text-base sm:text-lg md:text-xl lg:text-2xl font-medium text-center'} text-black animate-fade-in`}
-                      style={{ opacity: isSliding ? 0 : 1 }}
+                      style={{ opacity: isSliding ? 0 : 1, textShadow: "0 0 5px rgba(255,255,255,0.5)" }}
                     >
                       {currentSlideData.subtitle}
                     </p>
@@ -260,18 +267,18 @@ export default function SliderHero({
                       {primaryButton && (
                         <Link
                           to={primaryButtonLink || "/products"}
-                          className="text-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-full font-medium text-sm sm:text-base md:text-lg hover:opacity-90 transition-colors flex items-center space-x-2"
+                          className="text-white px-4 py-2 sm:px-5 sm:py-2.5 rounded-full font-medium text-xs sm:text-sm md:text-base hover:opacity-90 transition-colors flex items-center space-x-2"
                           style={{ backgroundColor: primaryButtonColor }}
                         >
                           <span>{primaryButton}</span>
-                          <span className="text-lg sm:text-xl">→</span>
+                          <span className="text-sm sm:text-base">→</span>
                         </Link>
                       )}
 
                       {secondaryButton && (
                         <Link
                           to={secondaryButtonLink || "/about"}
-                          className="bg-white px-4 sm:px-6 md:px-8 py-3 sm:py-4 rounded-full font-medium text-sm sm:text-base md:text-lg border-2 hover:bg-gray-50 transition-colors"
+                          className="bg-white px-4 py-2 sm:px-5 sm:py-2.5 rounded-full font-medium text-xs sm:text-sm md:text-base border-2 hover:bg-gray-50 transition-colors"
                           style={{
                             color: secondaryButtonColor,
                             borderColor: secondaryButtonColor
@@ -326,6 +333,11 @@ export default function SliderHero({
         }
         .animate-fade-in {
           animation: fade-in 0.5s ease-out;
+        }
+        @media (min-width: 768px) {
+          .slant-cut {
+            clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+          }
         }
       `}</style>
     </div>

@@ -15,7 +15,7 @@ const ContactPage = () => {
     "contact Unicorn Petroleum, Mumbai office, inquiry, quote request, customer support, India contact"
   );
 
-  const breadcrumbs = [{ text: "Home", link: "/" }, { text: "Contact" }];
+
 
   useEffect(() => {
     if (!location.hash) return;
@@ -42,7 +42,7 @@ const ContactPage = () => {
         title={t('title')}
         subtitle={t('subtitle')}
         bannerImage="/assets/contact-image.jpg"
-        breadcrumbs={breadcrumbs}
+
       />
 
       {}

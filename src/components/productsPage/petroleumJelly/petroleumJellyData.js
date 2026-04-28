@@ -8,13 +8,19 @@ export const petroleumJellyData = {
       title: "Petroleum Jelly",
       subtitle: "Purity for every application",
       image: "/assets/BannerImages/productsPage/petroleumjelly1.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-jelly%201.jpg"
+      mobileImage: "/assets/BannerImages/MobileProductPage/M-jelly%201.jpg",
+      bgSize: "contain",
+      bgPosition: "center 75%",
+      bgColor: "#F8F8F8"
     },
     {
       title: "",
       subtitle: "",
       image: "/assets/BannerImages/MobileProductPage/PJ2.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/PJ2.jpg"
+      mobileImage: "/assets/BannerImages/MobileProductPage/PJ2.jpg",
+      bgSize: "contain",
+      bgPosition: "center 85%",
+      bgColor: "#F8F8F8"
     }
   ],
 

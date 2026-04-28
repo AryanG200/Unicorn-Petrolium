@@ -106,7 +106,7 @@ export default function ProductPageLayout({
     swipeStartX.current = null;
   };
   return (
-    <div className="min-h-screen bg-gray-50 overflow-x-hidden" style={{ marginTop: '-3%' }}>
+    <div className="min-h-screen bg-gray-50 overflow-x-hidden">
       <SliderHero
         title={title || resolvedTitle}
         subtitle={subtitle || resolvedSubtitle}

@@ -50,7 +50,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
           gradeQuality: mode === "quote" ? formData.gradeQuality : "",
           subject:
             mode === "contact"
-              ? formData.subject || "General enquiry"
+              ? formData.subject || "General inquiry"
               : formData.subject || "Quote enquiry",
           message: formData.message,
           formType: mode === "contact" ? "contact" : "quote"
@@ -64,8 +64,8 @@ export default function QuoteFormSection({ mode = "quote", title }) {
       }
 
       setSubmitStatus('success');
-      
-      
+
+
       setFormData({
         fullName: "",
         companyName: "",
@@ -98,7 +98,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
           </h2>
         </div>
 
-        {}
+        { }
         {submitStatus === 'success' && (
           <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg text-center">
             <p className="font-semibold">{t('form.successTitle')}</p>
@@ -119,7 +119,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
 
         <form onSubmit={handleSubmit} className="bg-white rounded-2xl p-8 shadow-xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            {}
+            { }
             <div>
               <input
                 type="text"
@@ -133,7 +133,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
               />
             </div>
 
-            {}
+            { }
             <div>
               <input
                 type="text"
@@ -147,7 +147,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
               />
             </div>
 
-            {}
+            { }
             <div>
               <input
                 type="email"
@@ -161,7 +161,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
               />
             </div>
 
-            {}
+            { }
             <div>
               <input
                 type="tel"
@@ -175,7 +175,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
               />
             </div>
 
-            {}
+            { }
             <div>
               <input
                 type="text"
@@ -189,7 +189,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
               />
             </div>
 
-            {}
+            { }
             {mode === "contact" ? (
               <div>
                 <select
@@ -201,11 +201,11 @@ export default function QuoteFormSection({ mode = "quote", title }) {
                   disabled={isSubmitting}
                 >
                   <option value="">{t('form.subject')}</option>
-                  <option value="General enquiry">General enquiry</option>
-                  <option value="Sales">Sales</option>
-                  <option value="Support">Support</option>
-                  <option value="Partnership">Partnership</option>
-                  <option value="Quality inquiry">Quality inquiry</option>
+                  <option value="General inquiry">General inquiry</option>
+                  <option value="Get a quote (for domestic)">Get a quote (for domestic)</option>
+                  <option value="Get a quote (for exports)">Get a quote (for exports)</option>
+                  <option value="Regulatory, Technical & Quality">Regulatory, Technical & Quality</option>
+                  <option value="Feedback">Feedback</option>
                 </select>
               </div>
             ) : (
@@ -224,7 +224,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
             )}
           </div>
 
-          {}
+          { }
           <div className="mb-8">
             <textarea
               name="message"
@@ -238,16 +238,15 @@ export default function QuoteFormSection({ mode = "quote", title }) {
             />
           </div>
 
-          {}
+          { }
           <div className="text-center">
             <button
               type="submit"
               disabled={isSubmitting}
-              className={`px-8 py-4 rounded-lg transition-all duration-300 font-medium text-lg shadow-lg hover:shadow-xl flex items-center justify-center mx-auto ${
-                isSubmitting 
-                  ? 'bg-gray-400 text-gray-600 cursor-not-allowed' 
-                  : 'bg-[#E99322] text-white hover:bg-[#E99322]/90'
-              }`}
+              className={`px-8 py-4 rounded-lg transition-all duration-300 font-medium text-lg shadow-lg hover:shadow-xl flex items-center justify-center mx-auto ${isSubmitting
+                ? 'bg-gray-400 text-gray-600 cursor-not-allowed'
+                : 'bg-[#E99322] text-white hover:bg-[#E99322]/90'
+                }`}
             >
               {isSubmitting ? (
                 <>
