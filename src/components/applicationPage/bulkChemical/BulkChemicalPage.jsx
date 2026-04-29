@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 export default function BulkChemicalPage() {
   const { t } = useTranslation('applications');
   const industryData = t('industries.home-care', { returnObjects: true });
-  
+
   useMetaTags(
     t('industries.home-care.meta.title'),
     t('industries.home-care.meta.description'),
@@ -31,36 +31,36 @@ export default function BulkChemicalPage() {
         name: t('products.whiteMineralOils.name', 'White Mineral Oils'),
         link: "/products/white-mineral-oils",
         description: t('products.whiteMineralOils.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/whiteMineraloil1.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/WhiteMineraloil.jpg"
+        image: "/assets/BannerImages/productsPage/wmoo1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/wmoo2.jpg"
       },
       {
         name: t('products.naturalBeeswax.name', 'Natural Beeswax'),
         link: "/products/natural-beeswax",
         description: t('products.naturalBeeswax.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/Naturalbeeswax.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/beeswax2.jpg"
+        image: "/assets/BannerImages/productsPage/bee1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/bee2.jpg"
       },
       {
         name: t('products.hardParaffinWax.name', 'Hard Paraffin Wax'),
         link: "/products/paraffin-wax",
         description: t('products.hardParaffinWax.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/paraffinwax.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/paraffin2.jpg"
+        image: "/assets/BannerImages/productsPage/hwax1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/hwax2.jpg"
       },
       {
         name: t('products.preservatives.name', 'Preservatives'),
         link: "/products/preservatives",
         description: t('products.preservatives.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/Preservative.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/preservative.jpg"
+        image: "/assets/BannerImages/productsPage/pr1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/pr2.jpg"
       },
       {
         name: t('products.surfactants.name', 'Surfactants'),
         link: "/products/surfactants",
         description: t('products.surfactants.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/surfactant.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/surfactant.jpg"
+        image: "/assets/BannerImages/productsPage/sur1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/sur2.jpg"
       }
     ]
   };

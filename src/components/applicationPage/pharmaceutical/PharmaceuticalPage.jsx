@@ -31,50 +31,50 @@ export default function PharmaceuticalPage() {
         name: t('products.petroleumJelly.name', 'Petroleum Jelly'),
         link: "/products/petroleum-jelly",
         description: t('products.petroleumJelly.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/Petroleumjelly.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/Petroleumjelly.jpg"
+        image: "/assets/BannerImages/productsPage/PJ1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/PJ2.jpg"
       },
       {
         name: t('products.whiteMineralOils.name', 'White Mineral Oils'),
         link: "/products/white-mineral-oils",
         description: t('products.whiteMineralOils.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/whiteMineraloil1.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/WhiteMineraloil.jpg"
+        image: "/assets/BannerImages/productsPage/wmoo1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/wmoo2.jpg"
       },
       {
         name: t('products.lanolin.name', 'Lanolin'),
         link: "/products/lanolin",
         description: t('products.lanolin.description'),
-        image: "/assets/RELATED%20PROD%20IMG/lanolin-1.jpg",
-        hoverImage: "/assets/RELATED%20PROD%20IMG/lanolin1.jpg"
+        image: "/assets/BannerImages/productsPage/lan1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/lan2.jpg"
       },
       {
         name: t('products.naturalBeeswax.name', 'Natural Beeswax'),
         link: "/products/natural-beeswax",
         description: t('products.naturalBeeswax.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/Naturalbeeswax.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/beeswax2.jpg"
+        image: "/assets/BannerImages/productsPage/bee1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/bee2.jpg"
       },
       {
         name: t('products.emulsifyingWax.name', 'Emulsifying Wax'),
         link: "/products/emulsifying-wax",
         description: t('products.emulsifyingWax.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/emulsifyingwax.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/emulsifying2.jpg"
+        image: "/assets/BannerImages/productsPage/ew1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/ew2.jpg"
       },
       {
         name: t('products.dPanthenol.name', 'D-Panthenol'),
         link: "/products/d-panthenol",
         description: t('products.dPanthenol.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/Dpanthenol.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/Panthenol.jpg"
+        image: "/assets/BannerImages/productsPage/dpan1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/dpan2.jpg"
       },
       {
         name: t('products.preservatives.name', 'Preservatives'),
         link: "/products/preservatives",
         description: t('products.preservatives.description'),
-        image: "/assets/RELATED PROD IMG/NEW IMAGES/Preservative.jpg",
-        hoverImage: "/assets/RELATED PROD IMG/New Hover Images/preservative.jpg"
+        image: "/assets/BannerImages/productsPage/pr1.jpg",
+        hoverImage: "/assets/BannerImages/productsPage/pr2.jpg"
       }
     ]
   };
