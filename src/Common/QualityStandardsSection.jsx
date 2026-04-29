@@ -24,7 +24,7 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 451.png",
+      logo: "/assets/Quality Standards Certificates/iso9001new.png",
     },
     {
       code: "",
