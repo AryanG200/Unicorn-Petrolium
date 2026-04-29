@@ -1,20 +1,20 @@
 export const uvFiltersData = {
   name: "UV Filters",
   description: "Organic and inorganic UV filters for broad-spectrum protection",
-  bannerImage: "/assets/BannerImages/productsPage/uv%202-1.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/u1.jpg",
 
   slider: [
     {
       title: "UV Filters",
       subtitle: "Organic and inorganic UV filters for broad-spectrum protection",
-      image: "/assets/BannerImages/productsPage/uv1.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/uv1.jpg"
+      image: "/assets/BannerImages/productsPage/u1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/u1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/uv2.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/uv2.jpg"
+      image: "/assets/BannerImages/productsPage/u2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/u2.jpg"
     }
   ],
 

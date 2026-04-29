@@ -8,8 +8,8 @@ export const cosmeticsData = {
     {
       title: "Cosmetics Applications",
       subtitle: "Beauty ingredients that meet global standards",
-      image: "/assets/Application%20Banner/cosmetics%20application.jpg",
-      mobileImage: "/assets/Application%20Banner/cosmetics%20application.jpg"
+      image: "/assets/Application%20Banner/newcosmetic.jpg",
+      mobileImage: "/assets/Application%20Banner/newcosmetic.jpg"
     }
   ],
   overview: {

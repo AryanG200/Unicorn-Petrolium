@@ -1,20 +1,20 @@
 export const emulsifyingWaxData = {
   name: "Emulsifying Wax",
   description: "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/emulsifying%201.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/ew1.jpg",
 
   slider: [
     {
       title: "Emulsifying Wax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/EW1.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/EW1.jpg"
+      image: "/assets/BannerImages/productsPage/ew1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/ew1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/EW2.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/EW2.jpg"
+      image: "/assets/BannerImages/productsPage/ew2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/ew2.jpg"
     }
   ],
 

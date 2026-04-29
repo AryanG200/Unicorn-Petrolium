@@ -1,14 +1,14 @@
 export const petroleumJellyData = {
   name: "Petroleum Jelly",
   description: "Purity for every application",
-  bannerImage: "/assets/BannerImages/productsPage/petroleumjelly1.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/PJ1.jpg",
 
   slider: [
     {
       title: "Petroleum Jelly",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/petroleumjelly1.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-jelly%201.jpg",
+      image: "/assets/BannerImages/productsPage/PJ1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/PJ1.jpg",
       bgSize: "contain",
       bgPosition: "center 75%",
       bgColor: "#F8F8F8"
@@ -16,8 +16,8 @@ export const petroleumJellyData = {
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/MobileProductPage/PJ2.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/PJ2.jpg",
+      image: "/assets/BannerImages/productsPage/PJ2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/PJ2.jpg",
       bgSize: "contain",
       bgPosition: "center 85%",
       bgColor: "#F8F8F8"

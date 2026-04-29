@@ -1,20 +1,20 @@
 export const dPanthenolData = {
   name: "D-Panthenol",
   description: "Provitamin B5 for moisturization and skin barrier support",
-  bannerImage: "/assets/BannerImages/productsPage/panthenol%201.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/dpan1.jpg",
 
   slider: [
     {
       title: "D-Panthenol",
       subtitle: "Provitamin B5 for moisturization and skin barrier support",
-      image: "/assets/BannerImages/productsPage/dpath1.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/dpath1.jpg"
+      image: "/assets/BannerImages/productsPage/dpan1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/dpan1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/dpath2.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/dpath2.jpg"
+      image: "/assets/BannerImages/productsPage/dpan2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/dpan2.jpg"
     }
   ],
 

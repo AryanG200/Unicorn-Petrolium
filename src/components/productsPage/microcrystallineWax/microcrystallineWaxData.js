@@ -2,20 +2,20 @@ export const microcrystallineWaxData = {
   name: "Microcrystalline Wax",
   description:
     "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/microcrystalline%201.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/mwax.jpg",
 
   slider: [
     {
       title: "Microcrystalline Wax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/microwax1.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-microcrystalline%201.jpg"
+      image: "/assets/BannerImages/productsPage/mwax1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/mwax1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/microwax2.jpg",
-      mobileImage: "/assets/BannerImages/MobileProductPage/M-microcrystalline%202.jpg"
+      image: "/assets/BannerImages/productsPage/mwax2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/mwax2.jpg"
     }
   ],
 

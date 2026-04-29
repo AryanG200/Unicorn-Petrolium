@@ -1,19 +1,19 @@
 export const lanolinData = {
   name: "Lanolin",
   description: "Highly refined wool grease for cosmetic, pharmaceutical, and industrial use.",
-  bannerImage: "/assets/RELATED%20PROD%20IMG/lanolin-1.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/lan1.jpg",
   slider: [
     {
       title: "Lanolin",
       subtitle: "Highly refined wool grease for cosmetic, pharmaceutical, and industrial use.",
-      image: "/assets/RELATED%20PROD%20IMG/lanolin-1.jpg",
-      mobileImage: "/assets/RELATED%20PROD%20IMG/lanolin-1.jpg"
+      image: "/assets/BannerImages/productsPage/lan1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/lan1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/lanonin2.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/lanonin2.jpg"
+      image: "/assets/BannerImages/productsPage/lan2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/lan2.jpg"
     }
   ],
 

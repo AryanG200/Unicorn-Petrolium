@@ -143,11 +143,11 @@ export default function EventsPage() {
         }
       `}</style>
       {/* ── Hero Banner ───────────────────────────────────────── */}
-      <section style={{ position: "relative", width: "100%", height: "clamp(250px, 40vh, 380px)", overflow: "hidden" }}>
+      <section style={{ position: "relative", width: "100%" }}>
         <img
-          src="/assets/BannerImages/exhibition desktop2.jpg"
+          src="/assets/BannerImages/newevent.jpg"
           alt="Events"
-          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }}
+          style={{ width: "100%", height: "auto", display: "block" }}
           onError={(e) => { e.target.src = "/assets/BannerImages/HOMEPage.jpg"; }}
         />
         <div style={{

@@ -2,20 +2,20 @@ export const naturalBeeswaxData = {
   name: "Natural Beeswax",
   description:
     "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/beeswax%201.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/bee1.jpg",
 
   slider: [
     {
       title: "Natural Beeswax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/Beeswax1.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/Beeswax1.jpg"
+      image: "/assets/BannerImages/productsPage/bee1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/bee1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/Beeswax2.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/Beeswax2.jpg"
+      image: "/assets/BannerImages/productsPage/bee2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/bee2.jpg"
     }
   ],
 

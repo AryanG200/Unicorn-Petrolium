@@ -1,7 +1,7 @@
 export const textileData = {
   hero: { title: 'Textile Applications', description: 'Ingredients for textile processing and finishing' },
   slider: [
-    { title: 'Textile Applications', subtitle: 'Ingredients for textile processing and finishing', image: '/assets/Application%20Banner/textile%20application.jpg', mobileImage: '/assets/Application%20Banner/textile%20application.jpg' },
+    { title: 'Textile Applications', subtitle: 'Ingredients for textile processing and finishing', image: '/assets/Application%20Banner/newtext.jpg', mobileImage: '/assets/Application%20Banner/NEWTEXT.jpg' },
   ],
   overview: {
     title: 'Textile Industry',

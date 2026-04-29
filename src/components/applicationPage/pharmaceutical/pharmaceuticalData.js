@@ -8,8 +8,8 @@ export const pharmaceuticalData = {
     {
       title: "Pharmaceutical Applications",
       subtitle: "High-purity ingredients for life-saving medicines",
-      image: "/assets/Application%20Banner/pharma%20app%20new.jpg",
-      mobileImage: "/assets/Application%20Banner/pharma%20app%20new.jpg"
+      image: "/assets/Application%20Banner/newphar.jpg",
+      mobileImage: "/assets/Application%20Banner/newphar.jpg"
     }
   ],
   overview: {

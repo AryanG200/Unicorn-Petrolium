@@ -1,20 +1,20 @@
 export const paraffinWaxData = {
   name: "Hard Paraffin Wax",
   description: "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/paraffin%201.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/hwax1.jpg",
 
   slider: [
     {
       title: "Hard Paraffin Wax",
       subtitle: "Purity for every application",
-      image: "/assets/BannerImages/productsPage/hpw1.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/hpw1.jpg"
+      image: "/assets/BannerImages/productsPage/hwax1.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/hwax1.jpg"
     },
     {
       title: "",
       subtitle: "",
-      image: "/assets/BannerImages/productsPage/hpw2.jpg",
-      mobileImage: "/assets/BannerImages/productsPage/hpw2.jpg"
+      image: "/assets/BannerImages/productsPage/hwax2.jpg",
+      mobileImage: "/assets/BannerImages/productsPage/hwax2.jpg"
     }
   ],
 
