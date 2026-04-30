@@ -14,59 +14,59 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 449.png",
+      logo: "/assets/Quality Standards Certificates/9001new.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 450.png",
+      logo: "/assets/Quality Standards Certificates/14001new.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/iso9001new.png",
+      logo: "/assets/Quality Standards Certificates/45001new.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/isonew14001.png",
+      logo: "/assets/Quality Standards Certificates/chemexilnew.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/iso450001new.png",
+      logo: "/assets/Quality Standards Certificates/evonew.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 452.png",
+      logo: "/assets/Quality Standards Certificates/fdanew.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 453.png",
+      logo: "/assets/Quality Standards Certificates/gmpnew.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 454.png",
+      logo: "/assets/Quality Standards Certificates/halalnew.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/Frame 455.png",
+      logo: "/assets/Quality Standards Certificates/mpcbnew.png",
+    },
+    {
+      code: "",
+      full: "",
+      logo: "/assets/Quality Standards Certificates/pharmnew.png",
     },
 
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/chemexcil.png",
+      logo: "/assets/Quality Standards Certificates/reachnew.png",
     },
-    {
-      code: "",
-      full: "",
-      logo: "/assets/Quality Standards Certificates/ecovadis.png",
-    }
   ];
 
   return (
