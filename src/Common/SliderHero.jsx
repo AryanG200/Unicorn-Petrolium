@@ -133,7 +133,7 @@ export default function SliderHero({
   const contentBgClass =
     contentBackground === "solid"
       ? fullWidthContent
-        ? "bg-gradient-to-r from-white/0 via-white/70 to-white/0 w-fit mx-auto px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 lg:py-6 rounded-none application-banner-band"
+        ? "bg-gradient-to-r from-white/0 via-white/95 to-white/0 w-fit mx-auto px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 lg:py-6 rounded-none application-banner-band"
         : "bg-white/20 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 lg:px-10 lg:py-6 shadow-xl"
       : contentBackground === "none"
         ? ""
