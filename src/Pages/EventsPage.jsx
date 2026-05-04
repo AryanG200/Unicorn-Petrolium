@@ -17,12 +17,12 @@ import "swiper/css/effect-fade";
 // ─── Constants ─────────────────────────────────────────────────────────────
 const UPCOMING_IDS = [
 
-  { id: "u2", year: 2026, image: "/assets/event/incos2026.jpg", tag: "APRIL 2026" },
-  { id: "u1", year: 2026, image: "/assets/event/chemexpo2026.jpg", tag: "APRIL 2026" },
   { id: "u3", year: 2026, image: "/assets/event/nyss2026.jpg", tag: "JUNE 2026" },
   { id: "u4", year: 2026, image: "/assets/event/cosmo2024.jpg", tag: "JULY 2026" },
   { id: "u5", year: 2026, image: "/assets/event/iphex2026.jpg", tag: "SEPTEMBER 2026" },
-  { id: "u8", year: 2026, image: "/assets/event/incoss2026.jpg", tag: "NOVEMBER 2026" }
+  { id: "u8", year: 2026, image: "/assets/event/incoss2026.jpg", tag: "NOVEMBER 2026" },
+  { id: "u2", year: 2026, image: "/assets/event/incos2026.jpg", tag: "APRIL 2026" },
+  { id: "u1", year: 2026, image: "/assets/event/chemexpo2026.jpg", tag: "APRIL 2026" }
 ];
 
 const PAST_IDS = [

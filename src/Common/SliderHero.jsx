@@ -182,6 +182,15 @@ export default function SliderHero({
           )}
         </div>
 
+        {/* Clickable Overlay for Slide Link */}
+        {currentSlideData.link && (
+          <Link
+            to={currentSlideData.link}
+            className="absolute inset-0 z-10 block cursor-pointer"
+            aria-label={currentSlideData.title || "Slide link"}
+          />
+        )}
+
         {/* Prev / Next buttons */}
         {hasMultipleSlides && totalSlides > 1 && (
           <>

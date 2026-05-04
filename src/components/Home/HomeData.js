@@ -48,8 +48,9 @@ export const getHomeData = (t) => ({
       {
         title: "",
         subtitle: "",
-        image: "/assets/BannerImages/HomeBannerDesktop2.jpg",
-        mobileImage: "/assets/BannerImages/HomeBannerMobile2.jpg"
+        image: "/assets/BannerImages/homepage2.jpg",
+        mobileImage: "/assets/BannerImages/homepage2.jpg",
+        link: "/events"
       }
     ]
   },
