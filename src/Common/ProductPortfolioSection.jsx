@@ -17,12 +17,12 @@ export default function ProductPortfolioSection({ data }) {
   const isDragging = useRef(false);
   const scrollTimeoutRef = useRef(null);
 
-  
+
   const duplicatedCards = [...data.cards, ...data.cards];
 
-  
-  
-  
+
+
+
   const getCardLink = (card) => {
     if (card.link && card.link !== "/products") {
       return card.link;
@@ -30,29 +30,29 @@ export default function ProductPortfolioSection({ data }) {
     return getProductPath(card.title);
   };
 
-  
+
   useEffect(() => {
     if (!containerRef.current || !isManualScroll || !marqueeRef.current) return;
 
     const container = containerRef.current;
     const marquee = marqueeRef.current;
-    
+
     const computedStyle = window.getComputedStyle(marquee);
     const transform = computedStyle.transform;
     let currentTranslateX = 0;
-    
+
     if (transform && transform !== 'none') {
       const matrix = transform.match(/matrix\(([^)]+)\)/);
       if (matrix) {
         currentTranslateX = parseFloat(matrix[1].split(',')[4]) || 0;
       }
     }
-    
+
     const scrollPosition = Math.abs(currentTranslateX);
     container.scrollLeft = scrollPosition;
   }, [isManualScroll]);
 
-  
+
   useEffect(() => {
     if (!containerRef.current || !isManualScroll) return;
 
@@ -63,7 +63,7 @@ export default function ProductPortfolioSection({ data }) {
 
     const handleScroll = () => {
       const scrollLeft = container.scrollLeft;
-      
+
       if (scrollLeft >= scrollWidth - 10) {
         container.scrollLeft = scrollLeft - scrollWidth;
       }
@@ -76,13 +76,13 @@ export default function ProductPortfolioSection({ data }) {
     return () => container.removeEventListener('scroll', handleScroll);
   }, [isManualScroll, data.cards.length]);
 
-  
+
   const handleTouchStart = (e) => {
     touchStartX.current = e.touches[0].clientX;
     touchStartY.current = e.touches[0].clientY;
     setIsPaused(true);
     setIsManualScroll(true);
-    
+
     if (marqueeRef.current) {
       marqueeRef.current.style.animation = 'none';
       const currentScroll = containerRef.current?.scrollLeft || 0;
@@ -120,13 +120,13 @@ export default function ProductPortfolioSection({ data }) {
     resumeAutoSlide();
   };
 
-  
+
   const handleMouseDown = (e) => {
     isDragging.current = true;
     touchStartX.current = e.clientX;
     setIsPaused(true);
     setIsManualScroll(true);
-    
+
     if (marqueeRef.current) {
       marqueeRef.current.style.animation = 'none';
       const currentScroll = containerRef.current?.scrollLeft || 0;
@@ -136,7 +136,7 @@ export default function ProductPortfolioSection({ data }) {
       containerRef.current.style.overflowX = 'auto';
       containerRef.current.style.cursor = 'grabbing';
     }
-    
+
     document.addEventListener('mousemove', handleMouseMove);
     document.addEventListener('mouseup', handleMouseUp);
   };
@@ -153,7 +153,7 @@ export default function ProductPortfolioSection({ data }) {
     if (scrollTimeoutRef.current) {
       clearTimeout(scrollTimeoutRef.current);
     }
-    
+
     scrollTimeoutRef.current = setTimeout(() => {
       setIsPaused(false);
       setIsManualScroll(false);
@@ -171,21 +171,21 @@ export default function ProductPortfolioSection({ data }) {
   const handleMouseUp = () => {
     const wasDragging = isDragging.current;
     const wasManualScroll = isManualScroll;
-    
+
     isDragging.current = false;
     document.removeEventListener('mousemove', handleMouseMove);
     document.removeEventListener('mouseup', handleMouseUp);
-    
+
     if (containerRef.current) {
       containerRef.current.style.cursor = wasManualScroll ? 'grab' : 'default';
     }
-    
+
     if (wasManualScroll || wasDragging) {
       resumeAutoSlide();
     }
   };
 
-  
+
   useEffect(() => {
     return () => {
       if (scrollTimeoutRef.current) {
@@ -199,16 +199,43 @@ export default function ProductPortfolioSection({ data }) {
   return (
     <section className="py-8 sm:py-10 md:py-12 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-6 sm:mb-8">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-4 tracking-tight">
-            {data.heading}
-          </h2>
-          <p className="text-base sm:text-lg md:text-xl text-gray-600">{data.subheading}</p>
+        <div
+          className="text-center mb-6 sm:mb-10 py-12 sm:py-16 md:py-20 px-4 relative overflow-hidden rounded-none sm:rounded-2xl"
+        >
+          {/* Background Image Layer */}
+          <div
+            className="absolute inset-0 z-0"
+            style={{
+              backgroundImage: "url('/assets/BannerImages/ourcore.jpeg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          />
+
+          {/* Content */}
+          <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
+            <h2
+              className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2 sm:mb-3 tracking-tight"
+              style={{
+                textShadow: "0 0 10px rgba(255,255,255,0.9), 0 0 20px rgba(255,255,255,0.9), 0 0 30px rgba(255,255,255,1), 2px 2px 0px rgba(255,255,255,0.5), -2px -2px 0px rgba(255,255,255,0.5)"
+              }}
+            >
+              <span className="bg-white/15 px-3 py-1 rounded-lg backdrop-blur-[2px] shadow-sm">{data.heading}</span>
+            </h2>
+            <p
+              className="text-base sm:text-lg md:text-xl text-gray-900 font-bold mt-4"
+              style={{
+                textShadow: "0 0 10px rgba(255,255,255,0.9), 0 0 20px rgba(255,255,255,1), 1px 1px 0px rgba(255,255,255,0.5), -1px -1px 0px rgba(255,255,255,0.5)"
+              }}
+            >
+              <span className="bg-white/15 px-3 py-1 rounded-md backdrop-blur-[2px] shadow-sm">{data.subheading}</span>
+            </p>
+          </div>
         </div>
 
         <div className="relative">
-          {}
-          <div 
+          { }
+          <div
             ref={containerRef}
             className="marquee-container relative w-full overflow-hidden"
             onMouseEnter={() => setIsPaused(true)}
@@ -254,8 +281,8 @@ export default function ProductPortfolioSection({ data }) {
                 background: #E99322;
               }
             `}</style>
-            
-            <div 
+
+            <div
               ref={marqueeRef}
               className={`flex gap-5 sm:gap-7 md:gap-9 py-1 ${!isManualScroll ? 'marquee-animation' : ''} ${!isManualScroll && isPaused ? 'marquee-paused' : ''}`}
               style={{
@@ -265,8 +292,8 @@ export default function ProductPortfolioSection({ data }) {
               }}
             >
               {duplicatedCards.map((card, index) => (
-                <div 
-                  key={`${card.title}-${index}`} 
+                <div
+                  key={`${card.title}-${index}`}
                   className="product-card flex-shrink-0 w-[280px] sm:w-[320px] md:w-[360px]"
                 >
                   <Link
