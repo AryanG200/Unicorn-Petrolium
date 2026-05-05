@@ -42,7 +42,8 @@ const ContactPage = () => {
         title={t('title')}
         subtitle={t('subtitle')}
         bannerImage="/assets/contact-image.jpg"
-
+        textAlign="left"
+        maxWidth="max-w-[1400px]"
       />
 
       {}

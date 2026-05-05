@@ -12,7 +12,9 @@ export default function BannerWithNavigation({
   heightClass = "h-[400px] sm:h-[500px] md:h-[550px] md:-mt-16",
   style = {},
   backgroundColor = "transparent",
-  showOverlay = true
+  showOverlay = true,
+  textAlign = "center",
+  maxWidth = "max-w-7xl"
 }) {
   return (
     <div 
@@ -31,8 +33,8 @@ export default function BannerWithNavigation({
       />
       {showOverlay && <div className="absolute inset-0 bg-white/25" />}
 
-      <div className="relative z-10 flex items-center justify-center h-full">
-        <div className="text-center text-black max-w-4xl mx-auto px-4">
+      <div className={`relative z-10 flex items-center h-full w-full ${maxWidth} mx-auto px-4 ${textAlign === 'left' ? 'justify-start' : 'justify-center'}`}>
+        <div className={`text-black max-w-4xl ${textAlign === 'left' ? 'text-left' : 'text-center mx-auto'}`}>
           {title && (
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 tracking-tight">
               {title}
