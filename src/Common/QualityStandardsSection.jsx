@@ -14,6 +14,16 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
     {
       code: "",
       full: "",
+      logo: "/assets/Quality Standards Certificates/gmpnew.png",
+    },
+    {
+      code: "",
+      full: "",
+      logo: "/assets/Quality Standards Certificates/fdanew.png",
+    },
+    {
+      code: "",
+      full: "",
       logo: "/assets/Quality Standards Certificates/9001new.png",
     },
     {
@@ -29,7 +39,17 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/chemexilnew.png",
+      logo: "/assets/Quality Standards Certificates/halalnew.png",
+    },
+    {
+      code: "",
+      full: "",
+      logo: "/assets/Quality Standards Certificates/reachnew.png",
+    },
+    {
+      code: "",
+      full: "",
+      logo: "/assets/Quality Standards Certificates/koshernew.jpg",
     },
     {
       code: "",
@@ -39,33 +59,17 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/fdanew.png",
+      logo: "/assets/Quality Standards Certificates/pharmnew.png",
     },
     {
       code: "",
       full: "",
-      logo: "/assets/Quality Standards Certificates/gmpnew.png",
-    },
-    {
-      code: "",
-      full: "",
-      logo: "/assets/Quality Standards Certificates/halalnew.png",
+      logo: "/assets/Quality Standards Certificates/chemexilnew.png",
     },
     {
       code: "",
       full: "",
       logo: "/assets/Quality Standards Certificates/mpcbnew.png",
-    },
-    {
-      code: "",
-      full: "",
-      logo: "/assets/Quality Standards Certificates/pharmnew.png",
-    },
-
-    {
-      code: "",
-      full: "",
-      logo: "/assets/Quality Standards Certificates/reachnew.png",
     },
   ];
 

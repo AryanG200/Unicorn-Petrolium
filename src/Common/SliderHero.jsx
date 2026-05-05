@@ -250,7 +250,7 @@ export default function SliderHero({
               <div className={`${contentBgClass} animate-fade-in ${isTopLeftPosition ? 'slant-cut' : ''} relative`}>
                 {isTopLeftPosition && (
                   <svg className="absolute inset-0 w-full h-full pointer-events-none z-30 hidden md:block" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <polyline points="0,100 85,100 100,0" fill="none" stroke="#EDA94E" strokeWidth="1.5" vectorEffect="non-scaling-stroke" />
+                    <polyline points="0,95 80,95 100,0" fill="none" stroke="#EDA94E" strokeWidth="1.5" vectorEffect="non-scaling-stroke" />
                   </svg>
                 )}
                 <div className={fullWidthContent ? "max-w-5xl mx-auto px-4 sm:px-8" : ""}>
@@ -345,7 +345,7 @@ export default function SliderHero({
         }
         @media (min-width: 768px) {
           .slant-cut {
-            clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 80% 95%, 0 95%);
           }
         }
         .application-banner-band {

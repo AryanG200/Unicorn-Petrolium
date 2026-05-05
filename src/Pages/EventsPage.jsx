@@ -587,7 +587,10 @@ function EventModal({ event, onClose, t, navigate }) {
             </button>
             {event.type === "Upcoming Event" && (
               <>
-                <button
+                <a
+                  href="https://wa.me/919136498777"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
                     padding: "8px 20px", borderRadius: "8px",
                     border: "2px solid #25D366",
@@ -597,12 +600,13 @@ function EventModal({ event, onClose, t, navigate }) {
                     boxShadow: "0 4px 16px rgba(37,211,102,0.2)",
                     display: "flex", alignItems: "center", gap: "8px",
                     flex: "1 1 120px",
-                    justifyContent: "center"
+                    justifyContent: "center",
+                    textDecoration: "none"
                   }}
                 >
                   <FaWhatsapp style={{ fontSize: "1.1rem" }} />
                   WhatsApp
-                </button>
+                </a>
                 <button
                   onClick={() => {
                     onClose();

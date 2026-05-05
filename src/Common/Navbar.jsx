@@ -330,9 +330,14 @@ export default function Navbar() {
               </div>
 
               <FiSearch className="text-gray-800 text-xl cursor-pointer hover:text-[#E99322] transition-colors" />
-              <button className="bg-[#E99322] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#E99322]/90 transition-all duration-300">
+              <a
+                href="https://wa.me/919136498777"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#E99322] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#E99322]/90 transition-all duration-300"
+              >
                 {t('navbar.whatsappUs')}
-              </button>
+              </a>
             </div>
 
             { }
@@ -455,10 +460,15 @@ export default function Navbar() {
                   </div>
                 </div>
 
-                <button className="w-full bg-[#E99322] text-white px-6 py-4 rounded-xl text-base font-bold hover:bg-[#E99322]/90 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg shadow-[#E99322]/20">
+                <a
+                  href="https://wa.me/919876543210"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-[#E99322] text-white px-6 py-4 rounded-xl text-base font-bold hover:bg-[#E99322]/90 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg shadow-[#E99322]/20"
+                >
                   <FaWhatsapp className="text-xl" />
                   {t('navbar.whatsappUs')}
-                </button>
+                </a>
               </div>
             </div>
           )}

@@ -202,33 +202,17 @@ export default function ProductPortfolioSection({ data }) {
         <div
           className="text-center mb-6 sm:mb-10 py-12 sm:py-16 md:py-20 px-4 relative overflow-hidden rounded-none sm:rounded-2xl"
         >
-          {/* Background Image Layer */}
-          <div
-            className="absolute inset-0 z-0"
-            style={{
-              backgroundImage: "url('/assets/BannerImages/ourcore.jpeg')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-            }}
-          />
-
           {/* Content */}
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 md:px-8">
             <h2
               className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2 sm:mb-3 tracking-tight"
-              style={{
-                textShadow: "0 0 10px rgba(255,255,255,0.9), 0 0 20px rgba(255,255,255,0.9), 0 0 30px rgba(255,255,255,1), 2px 2px 0px rgba(255,255,255,0.5), -2px -2px 0px rgba(255,255,255,0.5)"
-              }}
             >
-              <span className="bg-white/15 px-3 py-1 rounded-lg backdrop-blur-[2px] shadow-sm">{data.heading}</span>
+              <span>{data.heading}</span>
             </h2>
             <p
               className="text-base sm:text-lg md:text-xl text-gray-900 font-bold mt-4"
-              style={{
-                textShadow: "0 0 10px rgba(255,255,255,0.9), 0 0 20px rgba(255,255,255,1), 1px 1px 0px rgba(255,255,255,0.5), -1px -1px 0px rgba(255,255,255,0.5)"
-              }}
             >
-              <span className="bg-white/15 px-3 py-1 rounded-md backdrop-blur-[2px] shadow-sm">{data.subheading}</span>
+              <span>{data.subheading}</span>
             </p>
           </div>
         </div>

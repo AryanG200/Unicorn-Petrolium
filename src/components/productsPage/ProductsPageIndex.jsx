@@ -66,7 +66,11 @@ export default function ProductsPageIndex() {
   const allProducts = getAllProducts();
 
   return (
-    <ProductPageLayout title={t('index.title', "Our Products")} subtitle={t('index.subtitle', "Comprehensive range of high-quality petroleum and specialty products")}>
+    <ProductPageLayout 
+      title={t('index.title', "Our Products")} 
+      subtitle={t('index.subtitle', "Comprehensive range of high-quality petroleum and specialty products")}
+      bannerImage="/assets/BannerImages/ourcore.jpeg"
+    >
       <div ref={containerRef} className="space-y-12">
         {}
         <section className="text-center animate-fade-in-up">
