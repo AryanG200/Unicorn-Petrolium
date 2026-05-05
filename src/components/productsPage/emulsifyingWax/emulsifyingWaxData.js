@@ -1,7 +1,7 @@
 export const emulsifyingWaxData = {
   name: "Emulsifying Wax",
   description: "Purity for every application.",
-  bannerImage: "/assets/BannerImages/productsPage/ew1.jpg",
+  bannerImage: "/assets/BannerImages/productsPage/EW1.jpg",
 
   slider: [
     {
