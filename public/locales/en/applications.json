@@ -1,4 +1,10 @@
 {
+  "index": {
+    "helpTitle": "Need a custom solution?",
+    "helpDesc": "Our technical experts can help you find or develop the perfect product for your specific application requirements.",
+    "contactBtn": "Contact our experts",
+    "productsBtn": "View Products"
+  },
   "hero": {
     "title": "Our Applications",
     "description": "Providing high-quality solutions across diverse industries"

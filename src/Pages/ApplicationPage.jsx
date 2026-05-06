@@ -1,5 +1,5 @@
 import React from "react";
-import ComingSoon from "../Common/ComingSoon";
+import ApplicationsPageIndex from "../components/applicationPage/ApplicationsPageIndex";
 import { useMetaTags } from "../hooks/useMetaTags";
 
 const ApplicationPage = () => {
@@ -9,7 +9,11 @@ const ApplicationPage = () => {
     "petroleum applications, pharmaceutical applications, cosmetic applications, industrial applications, personal care, home care, textile, lubricants"
   );
 
-  return <ComingSoon title="Applications" />;
+  return (
+    <div>
+      <ApplicationsPageIndex />
+    </div>
+  );
 };
 
 export default ApplicationPage;
