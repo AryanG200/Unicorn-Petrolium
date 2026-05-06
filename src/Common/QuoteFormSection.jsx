@@ -202,6 +202,7 @@ export default function QuoteFormSection({ mode = "quote", title }) {
                 >
                   <option value="">{t('form.subject')}</option>
                   <option value="General inquiry">General inquiry</option>
+                  <option value="Become our supplier">Become our supplier</option>
                   <option value="Get a quote (for domestic)">Get a quote (for domestic)</option>
                   <option value="Get a quote (for exports)">Get a quote (for exports)</option>
                   <option value="Regulatory, Technical & Quality">Regulatory, Technical & Quality</option>

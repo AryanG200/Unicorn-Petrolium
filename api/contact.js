@@ -3,6 +3,7 @@ import nodemailer from "nodemailer";
 // Mapping of subjects to different department emails
 const SUBJECT_RECIPIENTS = {
   "General inquiry": "aryangavhane100@gmail.com",
+  "Become our supplier": "aryangavhane100@gmail.com",
   "Get a quote (for domestic)": "aryangavhane100@gmail.com",
   "Get a quote (for exports)": "aryangavhane100@gmail.com",
   "Regulatory, Technical & Quality": "aryangavhane100@gmail.com",

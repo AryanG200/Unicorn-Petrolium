@@ -115,8 +115,9 @@ export const contactData = {
         type: "select",
         required: true,
         options: [
-          "Product Inquiry",
-          "Price Quote",
+           "Product Inquiry",
+           "Become our supplier",
+           "Price Quote",
           "Technical Support",
           "Partnership",
           "General Inquiry",
