@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Mapping of subjects to different department emails
 const SUBJECT_RECIPIENTS = {
-  "General inquiry": "aryangavhane100@gmail.com",
+  "General inquiry": "manan@unicornpetro.co.in",
   "Get a quote (for domestic)": "aryangavhane100@gmail.com", // Update this email later
   "Get a quote (for exports)": "aryangavhane100@gmail.com",  // Update this email later
   "Regulatory, Technical & Quality": "aryangavhane100@gmail.com", // Update this email later
