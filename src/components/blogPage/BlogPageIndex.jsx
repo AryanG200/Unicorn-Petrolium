@@ -22,7 +22,7 @@ export default function BlogPageIndex() {
     <div className="min-h-screen bg-gray-50 flex flex-col relative animate-in fade-in duration-700 pt-14">
       <BannerWithNavigation
         bannerImage="/assets/BannerImages/blognewtoday.jpeg"
-        title={<span className="relative -top-16 sm:-top-28 md:-top-36">Our Blog</span>}
+        title={""}
         backgroundPosition="center"
         backgroundSize="cover"
         backgroundColor="#ffffff"
