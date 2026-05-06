@@ -6,7 +6,7 @@ const SUBJECT_RECIPIENTS = {
   "Get a quote (for domestic)": "aryangavhane100@gmail.com",
   "Get a quote (for exports)": "aryangavhane100@gmail.com",
   "Regulatory, Technical & Quality": "aryangavhane100@gmail.com",
-  "Feedback": "aryangavhane100@gmail.com"
+  "Feedback": "marketing4@unicornpetro.co.in"
 };
 
 export default async function handler(req, res) {

@@ -17,7 +17,7 @@ const SUBJECT_RECIPIENTS = {
   "Get a quote (for domestic)": "aryangavhane100@gmail.com", // Update this email later
   "Get a quote (for exports)": "aryangavhane100@gmail.com",  // Update this email later
   "Regulatory, Technical & Quality": "aryangavhane100@gmail.com", // Update this email later
-  "Feedback": "aryangavhane100@gmail.com" // Update this email later
+  "Feedback": "marketing4@unicornpetro.co.in" // Update this email later
 };
 
 app.post("/api/contact", async (req, res) => {
