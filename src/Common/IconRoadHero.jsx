@@ -56,7 +56,7 @@ export default function IconRoadHero({ data = {} }) {
   }, [items.length]);
 
   return (
-    <section className="relative w-full min-h-[80vh] pt-8 pb-16" ref={containerRef}>
+    <section className="relative w-full min-h-[80vh] pt-8 pb-8" ref={containerRef}>
       { }
       <div
         className="pointer-events-none absolute left-1/2 -translate-x-1/2 w-[2px] bg-[#E99322] hidden md:block"

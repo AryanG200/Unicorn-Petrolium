@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CallToAction({ data }) {
   return (
-    <section className="py-12 sm:py-14 md:py-16 bg-gray-50">
+    <section className="pt-0 pb-12 sm:pt-0 sm:pb-14 md:pt-0 md:pb-16 bg-gray-50">
       <div className="w-full text-center px-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-4 tracking-tight">
           {data.heading}

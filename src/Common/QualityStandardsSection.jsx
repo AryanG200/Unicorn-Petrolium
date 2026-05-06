@@ -74,7 +74,7 @@ export default function QualityStandardsSection({ title, subtitle, showLink = fa
   ];
 
   return (
-    <section className="py-8 sm:py-10 md:py-12 bg-gray-50">
+    <section className="pt-8 pb-4 sm:pt-10 sm:pb-6 md:pt-12 md:pb-8 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-6 sm:mb-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-3 sm:mb-4 tracking-tight">

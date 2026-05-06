@@ -260,7 +260,7 @@ export const getHomeData = (t) => ({
 
 
   cta: {
-    heading: t('home.cta.heading', "Ready to Partner with Unicorn Petroleum?"),
+    heading: t('home.cta.heading', "Ready to partner with Unicorn Petroleum?"),
     subtitle: t('home.cta.subtitle', "Contact us today for custom formulations, bulk orders, or technical inquiries."),
     primaryButton: t('home.cta.primaryButton', "Contact Sales"),
     primaryButtonLink: "/contact",
