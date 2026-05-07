@@ -197,10 +197,10 @@ export default function ProductPortfolioSection({ data }) {
   }, []);
 
   return (
-    <section className="pt-2 pb-8 sm:pt-4 sm:pb-10 md:pt-6 md:pb-12 px-4">
+    <section className="pt-0 pb-8 sm:pt-0 sm:pb-10 md:pt-0 md:pb-12 px-4">
       <div className="max-w-7xl mx-auto">
         <div
-          className="text-center mb-6 sm:mb-10 pt-4 pb-12 sm:pt-6 sm:pb-16 md:pt-8 md:pb-20 px-4 relative overflow-hidden rounded-none sm:rounded-2xl"
+          className="text-center mb-2 sm:mb-4 pt-2 pb-4 sm:pt-4 sm:pb-6 md:pt-4 md:pb-8 px-4 relative overflow-hidden rounded-none sm:rounded-2xl"
         >
           {/* Content */}
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 md:px-8">

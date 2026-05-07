@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-
+import { Link } from "react-router-dom";
 
 
 
@@ -56,7 +56,7 @@ export default function IconRoadHero({ data = {} }) {
   }, [items.length]);
 
   return (
-    <section className="relative w-full min-h-[80vh] pt-8 pb-8" ref={containerRef}>
+    <section className="relative w-full pt-8 pb-4" ref={containerRef}>
       { }
       <div
         className="pointer-events-none absolute left-1/2 -translate-x-1/2 w-[2px] bg-[#E99322] hidden md:block"
@@ -167,11 +167,11 @@ export default function IconRoadHero({ data = {} }) {
 
         { }
         {data.ctaText && (
-          <div className="text-center mt-12">
-            <button className="bg-[#E99322] text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full hover:bg-[#E99322]/90 transition-all duration-300 font-medium inline-flex items-center gap-2 text-sm sm:text-base">
+          <div className="text-center mt-6">
+            <Link to="/contact#quote-form-section" className="bg-[#E99322] text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full hover:bg-[#E99322]/90 transition-all duration-300 font-medium inline-flex items-center gap-2 text-sm sm:text-base">
               <span>{data.ctaText}</span>
               <span className="text-base sm:text-lg">→</span>
-            </button>
+            </Link>
           </div>
         )}
       </div>

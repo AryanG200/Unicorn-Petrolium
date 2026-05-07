@@ -247,8 +247,8 @@ export default function SliderHero({
                   } ${isTopLeftPosition ? "md:ml-[-8px] mx-auto md:mx-0" : "mx-auto"} ${isTopLeftPosition ? "px-4 md:pl-0 md:pr-5" : "px-5 sm:px-7"} w-full`
               }
             >
-              <div className={`${contentBgClass} animate-fade-in ${isTopLeftPosition ? 'slant-cut' : ''} relative`}>
-                {isTopLeftPosition && (
+              <div className={`${contentBgClass} animate-fade-in ${(isTopLeftPosition || fullWidthContent) ? 'slant-cut' : ''} relative`}>
+                {(isTopLeftPosition || fullWidthContent) && (
                   <svg className="absolute inset-0 w-full h-full pointer-events-none z-30 hidden md:block" viewBox="0 0 100 100" preserveAspectRatio="none">
                     <polyline points="0,95 80,95 100,0" fill="none" stroke="#EDA94E" strokeWidth="1.5" vectorEffect="non-scaling-stroke" />
                   </svg>

@@ -48,8 +48,8 @@ export const getHomeData = (t) => ({
       {
         title: "",
         subtitle: "",
-        image: "/assets/BannerImages/homepage2.jpg",
-        mobileImage: "/assets/BannerImages/homepage2.jpg",
+        image: "/assets/BannerImages/home2.png",
+        mobileImage: "/assets/BannerImages/home2.png",
         link: "/events"
       }
     ]
@@ -260,11 +260,9 @@ export const getHomeData = (t) => ({
 
 
   cta: {
-    heading: t('home.cta.heading', "Ready to partner with Unicorn Petroleum?"),
+    heading: t('home.cta.heading', "Ready to partner with us?"),
     subtitle: t('home.cta.subtitle', "Contact us today for custom formulations, bulk orders, or technical inquiries."),
-    primaryButton: t('home.cta.primaryButton', "Contact Sales"),
-    primaryButtonLink: "/contact",
-    secondaryButton: t('home.cta.secondaryButton', "Request Sample"),
-    secondaryButtonLink: "/contact#quote-form-section",
+    primaryButton: t('home.cta.primaryButton', "Contact Us"),
+    primaryButtonLink: "/contact#quote-form-section",
   },
 });

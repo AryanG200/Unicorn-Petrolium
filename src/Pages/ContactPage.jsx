@@ -47,7 +47,7 @@ const ContactPage = () => {
       />
 
       {}
-      <section className="py-[var(--section-padding-y)] w-full">
+      <section className="pt-[var(--section-padding-y)] pb-8 w-full">
         <div className="w-full px-4">
           {}
           <div className="max-w-7xl mx-auto p-5 md:p-8 border border-gray-200 rounded-2xl shadow-sm bg-white">

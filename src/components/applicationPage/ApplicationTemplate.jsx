@@ -272,48 +272,71 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
               )}
             </section>
 
+            {/* Separator Line */}
+            <div className="w-full mb-12">
+              <div className="max-w-xs md:max-w-md mx-auto">
+                <div className="h-[2px] bg-[#EDA94E]"></div>
+              </div>
+            </div>
+
             {/* Tailored Features Section */}
             {(industryData.tailoredForPharma || data?.tailoredForPharma) && (
-              <section className="mb-16">
-                <div className="text-center mb-10">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                    {industryData.tailoredForPharma?.heading || data.tailoredForPharma.heading}
-                  </h2>
-                  <p className="text-gray-600 max-w-2xl mx-auto">
-                    {industryData.tailoredForPharma?.subheading || data.tailoredForPharma.subheading}
-                  </p>
+              <>
+                <section className="mb-16">
+                  <div className="text-center mb-10">
+                    <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                      {industryData.tailoredForPharma?.heading || data.tailoredForPharma.heading}
+                    </h2>
+                    <p className="text-gray-600 max-w-2xl mx-auto">
+                      {industryData.tailoredForPharma?.subheading || data.tailoredForPharma.subheading}
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {(industryData.tailoredForPharma?.features || data.tailoredForPharma.features).map((feature, index) => (
+                      <div key={index} className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                        <h3 className="text-xl font-bold text-[#E99322] mb-4">{feature.title}</h3>
+                        <p className="text-gray-600 leading-relaxed">{feature.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+                {/* Separator Line */}
+                <div className="w-full mb-12">
+                  <div className="max-w-xs md:max-w-md mx-auto">
+                    <div className="h-[2px] bg-[#EDA94E]"></div>
+                  </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  {(industryData.tailoredForPharma?.features || data.tailoredForPharma.features).map((feature, index) => (
-                    <div key={index} className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                      <h3 className="text-xl font-bold text-[#E99322] mb-4">{feature.title}</h3>
-                      <p className="text-gray-600 leading-relaxed">{feature.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
+              </>
             )}
 
             {/* Industry Applications Cards */}
             {(industryData.applications || data?.applications) && (
-              <section className="mb-16">
-                <div className="text-center mb-10">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                    {industryData.applications?.heading || data.applications.heading}
-                  </h2>
-                  <p className="text-gray-600 max-w-2xl mx-auto">
-                    {industryData.applications?.subheading || data.applications.subheading}
-                  </p>
+              <>
+                <section className="mb-16">
+                  <div className="text-center mb-10">
+                    <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                      {industryData.applications?.heading || data.applications.heading}
+                    </h2>
+                    <p className="text-gray-600 max-w-2xl mx-auto">
+                      {industryData.applications?.subheading || data.applications.subheading}
+                    </p>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {(industryData.applications?.cards || data.applications.cards).map((card, index) => (
+                      <div key={index} className="group bg-[#E99322]/5 p-6 rounded-xl hover:bg-[#E99322] transition-all duration-300">
+                        <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-white">{card.title}</h3>
+                        <p className="text-gray-600 group-hover:text-white/90">{card.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+                {/* Separator Line */}
+                <div className="w-full mb-12">
+                  <div className="max-w-xs md:max-w-md mx-auto">
+                    <div className="h-[2px] bg-[#EDA94E]"></div>
+                  </div>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                  {(industryData.applications?.cards || data.applications.cards).map((card, index) => (
-                    <div key={index} className="group bg-[#E99322]/5 p-6 rounded-xl hover:bg-[#E99322] transition-all duration-300">
-                      <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-white">{card.title}</h3>
-                      <p className="text-gray-600 group-hover:text-white/90">{card.description}</p>
-                    </div>
-                  ))}
-                </div>
-              </section>
+              </>
             )}
 
             {/* Compliance & Benefits */}

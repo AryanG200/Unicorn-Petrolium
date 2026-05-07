@@ -37,15 +37,7 @@ export default function ApplicationsPageIndex() {
       bannerImage="/assets/BannerImages/applications%20desktop.jpg"
     >
       <div ref={containerRef} className="space-y-12">
-        {/* Hero Text Section */}
-        <section className="text-center animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            {t('hero.title', "Industry Applications")}
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            {t('hero.description', "Discover how our petroleum products are used across various industries worldwide.")}
-          </p>
-        </section>
+
 
         {/* Application Cards Grid */}
         <section className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
@@ -92,16 +84,10 @@ export default function ApplicationsPageIndex() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              to="/contact" 
+              to="/contact#quote-form-section" 
               className="inline-flex items-center px-8 py-3 bg-[#E99322] text-white font-bold rounded-full hover:bg-[#E99322]/90 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               {t('index.contactBtn', "Contact Us")}
-            </Link>
-            <Link 
-              to="/products" 
-              className="inline-flex items-center px-8 py-3 border-[1.5px] border-[#EDA94E] text-[#E99322] font-bold rounded-full hover:bg-[#E99322]/5 transition-all duration-300"
-            >
-              {t('index.productsBtn', "View Products")}
             </Link>
           </div>
         </section>

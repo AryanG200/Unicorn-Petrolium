@@ -90,9 +90,9 @@ export default function QuoteFormSection({ mode = "quote", title }) {
   };
 
   return (
-    <section className="pt-8 pb-16 bg-gray-50">
+    <section className="pt-2 pb-16 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-gray-800 mb-4 tracking-tight">
             {title || (mode === "contact" ? t('contact:sendMessage', t('form.submitContact')) : t('form.quoteTitle'))}
           </h2>

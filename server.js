@@ -14,10 +14,11 @@ app.use(express.json());
 // Mapping of subjects to different department emails
 const SUBJECT_RECIPIENTS = {
   "General inquiry": "manan@unicornpetro.co.in",
-  "Get a quote (for domestic)": "aryangavhane100@gmail.com", // Update this email later
-  "Get a quote (for exports)": "aryangavhane100@gmail.com",  // Update this email later
-  "Regulatory, Technical & Quality": "aryangavhane100@gmail.com", // Update this email later
-  "Feedback": "marketing4@unicornpetro.co.in" // Update this email later
+  "Become our supplier": "purchase@unicornpetro.co.in",
+  "Get a quote (for domestic)": "marketing2unicornpetro.co.in", // Update this email later
+  "Get a quote (for exports)": "snaini@unicornpetro.co.in",  // Update this email later
+  "Regulatory, Technical & Quality": "lab@unicornpetro.co.in", // Update this email later
+  "Feedback": "info@unicornpetro.co.in" // Update this email later
 };
 
 app.post("/api/contact", async (req, res) => {
