@@ -15,9 +15,9 @@ app.use(express.json());
 const SUBJECT_RECIPIENTS = {
   "General inquiry": "manan@unicornpetro.co.in",
   "Become our supplier": "purchase@unicornpetro.co.in",
-  "Get a quote (for domestic)": "marketing2@unicornpetro.co.in", // Update this email later
-  "Get a quote (for exports)": "snaini@unicornpetro.co.in",  // Update this email later
-  "Regulatory, Technical & Quality": "lab@unicornpetro.co.in", // Update this email later
+  "Get a quote (for domestic)": "marketing2@unicornpetro.co.in, marketing5@unicornpetro.co.in", // Update this email later
+  "Get a quote (for exports)": "snaini@unicornpetro.co.in, marketing2@unicornpetro.co.in",  // Update this email later
+  "Regulatory, Technical & Quality": "lab@unicornpetro.co.in, factory@unicornpetro.co.in", // Update this email later
   "Feedback": "info@unicornpetro.co.in" // Update this email later
 };
 
