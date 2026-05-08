@@ -73,14 +73,7 @@ export default function ProductsPageIndex() {
     >
       <div ref={containerRef} className="space-y-12">
         {}
-        <section className="text-center animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            {t('index.heroTitle')}
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            {t('index.heroSubtitle')}
-          </p>
-        </section>
+
 
         {}
         <section className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
