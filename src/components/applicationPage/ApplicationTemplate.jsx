@@ -387,7 +387,7 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
                   {}
                   <div 
                     ref={containerRef}
-                    className={`marquee-container relative w-full ${isManualScroll ? 'overflow-x-auto' : 'overflow-hidden'}`}
+                    className={`marquee-container relative w-full py-4 ${isManualScroll ? 'overflow-x-auto' : 'overflow-hidden'}`}
                     onMouseEnter={() => {
                       if (!isManualScroll) {
                         setIsPaused(true);
@@ -452,7 +452,7 @@ export default function ApplicationTemplate({ title, breadcrumbsTitle, data }) {
                     
                     <div 
                       ref={marqueeRef}
-                      className={`flex space-x-6 ${!isManualScroll ? 'marquee-animation' : ''} ${!isManualScroll && isPaused ? 'marquee-paused' : ''}`}
+                      className={`flex space-x-6 py-2 ${!isManualScroll ? 'marquee-animation' : ''} ${!isManualScroll && isPaused ? 'marquee-paused' : ''}`}
                       style={{
                         width: 'fit-content',
                         willChange: isManualScroll ? 'auto' : 'transform',

@@ -69,6 +69,22 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
+                    to="/blog"
+                    className="text-gray-600 hover:text-[#E99322] transition-colors"
+                  >
+                    {t('navbar.blog')}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/events"
+                    className="text-gray-600 hover:text-[#E99322] transition-colors"
+                  >
+                    {t('navbar.events')}
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/contact"
                     className="text-gray-600 hover:text-[#E99322] transition-colors"
                   >

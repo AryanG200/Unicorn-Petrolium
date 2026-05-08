@@ -129,15 +129,15 @@ export default function SliderHero({
   const isBottomPosition = contentPosition === "bottom";
   const isTopLeftPosition = contentPosition === "top-left";
 
-  // ✅ REDUCED OPACITY: white/40 → white/20, via-white/50 → via-white/20
+  // ✅ MAINTAINED SOLIDITY: white/40, via-white/100
   const contentBgClass =
     contentBackground === "solid"
       ? fullWidthContent
-        ? "bg-gradient-to-r from-white/0 via-white/95 to-white/0 w-fit mx-auto px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 lg:py-6 rounded-none application-banner-band"
-        : "bg-white/20 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 lg:px-10 lg:py-6 shadow-xl"
+        ? "bg-gradient-to-r from-white/0 via-white to-white/0 w-fit mx-auto px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 lg:py-6 rounded-none application-banner-band"
+        : "bg-white/40 rounded-2xl px-4 py-3 sm:px-6 sm:py-4 md:px-8 md:py-5 lg:px-10 lg:py-6 shadow-xl"
       : contentBackground === "none"
         ? ""
-        : "bg-white/5 backdrop-blur-sm rounded-2xl px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 lg:px-12 lg:py-6 shadow-md border-[1.5px] border-[#EDA94E]";
+        : "bg-white/10 backdrop-blur-sm rounded-2xl px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 lg:px-12 lg:py-6 shadow-md border-[1.5px] border-[#EDA94E]";
 
   return (
     <div
@@ -247,12 +247,7 @@ export default function SliderHero({
                   } ${isTopLeftPosition ? "md:ml-[-8px] mx-auto md:mx-0" : "mx-auto"} ${isTopLeftPosition ? "px-4 md:pl-0 md:pr-5" : "px-5 sm:px-7"} w-full`
               }
             >
-              <div className={`${contentBgClass} animate-fade-in ${(isTopLeftPosition || fullWidthContent) ? 'slant-cut' : ''} relative`}>
-                {(isTopLeftPosition || fullWidthContent) && (
-                  <svg className="absolute inset-0 w-full h-full pointer-events-none z-30 hidden md:block" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <polyline points="0,95 80,95 100,0" fill="none" stroke="#EDA94E" strokeWidth="1.5" vectorEffect="non-scaling-stroke" />
-                  </svg>
-                )}
+              <div className={`${contentBgClass} animate-fade-in relative`}>
                 <div className={fullWidthContent ? "max-w-5xl mx-auto px-4 sm:px-8" : ""}>
                   {(currentSlideData.title && currentSlideData.title.trim() !== "") && (
                     <h1
@@ -342,11 +337,6 @@ export default function SliderHero({
         }
         .animate-fade-in {
           animation: fade-in 0.5s ease-out;
-        }
-        @media (min-width: 768px) {
-          .slant-cut {
-            clip-path: polygon(0 0, 100% 0, 80% 95%, 0 95%);
-          }
         }
         .application-banner-band {
           padding-top: calc(0.75rem - 0.5cm) !important;

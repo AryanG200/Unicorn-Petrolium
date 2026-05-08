@@ -132,7 +132,7 @@ export default function ProductsPageIndex() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              to="/contact" 
+              to="/contact#quote-form-section" 
               className="inline-flex items-center px-6 py-3 bg-[#E99322] text-white font-medium rounded-full hover:bg-[#E99322]/90 transition-all duration-300"
             >
               {t('index.contactBtn')}

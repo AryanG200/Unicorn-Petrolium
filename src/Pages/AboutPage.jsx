@@ -128,7 +128,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Banner Section with overlapping counters */}
-      <div className="relative h-[280px] sm:h-[380px] md:h-[500px] lg:h-[600px] overflow-visible md:-mt-8 pt-20 md:pt-16 mb-6 sm:mb-12 md:mb-32">
+      <div className="relative h-[280px] sm:h-[380px] md:h-[500px] lg:h-[600px] overflow-visible md:-mt-8 pt-20 md:pt-16 mb-6 sm:mb-8 md:mb-16">
         <div className="absolute inset-0">
           <img
             src="/assets/GLOBAL REACH IMAGE.jpg"
@@ -191,7 +191,7 @@ const AboutPage = () => {
       </section>
 
       {/* Intro section (with md:mt-48 to handle overlap) */}
-      <section className="py-[var(--section-padding-y)] px-4 border-b-0 md:mt-48">
+      <section className="py-[var(--section-padding-y)] px-4 border-b-0">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl sm:text-4xl font-bold text-[#0B1D33] mb-3 tracking-tight">
             Unicorn Petroleum Industries Pvt. Ltd.

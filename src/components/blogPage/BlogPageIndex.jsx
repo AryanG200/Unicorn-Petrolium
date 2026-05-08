@@ -21,10 +21,10 @@ export default function BlogPageIndex() {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col relative animate-in fade-in duration-700 pt-14">
       <BannerWithNavigation
-        bannerImage="/assets/BannerImages/blognewtoday.jpeg"
+        bannerImage="/assets/BannerImages/blog1.jpg"
         title={""}
         backgroundPosition="center"
-        backgroundSize="cover"
+        backgroundSize="80%"
         backgroundColor="#ffffff"
         showOverlay={false}
         heightClass="h-[400px] sm:h-[500px] md:h-[550px]"

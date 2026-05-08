@@ -38,7 +38,7 @@ const PAST_IDS = [
   { id: "p15", year: 2024, image: "/assets/event/chemexpo2024.jpg" },
   { id: "p16", year: 2024, image: "/assets/event/incos2024.jpg" },
   { id: "p17", year: 2024, image: "/assets/event/nyss2024.jpg" },
-  { id: "p18", year: 2024, image: "/assets/event/fce2024.jpg" },
+  { id: "p18", year: 2024, image: "/assets/event/fcenew.jpg" },
   { id: "p19", year: 2024, image: "/assets/event/cosmo2024.jpg" },
   { id: "p20", year: 2024, image: "/assets/event/beauty2025.jpg" },
   { id: "p21", year: 2024, image: "/assets/event/incoss2024.jpg" },
