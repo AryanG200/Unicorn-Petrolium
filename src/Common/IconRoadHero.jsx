@@ -167,7 +167,7 @@ export default function IconRoadHero({ data = {} }) {
 
         { }
         {data.ctaText && (
-          <div className="text-center mt-6">
+          <div className="text-center mt-12">
             <Link to="/contact#quote-form-section" className="bg-[#E99322] text-white px-6 sm:px-8 py-2 sm:py-3 rounded-full hover:bg-[#E99322]/90 transition-all duration-300 font-medium inline-flex items-center gap-2 text-sm sm:text-base">
               <span>{data.ctaText}</span>
               <span className="text-base sm:text-lg">→</span>
